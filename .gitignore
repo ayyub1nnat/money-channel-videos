@@ -1,0 +1,7 @@
+models/
+days/*/part*.mp4
+days/*/prev/
+days/*/*.wav
+days/*/mix.m4a
+days/*/video.mp4
+__pycache__/
