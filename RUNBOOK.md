@@ -77,14 +77,8 @@ Outputs: `video.mp4`, `thumbnail.png/.jpg`, `subtitles.srt`, `chapters.txt`. Che
 - Tags: 12–20 search phrases, total < 450 chars.
 - Music credit: default track is original/royalty-free → "Music: original background track". If `script.json` has `music_file` (an NCS track), use the exact NCS credit text.
 
-## 5. Publish (GitHub release → Composio → YouTube)
-1. Commit `days/YYYY-MM-DD/{script.json,seo.json,thumbnail.jpg,subtitles.srt,chapters.txt}` + updated `topics.json`; push to `main`.
-2. Release with the big files:
-   `gh release create v-YYYY-MM-DD days/YYYY-MM-DD/video.mp4 days/YYYY-MM-DD/thumbnail.jpg -R <owner>/money-channel-videos -t "YYYY-MM-DD" -n "<title>"`
-   Public URLs: `https://github.com/<owner>/money-channel-videos/releases/download/v-YYYY-MM-DD/video.mp4` (and `thumbnail.jpg`).
-3. In `COMPOSIO_REMOTE_WORKBENCH` (see `upload_snippet.py` for the exact verified code): download video.mp4 from the release URL → `upload_local_file` → `YOUTUBE_MULTIPART_UPLOAD_VIDEO` (categoryId "27" Education, **privacyStatus "private"**) → `proxy_execute` PUT `/youtube/v3/videos?part=status` with `publishAt` = today 20:00 America/New_York as UTC ISO (`YYYY-MM-DDTHH:MM:00Z`), `privacyStatus: private`, `selfDeclaredMadeForKids: false` → `YOUTUBE_UPDATE_THUMBNAIL` with the release thumbnail URL. If it's already past 20:00 ET, publish immediately (privacyStatus public).
-4. Verify with `YOUTUBE_GET_VIDEO_DETAILS_BATCH` (status part): publishAt set, uploadStatus processed/uploaded.
-5. Mark topic `used: true`, `date`, `video_id` in topics.json, commit + push.
+## 5. Publish
+See DAILY.md: videos are built one day ahead, kept on the `media` branch, and uploaded by `upload_snippet.py` (Composio workbench) right after the YouTube quota resets at midnight Pacific, scheduled to go public at 20:00 America/New_York.
 
 ## 6. Report
 Send the owner a short message **in Azerbaijani**: today's title, the YouTube Studio link `https://studio.youtube.com/video/<id>/edit`, publish time (20:00 New York), and the thumbnail. If anything failed, say exactly what, and leave the video private.
