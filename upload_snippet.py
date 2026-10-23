@@ -1,5 +1,5 @@
 # Paste into COMPOSIO_REMOTE_WORKBENCH as-is. Uploads the video waiting on the `media` branch
-# (date in media/meta.json) to YouTube as private and schedules it for 20:00 America/New_York
+# (date in media/meta.json) to YouTube as private and schedules it for 18:00 America/Los_Angeles
 # on that date; if that time has passed, publishes immediately. Prints RESULT {...} at the end.
 # Composio's YouTube upload quota is shared and resets at midnight America/Los_Angeles,
 # so this should run right after that. On HTTP 429 it prints RESULT {"ok": false, "quota": true}.
@@ -30,9 +30,9 @@ else:
     d = res.get("data", res)
     v = d.get("video") or d.get("response_data") or d
     vid = v.get("id")
-    et = ZoneInfo("America/New_York")
+    et = ZoneInfo("America/Los_Angeles")
     y, m, dd = map(int, DATE.split("-"))
-    pub = datetime.datetime(y, m, dd, 20, 0, tzinfo=et)
+    pub = datetime.datetime(y, m, dd, 18, 0, tzinfo=et)
     now = datetime.datetime.now(datetime.timezone.utc)
     if pub > now + datetime.timedelta(minutes=15):
         status = {"privacyStatus": "private", "selfDeclaredMadeForKids": False,

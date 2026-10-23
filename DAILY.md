@@ -4,7 +4,7 @@ Runs every day at **00:02 America/Los_Angeles** (right after Composio's shared Y
 Let **X** = today's date in America/Los_Angeles (`TZ=America/Los_Angeles date +%F`).
 
 The pipeline works one day ahead: the video for date X was built yesterday and waits on the `media` branch;
-today's run uploads it (scheduled to go public at 20:00 New York time on X), then builds the video for X+1.
+today's run uploads it (scheduled to go public at 18:00 Los Angeles time on X), then builds the video for X+1.
 
 ## 1. Setup
 - `add_repo` owner `ayyub1nnat`, repo `money-channel-videos`, access `push`; clone to `/home/claude/money-channel-videos`; `register_repo_root`.
@@ -13,7 +13,7 @@ today's run uploads it (scheduled to go public at 20:00 New York time on X), the
 
 ## 2. Upload the waiting video (do this FIRST — quota runs out fast)
 - `curl -s https://raw.githubusercontent.com/ayyub1nnat/money-channel-videos/media/meta.json` → its `date` should be X (or earlier if a previous upload failed).
-- Check `topics.json`: if that date's topic already has a `video_id`, skip to step 3.
+- Check `topics.json`: if that date's topic already has a `video_id` (or status says uploaded), skip to step 3.
 - Run the contents of `upload_snippet.py` unchanged in COMPOSIO_REMOTE_WORKBENCH. Read the `RESULT` line.
   - ok → record `video_id` and `status: "scheduled"` on that topic in topics.json.
   - quota error → retry at most 3 more times, ~3 minutes apart (wait with a background `sleep 180` Bash command). Still failing → don't block; continue to step 3 and, in the final report, send the owner the video + title/description so they can upload by hand in YouTube Studio (and mark the topic `status: "manual upload needed"`).
@@ -36,6 +36,6 @@ Follow RUNBOOK.md sections 1–4 for date X+1: pick the next unused topic, write
 
 ## 5. Report to the owner (in Azerbaijani, short)
 Send with SendUserMessage (and SendUserFile for files):
-- Today's video: title + `https://studio.youtube.com/video/<id>/edit`, goes public 20:00 New York (Baku: 04:00 next day in summer time, 05:00 in winter).
+- Today's video: title + `https://studio.youtube.com/video/<id>/edit`, goes public 18:00 Los Angeles time (Baku: 05:00 next day until Nov 1, 06:00 after).
 - Tomorrow's video is ready: title + thumbnail file.
 - Any problem, plainly, with what they need to do (e.g. manual upload: attach video.mp4 + title + description).
