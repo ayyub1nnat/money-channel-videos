@@ -2,6 +2,7 @@
 # (date in media/meta.json) to YouTube as private and schedules it for 19:00 America/Los_Angeles
 # on that date; if that time has passed, publishes immediately. Prints RESULT {...} at the end.
 # Composio's YouTube upload quota is shared and resets at midnight America/Los_Angeles,
+# Also adds the English CC track from days/<date>/subtitles.srt.
 # so this should run right after that. On HTTP 429 it prints RESULT {"ok": false, "quota": true}.
 import requests, json, datetime
 from zoneinfo import ZoneInfo
@@ -42,8 +43,19 @@ else:
     r2, e2 = proxy_execute("PUT", "https://www.googleapis.com/youtube/v3/videos", "youtube", query_params={"part": "status"},
                            body={"id": vid, "status": status})
     r3, e3 = run_composio_tool("YOUTUBE_UPDATE_THUMBNAIL", {"videoId": vid, "thumbnailUrl": f"{RAW}/media/thumbnail.jpg"})
+    e5 = None
+    try:
+        sr = requests.get(f"{RAW}/main/days/{DATE}/subtitles.srt", timeout=60); sr.raise_for_status()
+        open("/home/user/subtitles.srt", "w").write(sr.text)
+        cup, e5 = upload_local_file("/home/user/subtitles.srt")
+        if not e5:
+            r5, e5 = run_composio_tool("YOUTUBE_UPLOAD_CAPTION_TRACK", {"videoId": vid, "language": "en", "name": "English",
+                "isDraft": False, "file": {"name": "subtitles.srt", "mimetype": "application/octet-stream", "s3key": cup["s3key"]}})
+    except Exception as ex:
+        e5 = ex
     r4, e4 = run_composio_tool("YOUTUBE_GET_VIDEO_DETAILS_BATCH", {"id": [vid], "parts": ["status"]})
     print("RESULT", json.dumps({"ok": True, "date": DATE, "video_id": vid, "status_set": status,
                                 "status_error": str(e2)[:300] if e2 else None,
                                 "thumbnail_error": str(e3)[:300] if e3 else None,
+                                "captions_error": str(e5)[:300] if e5 else None,
                                 "status_now": json.dumps(r4, default=str)[:600]}))

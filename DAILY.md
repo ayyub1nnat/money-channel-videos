@@ -15,7 +15,7 @@ today's run uploads it (scheduled to go public at 19:00 Los Angeles time on X), 
 - `curl -s https://raw.githubusercontent.com/ayyub1nnat/money-channel-videos/media/meta.json` → its `date` should be X (or earlier if a previous upload failed).
 - Check `topics.json`: if that date's topic already has a `video_id` (or status says uploaded), skip to step 3.
 - Run the contents of `upload_snippet.py` unchanged in COMPOSIO_REMOTE_WORKBENCH. Read the `RESULT` line.
-  - ok → record `video_id` and `status: "scheduled"` on that topic in topics.json.
+  - ok → check `captions_error` is null (English CC track added); if not, retry the caption upload alone with YOUTUBE_UPLOAD_CAPTION_TRACK. Record `video_id` and `status: "scheduled"` on that topic in topics.json.
   - quota error → retry at most 3 more times, ~3 minutes apart (wait with a background `sleep 180` Bash command). Still failing → don't block; continue to step 3 and, in the final report, send the owner the video + title/description so they can upload by hand in YouTube Studio (and mark the topic `status: "manual upload needed"`).
   - any other error → read it, fix the cause if it's in our inputs (e.g. title/description length, tags), retry once.
 
