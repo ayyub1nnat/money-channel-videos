@@ -4,7 +4,7 @@ Runs every day at **00:02 America/Los_Angeles** (right after Composio's shared Y
 Let **X** = today's date in America/Los_Angeles (`TZ=America/Los_Angeles date +%F`).
 
 The pipeline works one day ahead: the video for date X was built yesterday and waits on the `media` branch;
-today's run uploads it (scheduled to go public at 18:00 Los Angeles time on X), then builds the video for X+1.
+today's run uploads it (scheduled to go public at 19:00 Los Angeles time on X), then builds the video for X+1.
 
 ## 1. Setup
 - `add_repo` owner `ayyub1nnat`, repo `money-channel-videos`, access `push`; clone to `/home/claude/money-channel-videos`; `register_repo_root`.
@@ -36,6 +36,6 @@ Follow RUNBOOK.md sections 1–4 for date X+1: pick the next unused topic, write
 
 ## 5. Report to the owner (in Azerbaijani, short)
 Send with SendUserMessage (and SendUserFile for files):
-- Today's video: title + `https://studio.youtube.com/video/<id>/edit`, goes public 18:00 Los Angeles time (Baku: 05:00 next day until Nov 1, 06:00 after).
+- Today's video: title + `https://studio.youtube.com/video/<id>/edit`, goes public 19:00 Los Angeles time (Baku: 06:00 next day until Nov 1, 07:00 after).
 - Tomorrow's video is ready: title + thumbnail file.
 - Any problem, plainly, with what they need to do (e.g. manual upload: attach video.mp4 + title + description).

@@ -2,7 +2,7 @@
 
 Channel niche: **personal finance & getting your life together** (budgeting, saving, debt, habits, side income, productivity), English, US audience.
 Style: friendly, practical, calm female narrator (Kokoro voice `af_heart`), flat cartoon animation, burned-in subtitles, soft background music ducked under the voice.
-Publish time: **18:00 America/Los_Angeles every day** (upload earlier as private with `publishAt`).
+Publish time: **19:00 America/Los_Angeles every day** (upload earlier as private with `publishAt`).
 
 ---
 
@@ -78,7 +78,7 @@ Outputs: `video.mp4`, `thumbnail.png/.jpg`, `subtitles.srt`, `chapters.txt`. Che
 - Music credit: default track is original/royalty-free → "Music: original background track". If `script.json` has `music_file` (an NCS track), use the exact NCS credit text.
 
 ## 5. Publish
-See DAILY.md: videos are built one day ahead, kept on the `media` branch, and uploaded by `upload_snippet.py` (Composio workbench) right after the YouTube quota resets at midnight Pacific, scheduled to go public at 18:00 America/Los_Angeles.
+See DAILY.md: videos are built one day ahead, kept on the `media` branch, and uploaded by `upload_snippet.py` (Composio workbench) right after the YouTube quota resets at midnight Pacific, scheduled to go public at 19:00 America/Los_Angeles.
 
 ## 6. Report
-Send the owner a short message **in Azerbaijani**: today's title, the YouTube Studio link `https://studio.youtube.com/video/<id>/edit`, publish time (18:00 Los Angeles), and the thumbnail. If anything failed, say exactly what, and leave the video private.
+Send the owner a short message **in Azerbaijani**: today's title, the YouTube Studio link `https://studio.youtube.com/video/<id>/edit`, publish time (19:00 Los Angeles), and the thumbnail. If anything failed, say exactly what, and leave the video private.
