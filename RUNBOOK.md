@@ -70,6 +70,9 @@ python3 build.py days/YYYY-MM-DD               # ~15–20 min (run in background
 ```
 Outputs: `video.mp4`, `thumbnail.png/.jpg`, `subtitles.srt`, `chapters.txt`. Check: duration 3.5–7 min, sample 3 frames with ffmpeg and look at them.
 
+### Teaser Short
+`python3 short.py days/YYYY-MM-DD` (after the full build) → `short.mp4`: 1080x1920, 35–50 s, the clips listed in script.json `short.clips` (hook text on top, video strip with the burned-in subtitle strip cropped off, big captions, "FULL VIDEO ON THE CHANNEL" call, end card with the thumbnail), clean voice + an energetic original track (`music.py … energetic`). Uploaded together with the main video, same publish time, description links to it.
+
 ## 4. SEO → `days/YYYY-MM-DD/seo.json`
 `{"title": "...", "description": "...", "tags": [...]}`
 - Title ≤ 100 chars (aim 50–70), main keyword first, curiosity + clarity.

@@ -1,4 +1,5 @@
-"""Original royalty-free background track: uplifting electronic / lo-fi pop, 112 BPM."""
+"""Original royalty-free background track: uplifting electronic / lo-fi pop, 100-120 BPM.
+Usage: python3 music.py <dur> <out.wav> [seed] [energetic]  (energetic = 126-134 BPM, drums from bar 1, 16th hats; for Shorts)"""
 import numpy as np, soundfile as sf, sys
 
 import random
@@ -7,7 +8,8 @@ DUR = float(sys.argv[1]) if len(sys.argv) > 1 else 262
 OUT = sys.argv[2] if len(sys.argv) > 2 else "music.wav"
 SEED = int(sys.argv[3]) if len(sys.argv) > 3 else 1
 R = random.Random(SEED)
-BPM = R.choice([100, 104, 108, 112, 116, 120])
+EN = len(sys.argv) > 4 and sys.argv[4] == "energetic"
+BPM = R.choice([126, 128, 130, 132, 134]) if EN else R.choice([100, 104, 108, 112, 116, 120])
 beat = 60 / BPM
 N = int(DUR * SR)
 out = np.zeros((N, 2), np.float32)
@@ -60,7 +62,7 @@ sections = int(DUR / prog_len) + 1
 
 for s in range(sections):
     base = s * prog_len
-    intro = s == 0
+    intro = s == 0 and not EN
     for ci, ch in enumerate(chords):
         t0 = base + ci * 2 * bar
         n = int(2 * bar * SR)
@@ -98,14 +100,14 @@ for s in range(sections):
                     clap = rng.standard_normal(ns) * np.exp(-tt * 22)
                     clap = clap - lowpass(clap, 1200)
                     add(clap.astype(np.float32), tb, 0.16)
-                for h in (0.5,):
+                for h in ((0.25, 0.5, 0.75) if EN else (0.5,)):
                     nh = int(0.05 * SR); tt = np.arange(nh) / SR
                     hat = rng.standard_normal(nh) * np.exp(-tt * 80)
                     hat = hat - lowpass(hat, 6000)
                     add(hat.astype(np.float32), tb + h * beat, 0.10, 0.3)
 
 # fades + normalise
-fi, fo = int(2 * SR), int(4 * SR)
+fi, fo = (int(0.05 * SR), int(1.5 * SR)) if EN else (int(2 * SR), int(4 * SR))
 out[:fi] *= np.linspace(0, 1, fi)[:, None]
 out[-fo:] *= np.linspace(1, 0, fo)[:, None]
 out /= np.max(np.abs(out)) + 1e-9

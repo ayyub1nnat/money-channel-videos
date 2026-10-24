@@ -1,78 +1,272 @@
 {
-  "title": "7 Money Habits That Keep You Broke (And What to Do Instead)",
-  "voice": "af_heart",
-  "thumbnail": {"line1": "7 Habits", "line2": "Keeping You", "badge": "BROKE", "sub": "And what to do instead", "mood": "sad", "props": ["question"], "bg": ["#FF9A8B", "#FF6B6B"]},
-  "scenes": [
-    {"visual": "person", "heading": "7 Habits That Keep You Broke",
-     "params": {"mood": "sad", "props": ["wallet", "bills", "sweat"], "sign": "Where did my paycheck go?", "sign_at": 2.5},
-     "lines": [
-       "You work hard. You get paid. And yet, somehow, there's never enough left at the end of the month.",
-       "Most of the time, it's not about how much you earn.",
-       "It's about a few quiet habits that drain your money without you even noticing.",
-       "Today, we're going through seven of them, and exactly what to do instead."]},
-    {"visual": "stat", "heading": "Habit 1: Spending Before Saving",
-     "params": {"value": 20, "suffix": "%", "caption": "Save first, on payday, before you spend a single dollar", "color": "green"},
-     "lines": [
-       "Habit number one is saving whatever is left over.",
-       "The problem? There's almost never anything left over.",
-       "Flip the order. The day you get paid, move a fixed amount into savings first.",
-       "Even ten percent is a great start. Work your way up to twenty."]},
-    {"visual": "phone", "heading": "Habit 2: Shopping on Autopilot",
-     "params": {"title": "Cart", "items": [["Sneakers", "$89"], ["Headphones", "$59"], ["Hoodie", "$45"], ["Phone case", "$19"]], "tags": ["Wait 48 hours", "Still want it?", "Then buy it"]},
-     "lines": [
-       "Habit number two is impulse shopping.",
-       "A quick scroll, a flash sale, one click, and it's done.",
-       "Try the forty eight hour rule. When you want something that isn't essential, add it to your cart and wait two days.",
-       "If you still want it after forty eight hours, buy it without guilt. Most of the time, you won't."]},
-    {"visual": "compare", "heading": "Habit 3: Lifestyle Creep",
-     "params": {"left_title": "Raise spent", "right_title": "Raise saved", "left": ["Bigger apartment", "New car payment", "More takeout"], "right": ["Same lifestyle", "Half to savings", "Half to goals"]},
-     "lines": [
-       "Habit number three is called lifestyle creep.",
-       "You get a raise, and your spending rises right along with it.",
-       "A nicer apartment, a new car payment, more dinners out.",
-       "Instead, when your income goes up, keep your lifestyle the same for a while.",
-       "Send at least half of every raise straight to your savings and your goals."]},
-    {"visual": "balance", "heading": "Habit 4: No Budget at All",
-     "params": {"left": "Income", "right": "Spending", "heavy": "right", "caption": "If you don't track it, you can't control it"},
-     "lines": [
-       "Habit number four is not having a budget.",
-       "Without a plan, your spending quietly becomes bigger than your income.",
-       "A budget isn't about restriction. It's about telling your money where to go, instead of wondering where it went.",
-       "Start simple. Write down your income, your bills, and a limit for everything else."]},
-    {"visual": "snowball", "heading": "Habit 5: Living on Credit",
-     "params": {"items": [["Card", "$600"], ["Store", "$900"], ["Loan", "$2,400"]]},
-     "lines": [
-       "Habit number five is using credit cards like extra income.",
-       "High interest turns a small purchase into a big, long term cost.",
-       "Use cards only for what you can pay off in full each month.",
-       "And if you already carry a balance, list your debts and pay off the smallest one first, then roll that payment into the next."]},
-    {"visual": "calendar", "heading": "Habit 6: Ignoring Small Wins",
-     "params": {"title": "No-Spend Challenge", "days": 28, "badge": "Small wins add up"},
-     "lines": [
-       "Habit number six is thinking small amounts don't matter.",
-       "Five dollars a day is over eighteen hundred dollars a year.",
-       "Try a simple challenge. Pick a few no spend days each week, and track them on a calendar.",
-       "Watching those little wins stack up is one of the best motivators there is."]},
-    {"visual": "clock", "heading": "Habit 7: Waiting for Someday",
-     "params": {"items": [["Today", "Open a savings account"], ["This week", "Write your budget"], ["This month", "Automate savings"]]},
-     "lines": [
-       "And habit number seven is waiting for the perfect time to start.",
-       "Someday, when I earn more. Someday, when things calm down.",
-       "But time is the most powerful tool your money has. The sooner you start, the more it can grow.",
-       "So open that savings account today. Write your budget this week. And automate your savings this month."]},
-    {"visual": "checklist", "heading": "Quick Recap",
-     "params": {"items": [["1-2", "Save first & wait 48 hours"], ["3-4", "Keep lifestyle steady, budget"], ["5-6", "Pay cards in full, count small wins"], ["7", "Start today, not someday"]]},
-     "lines": [
-       "Let's do a quick recap.",
-       "Save first, and wait forty eight hours before buying.",
-       "Keep your lifestyle steady when you earn more, and give every dollar a plan.",
-       "Pay your cards in full, and celebrate the small wins.",
-       "And most importantly, start today, not someday."]},
-    {"visual": "person", "heading": "Start Today",
-     "params": {"mood": "happy", "props": ["confetti"], "subscribe": true},
-     "lines": [
-       "You don't need to fix all seven at once. Pick just one and start this week.",
-       "If this video helped you, like it and subscribe for more simple ways to build a better life with your money.",
-       "Tell me in the comments which habit you're breaking first. See you in the next one."]}
+ "title": "7 Money Habits That Keep You Broke (And What to Do Instead)",
+ "voice": "af_heart",
+ "thumbnail": {
+  "line1": "7 Habits",
+  "line2": "Keeping You",
+  "badge": "BROKE",
+  "sub": "And what to do instead",
+  "mood": "sad",
+  "props": [
+   "question"
+  ],
+  "bg": [
+   "#FF9A8B",
+   "#FF6B6B"
   ]
+ },
+ "scenes": [
+  {
+   "visual": "person",
+   "heading": "7 Habits That Keep You Broke",
+   "params": {
+    "mood": "sad",
+    "props": [
+     "wallet",
+     "bills",
+     "sweat"
+    ],
+    "sign": "Where did my paycheck go?",
+    "sign_at": 2.5
+   },
+   "lines": [
+    "You work hard. You get paid. And yet, somehow, there's never enough left at the end of the month.",
+    "Most of the time, it's not about how much you earn.",
+    "It's about a few quiet habits that drain your money without you even noticing.",
+    "Today, we're going through seven of them, and exactly what to do instead."
+   ]
+  },
+  {
+   "visual": "stat",
+   "heading": "Habit 1: Spending Before Saving",
+   "params": {
+    "value": 20,
+    "suffix": "%",
+    "caption": "Save first, on payday, before you spend a single dollar",
+    "color": "green"
+   },
+   "lines": [
+    "Habit number one is saving whatever is left over.",
+    "The problem? There's almost never anything left over.",
+    "Flip the order. The day you get paid, move a fixed amount into savings first.",
+    "Even ten percent is a great start. Work your way up to twenty."
+   ]
+  },
+  {
+   "visual": "phone",
+   "heading": "Habit 2: Shopping on Autopilot",
+   "params": {
+    "title": "Cart",
+    "items": [
+     [
+      "Sneakers",
+      "$89"
+     ],
+     [
+      "Headphones",
+      "$59"
+     ],
+     [
+      "Hoodie",
+      "$45"
+     ],
+     [
+      "Phone case",
+      "$19"
+     ]
+    ],
+    "tags": [
+     "Wait 48 hours",
+     "Still want it?",
+     "Then buy it"
+    ]
+   },
+   "lines": [
+    "Habit number two is impulse shopping.",
+    "A quick scroll, a flash sale, one click, and it's done.",
+    "Try the forty eight hour rule. When you want something that isn't essential, add it to your cart and wait two days.",
+    "If you still want it after forty eight hours, buy it without guilt. Most of the time, you won't."
+   ]
+  },
+  {
+   "visual": "compare",
+   "heading": "Habit 3: Lifestyle Creep",
+   "params": {
+    "left_title": "Raise spent",
+    "right_title": "Raise saved",
+    "left": [
+     "Bigger apartment",
+     "New car payment",
+     "More takeout"
+    ],
+    "right": [
+     "Same lifestyle",
+     "Half to savings",
+     "Half to goals"
+    ]
+   },
+   "lines": [
+    "Habit number three is called lifestyle creep.",
+    "You get a raise, and your spending rises right along with it.",
+    "A nicer apartment, a new car payment, more dinners out.",
+    "Instead, when your income goes up, keep your lifestyle the same for a while.",
+    "Send at least half of every raise straight to your savings and your goals."
+   ]
+  },
+  {
+   "visual": "balance",
+   "heading": "Habit 4: No Budget at All",
+   "params": {
+    "left": "Income",
+    "right": "Spending",
+    "heavy": "right",
+    "caption": "If you don't track it, you can't control it"
+   },
+   "lines": [
+    "Habit number four is not having a budget.",
+    "Without a plan, your spending quietly becomes bigger than your income.",
+    "A budget isn't about restriction. It's about telling your money where to go, instead of wondering where it went.",
+    "Start simple. Write down your income, your bills, and a limit for everything else."
+   ]
+  },
+  {
+   "visual": "snowball",
+   "heading": "Habit 5: Living on Credit",
+   "params": {
+    "items": [
+     [
+      "Card",
+      "$600"
+     ],
+     [
+      "Store",
+      "$900"
+     ],
+     [
+      "Loan",
+      "$2,400"
+     ]
+    ]
+   },
+   "lines": [
+    "Habit number five is using credit cards like extra income.",
+    "High interest turns a small purchase into a big, long term cost.",
+    "Use cards only for what you can pay off in full each month.",
+    "And if you already carry a balance, list your debts and pay off the smallest one first, then roll that payment into the next."
+   ]
+  },
+  {
+   "visual": "calendar",
+   "heading": "Habit 6: Ignoring Small Wins",
+   "params": {
+    "title": "No-Spend Challenge",
+    "days": 28,
+    "badge": "Small wins add up"
+   },
+   "lines": [
+    "Habit number six is thinking small amounts don't matter.",
+    "Five dollars a day is over eighteen hundred dollars a year.",
+    "Try a simple challenge. Pick a few no spend days each week, and track them on a calendar.",
+    "Watching those little wins stack up is one of the best motivators there is."
+   ]
+  },
+  {
+   "visual": "clock",
+   "heading": "Habit 7: Waiting for Someday",
+   "params": {
+    "items": [
+     [
+      "Today",
+      "Open a savings account"
+     ],
+     [
+      "This week",
+      "Write your budget"
+     ],
+     [
+      "This month",
+      "Automate savings"
+     ]
+    ]
+   },
+   "lines": [
+    "And habit number seven is waiting for the perfect time to start.",
+    "Someday, when I earn more. Someday, when things calm down.",
+    "But time is the most powerful tool your money has. The sooner you start, the more it can grow.",
+    "So open that savings account today. Write your budget this week. And automate your savings this month."
+   ]
+  },
+  {
+   "visual": "checklist",
+   "heading": "Quick Recap",
+   "params": {
+    "items": [
+     [
+      "1-2",
+      "Save first & wait 48 hours"
+     ],
+     [
+      "3-4",
+      "Keep lifestyle steady, budget"
+     ],
+     [
+      "5-6",
+      "Pay cards in full, count small wins"
+     ],
+     [
+      "7",
+      "Start today, not someday"
+     ]
+    ]
+   },
+   "lines": [
+    "Let's do a quick recap.",
+    "Save first, and wait forty eight hours before buying.",
+    "Keep your lifestyle steady when you earn more, and give every dollar a plan.",
+    "Pay your cards in full, and celebrate the small wins.",
+    "And most importantly, start today, not someday."
+   ]
+  },
+  {
+   "visual": "person",
+   "heading": "Start Today",
+   "params": {
+    "mood": "happy",
+    "props": [
+     "confetti"
+    ],
+    "subscribe": true
+   },
+   "lines": [
+    "You don't need to fix all seven at once. Pick just one and start this week.",
+    "If this video helped you, like it and subscribe for more simple ways to build a better life with your money.",
+    "Tell me in the comments which habit you're breaking first. See you in the next one."
+   ]
+  }
+ ],
+ "short": {
+  "hook": "7 habits keeping you broke",
+  "clips": [
+   [
+    0,
+    0,
+    2
+   ],
+   [
+    2,
+    1,
+    3
+   ],
+   [
+    3,
+    1,
+    2
+   ],
+   [
+    6,
+    1,
+    1
+   ]
+  ]
+ }
 }
