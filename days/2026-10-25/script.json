@@ -1,0 +1,294 @@
+{
+ "title": "How to Build an Emergency Fund on a Low Income (Step by Step)",
+ "voice": "af_heart",
+ "thumbnail": {
+  "line1": "Emergency Fund",
+  "line2": "On a Low",
+  "badge": "INCOME",
+  "sub": "Start with just $10 a week",
+  "mood": "happy",
+  "props": [
+   "coins"
+  ],
+  "bg": [
+   "#7EE8C4",
+   "#2EC4B6"
+  ]
+ },
+ "scenes": [
+  {
+   "visual": "stat",
+   "heading": "Could You Cover a $400 Surprise?",
+   "params": {
+    "value": 37,
+    "suffix": "%",
+    "caption": "of U.S. adults couldn't cover $400 with cash",
+    "color": "coral"
+   },
+   "lines": [
+    "Your car makes a strange noise, and suddenly you need four hundred dollars you don't have.",
+    "If that sounds familiar, you're not alone.",
+    "In the Federal Reserve's yearly survey, more than a third of American adults said they couldn't cover a four hundred dollar surprise with cash.",
+    "Today I'll show you how to build an emergency fund, step by step, even on a small paycheck."
+   ]
+  },
+  {
+   "visual": "person",
+   "heading": "Why You Need a Safety Net",
+   "params": {
+    "mood": "surprised",
+    "arms": "head",
+    "props": [
+     "bills",
+     "sweat"
+    ],
+    "sign": "The car broke down!",
+    "sign_at": 1.5
+   },
+   "lines": [
+    "Without savings, every surprise turns into debt.",
+    "A flat tire, a doctor visit, or a missed shift goes straight onto a credit card.",
+    "Then the interest makes next month even tighter.",
+    "It's not because people are bad with money. It's because life is unpredictable, and there's no cushion.",
+    "An emergency fund breaks that cycle. It's the money that stands between you and new debt."
+   ]
+  },
+  {
+   "visual": "jar",
+   "heading": "Step 1: Start With $500",
+   "params": {
+    "label": "Starter fund",
+    "goal": 500,
+    "prefix": "$"
+   },
+   "lines": [
+    "You may have heard you need three to six months of expenses saved.",
+    "That's a great long term goal, but on a low income it can feel impossible.",
+    "So start smaller. Your first goal is five hundred dollars.",
+    "That alone covers a lot of common surprises, like a car repair or a new phone screen.",
+    "Once you hit it, you can raise the goal to one thousand."
+   ]
+  },
+  {
+   "visual": "leak",
+   "heading": "Step 2: Find Hidden Money",
+   "params": {
+    "labels": [
+     "Unused apps",
+     "Bank fees",
+     "Daily extras"
+    ],
+    "center": "$",
+    "counter": "Found: $60 a month"
+   },
+   "lines": [
+    "Next, find a little money that's already slipping away.",
+    "Look for subscriptions and apps you forgot you're paying for.",
+    "Check for bank fees, like overdraft or monthly account fees. Many banks offer accounts without them.",
+    "And notice the small daily extras, like snacks or delivery fees.",
+    "Even sixty dollars a month adds up to seven hundred and twenty dollars a year."
+   ]
+  },
+  {
+   "visual": "growth",
+   "heading": "Step 3: Small Amounts Add Up",
+   "params": {
+    "bars": [
+     520,
+     1300,
+     2600
+    ],
+    "items": [
+     "$10 a week = $520",
+     "$25 a week = $1,300",
+     "$50 a week = $2,600"
+    ]
+   },
+   "lines": [
+    "Now pick an amount you can save every single week, no matter how small.",
+    "Ten dollars a week becomes five hundred and twenty dollars in a year.",
+    "Twenty five dollars a week becomes thirteen hundred.",
+    "And fifty dollars a week becomes twenty six hundred.",
+    "The amount matters less than the habit. Consistency is what builds the fund."
+   ]
+  },
+  {
+   "visual": "flow",
+   "heading": "Step 4: Automate It",
+   "params": {
+    "source": "PAYDAY",
+    "targets": [
+     "Emergency fund",
+     "Bills",
+     "Spending"
+    ]
+   },
+   "lines": [
+    "The easiest way to stay consistent is to take willpower out of it.",
+    "Set up an automatic transfer to your emergency fund on payday.",
+    "Many banks and credit unions let you split your direct deposit, so part of each paycheck lands in savings automatically.",
+    "Then your bills get paid, and the rest is for spending.",
+    "Money you never see in your checking account is money you won't accidentally spend.",
+    "Start with whatever amount feels easy, and raise it a little every few months."
+   ]
+  },
+  {
+   "visual": "compare",
+   "heading": "Step 5: Keep It Separate",
+   "params": {
+    "left_title": "Not here",
+    "right_title": "Here",
+    "left": [
+     "Your checking account",
+     "Cash at home",
+     "Investments"
+    ],
+    "right": [
+     "Separate savings",
+     "Federally insured",
+     "Easy to reach in days"
+    ]
+   },
+   "lines": [
+    "Where you keep the money matters too.",
+    "If it sits in your checking account, it's too easy to spend.",
+    "Keep it in a separate savings account, ideally a high yield one at a federally insured bank or credit union.",
+    "Some people even keep it at a different bank, so it's not sitting right next to their everyday money.",
+    "Avoid investing your emergency fund. It needs to be there, at full value, the moment you need it."
+   ]
+  },
+  {
+   "visual": "cards",
+   "heading": "Step 6: Boost It With Extra Cash",
+   "params": {
+    "items": [
+     [
+      "Tax refund",
+      true
+     ],
+     [
+      "Side gig",
+      true
+     ],
+     [
+      "Sell old stuff",
+      true
+     ],
+     [
+      "Cash gifts",
+      true
+     ]
+    ],
+    "result": "Extra cash goes to the fund"
+   },
+   "lines": [
+    "Want to get there faster? Use money that isn't part of your normal paycheck.",
+    "A tax refund, if you get one, can fill your starter fund in a single day.",
+    "A few hours of side work, or selling things you no longer use, can add up quickly.",
+    "Even cash gifts can go straight into the fund.",
+    "Try sending at least half of any surprise money there."
+   ]
+  },
+  {
+   "visual": "balance",
+   "heading": "Step 7: Know What Counts",
+   "params": {
+    "left": "Emergency",
+    "right": "Not one",
+    "heavy": "left",
+    "caption": "Real emergencies only"
+   },
+   "lines": [
+    "Decide ahead of time what counts as a real emergency.",
+    "A car repair you need for work, a medical bill, or a sudden drop in income? Yes.",
+    "A great sale, a concert, or a holiday trip? Those deserve their own savings goal.",
+    "A simple test: is it unexpected, is it necessary, and is it urgent? If not, it's not an emergency.",
+    "And if you do use the fund, that's okay. That's what it's for. Just start refilling it right away."
+   ]
+  },
+  {
+   "visual": "timeline",
+   "heading": "Your Emergency Fund Roadmap",
+   "params": {
+    "steps": [
+     [
+      "$500",
+      "Starter fund"
+     ],
+     [
+      "$1,000",
+      "Bigger cushion"
+     ],
+     [
+      "3 months",
+      "Of essentials"
+     ],
+     [
+      "6 months",
+      "Long term goal"
+     ]
+    ]
+   },
+   "lines": [
+    "Here's the full roadmap, one stage at a time.",
+    "First, five hundred dollars. That's your starter fund.",
+    "Then, one thousand dollars, for a bigger cushion.",
+    "Next, three months of essential expenses, like rent, food, utilities, and transportation.",
+    "And over time, if you can, six months. Every stage makes you a little safer than before."
+   ]
+  },
+  {
+   "visual": "checklist",
+   "heading": "Quick Recap",
+   "params": {
+    "items": [
+     [
+      "Goal",
+      "Start with $500"
+     ],
+     [
+      "Find",
+      "Cut fees and forgotten apps"
+     ],
+     [
+      "Save",
+      "A fixed amount every week"
+     ],
+     [
+      "Auto",
+      "Transfer on payday"
+     ],
+     [
+      "Keep",
+      "Separate, insured savings"
+     ]
+    ]
+   },
+   "lines": [
+    "Let's recap.",
+    "Start with a small, clear goal of five hundred dollars.",
+    "Find hidden money in fees and forgotten subscriptions.",
+    "Save a fixed amount every week.",
+    "Automate the transfer on payday.",
+    "And keep it in a separate, insured savings account."
+   ]
+  },
+  {
+   "visual": "person",
+   "heading": "You Can Do This",
+   "params": {
+    "mood": "happy",
+    "props": [
+     "confetti"
+    ],
+    "subscribe": true
+   },
+   "lines": [
+    "You don't need a big income to build a safety net. You just need to start, and keep going.",
+    "Every dollar you set aside today is one less dollar you'll have to borrow tomorrow.",
+    "If this video helped, like it and subscribe for more simple ways to feel calmer about money.",
+    "Tell me in the comments: how much is your first savings goal? See you in the next one."
+   ]
+  }
+ ]
+}

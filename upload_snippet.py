@@ -35,11 +35,11 @@ else:
     pub = datetime.datetime(y, m, dd, 19, 0, tzinfo=et)
     now = datetime.datetime.now(datetime.timezone.utc)
     if pub > now + datetime.timedelta(minutes=15):
-        status = {"privacyStatus": "private", "selfDeclaredMadeForKids": False,
+        status = {"privacyStatus": "private", "selfDeclaredMadeForKids": False, "embeddable": True, "publicStatsViewable": True, "license": "youtube",
                   "publishAt": pub.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")}
     else:
-        status = {"privacyStatus": "public", "selfDeclaredMadeForKids": False}
-    r2, e2 = proxy_execute("PUT", "/youtube/v3/videos", "youtube", query_params={"part": "status"},
+        status = {"privacyStatus": "public", "selfDeclaredMadeForKids": False, "embeddable": True, "publicStatsViewable": True, "license": "youtube"}
+    r2, e2 = proxy_execute("PUT", "https://www.googleapis.com/youtube/v3/videos", "youtube", query_params={"part": "status"},
                            body={"id": vid, "status": status})
     r3, e3 = run_composio_tool("YOUTUBE_UPDATE_THUMBNAIL", {"videoId": vid, "thumbnailUrl": f"{RAW}/media/thumbnail.jpg"})
     r4, e4 = run_composio_tool("YOUTUBE_GET_VIDEO_DETAILS_BATCH", {"id": [vid], "parts": ["status"]})
