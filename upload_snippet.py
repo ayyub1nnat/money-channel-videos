@@ -1,5 +1,5 @@
 # Paste into COMPOSIO_REMOTE_WORKBENCH as-is. Uploads the video waiting on the `media` branch
-# (date in media/meta.json) to YouTube as private and schedules it for 19:00 America/Los_Angeles
+# (date in media/meta.json) to YouTube as private and schedules it for 12:00 America/Los_Angeles (= 15:00 New York)
 # on that date; if that time has passed, publishes immediately. Prints RESULT {...} at the end.
 # Composio's YouTube upload quota is shared and resets at midnight America/Los_Angeles,
 # Also adds the English CC track from days/<date>/subtitles.srt, and uploads the teaser Short
@@ -34,7 +34,8 @@ else:
     vid = v.get("id")
     et = ZoneInfo("America/Los_Angeles")
     y, m, dd = map(int, DATE.split("-"))
-    pub = datetime.datetime(y, m, dd, 19, 0, tzinfo=et)
+    pub = datetime.datetime(y, m, dd, 12, 0, tzinfo=et)            # main video: 12:00 LA = 15:00 NY
+    spub = datetime.datetime(y, m, dd, 16, 0, tzinfo=et)           # Short: 16:00 LA = 19:00 NY (evening Shorts peak)
     now = datetime.datetime.now(datetime.timezone.utc)
     if pub > now + datetime.timedelta(minutes=15):
         status = {"privacyStatus": "private", "selfDeclaredMadeForKids": False, "embeddable": True, "publicStatsViewable": True, "license": "youtube",
@@ -54,7 +55,11 @@ else:
                 "isDraft": False, "file": {"name": "subtitles.srt", "mimetype": "application/octet-stream", "s3key": cup["s3key"]}})
     except Exception as ex:
         e5 = ex
-    # teaser Short (media/short.mp4, built by short.py): same publish time, links to the main video
+    if spub > now + datetime.timedelta(minutes=15):
+        sstatus = dict(status, privacyStatus="private", publishAt=spub.astimezone(datetime.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ"))
+    else:
+        sstatus = {k: v for k, v in status.items() if k != "publishAt"}; sstatus["privacyStatus"] = "public"
+    # teaser Short (media/short.mp4, built by short.py): published 16:00 LA (19:00 NY), links to the main video
     short_id, e6 = None, None
     try:
         hs = requests.head(f"{RAW}/media/short.mp4", timeout=60, allow_redirects=True)
@@ -79,7 +84,7 @@ else:
                 if not e6:
                     dsh = rs.get("data", rs); short_id = (dsh.get("video") or dsh.get("response_data") or dsh).get("id")
                     _, e6 = proxy_execute("PUT", "https://www.googleapis.com/youtube/v3/videos", "youtube",
-                                          query_params={"part": "status"}, body={"id": short_id, "status": status})
+                                          query_params={"part": "status"}, body={"id": short_id, "status": sstatus})
     except Exception as ex:
         e6 = ex
     r4, e4 = run_composio_tool("YOUTUBE_GET_VIDEO_DETAILS_BATCH", {"id": [vid], "parts": ["status"]})

@@ -4,7 +4,7 @@ Runs every day at **00:02 America/Los_Angeles** (right after Composio's shared Y
 Let **X** = today's date in America/Los_Angeles (`TZ=America/Los_Angeles date +%F`).
 
 The pipeline works one day ahead: the video for date X was built yesterday and waits on the `media` branch;
-today's run uploads it (scheduled to go public at 19:00 Los Angeles time on X), then builds the video for X+1.
+today's run uploads it (main video public at 12:00 Los Angeles = 15:00 New York on X; its teaser Short at 16:00 Los Angeles = 19:00 New York), then builds the video for X+1.
 
 ## 1. Setup
 - `add_repo` owner `ayyub1nnat`, repo `money-channel-videos`, access `push`; clone to `/home/claude/money-channel-videos`; `register_repo_root`.
@@ -16,11 +16,11 @@ today's run uploads it (scheduled to go public at 19:00 Los Angeles time on X), 
 - Check `topics.json`: if that date's topic already has a `video_id` (or status says uploaded), skip to step 3.
 - Run the contents of `upload_snippet.py` unchanged in COMPOSIO_REMOTE_WORKBENCH. Read the `RESULT` line.
   - ok → check `captions_error` is null (English CC track added); if not, retry the caption upload alone with YOUTUBE_UPLOAD_CAPTION_TRACK. Record `video_id` and `status: "scheduled"` on that topic in topics.json.
-  - Teaser Short: the same run also uploads `media/short.mp4` (same 19:00 publish time, description links to the main video). Record `short_id` on the topic. If `short_error` is a quota error, retry just the Short upload (same code block as in upload_snippet.py, with `vid` = the main video id) at most 3 more times ~3 min apart; still failing → in the report send the owner `short.mp4` + Short title/description from seo.json `short` (with the main video link) so they can upload it in YouTube Studio, scheduled 19:00 Los Angeles.
+  - Teaser Short: the same run also uploads `media/short.mp4` (public at 16:00 Los Angeles, description links to the main video). Record `short_id` on the topic. If `short_error` is a quota error, retry just the Short upload (same code block as in upload_snippet.py, with `vid` = the main video id) at most 3 more times ~3 min apart; still failing → in the report send the owner `short.mp4` + Short title/description from seo.json `short` (with the main video link) so they can upload it in YouTube Studio, scheduled 16:00 Los Angeles (or the next day's 16:00 if that has passed).
   - quota error → retry at most 3 more times, ~3 minutes apart (wait with a background `sleep 180` Bash command). Still failing → don't block; continue to step 3 and, in the final report, send the owner the video + title/description so they can upload by hand in YouTube Studio (and mark the topic `status: "manual upload needed"`).
   - any other error → read it, fix the cause if it's in our inputs (e.g. title/description length, tags), retry once.
 
-- Pending Shorts from earlier days: after the step above (main video + its Short handled), look in topics.json for a topic with `short_status: "pending upload"`. Its Short waits on the branch named in `short_branch` (file `short.mp4`). Upload it with the Short code block from upload_snippet.py (video from that branch, `vid` = that topic's `video_id`, title/description from that day's seo.json `short`) and schedule it (private + `publishAt`) for 12:00 America/Los_Angeles on date X (= 15:00 New York, a Shorts peak window), not public at midnight; its main video is already public by then. ok → set `short_id`, `short_status: "uploaded"`, delete the branch if possible. Quota error → leave it pending for the next run; don't retry in a loop.
+- Pending Shorts from earlier days: after the step above (main video + its Short handled), look in topics.json for a topic with `short_status: "pending upload"`. Its Short waits on the branch named in `short_branch` (file `short.mp4`). Upload it with the Short code block from upload_snippet.py (video from that branch, `vid` = that topic's `video_id`, title/description from that day's seo.json `short`) and schedule it (private + `publishAt`) for 16:00 America/Los_Angeles on date X (= 19:00 New York, evening Shorts peak), not public at midnight; its main video is already public by then. ok → set `short_id`, `short_status: "uploaded"`, delete the branch if possible. Quota error → leave it pending for the next run; don't retry in a loop.
 
 ## 3. Build tomorrow's video (date X+1)
 Follow RUNBOOK.md sections 1–4 for date X+1: pick the next unused topic, write `days/<X+1>/script.json`, preview, look at `preview_grid.jpg`, fix issues, full build (run it in the background, ≈15–20 min), check frames, write `seo.json`.
@@ -40,7 +40,7 @@ Then the teaser Short: add `"short": {"hook": "<= 40 chars, punchy", "clips": [[
 
 ## 5. Report to the owner (in Azerbaijani, short)
 Send with SendUserMessage (and SendUserFile for files):
-- Today's video: title + `https://studio.youtube.com/video/<id>/edit`, goes public 19:00 Los Angeles time (Baku: 06:00 next day until Nov 1, 07:00 after).
+- Today's video: title + `https://studio.youtube.com/video/<id>/edit`, goes public 12:00 Los Angeles time (Baku: 23:00 the same day until Nov 1, 00:00 next day after). Short: 16:00 Los Angeles (Baku: 03:00 next day until Nov 1, 04:00 after).
 - Today's teaser Short: `https://studio.youtube.com/video/<short_id>/edit` (or the file for manual upload if quota ran out).
 - Tomorrow's video is ready: title + thumbnail file.
 - Any problem, plainly, with what they need to do (e.g. manual upload: attach video.mp4 + title + description).
