@@ -25,9 +25,9 @@ CH_LOC = {
  "fr": "Simple Money Life vous aide à reprendre le contrôle de votre argent et de votre vie, une étape à la fois. Chaque jour, une nouvelle courte vidéo animée sur le budget, l'épargne, l'épargne de secours, la sortie des dettes, les bonnes habitudes et comment gagner plus. Pas de jargon compliqué, pas de promesses d'enrichissement rapide. Contenu uniquement éducatif, ce n'est pas un conseil financier."}
 
 # 1. channel branding
+ch = call("GET", "channels", {"part": "brandingSettings,localizations,contentDetails,snippet", "mine": "true"})["items"][0]
+cid = ch["id"]; uploads = ch["contentDetails"]["relatedPlaylists"]["uploads"]
 try:
-    ch = call("GET", "channels", {"part": "brandingSettings,localizations,contentDetails,snippet", "mine": "true"})["items"][0]
-    cid = ch["id"]; uploads = ch["contentDetails"]["relatedPlaylists"]["uploads"]
     bs = ch.get("brandingSettings", {}); c = bs.get("channel", {})
     c.update({"keywords": KEYWORDS, "country": "US", "defaultLanguage": "en"})
     c.setdefault("description", ch["snippet"].get("description", ""))
@@ -38,7 +38,7 @@ try:
     call("PUT", "channels", {"part": "localizations"}, {"id": cid, "localizations": locs})
     out["channel"] = "ok"
 except Exception as ex:
-    out["errors"].append(str(ex)); uploads = None; cid = None
+    out["errors"].append(str(ex))
 
 # 2. playlists
 existing = {}
@@ -62,7 +62,10 @@ out["playlist_ids"] = ids
 # 3. add videos to playlists
 def best(title):
     t = title.lower(); score = {p["key"]: sum(m in t for m in p["match"]) for p in PL["playlists"]}
-    k = max(score, key=score.get); return k if score[k] > 0 else "habits"
+    top = max(score.values())
+    if top == 0: return "habits"
+    tied = [k for k, v in score.items() if v == top]
+    return "habits" if "habits" in tied else tied[0]
 added = []
 try:
     vids = call("GET", "playlistItems", {"part": "snippet", "playlistId": uploads, "maxResults": "50"})["items"] if uploads else []
