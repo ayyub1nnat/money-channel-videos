@@ -5,3 +5,7 @@ days/*/*.wav
 days/*/mix.m4a
 days/*/video.mp4
 __pycache__/
+days/*/list.txt
+days/*/preview_grid.jpg
+days/*/thumbnail.png
+days/*/timeline.json
