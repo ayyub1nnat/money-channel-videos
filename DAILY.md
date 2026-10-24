@@ -1,6 +1,6 @@
 # Daily run — Simple Money Life
 
-Runs every day at **00:02 America/Los_Angeles** (right after Composio's shared YouTube upload quota resets).
+Runs every day at **00:02 America/Los_Angeles**. All YouTube API calls go through `yt_lib.py`, which uses the channel owner's OWN Google Cloud project (credentials in the Composio workbench's private file /mnt/files/sml/yt_creds.json; own quota: 100 uploads + 10,000 units per day, not shared).
 Let **X** = today's date in America/Los_Angeles (`TZ=America/Los_Angeles date +%F`).
 
 The pipeline works one day ahead: the video for date X was built yesterday and waits on the `media` branch;
@@ -9,22 +9,19 @@ today's run uploads it (main video public at 12:00 Los Angeles = 15:00 New York 
 ## 1. Setup
 - `add_repo` owner `ayyub1nnat`, repo `money-channel-videos`, access `push`; clone to `/home/claude/money-channel-videos`; `register_repo_root`.
 - `cd /home/claude/money-channel-videos && bash setup.sh` (≈2–3 min; downloads the voice model).
-- Load the Composio tools (ToolSearch `select:mcp__Composio__COMPOSIO_REMOTE_WORKBENCH,mcp__Composio__COMPOSIO_MULTI_EXECUTE_TOOL,mcp__Composio__COMPOSIO_SEARCH_TOOLS`). Call COMPOSIO_SEARCH_TOOLS once for "upload a video to youtube" to get a session id; YouTube account must show active.
+- Load the Composio tools (ToolSearch `select:mcp__Composio__COMPOSIO_REMOTE_WORKBENCH,mcp__Composio__COMPOSIO_SEARCH_TOOLS`). Call COMPOSIO_SEARCH_TOOLS once (any youtube use case) to get a session id for the workbench. Do NOT use Composio's own YouTube tools (YOUTUBE_*) or proxy_execute for YouTube: their quota is shared and runs out; always use yt_lib.py.
+- Check the credentials work: in the workbench run `exec(requests.get(RAW+'/main/yt_lib.py').text); print(yt('GET','channels',{'part':'id','mine':'true'}))`. If the token refresh fails, nothing can be uploaded: build tomorrow's video anyway and tell the owner to redo the short re-authorization in OWN_API_SETUP.md (step 4–5).
 
-## 2. Upload the waiting video (do this FIRST — quota runs out fast)
+## 2. Upload the waiting video
 - `curl -s https://raw.githubusercontent.com/ayyub1nnat/money-channel-videos/media/meta.json` → its `date` should be X (or earlier if a previous upload failed).
 - Check `topics.json`: if that date's topic already has a `video_id` (or status says uploaded), skip to step 3.
-- Run the contents of `upload_snippet.py` unchanged in COMPOSIO_REMOTE_WORKBENCH. Read the `RESULT` line.
-  - ok → check `captions_error` is null (English CC track added); if not, retry the caption upload alone with YOUTUBE_UPLOAD_CAPTION_TRACK. Record `video_id` and `status: "scheduled"` on that topic in topics.json.
-  - Teaser Short: the same run also uploads `media/short.mp4` (public at 16:00 Los Angeles, description links to the main video). Record `short_id` on the topic. If `short_error` is a quota error, retry just the Short upload (same code block as in upload_snippet.py, with `vid` = the main video id) at most 3 more times ~3 min apart; still failing → in the report send the owner `short.mp4` + Short title/description from seo.json `short` (with the main video link) so they can upload it in YouTube Studio, scheduled 16:00 Los Angeles (or the next day's 16:00 if that has passed).
-  - quota error → retry at most 3 more times, ~3 minutes apart (wait with a background `sleep 180` Bash command). Still failing → don't block; continue to step 3 and, in the final report, send the owner the video + title/description so they can upload by hand in YouTube Studio (and mark the topic `status: "manual upload needed"`).
-  - any other error → read it, fix the cause if it's in our inputs (e.g. title/description length, tags), retry once.
+- Run the contents of `upload_snippet.py` unchanged in COMPOSIO_REMOTE_WORKBENCH (load it from the raw URL at the current commit SHA to avoid GitHub's 5-min raw cache, e.g. `RAW/<sha>/upload_snippet.py`). It uploads the main video (scheduled 12:00 LA), thumbnail, English captions, translations, and the teaser Short (16:00 LA). Read the `RESULT` line.
+  - ok → record on that topic in topics.json: `video_id`, `short_id`, `status: "scheduled"`, `short_status: "scheduled"`, `localized: true` (if `localized`/`short_localized` are "ok"). Any sub-step that isn't "ok" (thumbnail/captions/localized) → fix and redo just that sub-step with yt_lib (don't re-upload).
+  - ok:false → read the error. Never re-run the whole snippet if a video id was already created (check the channel's recent uploads first) — that would duplicate. Fix the cause and retry once; still failing → send the owner the files + title/description/tags for a manual upload and mark `status: "manual upload needed"`.
 
-- Translations (localized titles/descriptions in es, pt, hi, de, fr): for every topic in topics.json with `localized: false` and a `video_id` (including the one just uploaded), run `localize_snippet.py` in COMPOSIO_REMOTE_WORKBENCH with DATE = that topic's date, MAIN_ID = its `video_id`, SHORT_ID = its `short_id` (or None to look it up by title). `LOCALIZE` line ok for both → set `localized: true`. Quota error → leave it for the next run.
+- Translations for older videos: any topic with a `video_id` and `localized: false` → run `localize_snippet.py` with DATE/MAIN_ID/SHORT_ID set. ok → `localized: true`.
 
-- Channel SEO (playlists, comment, channel settings): run `channel_seo_snippet.py` unchanged in COMPOSIO_REMOTE_WORKBENCH after the uploads. It is idempotent: sets channel keywords/country/translated channel description, creates missing playlists, adds every long video that isn't in a playlist yet to its matching playlist, and posts one question comment from the channel under each long video. If `SEO` shows new playlist ids, write them into playlists.json and commit. Errors → mention briefly in the report, don't retry in a loop.
-
-- Pending Shorts from earlier days: after the step above (main video + its Short handled), look in topics.json for a topic with `short_status: "pending upload"`. Its Short waits on the branch named in `short_branch` (file `short.mp4`). Upload it with the Short code block from upload_snippet.py (video from that branch, `vid` = that topic's `video_id`, title/description from that day's seo.json `short`) and schedule it (private + `publishAt`) for 16:00 America/Los_Angeles on date X (= 19:00 New York, evening Shorts peak), not public at midnight; its main video is already public by then. ok → set `short_id`, `short_status: "uploaded"`, delete the branch if possible. Quota error → leave it pending for the next run; don't retry in a loop.
+- Channel SEO: run `channel_seo_snippet.py` unchanged (idempotent): channel keywords/translations, adds new long videos to their playlist (ids in playlists.json), posts one question comment under each public long video (scheduled ones get theirs on a later run).
 
 ## 3. Build tomorrow's video (date X+1)
 Follow RUNBOOK.md sections 1–4 for date X+1: pick the next unused topic, write `days/<X+1>/script.json`, preview, look at `preview_grid.jpg`, fix issues, full build (run it in the background, ≈15–20 min), check frames, write `seo.json`.
