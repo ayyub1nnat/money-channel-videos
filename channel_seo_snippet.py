@@ -92,7 +92,10 @@ try:
     for it in vids:
         vid = it["snippet"]["resourceId"]["videoId"]; title = it["snippet"]["title"]
         if "#shorts" in title.lower(): continue
-        th = call("GET", "commentThreads", {"part": "snippet", "videoId": vid, "maxResults": "50"}).get("items", [])
+        try:
+            th = call("GET", "commentThreads", {"part": "snippet", "videoId": vid, "maxResults": "50"}).get("items", [])
+        except Exception:
+            continue   # private/scheduled videos have comments closed until they go public; the next run comments them
         if any(x["snippet"]["topLevelComment"]["snippet"].get("authorChannelId", {}).get("value") == cid for x in th): continue
         q = ("Quick question 👇 What's the ONE money change you're going to make this week? "
              "Reply below, I read every comment. And if you want a new simple money tip every day, subscribe. 💚")
