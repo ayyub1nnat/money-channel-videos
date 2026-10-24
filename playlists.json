@@ -1,0 +1,25 @@
+{
+  "note": "Channel playlists (series). Each video goes into exactly one primary playlist by its topic; ids are filled in after channel_seo_snippet.py creates them.",
+  "playlists": [
+    {"key": "budgeting", "id": null,
+     "title": "Budgeting for Beginners: Simple Budgets That Actually Work",
+     "description": "Simple, practical budgeting videos for beginners: the 50/30/20 rule, zero-based budgets, cash envelopes, sinking funds and how to stick to a budget, even on a low income.",
+     "match": ["budget", "50/30/20", "envelope", "sinking fund", "spend", "groceries", "bills", "needs vs wants", "impulse", "no-spend"]},
+    {"key": "saving", "id": null,
+     "title": "How to Save Money: Emergency Fund & Saving Tips",
+     "description": "How to save money step by step: building an emergency fund, saving your first $1,000, paying yourself first, automating savings and staying consistent.",
+     "match": ["save", "saving", "emergency fund", "pay yourself first", "$1,000", "inflation"]},
+    {"key": "debt", "id": null,
+     "title": "Get Out of Debt: Snowball, Avalanche & Credit",
+     "description": "Practical ways to pay off debt faster and use credit wisely: debt snowball vs avalanche, credit cards, credit scores and recovering from money mistakes.",
+     "match": ["debt", "credit", "loan", "broke", "mistake"]},
+    {"key": "habits", "id": null,
+     "title": "Money Habits & Getting Your Life Together",
+     "description": "Better money habits and a calmer, more organized life: routines, discipline, goal setting, minimalism and the mindset that makes saving easier.",
+     "match": ["habit", "routine", "life", "discipline", "goals", "minimalism", "comparing", "declutter", "plan your week", "productive", "myths", "signs"]},
+    {"key": "income", "id": null,
+     "title": "Grow Your Income: Raises, Side Hustles & Investing Basics",
+     "description": "Ways to earn more and grow your money: negotiating a raise, side hustle ideas, multiple income streams, compound interest and beginner investing basics.",
+     "match": ["income", "raise", "side hustle", "invest", "compound", "streams"]}
+  ]
+}

@@ -23,7 +23,11 @@ Writing rules:
 - Facts must be correct and general; no specific stock/crypto picks, no guaranteed returns, no tax/legal claims that vary by state.
 - Use **at least 6 different templates** per video, and don't open with the same template as yesterday's video.
 - Last scene: `person` with `{"mood":"happy","props":["confetti"],"subscribe":true}` + ask a comment question.
-- `heading` ≤ 40 chars. Thumbnail text: line1 + line2 + badge, 2–5 words total feel, big & emotional.
+- **Retention (what makes YouTube push a video):** the first 15 seconds decide most of it. Line 1 = the viewer's pain or a surprising fact/number; line 2 = the concrete payoff ("by the end you'll have a 4-step plan"). No intro, no channel name, no "in this video I will". Every 30–45 s give a small new payoff (a number, a mini-example, "here's the trick"). Use open loops ("the third one surprised me", "stay for step 5, it's the one most people skip"). Never pad: if a line doesn't teach or move the story, cut it.
+- **Topic choice:** prefer topics people actually search (how to…, best way to…, N mistakes/habits, X vs Y, "on a low income", "for beginners") and topics that fit the next video in the same series (playlist), so viewers binge.
+- **Mention the series:** in the outro, one line pointing to a related earlier video ("if you haven't built your emergency fund yet, watch that one next").
+- `heading` ≤ 40 chars.
+- **Thumbnail (biggest lever for clicks):** max 3–5 big words that ADD to the title (don't repeat it), one emotion (character mood matches it), high contrast background different from the last 3 videos, a number or money symbol when possible. It must read clearly at phone size (~160 px wide): check `thumbnail.png` scaled down.
 
 ```json
 {
@@ -75,10 +79,13 @@ Outputs: `video.mp4`, `thumbnail.png/.jpg`, `subtitles.srt`, `chapters.txt`. Che
 
 ## 4. SEO → `days/YYYY-MM-DD/seo.json`
 `{"title": "...", "description": "...", "tags": [...]}`
-- Title ≤ 100 chars (aim 50–70), main keyword first, curiosity + clarity.
+- Title ≤ 100 chars (aim 45–65), the exact phrase people search near the start, plus a benefit or curiosity hook ("…(Step by Step)", "…That Keep You Broke", "…Nobody Tells You"). No clickbait that the video doesn't deliver. Write 3 options, pick the best.
+- First 150 characters of the description = what shows in search: main keyword + promise, no links or emojis there.
 - Description: 2-sentence hook with keyword → 2–4 sentence summary → `⏱️ CHAPTERS` from `chapters.txt` (first must be 0:00) → comment question → like/subscribe line → disclaimer "This video is for educational purposes only and is not financial advice." → music credit (see below) → 3 hashtags. Keep under 4,500 bytes.
 - Tags: 12–20 search phrases, total < 450 chars.
 - Music credit: default track is original/royalty-free → "Music: original background track". If `script.json` has `music_file` (an NCS track), use the exact NCS credit text.
+
+- Pick the playlist key (budgeting / saving / debt / habits / income, see playlists.json) and add `"playlist": "<key>"` to seo.json.
 
 ## 4b. Translations → `days/YYYY-MM-DD/localizations.json`
 Translate the final title and full description (chapters included, same timestamps) into **es, pt, hi, de, fr**: natural, native-sounding, not word-for-word; titles ≤ 100 chars (keep them catchy and searchable in that language); descriptions < 4,900 bytes; keep emojis, the disclaimer, and the channel name "Simple Money Life" untranslated; hashtags can be localized. Also `"_short"`: {lang: {title (end with " #shorts"), description}} for the Short. Format: see days/2026-10-25/localizations.json. Applied after upload by `localize_snippet.py`.
