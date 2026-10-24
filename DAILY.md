@@ -20,6 +20,8 @@ today's run uploads it (main video public at 12:00 Los Angeles = 15:00 New York 
   - quota error → retry at most 3 more times, ~3 minutes apart (wait with a background `sleep 180` Bash command). Still failing → don't block; continue to step 3 and, in the final report, send the owner the video + title/description so they can upload by hand in YouTube Studio (and mark the topic `status: "manual upload needed"`).
   - any other error → read it, fix the cause if it's in our inputs (e.g. title/description length, tags), retry once.
 
+- Translations (localized titles/descriptions in es, pt, hi, de, fr): for every topic in topics.json with `localized: false` and a `video_id` (including the one just uploaded), run `localize_snippet.py` in COMPOSIO_REMOTE_WORKBENCH with DATE = that topic's date, MAIN_ID = its `video_id`, SHORT_ID = its `short_id` (or None to look it up by title). `LOCALIZE` line ok for both → set `localized: true`. Quota error → leave it for the next run.
+
 - Pending Shorts from earlier days: after the step above (main video + its Short handled), look in topics.json for a topic with `short_status: "pending upload"`. Its Short waits on the branch named in `short_branch` (file `short.mp4`). Upload it with the Short code block from upload_snippet.py (video from that branch, `vid` = that topic's `video_id`, title/description from that day's seo.json `short`) and schedule it (private + `publishAt`) for 16:00 America/Los_Angeles on date X (= 19:00 New York, evening Shorts peak), not public at midnight; its main video is already public by then. ok → set `short_id`, `short_status: "uploaded"`, delete the branch if possible. Quota error → leave it pending for the next run; don't retry in a loop.
 
 ## 3. Build tomorrow's video (date X+1)
@@ -27,7 +29,7 @@ Follow RUNBOOK.md sections 1–4 for date X+1: pick the next unused topic, write
 Then the teaser Short: add `"short": {"hook": "<= 40 chars, punchy", "clips": [[scene, first_line, last_line], ...]}` to script.json (3–4 clips: the hook + the most striking/visual moments, 35–50 s total; avoid `timeline` scenes, their bottom labels get cropped), keep timeline.json newer than script.json (`touch -r days/<X+1>/timeline.json days/<X+1>/script.json`), run `python3 short.py days/<X+1>` (≈1 min), look at 3–4 frames (no overlapping captions, nothing cut off), and add `"short": {"title", "description", "tags"}` to seo.json (title ≤ 90 chars; `#shorts` and the link are added at upload).
 
 ## 4. Save
-- On `main`: commit `days/<X+1>/{script.json,seo.json,thumbnail.jpg,subtitles.srt,chapters.txt}` and topics.json (topic → `used: true`, `date: X+1`, `status: "built, waiting for upload"`), push.
+- On `main`: commit `days/<X+1>/{script.json,seo.json,localizations.json,thumbnail.jpg,subtitles.srt,chapters.txt}` and topics.json (topic → `used: true`, `date: X+1`, `status: "built, waiting for upload"`, `localized: false`), push.
 - Media branch (holds ONLY the next video, force-pushed):
   ```bash
   rm -rf /home/claude/media && mkdir /home/claude/media && cd /home/claude/media && git init -q -b media

@@ -80,6 +80,9 @@ Outputs: `video.mp4`, `thumbnail.png/.jpg`, `subtitles.srt`, `chapters.txt`. Che
 - Tags: 12–20 search phrases, total < 450 chars.
 - Music credit: default track is original/royalty-free → "Music: original background track". If `script.json` has `music_file` (an NCS track), use the exact NCS credit text.
 
+## 4b. Translations → `days/YYYY-MM-DD/localizations.json`
+Translate the final title and full description (chapters included, same timestamps) into **es, pt, hi, de, fr**: natural, native-sounding, not word-for-word; titles ≤ 100 chars (keep them catchy and searchable in that language); descriptions < 4,900 bytes; keep emojis, the disclaimer, and the channel name "Simple Money Life" untranslated; hashtags can be localized. Also `"_short"`: {lang: {title (end with " #shorts"), description}} for the Short. Format: see days/2026-10-25/localizations.json. Applied after upload by `localize_snippet.py`.
+
 ## 5. Publish
 See DAILY.md: videos are built one day ahead, kept on the `media` branch, and uploaded by `upload_snippet.py` (Composio workbench) right after the YouTube quota resets at midnight Pacific, scheduled to go public at 12:00 America/Los_Angeles (Short 16:00).
 

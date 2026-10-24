@@ -13,13 +13,15 @@
    "date": "2026-10-24",
    "status": "scheduled",
    "video_id": "WjtwxLPDMDY",
-   "short_status": "uploaded manually by owner"
+   "short_status": "uploaded manually by owner",
+   "localized": false
   },
   {
    "title": "How to Build an Emergency Fund on a Low Income",
    "used": true,
    "date": "2026-10-25",
-   "status": "built, waiting for upload"
+   "status": "built, waiting for upload",
+   "localized": false
   },
   {
    "title": "The 50/30/20 Budget Explained Simply",
