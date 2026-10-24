@@ -11,10 +11,9 @@ API = "https://www.googleapis.com/youtube/v3"
 PL = requests.get(f"{RAW}/main/playlists.json", timeout=60).json()
 out = {"errors": []}
 
+exec(requests.get(f"{RAW}/main/yt_lib.py", timeout=60).text)   # own Google project credentials
 def call(method, path, q=None, body=None):
-    r, e = proxy_execute(method, f"{API}/{path}", "youtube", query_params=q or {}, body=body)
-    if e: raise RuntimeError(f"{method} {path}: {str(e)[:250]}")
-    return r.get("data", r) if isinstance(r, dict) else r
+    return yt(method, path, q or {}, body)
 
 KEYWORDS = ('"personal finance" budgeting "how to save money" "money tips" "debt free" "emergency fund" "money habits" '
             '"financial freedom" "budget for beginners" "paycheck to paycheck" "side hustle" "self improvement" "simple living"')

@@ -2,7 +2,7 @@
 # in the channel's recent uploads by title). Adds translated titles/descriptions (YouTube "localizations")
 # from days/<DATE>/localizations.json to the main video and its Short, so viewers in those languages see
 # the title/description in their own language. Uses API units only (no upload quota); still needs the
-# daily API quota, so run it right after the quota reset. Prints LOCALIZE {...}.
+# channel's own API quota (yt_lib.py). Prints LOCALIZE {...}.
 import requests, json
 
 DATE = "YYYY-MM-DD"
@@ -15,10 +15,9 @@ API = "https://www.googleapis.com/youtube/v3"
 seo = requests.get(f"{RAW}/main/days/{DATE}/seo.json", timeout=60).json()
 loc = requests.get(f"{RAW}/main/days/{DATE}/localizations.json", timeout=60).json()
 
+exec(requests.get(f"{RAW}/main/yt_lib.py", timeout=60).text)   # own Google project credentials
 def get(path, **q):
-    r, e = proxy_execute("GET", f"{API}/{path}", "youtube", query_params=q)
-    if e: raise RuntimeError(str(e)[:300])
-    return r.get("data", r) if isinstance(r, dict) else r
+    return yt("GET", path, q)
 
 def find_upload(pred):
     ch = get("channels", part="contentDetails", mine="true")
@@ -35,8 +34,8 @@ def localize(vid, locs):
             "snippet": {"title": sn["title"], "description": sn.get("description", ""), "categoryId": sn["categoryId"],
                         "tags": sn.get("tags", []), "defaultLanguage": sn.get("defaultLanguage") or "en"},
             "localizations": dict(v.get("localizations", {}), **locs)}
-    r, e = proxy_execute("PUT", f"{API}/videos", "youtube", query_params={"part": "snippet,localizations"}, body=body)
-    return str(e)[:300] if e else "ok"
+    yt("PUT", "videos", {"part": "snippet,localizations"}, body)
+    return "ok"
 
 out = {"date": DATE}
 try:
