@@ -34,7 +34,8 @@ try:
     bs["channel"] = c
     locs = ch.get("localizations", {})
     for k, d in CH_LOC.items(): locs[k] = {"title": "Simple Money Life", "description": d}
-    call("PUT", "channels", {"part": "brandingSettings,localizations"}, {"id": cid, "brandingSettings": bs, "localizations": locs})
+    call("PUT", "channels", {"part": "brandingSettings"}, {"id": cid, "brandingSettings": bs})
+    call("PUT", "channels", {"part": "localizations"}, {"id": cid, "localizations": locs})
     out["channel"] = "ok"
 except Exception as ex:
     out["errors"].append(str(ex)); uploads = None; cid = None
@@ -68,8 +69,9 @@ try:
     inpl = set()
     for k, pid in ids.items():
         if pid:
-            for it in call("GET", "playlistItems", {"part": "snippet", "playlistId": pid, "maxResults": "50"}).get("items", []):
-                inpl.add(it["snippet"]["resourceId"]["videoId"])
+            try: items = call("GET", "playlistItems", {"part": "snippet", "playlistId": pid, "maxResults": "50"}).get("items", [])
+            except Exception: items = []   # brand-new playlists can 404 for a few minutes
+            for it in items: inpl.add(it["snippet"]["resourceId"]["videoId"])
     for it in vids:
         vid = it["snippet"]["resourceId"]["videoId"]; title = it["snippet"]["title"]
         if vid in inpl or "#shorts" in title.lower(): continue
