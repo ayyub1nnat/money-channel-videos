@@ -309,7 +309,7 @@ class Video:
             c.save(); c.translate(-W * k, 0)
             c.drawRect(skia.Rect.MakeWH(W, H), fill_paint(C("#FBFAF5")))
             P = self.scenes[si - 1]; P.render(c, P.end - P.start)
-            c.drawRect(skia.Rect.MakeXYWH(W - 6, 0, 30, H), fill_paint(skia.Color(0, 0, 0, 40)))
+            c.drawRect(skia.Rect.MakeXYWH(W - 6, 0, 30, H), fill_paint(skia.Color(0, 0, 0), 28))
             c.restore()
         else:
             tip = S.render(c, lt)
