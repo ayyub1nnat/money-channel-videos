@@ -1,0 +1,1071 @@
+{
+ "title": "How to Build an Emergency Fund on a Low Income (Step by Step)",
+ "duration": 181.318,
+ "scenes": [
+  {
+   "id": "s0",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Your car just broke",
+   "start": 0.3,
+   "end": 5.114,
+   "line_starts": [
+    0.3
+   ],
+   "subs": [
+    {
+     "start": 0.3,
+     "end": 2.303,
+     "text": "Imagine this. Your car breaks down,"
+    },
+    {
+     "start": 2.303,
+     "end": 3.562,
+     "text": "and the mechanic says:"
+    },
+    {
+     "start": 3.562,
+     "end": 4.764,
+     "text": "four hundred dollars."
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Could you pay it?",
+   "start": 5.114,
+   "end": 7.858,
+   "line_starts": [
+    5.114
+   ],
+   "subs": [
+    {
+     "start": 5.114,
+     "end": 6.561,
+     "text": "Could you pay that right now,"
+    },
+    {
+     "start": 6.561,
+     "end": 7.508,
+     "text": "in cash? Be honest."
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "visual": "sketch",
+   "params": {},
+   "heading": "You're not alone",
+   "start": 7.858,
+   "end": 11.35,
+   "line_starts": [
+    7.858
+   ],
+   "subs": [
+    {
+     "start": 7.858,
+     "end": 9.044,
+     "text": "If the answer is no,"
+    },
+    {
+     "start": 9.044,
+     "end": 10.111,
+     "text": "you are not alone."
+    },
+    {
+     "start": 10.111,
+     "end": 11.0,
+     "text": "Not even close."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "visual": "sketch",
+   "params": {},
+   "heading": "1 in 3",
+   "start": 11.35,
+   "end": 16.442,
+   "line_starts": [
+    11.35
+   ],
+   "subs": [
+    {
+     "start": 11.35,
+     "end": 13.206,
+     "text": "More than a third of American adults"
+    },
+    {
+     "start": 13.206,
+     "end": 16.092,
+     "text": "couldn't cover a four hundred dollar surprise with cash."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Here's the fix",
+   "start": 16.442,
+   "end": 21.405,
+   "line_starts": [
+    16.442
+   ],
+   "subs": [
+    {
+     "start": 16.442,
+     "end": 18.194,
+     "text": "So today, I'll show you how to"
+    },
+    {
+     "start": 18.194,
+     "end": 19.595,
+     "text": "build an emergency fund,"
+    },
+    {
+     "start": 19.595,
+     "end": 21.055,
+     "text": "even on a small paycheck."
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "visual": "sketch",
+   "params": {},
+   "heading": "The debt trap",
+   "start": 21.405,
+   "end": 26.04,
+   "line_starts": [
+    21.405
+   ],
+   "subs": [
+    {
+     "start": 21.405,
+     "end": 23.119,
+     "text": "Here's what happens without one."
+    },
+    {
+     "start": 23.119,
+     "end": 25.69,
+     "text": "Every surprise goes straight onto a credit card."
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "visual": "sketch",
+   "params": {},
+   "heading": "It snowballs",
+   "start": 26.04,
+   "end": 30.178,
+   "line_starts": [
+    26.04
+   ],
+   "subs": [
+    {
+     "start": 26.04,
+     "end": 28.15,
+     "text": "Then the interest makes next month even"
+    },
+    {
+     "start": 28.15,
+     "end": 29.828,
+     "text": "tighter. And the cycle repeats."
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Not your fault",
+   "start": 30.178,
+   "end": 34.076,
+   "line_starts": [
+    30.178
+   ],
+   "subs": [
+    {
+     "start": 30.178,
+     "end": 32.275,
+     "text": "It's not because you're bad with money."
+    },
+    {
+     "start": 32.275,
+     "end": 33.726,
+     "text": "Life is just unpredictable."
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Break the cycle",
+   "start": 34.076,
+   "end": 37.703,
+   "line_starts": [
+    34.076
+   ],
+   "subs": [
+    {
+     "start": 34.076,
+     "end": 36.322,
+     "text": "An emergency fund is the wall between"
+    },
+    {
+     "start": 36.322,
+     "end": 37.353,
+     "text": "you and new debt."
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Forget 6 months",
+   "start": 37.703,
+   "end": 43.143,
+   "line_starts": [
+    37.703
+   ],
+   "subs": [
+    {
+     "start": 37.703,
+     "end": 39.705,
+     "text": "You've heard you need six months of"
+    },
+    {
+     "start": 39.705,
+     "end": 41.535,
+     "text": "expenses saved. On a low income,"
+    },
+    {
+     "start": 41.535,
+     "end": 42.793,
+     "text": "that feels impossible."
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Start small",
+   "start": 43.143,
+   "end": 47.251,
+   "line_starts": [
+    43.143
+   ],
+   "subs": [
+    {
+     "start": 43.143,
+     "end": 44.414,
+     "text": "So forget that for now."
+    },
+    {
+     "start": 44.414,
+     "end": 46.901,
+     "text": "Your first goal is just five hundred dollars."
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "visual": "sketch",
+   "params": {},
+   "heading": "$500 = peace",
+   "start": 47.251,
+   "end": 51.543,
+   "line_starts": [
+    47.251
+   ],
+   "subs": [
+    {
+     "start": 47.251,
+     "end": 49.022,
+     "text": "That alone covers a car repair,"
+    },
+    {
+     "start": 49.022,
+     "end": 50.108,
+     "text": "a new phone screen,"
+    },
+    {
+     "start": 50.108,
+     "end": 51.193,
+     "text": "or a surprise bill."
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Then level up",
+   "start": 51.543,
+   "end": 54.321,
+   "line_starts": [
+    51.543
+   ],
+   "subs": [
+    {
+     "start": 51.543,
+     "end": 53.971,
+     "text": "Hit it? Great. Now aim for one thousand."
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Money leaks",
+   "start": 54.321,
+   "end": 57.347,
+   "line_starts": [
+    54.321
+   ],
+   "subs": [
+    {
+     "start": 54.321,
+     "end": 56.997,
+     "text": "Step two. Find the money that's already slipping away."
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Forgotten apps",
+   "start": 57.347,
+   "end": 60.44,
+   "line_starts": [
+    57.347
+   ],
+   "subs": [
+    {
+     "start": 57.347,
+     "end": 59.015,
+     "text": "Subscriptions you forgot about."
+    },
+    {
+     "start": 59.015,
+     "end": 60.09,
+     "text": "Apps you never open."
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Bank fees?!",
+   "start": 60.44,
+   "end": 65.422,
+   "line_starts": [
+    60.44
+   ],
+   "subs": [
+    {
+     "start": 60.44,
+     "end": 62.695,
+     "text": "Overdraft fees. Monthly account fees."
+    },
+    {
+     "start": 62.695,
+     "end": 65.072,
+     "text": "Many banks offer accounts without them."
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Daily extras",
+   "start": 65.422,
+   "end": 69.867,
+   "line_starts": [
+    65.422
+   ],
+   "subs": [
+    {
+     "start": 65.422,
+     "end": 67.283,
+     "text": "And those little daily extras."
+    },
+    {
+     "start": 67.283,
+     "end": 69.517,
+     "text": "Snacks, delivery fees, impulse buys."
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "visual": "sketch",
+   "params": {},
+   "heading": "$720 a year",
+   "start": 69.867,
+   "end": 73.91,
+   "line_starts": [
+    69.867
+   ],
+   "subs": [
+    {
+     "start": 69.867,
+     "end": 71.74,
+     "text": "Just sixty dollars a month is seven"
+    },
+    {
+     "start": 71.74,
+     "end": 73.56,
+     "text": "hundred and twenty dollars a year!"
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Every week",
+   "start": 73.91,
+   "end": 78.438,
+   "line_starts": [
+    73.91
+   ],
+   "subs": [
+    {
+     "start": 73.91,
+     "end": 75.755,
+     "text": "Step three. Pick an amount you can"
+    },
+    {
+     "start": 75.755,
+     "end": 77.003,
+     "text": "save every single week,"
+    },
+    {
+     "start": 77.003,
+     "end": 78.088,
+     "text": "no matter how small."
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "visual": "sketch",
+   "params": {},
+   "heading": "$10 a week",
+   "start": 78.438,
+   "end": 82.34,
+   "line_starts": [
+    78.438
+   ],
+   "subs": [
+    {
+     "start": 78.438,
+     "end": 80.475,
+     "text": "Ten dollars a week becomes five hundred"
+    },
+    {
+     "start": 80.475,
+     "end": 81.99,
+     "text": "and twenty dollars in a year."
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "visual": "sketch",
+   "params": {},
+   "heading": "$25 a week",
+   "start": 82.34,
+   "end": 84.947,
+   "line_starts": [
+    82.34
+   ],
+   "subs": [
+    {
+     "start": 82.34,
+     "end": 83.337,
+     "text": "Twenty five a week?"
+    },
+    {
+     "start": 83.337,
+     "end": 84.597,
+     "text": "That's thirteen hundred."
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "visual": "sketch",
+   "params": {},
+   "heading": "$50 a week",
+   "start": 84.947,
+   "end": 87.538,
+   "line_starts": [
+    84.947
+   ],
+   "subs": [
+    {
+     "start": 84.947,
+     "end": 87.188,
+     "text": "Fifty a week? Twenty six hundred dollars!"
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Habit wins",
+   "start": 87.538,
+   "end": 91.643,
+   "line_starts": [
+    87.538
+   ],
+   "subs": [
+    {
+     "start": 87.538,
+     "end": 89.723,
+     "text": "The amount matters less than the habit."
+    },
+    {
+     "start": 89.723,
+     "end": 91.293,
+     "text": "Consistency builds the fund."
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Automate it",
+   "start": 91.643,
+   "end": 94.689,
+   "line_starts": [
+    91.643
+   ],
+   "subs": [
+    {
+     "start": 91.643,
+     "end": 94.339,
+     "text": "Step four. Take willpower out of the game completely."
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Payday transfer",
+   "start": 94.689,
+   "end": 98.113,
+   "line_starts": [
+    94.689
+   ],
+   "subs": [
+    {
+     "start": 94.689,
+     "end": 97.763,
+     "text": "Set up an automatic transfer to savings on payday."
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Split it",
+   "start": 98.113,
+   "end": 104.065,
+   "line_starts": [
+    98.113
+   ],
+   "subs": [
+    {
+     "start": 98.113,
+     "end": 100.192,
+     "text": "Many banks let you split your direct"
+    },
+    {
+     "start": 100.192,
+     "end": 102.502,
+     "text": "deposit, so part of every paycheck lands"
+    },
+    {
+     "start": 102.502,
+     "end": 103.715,
+     "text": "in savings by itself."
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Out of sight",
+   "start": 104.065,
+   "end": 107.156,
+   "line_starts": [
+    104.065
+   ],
+   "subs": [
+    {
+     "start": 104.065,
+     "end": 105.729,
+     "text": "Money you never see in checking is"
+    },
+    {
+     "start": 105.729,
+     "end": 106.806,
+     "text": "money you won't spend."
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Keep it apart",
+   "start": 107.156,
+   "end": 109.761,
+   "line_starts": [
+    107.156
+   ],
+   "subs": [
+    {
+     "start": 107.156,
+     "end": 109.411,
+     "text": "Step five. Where you keep this money matters."
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Not in checking",
+   "start": 109.761,
+   "end": 113.392,
+   "line_starts": [
+    109.761
+   ],
+   "subs": [
+    {
+     "start": 109.761,
+     "end": 111.606,
+     "text": "If it sits in your checking account,"
+    },
+    {
+     "start": 111.606,
+     "end": 113.042,
+     "text": "it will disappear. Trust me."
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Separate savings",
+   "start": 113.392,
+   "end": 119.457,
+   "line_starts": [
+    113.392
+   ],
+   "subs": [
+    {
+     "start": 113.392,
+     "end": 115.506,
+     "text": "Put it in a separate savings account,"
+    },
+    {
+     "start": 115.506,
+     "end": 117.907,
+     "text": "ideally high yield, at a federally insured"
+    },
+    {
+     "start": 117.907,
+     "end": 119.107,
+     "text": "bank or credit union."
+    }
+   ]
+  },
+  {
+   "id": "s30",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Don't invest it",
+   "start": 119.457,
+   "end": 124.107,
+   "line_starts": [
+    119.457
+   ],
+   "subs": [
+    {
+     "start": 119.457,
+     "end": 120.545,
+     "text": "And don't invest it."
+    },
+    {
+     "start": 120.545,
+     "end": 121.688,
+     "text": "It needs to be there,"
+    },
+    {
+     "start": 121.688,
+     "end": 123.757,
+     "text": "at full value, the moment you need it."
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Turbo boost",
+   "start": 124.107,
+   "end": 127.864,
+   "line_starts": [
+    124.107
+   ],
+   "subs": [
+    {
+     "start": 124.107,
+     "end": 125.359,
+     "text": "Want to get there faster?"
+    },
+    {
+     "start": 125.359,
+     "end": 127.514,
+     "text": "Use money that isn't part of your paycheck."
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Tax refund",
+   "start": 127.864,
+   "end": 131.436,
+   "line_starts": [
+    127.864
+   ],
+   "subs": [
+    {
+     "start": 127.864,
+     "end": 129.856,
+     "text": "A tax refund can fill your starter"
+    },
+    {
+     "start": 129.856,
+     "end": 131.086,
+     "text": "fund in a single day."
+    }
+   ]
+  },
+  {
+   "id": "s33",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Side cash",
+   "start": 131.436,
+   "end": 135.093,
+   "line_starts": [
+    131.436
+   ],
+   "subs": [
+    {
+     "start": 131.436,
+     "end": 132.791,
+     "text": "A few hours of side work."
+    },
+    {
+     "start": 132.791,
+     "end": 134.743,
+     "text": "Selling stuff you don't use anymore."
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Half of it",
+   "start": 135.093,
+   "end": 139.362,
+   "line_starts": [
+    135.093
+   ],
+   "subs": [
+    {
+     "start": 135.093,
+     "end": 136.794,
+     "text": "Rule of thumb: send at least half"
+    },
+    {
+     "start": 136.794,
+     "end": 139.012,
+     "text": "of any surprise money straight to the fund."
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Real emergencies",
+   "start": 139.362,
+   "end": 143.234,
+   "line_starts": [
+    139.362
+   ],
+   "subs": [
+    {
+     "start": 139.362,
+     "end": 141.534,
+     "text": "Step seven. Decide ahead of time what"
+    },
+    {
+     "start": 141.534,
+     "end": 142.884,
+     "text": "counts as an emergency."
+    }
+   ]
+  },
+  {
+   "id": "s36",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Yes",
+   "start": 143.234,
+   "end": 147.781,
+   "line_starts": [
+    143.234
+   ],
+   "subs": [
+    {
+     "start": 143.234,
+     "end": 145.148,
+     "text": "A car repair you need for work,"
+    },
+    {
+     "start": 145.148,
+     "end": 147.431,
+     "text": "a medical bill, losing your job? Yes."
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "visual": "sketch",
+   "params": {},
+   "heading": "No!",
+   "start": 147.781,
+   "end": 152.637,
+   "line_starts": [
+    147.781
+   ],
+   "subs": [
+    {
+     "start": 147.781,
+     "end": 149.121,
+     "text": "A big sale, a concert,"
+    },
+    {
+     "start": 149.121,
+     "end": 150.278,
+     "text": "a holiday trip? No."
+    },
+    {
+     "start": 150.278,
+     "end": 152.287,
+     "text": "Those get their own savings goal."
+    }
+   ]
+  },
+  {
+   "id": "s38",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Refill it",
+   "start": 152.637,
+   "end": 156.681,
+   "line_starts": [
+    152.637
+   ],
+   "subs": [
+    {
+     "start": 152.637,
+     "end": 153.512,
+     "text": "And if you use it?"
+    },
+    {
+     "start": 153.512,
+     "end": 155.164,
+     "text": "That's okay. That's what it's for."
+    },
+    {
+     "start": 155.164,
+     "end": 156.331,
+     "text": "Just start refilling it."
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "visual": "sketch",
+   "params": {},
+   "heading": "The roadmap",
+   "start": 156.681,
+   "end": 160.573,
+   "line_starts": [
+    156.681
+   ],
+   "subs": [
+    {
+     "start": 156.681,
+     "end": 158.03,
+     "text": "Here's the full roadmap."
+    },
+    {
+     "start": 158.03,
+     "end": 160.223,
+     "text": "First, five hundred. Then one thousand."
+    }
+   ]
+  },
+  {
+   "id": "s40",
+   "visual": "sketch",
+   "params": {},
+   "heading": "3 months",
+   "start": 160.573,
+   "end": 164.709,
+   "line_starts": [
+    160.573
+   ],
+   "subs": [
+    {
+     "start": 160.573,
+     "end": 162.437,
+     "text": "Then three months of essentials:"
+    },
+    {
+     "start": 162.437,
+     "end": 164.359,
+     "text": "rent, food, utilities, transport."
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "visual": "sketch",
+   "params": {},
+   "heading": "6 months",
+   "start": 164.709,
+   "end": 169.001,
+   "line_starts": [
+    164.709
+   ],
+   "subs": [
+    {
+     "start": 164.709,
+     "end": 166.262,
+     "text": "And over time, six months."
+    },
+    {
+     "start": 166.262,
+     "end": 168.651,
+     "text": "Every stage makes you safer than before."
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "visual": "sketch",
+   "params": {},
+   "heading": "You can do this",
+   "start": 169.001,
+   "end": 173.18,
+   "line_starts": [
+    169.001
+   ],
+   "subs": [
+    {
+     "start": 169.001,
+     "end": 170.597,
+     "text": "You don't need a big income to"
+    },
+    {
+     "start": 170.597,
+     "end": 171.607,
+     "text": "build a safety net."
+    },
+    {
+     "start": 171.607,
+     "end": 172.83,
+     "text": "You just need to start."
+    }
+   ]
+  },
+  {
+   "id": "s43",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Your turn",
+   "start": 173.18,
+   "end": 176.728,
+   "line_starts": [
+    173.18
+   ],
+   "subs": [
+    {
+     "start": 173.18,
+     "end": 175.277,
+     "text": "If this helped, subscribe for one simple"
+    },
+    {
+     "start": 175.277,
+     "end": 176.378,
+     "text": "money move every day."
+    }
+   ]
+  },
+  {
+   "id": "s44",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Tell me",
+   "start": 176.728,
+   "end": 181.318,
+   "line_starts": [
+    176.728
+   ],
+   "subs": [
+    {
+     "start": 176.728,
+     "end": 178.028,
+     "text": "And tell me in the comments:"
+    },
+    {
+     "start": 178.028,
+     "end": 179.468,
+     "text": "what's your first savings goal?"
+    }
+   ]
+  }
+ ]
+}
