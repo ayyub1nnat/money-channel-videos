@@ -12,3 +12,7 @@ days/*/timeline.json
 days/*/short.mp4
 days/*/short_tmp/
 models
+shorts/*/*.mp4
+shorts/*/*.wav
+shorts/*/*.m4a
+shorts/*/list.txt

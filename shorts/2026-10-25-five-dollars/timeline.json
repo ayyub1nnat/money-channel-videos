@@ -1,0 +1,223 @@
+{
+ "title": "This $5 Habit Is Stealing $1,825 From You Every Year",
+ "duration": 38.755,
+ "scenes": [
+  {
+   "id": "s0",
+   "visual": "sketch",
+   "params": {},
+   "heading": "STOP!",
+   "start": 0.25,
+   "end": 4.499,
+   "line_starts": [
+    0.25
+   ],
+   "subs": [
+    {
+     "start": 0.25,
+     "end": 2.514,
+     "text": "Stop. You're losing almost two thousand dollars"
+    },
+    {
+     "start": 2.514,
+     "end": 4.199,
+     "text": "a year, and you don't even feel it."
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "visual": "sketch",
+   "params": {},
+   "heading": "It's not rent...",
+   "start": 4.499,
+   "end": 7.232,
+   "line_starts": [
+    4.499
+   ],
+   "subs": [
+    {
+     "start": 4.499,
+     "end": 5.959,
+     "text": "And no, it's not your rent."
+    },
+    {
+     "start": 5.959,
+     "end": 6.932,
+     "text": "It's not your car."
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "visual": "sketch",
+   "params": {},
+   "heading": "It's THIS",
+   "start": 7.232,
+   "end": 10.991,
+   "line_starts": [
+    7.232
+   ],
+   "subs": [
+    {
+     "start": 7.232,
+     "end": 9.035,
+     "text": "It's the five dollars you spend every"
+    },
+    {
+     "start": 9.035,
+     "end": 10.691,
+     "text": "single day, without even thinking."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Tiny buys",
+   "start": 10.991,
+   "end": 14.88,
+   "line_starts": [
+    10.991
+   ],
+   "subs": [
+    {
+     "start": 10.991,
+     "end": 12.544,
+     "text": "A coffee here. A snack there."
+    },
+    {
+     "start": 12.544,
+     "end": 14.58,
+     "text": "A delivery fee you didn't even notice."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Do the math",
+   "start": 14.88,
+   "end": 18.987,
+   "line_starts": [
+    14.88
+   ],
+   "subs": [
+    {
+     "start": 14.88,
+     "end": 16.653,
+     "text": "But five dollars a day is eighteen"
+    },
+    {
+     "start": 16.653,
+     "end": 18.687,
+     "text": "hundred and twenty five dollars a year!"
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "visual": "sketch",
+   "params": {},
+   "heading": "That's a vacation",
+   "start": 18.987,
+   "end": 23.397,
+   "line_starts": [
+    18.987
+   ],
+   "subs": [
+    {
+     "start": 18.987,
+     "end": 21.534,
+     "text": "That's a vacation. That's an emergency fund."
+    },
+    {
+     "start": 21.534,
+     "end": 23.097,
+     "text": "That's real breathing room."
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "visual": "sketch",
+   "params": {},
+   "heading": "The fix",
+   "start": 23.397,
+   "end": 28.656,
+   "line_starts": [
+    23.397
+   ],
+   "subs": [
+    {
+     "start": 23.397,
+     "end": 24.455,
+     "text": "So here's the move."
+    },
+    {
+     "start": 24.455,
+     "end": 25.737,
+     "text": "Tomorrow, skip it once,"
+    },
+    {
+     "start": 25.737,
+     "end": 28.356,
+     "text": "and send that five dollars straight to savings."
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "visual": "sketch",
+   "params": {},
+   "heading": "30 days later",
+   "start": 28.656,
+   "end": 33.311,
+   "line_starts": [
+    28.656
+   ],
+   "subs": [
+    {
+     "start": 28.656,
+     "end": 29.757,
+     "text": "Do that for one month,"
+    },
+    {
+     "start": 29.757,
+     "end": 31.509,
+     "text": "and you'll have a hundred and fifty"
+    },
+    {
+     "start": 31.509,
+     "end": 33.011,
+     "text": "dollars you never even missed."
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Your turn",
+   "start": 33.311,
+   "end": 38.755,
+   "line_starts": [
+    33.311
+   ],
+   "subs": [
+    {
+     "start": 33.311,
+     "end": 35.309,
+     "text": "Follow for one simple money move every"
+    },
+    {
+     "start": 35.309,
+     "end": 37.255,
+     "text": "day. Your future self will thank you!"
+    }
+   ]
+  }
+ ]
+}

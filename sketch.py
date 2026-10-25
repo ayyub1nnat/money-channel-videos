@@ -151,7 +151,11 @@ def auto_draw(line):
         if k in low: return {"icon": ic}
     return {"icon": "bulb"}
 
+VERTICAL = False
 def cells(n):
+    if VERTICAL:
+        if n <= 1: return [(W / 2, H * 0.42, 640)]
+        return [(W / 2, H * (0.30 + 0.28 * i / max(1, n - 1)), 380) for i in range(n)]
     if n <= 1: return [(960, 540, 420)]
     if n == 2: return [(560, 540, 360), (1360, 540, 360)]
     if n == 3: return [(370, 540, 300), (960, 540, 300), (1550, 540, 300)]
@@ -178,9 +182,12 @@ class Scene:
         # heading, written at the top
         head = sc.get("heading") or spec.get("heading") or ""
         if head:
-            cont, fill, w, sz = text_paths(head, 64, 90, 128, "left", maxw=1700)
-            self.fixed.append(Drawing(cont, 0.05, 0.05 + min(1.1, 0.25 + 0.035 * len(head)), 2.2, INK, center=(90 + w / 2, 110), text_fill=fill))
-            u = skia.Path(); u.moveTo(90, 150); u.cubicTo(90 + w * 0.3, 140, 90 + w * 0.7, 160, 90 + w, 146)
+            if VERTICAL:
+                cont, fill, w, sz = text_paths(head, 110, W / 2, 330, "center", maxw=W - 120); hx0 = W / 2 - w / 2; uy = 365
+            else:
+                cont, fill, w, sz = text_paths(head, 64, 90, 128, "left", maxw=1700); hx0 = 90; uy = 150
+            self.fixed.append(Drawing(cont, 0.05, 0.05 + min(1.1, 0.25 + 0.035 * len(head)), 2.2 if not VERTICAL else 3.2, INK, center=(hx0 + w / 2, uy - 30), text_fill=fill))
+            u = skia.Path(); u.moveTo(hx0, uy); u.cubicTo(hx0 + w * 0.3, uy - 10, hx0 + w * 0.7, uy + 10, hx0 + w, uy - 4)
             self.fixed.append(Drawing([u], 0.1 + min(1.1, 0.25 + 0.035 * len(head)), 0.45 + min(1.1, 0.25 + 0.035 * len(head)), 5, C("#FF6B6B")))
         self.focus = []  # (t0, t1, (x, y))
         cl = cells(len(items))
@@ -195,14 +202,14 @@ class Scene:
             if d.get("big"):
                 big = d["big"]; bsz = size * 0.62
                 tdur = min(1.4, 0.35 + 0.12 * len(big), dur * 0.55)
-                cont, fill, w, bs = text_paths(big, bsz, cx, cy + bsz * 0.32, "center", maxw=size * 1.8)
+                cont, fill, w, bs = text_paths(big, bsz, cx, cy + bsz * 0.32, "center", maxw=min(size * 1.8, W - 200))
                 self.drawings.append(Drawing(cont, t0, t0 + tdur, 2.6, INK, center=(cx, cy), text_fill=fill, text_color=acc))
                 ring = skia.Path(); rw, rh = w / 2 + 40, bs * 0.62
                 ring.moveTo(cx + rw, cy - 6)
                 for i in range(1, 40):
                     a = 2 * math.pi * i / 36; ring.lineTo(cx + math.cos(a) * rw * (1 + 0.04 * math.sin(i)), cy - 6 + math.sin(a) * rh)
                 self.drawings.append(Drawing([ring], t0 + tdur, t0 + tdur + 0.45, 5, acc, center=(cx, cy)))
-                ly = cy + rh + 60; lt = t0 + tdur + 0.45
+                ly = cy + rh + max(60, size * 0.19 * 0.95); lt = t0 + tdur + 0.45
             else:
                 ic = ICONS.get(d.get("icon", ""), ICONS["bulb"])
                 s = size / 100; ox, oy = cx - size / 2, cy - size / 2 - (24 if label else 0)
@@ -215,7 +222,7 @@ class Scene:
                 ly = oy + size + 52; lt = t0 + tdur
             if label:
                 ldur = min(1.1, 0.3 + 0.04 * len(label))
-                cont, fill, w, _ = text_paths(label, max(40, size * 0.19), cx, ly, "center", maxw=size * 2.0 if len(cl) <= 3 else 520)
+                cont, fill, w, _ = text_paths(label, max(40, size * 0.19), cx, ly, "center", maxw=min(size * 2.0 if len(cl) <= 3 else 520, W - 140))
                 self.drawings.append(Drawing(cont, lt, lt + ldur, 2.0, INK, center=(cx, ly - 16), text_fill=fill))
                 lt += ldur
             if flow and prev_xy is not None:
@@ -231,23 +238,24 @@ class Scene:
 
     def render(self, c, lt, cam=True):
         # camera: drift gently toward what is being drawn
-        tx, ty, z = 960, 540, 1.0
+        CX, CY = W / 2, H / 2
+        tx, ty, z = CX, CY, 1.0
         for (a, b, (x, y)) in self.focus:
             if lt >= a - 0.2:
                 k = ease((lt - a + 0.2) / 0.6)
                 tx, ty = tx + (x - tx) * 0.16 * k, ty + (y - ty) * 0.16 * k; z = 1.0 + 0.05 * k
         if self.focus and lt > self.focus[-1][1] + 0.6:  # zoom back out to show the whole page
-            k = ease((lt - self.focus[-1][1] - 0.6) / 0.8); tx += (960 - tx) * k; ty += (540 - ty) * k; z += (1.0 - z) * k
+            k = ease((lt - self.focus[-1][1] - 0.6) / 0.8); tx += (CX - tx) * k; ty += (CY - ty) * k; z += (1.0 - z) * k
         c.save()
         if cam:
-            c.translate(960, 540); c.scale(z, z); c.translate(-tx, -ty)
+            c.translate(CX, CY); c.scale(z, z); c.translate(-tx, -ty)
         tip = None
         for d in self.drawings:
             r = d.draw(c, lt, boil=lt > d.t1)
             if r is not None: tip = r
         c.restore()
         if tip is not None and cam:
-            tip = ((tip[0] - tx) * z + 960, (tip[1] - ty) * z + 540)
+            tip = ((tip[0] - tx) * z + CX, (tip[1] - ty) * z + CY)
         for d in self.fixed:
             r = d.draw(c, lt, boil=lt > d.t1)
             if r is not None: tip = r
@@ -282,18 +290,21 @@ def subtitle(c, sub, t):
     if not sub: return
     a = clamp((t - sub["start"]) / 0.1) * clamp((sub["end"] + 0.15 - t) / 0.1)
     if a <= 0: return
-    f = skia.Font(TF_SUB, 54); f.setEdging(skia.Font.Edging.kAntiAlias)
-    ls = wrap(sub["text"], f, 1500); lh = 70
+    fs = 66 if VERTICAL else 54
+    f = skia.Font(TF_SUB, fs); f.setEdging(skia.Font.Edging.kAntiAlias)
+    ls = wrap(sub["text"], f, W - 160 if VERTICAL else 1500); lh = int(fs * 1.3)
     bw = max(f.measureText(l) for l in ls) + 80; bh = lh * len(ls) + 34
-    x, y = (W - bw) / 2, H - 60 - bh
+    x, y = (W - bw) / 2, (H * 0.80 - bh / 2) if VERTICAL else (H - 60 - bh)
     c.drawRRect(skia.RRect.MakeRectXY(skia.Rect.MakeXYWH(x, y, bw, bh), 24, 24), fill_paint(skia.Color(24, 26, 36), 225 * a))
     for i, l in enumerate(ls):
-        c.drawString(l, W / 2 - f.measureText(l) / 2, y + 17 + lh * (i + 1) - 16, f, fill_paint(skia.ColorWHITE, 255 * a))
+        c.drawString(l, W / 2 - f.measureText(l) / 2, y + 17 + lh * (i + 1) - fs * 0.3, f, fill_paint(skia.ColorWHITE, 255 * a))
 
 class Video:
     def __init__(self, wd):
         self.TL = json.load(open(f"{wd}/timeline.json"))
         spec = json.load(open(f"{wd}/script.json"))
+        global W, H, VERTICAL
+        if spec.get("vertical"): W, H, VERTICAL = 1080, 1920, True
         self.scenes = [Scene(sc, sp, i) for i, (sc, sp) in enumerate(zip(self.TL["scenes"], spec["scenes"]))]
         self.hand = (W + 200, H + 200)
     def frame(self, c, t):
@@ -356,6 +367,7 @@ def main():
     if sys.argv[2] == "--pencil": return pencil_wav(wd)
     t0, t1, out = float(sys.argv[2]), float(sys.argv[3]), sys.argv[4]
     V = Video(wd)
+    W, H = globals()["W"], globals()["H"]
     info = skia.ImageInfo.Make(W, H, skia.kRGBA_8888_ColorType, skia.kPremul_AlphaType)
     surf = skia.Surface.MakeRaster(info)
     if out.endswith(".png"):

@@ -1,0 +1,124 @@
+{
+ "title": "This $5 Habit Is Stealing $1,825 From You Every Year",
+ "voice": "af_heart",
+ "speed": 1.1,
+ "style": "sketch",
+ "vertical": true,
+ "scenes": [
+  {
+   "heading": "STOP!",
+   "lines": [
+    "Stop. You're losing almost two thousand dollars a year, and you don't even feel it."
+   ],
+   "draws": [
+    {
+     "big": "$1,825",
+     "label": "gone. every year.",
+     "color": "#FF6B6B"
+    }
+   ]
+  },
+  {
+   "heading": "It's not rent...",
+   "lines": [
+    "And no, it's not your rent. It's not your car."
+   ],
+   "draws": [
+    {
+     "icon": "house",
+     "label": "Not rent. Not your car."
+    }
+   ]
+  },
+  {
+   "heading": "It's THIS",
+   "lines": [
+    "It's the five dollars you spend every single day, without even thinking."
+   ],
+   "draws": [
+    {
+     "icon": "coffee",
+     "label": "$5 a day"
+    }
+   ]
+  },
+  {
+   "heading": "Tiny buys",
+   "lines": [
+    "A coffee here. A snack there. A delivery fee you didn't even notice."
+   ],
+   "draws": [
+    {
+     "icon": "cart",
+     "label": "\"It's only five bucks\""
+    }
+   ]
+  },
+  {
+   "heading": "Do the math",
+   "lines": [
+    "But five dollars a day is eighteen hundred and twenty five dollars a year!"
+   ],
+   "draws": [
+    {
+     "big": "$5 x 365",
+     "label": "= $1,825",
+     "color": "#FFB627"
+    }
+   ]
+  },
+  {
+   "heading": "That's a vacation",
+   "lines": [
+    "That's a vacation. That's an emergency fund. That's real breathing room."
+   ],
+   "draws": [
+    {
+     "icon": "plane",
+     "label": "A whole vacation"
+    }
+   ]
+  },
+  {
+   "heading": "The fix",
+   "lines": [
+    "So here's the move. Tomorrow, skip it once, and send that five dollars straight to savings."
+   ],
+   "draws": [
+    {
+     "icon": "piggy",
+     "label": "Skip it. Save it.",
+     "color": "#3BB273"
+    }
+   ]
+  },
+  {
+   "heading": "30 days later",
+   "lines": [
+    "Do that for one month, and you'll have a hundred and fifty dollars you never even missed."
+   ],
+   "draws": [
+    {
+     "big": "$150",
+     "label": "you never missed",
+     "color": "#3BB273"
+    }
+   ]
+  },
+  {
+   "heading": "Your turn",
+   "lines": [
+    "Follow for one simple money move every day. Your future self will thank you!"
+   ],
+   "draws": [
+    {
+     "icon": "bell",
+     "label": "Follow for more"
+    }
+   ]
+  }
+ ],
+ "lead": 0.25,
+ "scene_gap": 0.3,
+ "tail": 1.2
+}

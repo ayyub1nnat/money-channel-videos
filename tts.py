@@ -8,7 +8,7 @@ S = json.load(open(f"{wd}/script.json"))
 k = Kokoro(f"{md}/kokoro-v1.0.onnx", f"{md}/voices-v1.0.bin")
 SR = 24000
 VOICE = S.get("voice", "af_heart"); SPEED = float(S.get("speed", 1.0))
-LEAD, GAP, SCENE_GAP, TAIL = 0.6, 0.38, 0.9, 1.5
+LEAD, GAP, SCENE_GAP, TAIL = float(S.get("lead", 0.6)), float(S.get("gap", 0.38)), float(S.get("scene_gap", 0.9)), float(S.get("tail", 1.5))
 
 def chunks(line, maxw=7):
     out, cur = [], []
@@ -35,7 +35,7 @@ for sc in S["scenes"]:
         audio.append(s.astype(np.float32)); t += dur
         g = GAP if li < len(sc["lines"]) - 1 else SCENE_GAP
         audio.append(np.zeros(int(g * SR), np.float32)); t += g
-    timeline.append({"id": sc.get("id", f"s{len(timeline)}"), "visual": sc["visual"], "params": sc.get("params", {}),
+    timeline.append({"id": sc.get("id", f"s{len(timeline)}"), "visual": sc.get("visual", "sketch"), "params": sc.get("params", {}),
                      "heading": sc.get("heading", ""), "start": round(st, 3), "end": round(t, 3),
                      "line_starts": ls, "subs": subs})
 audio.append(np.zeros(int(TAIL * SR), np.float32)); t += TAIL
