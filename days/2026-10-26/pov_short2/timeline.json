@@ -1,0 +1,190 @@
+{
+ "title": "Your Bank Might Charge You $35 For a $4 Coffee",
+ "duration": 36.091,
+ "scenes": [
+  {
+   "id": "s0",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 0.25,
+   "end": 4.125,
+   "line_starts": [
+    0.25
+   ],
+   "subs": [
+    {
+     "start": 0.25,
+     "end": 2.163,
+     "text": "Your bank might charge you thirty five"
+    },
+    {
+     "start": 2.163,
+     "end": 3.825,
+     "text": "dollars for a four dollar coffee."
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 4.125,
+   "end": 7.885,
+   "line_starts": [
+    4.125
+   ],
+   "subs": [
+    {
+     "start": 4.125,
+     "end": 5.782,
+     "text": "If your account is a little short,"
+    },
+    {
+     "start": 5.782,
+     "end": 7.585,
+     "text": "many banks still approve the payment."
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 7.885,
+   "end": 12.032,
+   "line_starts": [
+    7.885
+   ],
+   "subs": [
+    {
+     "start": 7.885,
+     "end": 9.729,
+     "text": "Then they hit you with an overdraft"
+    },
+    {
+     "start": 9.729,
+     "end": 11.732,
+     "text": "fee. Often around thirty five dollars."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 12.032,
+   "end": 16.586,
+   "line_starts": [
+    12.032
+   ],
+   "subs": [
+    {
+     "start": 12.032,
+     "end": 13.941,
+     "text": "Three small purchases on a bad day?"
+    },
+    {
+     "start": 13.941,
+     "end": 16.286,
+     "text": "That can be over a hundred dollars in fees."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 16.586,
+   "end": 22.194,
+   "line_starts": [
+    16.586
+   ],
+   "subs": [
+    {
+     "start": 16.586,
+     "end": 18.569,
+     "text": "Here's the fix. Open your bank app"
+    },
+    {
+     "start": 18.569,
+     "end": 21.894,
+     "text": "and turn off overdraft coverage for debit card purchases."
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 22.194,
+   "end": 26.552,
+   "line_starts": [
+    22.194
+   ],
+   "subs": [
+    {
+     "start": 22.194,
+     "end": 24.063,
+     "text": "If you're short, the card just gets"
+    },
+    {
+     "start": 24.063,
+     "end": 26.252,
+     "text": "declined. Awkward for a second, but free."
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 26.552,
+   "end": 29.914,
+   "line_starts": [
+    26.552
+   ],
+   "subs": [
+    {
+     "start": 26.552,
+     "end": 28.057,
+     "text": "Then set a low balance alert,"
+    },
+    {
+     "start": 28.057,
+     "end": 29.614,
+     "text": "so your phone warns you first."
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 29.914,
+   "end": 36.091,
+   "line_starts": [
+    29.914
+   ],
+   "subs": [
+    {
+     "start": 29.914,
+     "end": 32.168,
+     "text": "Two minutes today can save you hundreds."
+    },
+    {
+     "start": 32.168,
+     "end": 34.591,
+     "text": "Follow for one simple money move every day!"
+    }
+   ]
+  }
+ ]
+}

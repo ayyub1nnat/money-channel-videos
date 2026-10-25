@@ -1,0 +1,185 @@
+{
+ "title": "POV: Same Paycheck as Your Coworkers, But You Save $800",
+ "duration": 33.203,
+ "scenes": [
+  {
+   "id": "s0",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 0.25,
+   "end": 4.439,
+   "line_starts": [
+    0.25
+   ],
+   "subs": [
+    {
+     "start": 0.25,
+     "end": 2.168,
+     "text": "You and your coworkers just got paid"
+    },
+    {
+     "start": 2.168,
+     "end": 4.139,
+     "text": "the exact same four thousand dollars."
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 4.439,
+   "end": 7.678,
+   "line_starts": [
+    4.439
+   ],
+   "subs": [
+    {
+     "start": 4.439,
+     "end": 5.856,
+     "text": "Jake just financed a truck."
+    },
+    {
+     "start": 5.856,
+     "end": 7.378,
+     "text": "Eight hundred ninety a month."
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 7.678,
+   "end": 11.717,
+   "line_starts": [
+    7.678
+   ],
+   "subs": [
+    {
+     "start": 7.678,
+     "end": 9.028,
+     "text": "Mia is booking a trip on a"
+    },
+    {
+     "start": 9.028,
+     "end": 11.417,
+     "text": "credit card with over twenty percent interest."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 11.717,
+   "end": 16.164,
+   "line_starts": [
+    11.717
+   ],
+   "subs": [
+    {
+     "start": 11.717,
+     "end": 13.915,
+     "text": "You? Eight hundred dollars left your account"
+    },
+    {
+     "start": 13.915,
+     "end": 15.864,
+     "text": "the second you got paid. Automatically."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 16.164,
+   "end": 21.276,
+   "line_starts": [
+    16.164
+   ],
+   "subs": [
+    {
+     "start": 16.164,
+     "end": 18.755,
+     "text": "Fifty percent needs. Thirty percent wants."
+    },
+    {
+     "start": 18.755,
+     "end": 20.976,
+     "text": "Twenty percent future. Decided once."
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 21.276,
+   "end": 24.981,
+   "line_starts": [
+    21.276
+   ],
+   "subs": [
+    {
+     "start": 21.276,
+     "end": 23.308,
+     "text": "One year later, layoff rumors hit the"
+    },
+    {
+     "start": 23.308,
+     "end": 24.681,
+     "text": "office. Jake can't sleep."
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 24.981,
+   "end": 28.012,
+   "line_starts": [
+    24.981
+   ],
+   "subs": [
+    {
+     "start": 24.981,
+     "end": 27.712,
+     "text": "You have almost ten thousand dollars saved. You're calm."
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 28.012,
+   "end": 33.203,
+   "line_starts": [
+    28.012
+   ],
+   "subs": [
+    {
+     "start": 28.012,
+     "end": 29.798,
+     "text": "Same paycheck. Different plan."
+    },
+    {
+     "start": 29.798,
+     "end": 31.703,
+     "text": "The full story is on my channel."
+    }
+   ]
+  }
+ ]
+}

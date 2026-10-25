@@ -24,3 +24,7 @@ days/**/list.txt
 days/**/build.log
 days/**/preview_grid.jpg
 days/**/thumbnail.png
+days/**/img/
+shorts/**/img/
+**/prev/
+**/preview_grid.jpg
