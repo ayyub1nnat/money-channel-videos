@@ -1,0 +1,223 @@
+{
+ "title": "Could You Survive a $400 Emergency? Most People Can't",
+ "duration": 41.216,
+ "scenes": [
+  {
+   "id": "s0",
+   "visual": "sketch",
+   "params": {},
+   "heading": "WAIT.",
+   "start": 0.25,
+   "end": 4.765,
+   "line_starts": [
+    0.25
+   ],
+   "subs": [
+    {
+     "start": 0.25,
+     "end": 2.328,
+     "text": "Could you pay a four hundred dollar"
+    },
+    {
+     "start": 2.328,
+     "end": 4.465,
+     "text": "emergency today? In cash? Be honest."
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Most can't",
+   "start": 4.765,
+   "end": 9.474,
+   "line_starts": [
+    4.765
+   ],
+   "subs": [
+    {
+     "start": 4.765,
+     "end": 6.865,
+     "text": "More than a third of Americans couldn't."
+    },
+    {
+     "start": 6.865,
+     "end": 9.174,
+     "text": "And that's exactly how the debt trap starts."
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "visual": "sketch",
+   "params": {},
+   "heading": "The trap",
+   "start": 9.474,
+   "end": 13.883,
+   "line_starts": [
+    9.474
+   ],
+   "subs": [
+    {
+     "start": 9.474,
+     "end": 10.996,
+     "text": "The car breaks, it goes on the"
+    },
+    {
+     "start": 10.996,
+     "end": 13.583,
+     "text": "credit card, and the interest eats your next month."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "visual": "sketch",
+   "params": {},
+   "heading": "The fix",
+   "start": 13.883,
+   "end": 18.785,
+   "line_starts": [
+    13.883
+   ],
+   "subs": [
+    {
+     "start": 13.883,
+     "end": 15.904,
+     "text": "Here's the fix. Forget six months of"
+    },
+    {
+     "start": 15.904,
+     "end": 18.485,
+     "text": "savings. Start with just five hundred dollars."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "visual": "sketch",
+   "params": {},
+   "heading": "How?",
+   "start": 18.785,
+   "end": 23.49,
+   "line_starts": [
+    18.785
+   ],
+   "subs": [
+    {
+     "start": 18.785,
+     "end": 19.831,
+     "text": "Ten dollars a week."
+    },
+    {
+     "start": 19.831,
+     "end": 22.089,
+     "text": "That's it. That's five hundred and twenty"
+    },
+    {
+     "start": 22.089,
+     "end": 23.19,
+     "text": "dollars in one year."
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Autopilot",
+   "start": 23.49,
+   "end": 27.211,
+   "line_starts": [
+    23.49
+   ],
+   "subs": [
+    {
+     "start": 23.49,
+     "end": 25.575,
+     "text": "Set it to move automatically on payday,"
+    },
+    {
+     "start": 25.575,
+     "end": 26.911,
+     "text": "so you never even see it."
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Hide it",
+   "start": 27.211,
+   "end": 31.822,
+   "line_starts": [
+    27.211
+   ],
+   "subs": [
+    {
+     "start": 27.211,
+     "end": 29.209,
+     "text": "Keep it in a separate savings account."
+    },
+    {
+     "start": 29.209,
+     "end": 30.891,
+     "text": "Not your checking. Out of sight,"
+    },
+    {
+     "start": 30.891,
+     "end": 31.522,
+     "text": "out of mind."
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "visual": "sketch",
+   "params": {},
+   "heading": "No panic",
+   "start": 31.822,
+   "end": 35.997,
+   "line_starts": [
+    31.822
+   ],
+   "subs": [
+    {
+     "start": 31.822,
+     "end": 33.563,
+     "text": "So next time life hits you with"
+    },
+    {
+     "start": 33.563,
+     "end": 35.697,
+     "text": "a surprise? You just pay it. No panic."
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Full plan",
+   "start": 35.997,
+   "end": 41.216,
+   "line_starts": [
+    35.997
+   ],
+   "subs": [
+    {
+     "start": 35.997,
+     "end": 37.722,
+     "text": "Want the full step by step plan?"
+    },
+    {
+     "start": 37.722,
+     "end": 39.716,
+     "text": "It's in the full video on my channel."
+    }
+   ]
+  }
+ ]
+}
