@@ -1,0 +1,127 @@
+{
+ "title": "Where Does Your Paycheck Go? Use This 50/30/20 Rule",
+ "voice": "af_heart",
+ "speed": 1.1,
+ "style": "sketch",
+ "vertical": true,
+ "lead": 0.25,
+ "scene_gap": 0.3,
+ "tail": 1.2,
+ "scenes": [
+  {
+   "heading": "Be honest",
+   "lines": [
+    "Be honest. Do you know where your paycheck actually goes?"
+   ],
+   "draws": [
+    {
+     "icon": "wallet",
+     "label": "Where does it go?"
+    }
+   ]
+  },
+  {
+   "heading": "Here's why",
+   "lines": [
+    "If not, that's exactly why it disappears in two weeks."
+   ],
+   "draws": [
+    {
+     "icon": "person_sad",
+     "label": "Gone. Again."
+    }
+   ]
+  },
+  {
+   "heading": "The fix",
+   "lines": [
+    "Use this one rule. Fifty, thirty, twenty."
+   ],
+   "draws": [
+    {
+     "big": "50/30/20",
+     "label": "the rule",
+     "color": "#9B5DE5"
+    }
+   ]
+  },
+  {
+   "heading": "50% needs",
+   "lines": [
+    "Fifty percent for needs. Rent, bills, groceries."
+   ],
+   "draws": [
+    {
+     "big": "50%",
+     "label": "Needs",
+     "color": "#2EC4B6"
+    }
+   ]
+  },
+  {
+   "heading": "30% wants",
+   "lines": [
+    "Thirty percent for wants. Spend it with zero guilt!"
+   ],
+   "draws": [
+    {
+     "big": "30%",
+     "label": "Wants",
+     "color": "#FFB627"
+    }
+   ]
+  },
+  {
+   "heading": "20% future",
+   "lines": [
+    "Twenty percent for future you. Savings and paying off debt."
+   ],
+   "draws": [
+    {
+     "big": "20%",
+     "label": "Future you",
+     "color": "#3BB273"
+    }
+   ]
+  },
+  {
+   "heading": "Real example",
+   "lines": [
+    "Take home three thousand a month? That's fifteen hundred, nine hundred, and six hundred."
+   ],
+   "draws": [
+    {
+     "big": "$3,000",
+     "label": "1500 / 900 / 600",
+     "color": "#5DA9E9"
+    }
+   ]
+  },
+  {
+   "heading": "Every dollar",
+   "lines": [
+    "Three numbers. Every single dollar has a job."
+   ],
+   "draws": [
+    {
+     "icon": "check",
+     "label": "Every dollar has a job",
+     "color": "#3BB273"
+    }
+   ]
+  },
+  {
+   "heading": "Full plan",
+   "lines": [
+    "The full step by step guide, with what to do if your rent is too high, is on my channel."
+   ],
+   "draws": [
+    {
+     "icon": "play",
+     "label": "Full video on my channel",
+     "color": "#FF6B6B"
+    }
+   ]
+  }
+ ]
+}

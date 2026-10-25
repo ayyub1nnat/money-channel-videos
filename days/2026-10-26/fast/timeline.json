@@ -1,0 +1,1327 @@
+{
+ "title": "The 50/30/20 Budget Explained Simply (With a Real Example)",
+ "duration": 220.797,
+ "scenes": [
+  {
+   "id": "s0",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Payday... gone?",
+   "start": 0.3,
+   "end": 5.497,
+   "line_starts": [
+    0.3
+   ],
+   "subs": [
+    {
+     "start": 0.3,
+     "end": 1.898,
+     "text": "You get paid. Two weeks later,"
+    },
+    {
+     "start": 1.898,
+     "end": 2.963,
+     "text": "the money is just..."
+    },
+    {
+     "start": 2.963,
+     "end": 5.147,
+     "text": "gone. And you have no idea where it went."
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Sound familiar?",
+   "start": 5.497,
+   "end": 9.53,
+   "line_starts": [
+    5.497
+   ],
+   "subs": [
+    {
+     "start": 5.497,
+     "end": 7.532,
+     "text": "Sound familiar? You're not bad with money."
+    },
+    {
+     "start": 7.532,
+     "end": 9.18,
+     "text": "You just don't have a plan for it."
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "visual": "sketch",
+   "params": {},
+   "heading": "One rule",
+   "start": 9.53,
+   "end": 13.24,
+   "line_starts": [
+    9.53
+   ],
+   "subs": [
+    {
+     "start": 9.53,
+     "end": 11.381,
+     "text": "One simple rule fixes this."
+    },
+    {
+     "start": 11.381,
+     "end": 12.89,
+     "text": "Fifty. Thirty. Twenty."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Your numbers",
+   "start": 13.24,
+   "end": 17.131,
+   "line_starts": [
+    13.24
+   ],
+   "subs": [
+    {
+     "start": 13.24,
+     "end": 14.42,
+     "text": "By the end of this video,"
+    },
+    {
+     "start": 14.42,
+     "end": 15.884,
+     "text": "you'll know your three numbers,"
+    },
+    {
+     "start": 15.884,
+     "end": 16.781,
+     "text": "down to the dollar."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "visual": "sketch",
+   "params": {},
+   "heading": "3 buckets",
+   "start": 17.131,
+   "end": 20.852,
+   "line_starts": [
+    17.131
+   ],
+   "subs": [
+    {
+     "start": 17.131,
+     "end": 19.291,
+     "text": "Here's the idea. You split your take-home"
+    },
+    {
+     "start": 19.291,
+     "end": 20.502,
+     "text": "pay into three buckets."
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "visual": "sketch",
+   "params": {},
+   "heading": "50% needs",
+   "start": 20.852,
+   "end": 24.836,
+   "line_starts": [
+    20.852
+   ],
+   "subs": [
+    {
+     "start": 20.852,
+     "end": 22.348,
+     "text": "Fifty percent goes to needs."
+    },
+    {
+     "start": 22.348,
+     "end": 24.486,
+     "text": "The stuff you must pay to live and work."
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "visual": "sketch",
+   "params": {},
+   "heading": "30% wants",
+   "start": 24.836,
+   "end": 29.071,
+   "line_starts": [
+    24.836
+   ],
+   "subs": [
+    {
+     "start": 24.836,
+     "end": 26.401,
+     "text": "Thirty percent goes to wants."
+    },
+    {
+     "start": 26.401,
+     "end": 28.721,
+     "text": "The fun stuff that makes life worth living."
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "visual": "sketch",
+   "params": {},
+   "heading": "20% future",
+   "start": 29.071,
+   "end": 33.214,
+   "line_starts": [
+    29.071
+   ],
+   "subs": [
+    {
+     "start": 29.071,
+     "end": 31.154,
+     "text": "And twenty percent goes to your future."
+    },
+    {
+     "start": 31.154,
+     "end": 32.864,
+     "text": "Savings, and crushing your debt."
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Who said it?",
+   "start": 33.214,
+   "end": 38.27,
+   "line_starts": [
+    33.214
+   ],
+   "subs": [
+    {
+     "start": 33.214,
+     "end": 35.209,
+     "text": "It was made popular by Elizabeth Warren"
+    },
+    {
+     "start": 35.209,
+     "end": 36.437,
+     "text": "and her daughter Amelia,"
+    },
+    {
+     "start": 36.437,
+     "end": 37.92,
+     "text": "in their book All Your Worth."
+    }
+   ]
+  },
+  {
+   "id": "s9",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Take-home pay",
+   "start": 38.27,
+   "end": 41.762,
+   "line_starts": [
+    38.27
+   ],
+   "subs": [
+    {
+     "start": 38.27,
+     "end": 40.514,
+     "text": "Step one. Start with your take-home pay."
+    },
+    {
+     "start": 40.514,
+     "end": 41.412,
+     "text": "Not your salary."
+    }
+   ]
+  },
+  {
+   "id": "s10",
+   "visual": "sketch",
+   "params": {},
+   "heading": "After taxes",
+   "start": 41.762,
+   "end": 45.213,
+   "line_starts": [
+    41.762
+   ],
+   "subs": [
+    {
+     "start": 41.762,
+     "end": 43.775,
+     "text": "It's what actually lands in your bank"
+    },
+    {
+     "start": 43.775,
+     "end": 44.863,
+     "text": "account after taxes."
+    }
+   ]
+  },
+  {
+   "id": "s11",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Retirement counts",
+   "start": 45.213,
+   "end": 49.796,
+   "line_starts": [
+    45.213
+   ],
+   "subs": [
+    {
+     "start": 45.213,
+     "end": 47.1,
+     "text": "If retirement money comes out of your"
+    },
+    {
+     "start": 47.1,
+     "end": 49.446,
+     "text": "paycheck, count it toward your twenty percent."
+    }
+   ]
+  },
+  {
+   "id": "s12",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Example",
+   "start": 49.796,
+   "end": 53.448,
+   "line_starts": [
+    49.796
+   ],
+   "subs": [
+    {
+     "start": 49.796,
+     "end": 50.705,
+     "text": "Let's make it real."
+    },
+    {
+     "start": 50.705,
+     "end": 53.098,
+     "text": "Say you bring home three thousand dollars a month."
+    }
+   ]
+  },
+  {
+   "id": "s13",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Needs: $1,500",
+   "start": 53.448,
+   "end": 55.741,
+   "line_starts": [
+    53.448
+   ],
+   "subs": [
+    {
+     "start": 53.448,
+     "end": 55.391,
+     "text": "Fifteen hundred dollars goes to needs."
+    }
+   ]
+  },
+  {
+   "id": "s14",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Wants: $900",
+   "start": 55.741,
+   "end": 57.877,
+   "line_starts": [
+    55.741
+   ],
+   "subs": [
+    {
+     "start": 55.741,
+     "end": 57.527,
+     "text": "Nine hundred dollars goes to wants."
+    }
+   ]
+  },
+  {
+   "id": "s15",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Future: $600",
+   "start": 57.877,
+   "end": 61.744,
+   "line_starts": [
+    57.877
+   ],
+   "subs": [
+    {
+     "start": 57.877,
+     "end": 60.054,
+     "text": "And six hundred dollars goes to savings"
+    },
+    {
+     "start": 60.054,
+     "end": 61.394,
+     "text": "and extra debt payments."
+    }
+   ]
+  },
+  {
+   "id": "s16",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Done!",
+   "start": 61.744,
+   "end": 65.168,
+   "line_starts": [
+    61.744
+   ],
+   "subs": [
+    {
+     "start": 61.744,
+     "end": 63.141,
+     "text": "That's it. Three numbers."
+    },
+    {
+     "start": 63.141,
+     "end": 64.818,
+     "text": "Every single dollar has a job."
+    }
+   ]
+  },
+  {
+   "id": "s17",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Needs",
+   "start": 65.168,
+   "end": 68.505,
+   "line_starts": [
+    65.168
+   ],
+   "subs": [
+    {
+     "start": 65.168,
+     "end": 66.931,
+     "text": "Needs are the bills you'd still pay,"
+    },
+    {
+     "start": 66.931,
+     "end": 68.155,
+     "text": "even in your worst month."
+    }
+   ]
+  },
+  {
+   "id": "s18",
+   "visual": "sketch",
+   "params": {},
+   "heading": "The basics",
+   "start": 68.505,
+   "end": 71.879,
+   "line_starts": [
+    68.505
+   ],
+   "subs": [
+    {
+     "start": 68.505,
+     "end": 71.529,
+     "text": "Rent or mortgage. Utilities. Basic groceries."
+    }
+   ]
+  },
+  {
+   "id": "s19",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Getting to work",
+   "start": 71.879,
+   "end": 75.205,
+   "line_starts": [
+    71.879
+   ],
+   "subs": [
+    {
+     "start": 71.879,
+     "end": 73.724,
+     "text": "Getting to work. A car payment,"
+    },
+    {
+     "start": 73.724,
+     "end": 74.855,
+     "text": "gas, or a bus pass."
+    }
+   ]
+  },
+  {
+   "id": "s20",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Also needs",
+   "start": 75.205,
+   "end": 79.023,
+   "line_starts": [
+    75.205
+   ],
+   "subs": [
+    {
+     "start": 75.205,
+     "end": 77.864,
+     "text": "Insurance, child care, and the minimum payment"
+    },
+    {
+     "start": 77.864,
+     "end": 78.673,
+     "text": "on every debt."
+    }
+   ]
+  },
+  {
+   "id": "s21",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Careful!",
+   "start": 79.023,
+   "end": 82.405,
+   "line_starts": [
+    79.023
+   ],
+   "subs": [
+    {
+     "start": 79.023,
+     "end": 81.127,
+     "text": "But careful! Groceries are a need."
+    },
+    {
+     "start": 81.127,
+     "end": 82.055,
+     "text": "Takeout is NOT."
+    }
+   ]
+  },
+  {
+   "id": "s22",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Wants",
+   "start": 82.405,
+   "end": 85.918,
+   "line_starts": [
+    82.405
+   ],
+   "subs": [
+    {
+     "start": 82.405,
+     "end": 84.641,
+     "text": "Wants are everything that's nice to have,"
+    },
+    {
+     "start": 84.641,
+     "end": 85.568,
+     "text": "but not required."
+    }
+   ]
+  },
+  {
+   "id": "s23",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Fun money",
+   "start": 85.918,
+   "end": 90.037,
+   "line_starts": [
+    85.918
+   ],
+   "subs": [
+    {
+     "start": 85.918,
+     "end": 87.917,
+     "text": "Eating out. Streaming. New clothes."
+    },
+    {
+     "start": 87.917,
+     "end": 89.687,
+     "text": "Concerts. That shiny new phone."
+    }
+   ]
+  },
+  {
+   "id": "s24",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Guilt free!",
+   "start": 90.037,
+   "end": 94.096,
+   "line_starts": [
+    90.037
+   ],
+   "subs": [
+    {
+     "start": 90.037,
+     "end": 91.381,
+     "text": "And here's the best part."
+    },
+    {
+     "start": 91.381,
+     "end": 93.746,
+     "text": "This money is meant to be spent. Guilt free!"
+    }
+   ]
+  },
+  {
+   "id": "s25",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Why it works",
+   "start": 94.096,
+   "end": 98.541,
+   "line_starts": [
+    94.096
+   ],
+   "subs": [
+    {
+     "start": 94.096,
+     "end": 96.257,
+     "text": "Because a budget you actually enjoy is"
+    },
+    {
+     "start": 96.257,
+     "end": 98.191,
+     "text": "a budget you'll actually stick to."
+    }
+   ]
+  },
+  {
+   "id": "s26",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Future you",
+   "start": 98.541,
+   "end": 101.143,
+   "line_starts": [
+    98.541
+   ],
+   "subs": [
+    {
+     "start": 98.541,
+     "end": 100.793,
+     "text": "The last twenty percent is for future you."
+    }
+   ]
+  },
+  {
+   "id": "s27",
+   "visual": "sketch",
+   "params": {},
+   "heading": "First: safety",
+   "start": 101.143,
+   "end": 105.631,
+   "line_starts": [
+    101.143
+   ],
+   "subs": [
+    {
+     "start": 101.143,
+     "end": 103.241,
+     "text": "First, build a small emergency fund,"
+    },
+    {
+     "start": 103.241,
+     "end": 105.281,
+     "text": "so surprises don't become new debt."
+    }
+   ]
+  },
+  {
+   "id": "s28",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Then: debt",
+   "start": 105.631,
+   "end": 108.812,
+   "line_starts": [
+    105.631
+   ],
+   "subs": [
+    {
+     "start": 105.631,
+     "end": 107.443,
+     "text": "Next, attack high interest debt,"
+    },
+    {
+     "start": 107.443,
+     "end": 108.462,
+     "text": "like credit cards."
+    }
+   ]
+  },
+  {
+   "id": "s29",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Then: goals",
+   "start": 108.812,
+   "end": 111.695,
+   "line_starts": [
+    108.812
+   ],
+   "subs": [
+    {
+     "start": 108.812,
+     "end": 111.345,
+     "text": "Then, save for retirement and your bigger goals."
+    }
+   ]
+  },
+  {
+   "id": "s30",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Reality check",
+   "start": 111.695,
+   "end": 115.826,
+   "line_starts": [
+    111.695
+   ],
+   "subs": [
+    {
+     "start": 111.695,
+     "end": 113.065,
+     "text": "Now the eye opening part."
+    },
+    {
+     "start": 113.065,
+     "end": 115.476,
+     "text": "Compare the plan with what you really spend."
+    }
+   ]
+  },
+  {
+   "id": "s31",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Statements",
+   "start": 115.826,
+   "end": 119.234,
+   "line_starts": [
+    115.826
+   ],
+   "subs": [
+    {
+     "start": 115.826,
+     "end": 117.237,
+     "text": "Pull up your last two or three"
+    },
+    {
+     "start": 117.237,
+     "end": 118.884,
+     "text": "months of bank and card statements."
+    }
+   ]
+  },
+  {
+   "id": "s32",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Sort it",
+   "start": 119.234,
+   "end": 122.642,
+   "line_starts": [
+    119.234
+   ],
+   "subs": [
+    {
+     "start": 119.234,
+     "end": 121.169,
+     "text": "Sort every purchase into needs,"
+    },
+    {
+     "start": 121.169,
+     "end": 122.292,
+     "text": "wants, or savings."
+    }
+   ]
+  },
+  {
+   "id": "s33",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Surprise!",
+   "start": 122.642,
+   "end": 126.736,
+   "line_starts": [
+    122.642
+   ],
+   "subs": [
+    {
+     "start": 122.642,
+     "end": 124.115,
+     "text": "Most people are shocked."
+    },
+    {
+     "start": 124.115,
+     "end": 126.386,
+     "text": "Wants hide in tiny, everyday charges."
+    }
+   ]
+  },
+  {
+   "id": "s34",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Over 50%?",
+   "start": 126.736,
+   "end": 131.136,
+   "line_starts": [
+    126.736
+   ],
+   "subs": [
+    {
+     "start": 126.736,
+     "end": 128.314,
+     "text": "But what if your needs eat way"
+    },
+    {
+     "start": 128.314,
+     "end": 130.207,
+     "text": "more than half? This is the question"
+    },
+    {
+     "start": 130.207,
+     "end": 130.786,
+     "text": "I get most."
+    }
+   ]
+  },
+  {
+   "id": "s35",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Totally normal",
+   "start": 131.136,
+   "end": 135.676,
+   "line_starts": [
+    131.136
+   ],
+   "subs": [
+    {
+     "start": 131.136,
+     "end": 132.915,
+     "text": "Honestly? That's really common,"
+    },
+    {
+     "start": 132.915,
+     "end": 135.326,
+     "text": "especially with high rent or a low income."
+    }
+   ]
+  },
+  {
+   "id": "s36",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Not a failure",
+   "start": 135.676,
+   "end": 139.409,
+   "line_starts": [
+    135.676
+   ],
+   "subs": [
+    {
+     "start": 135.676,
+     "end": 137.104,
+     "text": "It doesn't mean you failed."
+    },
+    {
+     "start": 137.104,
+     "end": 138.531,
+     "text": "These numbers are a target,"
+    },
+    {
+     "start": 138.531,
+     "end": 139.059,
+     "text": "not a law."
+    }
+   ]
+  },
+  {
+   "id": "s37",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Adjust it",
+   "start": 139.409,
+   "end": 143.897,
+   "line_starts": [
+    139.409
+   ],
+   "subs": [
+    {
+     "start": 139.409,
+     "end": 141.756,
+     "text": "Try sixty, twenty, twenty for a while."
+    },
+    {
+     "start": 141.756,
+     "end": 143.547,
+     "text": "Or even seventy, twenty, ten."
+    }
+   ]
+  },
+  {
+   "id": "s38",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Protect this",
+   "start": 143.897,
+   "end": 147.426,
+   "line_starts": [
+    143.897
+   ],
+   "subs": [
+    {
+     "start": 143.897,
+     "end": 145.221,
+     "text": "The one thing to protect?"
+    },
+    {
+     "start": 145.221,
+     "end": 147.076,
+     "text": "Save something. Even if it's small."
+    }
+   ]
+  },
+  {
+   "id": "s39",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Shrink needs",
+   "start": 147.426,
+   "end": 149.954,
+   "line_starts": [
+    147.426
+   ],
+   "subs": [
+    {
+     "start": 147.426,
+     "end": 148.799,
+     "text": "Then chip away at your needs,"
+    },
+    {
+     "start": 148.799,
+     "end": 149.604,
+     "text": "little by little."
+    }
+   ]
+  },
+  {
+   "id": "s40",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Insurance",
+   "start": 149.954,
+   "end": 153.141,
+   "line_starts": [
+    149.954
+   ],
+   "subs": [
+    {
+     "start": 149.954,
+     "end": 152.149,
+     "text": "Shop around for car and renters insurance"
+    },
+    {
+     "start": 152.149,
+     "end": 152.791,
+     "text": "once a year."
+    }
+   ]
+  },
+  {
+   "id": "s41",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Phone plan",
+   "start": 153.141,
+   "end": 157.554,
+   "line_starts": [
+    153.141
+   ],
+   "subs": [
+    {
+     "start": 153.141,
+     "end": 155.012,
+     "text": "Check a cheaper prepaid phone plan."
+    },
+    {
+     "start": 155.012,
+     "end": 157.204,
+     "text": "Many cost way less than the big carriers."
+    }
+   ]
+  },
+  {
+   "id": "s42",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Cook more",
+   "start": 157.554,
+   "end": 160.635,
+   "line_starts": [
+    157.554
+   ],
+   "subs": [
+    {
+     "start": 157.554,
+     "end": 158.537,
+     "text": "Cook at home more."
+    },
+    {
+     "start": 158.537,
+     "end": 160.285,
+     "text": "Buy store brands for the basics."
+    }
+   ]
+  },
+  {
+   "id": "s43",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Rent",
+   "start": 160.635,
+   "end": 164.199,
+   "line_starts": [
+    160.635
+   ],
+   "subs": [
+    {
+     "start": 160.635,
+     "end": 161.864,
+     "text": "And when your lease is up,"
+    },
+    {
+     "start": 161.864,
+     "end": 163.849,
+     "text": "think about a roommate or a cheaper place."
+    }
+   ]
+  },
+  {
+   "id": "s44",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Autopilot",
+   "start": 164.199,
+   "end": 167.074,
+   "line_starts": [
+    164.199
+   ],
+   "subs": [
+    {
+     "start": 164.199,
+     "end": 166.724,
+     "text": "The secret to sticking with it? Automate everything."
+    }
+   ]
+  },
+  {
+   "id": "s45",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Pay future you",
+   "start": 167.074,
+   "end": 170.945,
+   "line_starts": [
+    167.074
+   ],
+   "subs": [
+    {
+     "start": 167.074,
+     "end": 168.986,
+     "text": "On payday, move your twenty percent to"
+    },
+    {
+     "start": 168.986,
+     "end": 170.595,
+     "text": "savings before you can touch it."
+    }
+   ]
+  },
+  {
+   "id": "s46",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Autopay",
+   "start": 170.945,
+   "end": 174.295,
+   "line_starts": [
+    170.945
+   ],
+   "subs": [
+    {
+     "start": 170.945,
+     "end": 172.268,
+     "text": "Put your bills on autopay,"
+    },
+    {
+     "start": 172.268,
+     "end": 173.945,
+     "text": "so your needs are always covered."
+    }
+   ]
+  },
+  {
+   "id": "s47",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Spend the rest",
+   "start": 174.295,
+   "end": 177.793,
+   "line_starts": [
+    174.295
+   ],
+   "subs": [
+    {
+     "start": 174.295,
+     "end": 175.717,
+     "text": "Whatever's left in checking?"
+    },
+    {
+     "start": 175.717,
+     "end": 177.443,
+     "text": "That's your wants money. Enjoy it!"
+    }
+   ]
+  },
+  {
+   "id": "s48",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Mistake #1",
+   "start": 177.793,
+   "end": 183.925,
+   "line_starts": [
+    177.793
+   ],
+   "subs": [
+    {
+     "start": 177.793,
+     "end": 179.558,
+     "text": "Watch out for three mistakes."
+    },
+    {
+     "start": 179.558,
+     "end": 181.749,
+     "text": "One: using your salary before taxes."
+    },
+    {
+     "start": 181.749,
+     "end": 183.575,
+     "text": "Your numbers come out too big."
+    }
+   ]
+  },
+  {
+   "id": "s49",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Mistake #2",
+   "start": 183.925,
+   "end": 187.359,
+   "line_starts": [
+    183.925
+   ],
+   "subs": [
+    {
+     "start": 183.925,
+     "end": 185.663,
+     "text": "Two: calling every want a need."
+    },
+    {
+     "start": 185.663,
+     "end": 187.009,
+     "text": "Be honest with yourself."
+    }
+   ]
+  },
+  {
+   "id": "s50",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Mistake #3",
+   "start": 187.359,
+   "end": 192.214,
+   "line_starts": [
+    187.359
+   ],
+   "subs": [
+    {
+     "start": 187.359,
+     "end": 189.584,
+     "text": "Three: forgetting costs that hit once or"
+    },
+    {
+     "start": 189.584,
+     "end": 191.864,
+     "text": "twice a year, like car repairs and gifts."
+    }
+   ]
+  },
+  {
+   "id": "s51",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Fix it",
+   "start": 192.214,
+   "end": 196.004,
+   "line_starts": [
+    192.214
+   ],
+   "subs": [
+    {
+     "start": 192.214,
+     "end": 193.511,
+     "text": "Divide those by twelve,"
+    },
+    {
+     "start": 193.511,
+     "end": 195.654,
+     "text": "and set that amount aside every month."
+    }
+   ]
+  },
+  {
+   "id": "s52",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Recap",
+   "start": 196.004,
+   "end": 200.304,
+   "line_starts": [
+    196.004
+   ],
+   "subs": [
+    {
+     "start": 196.004,
+     "end": 198.153,
+     "text": "Quick recap. Find your take-home pay."
+    },
+    {
+     "start": 198.153,
+     "end": 199.954,
+     "text": "Split it fifty, thirty, twenty."
+    }
+   ]
+  },
+  {
+   "id": "s53",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Recap",
+   "start": 200.304,
+   "end": 205.019,
+   "line_starts": [
+    200.304
+   ],
+   "subs": [
+    {
+     "start": 200.304,
+     "end": 201.74,
+     "text": "Check your real spending,"
+    },
+    {
+     "start": 201.74,
+     "end": 203.176,
+     "text": "adjust if needs run high,"
+    },
+    {
+     "start": 203.176,
+     "end": 204.669,
+     "text": "and automate your savings."
+    }
+   ]
+  },
+  {
+   "id": "s54",
+   "visual": "sketch",
+   "params": {},
+   "heading": "You've got this",
+   "start": 205.019,
+   "end": 209.306,
+   "line_starts": [
+    205.019
+   ],
+   "subs": [
+    {
+     "start": 205.019,
+     "end": 206.583,
+     "text": "You don't need a fancy app or"
+    },
+    {
+     "start": 206.583,
+     "end": 208.956,
+     "text": "a finance degree. Just three simple numbers."
+    }
+   ]
+  },
+  {
+   "id": "s55",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Next step",
+   "start": 209.306,
+   "end": 214.095,
+   "line_starts": [
+    209.306
+   ],
+   "subs": [
+    {
+     "start": 209.306,
+     "end": 211.617,
+     "text": "If your twenty percent starts at zero,"
+    },
+    {
+     "start": 211.617,
+     "end": 213.745,
+     "text": "watch my emergency fund video next."
+    }
+   ]
+  },
+  {
+   "id": "s56",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Your turn",
+   "start": 214.095,
+   "end": 220.797,
+   "line_starts": [
+    214.095
+   ],
+   "subs": [
+    {
+     "start": 214.095,
+     "end": 216.257,
+     "text": "Subscribe for one simple money move every"
+    },
+    {
+     "start": 216.257,
+     "end": 218.103,
+     "text": "day. And tell me your three numbers"
+    },
+    {
+     "start": 218.103,
+     "end": 218.947,
+     "text": "in the comments!"
+    }
+   ]
+  }
+ ]
+}
