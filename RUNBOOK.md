@@ -41,7 +41,23 @@ Writing rules:
 ```
 Items in list-like templates appear in sync with the narration: item *i* appears when line *i+1* starts (line 0 is the intro line). Override with `"at": [lineIndex, …]`.
 
-### Templates (`visual` → `params`)
+### Default style: whiteboard / hand-drawn (`"style": "sketch"`) — USE THIS FOR EVERY NEW VIDEO
+Owner's request (2026-10-25): animations must change with every sentence, look hand-drawn by a person, with a pencil sound.
+Set `"style": "sketch"` at the top of script.json and give every scene a `"draws"` list with **exactly one item per line**:
+- `{"icon": "<name>", "label": "2-4 words"}` → a doodle traced by the drawing hand + a handwritten label
+- `{"big": "$500", "label": "Starter goal"}` → a big handwritten number/word circled in color (use for every number the narrator says)
+- `null` → nothing new on that line (use rarely; the picture must keep changing)
+- optional `"color": "#hex"`; scene-level `"flow": true` draws arrows between the doodles (processes, steps, money flows)
+Icons (sketch_icons.py; add new ones there as SVG paths in a 100×100 box if a topic needs them): coin, coins, bill, piggy, wallet, card, bank, house, car,
+phone, calendar, clock, chart_up, chart_down, bars, arrow, check, cross, bulb, target, shield, moneybag, cart, gift, person, person_sad, people, family,
+heart, star, lock, scale, hourglass, rocket, trophy, seedling, umbrella, magnifier, receipt, warning, question, gears, snowball, mail, fire, bell, play,
+thumbsup, scissors, list, battery, globe, handshake, plane, pizza, coffee, brain, book, key, percent, dollar, pencil.
+Rules: max 6 lines per scene (layout: 1-3 in a row, 4 in a 2×2, 5-6 in two rows); labels ≤ 22 characters; vary icons — don't repeat the same icon
+within a scene; the first scene's first draw should be the most visual one (it's the hook). `visual`/`params` are ignored in sketch style.
+Build with `python3 build_sketch.py days/<date> --preview` (look at preview_grid.jpg), then `python3 build_sketch.py days/<date>`
+(≈20 min), then `python3 short.py days/<date>` as usual. Thumbnails still use thumb.py.
+
+### Templates (`visual` → `params`) — classic style only
 | visual | params | good for |
 |---|---|---|
 | `person` | `mood` happy/sad/neutral/surprised, `arms` up/head/point/think/down, `props` [wallet, bills, coins, question, sweat, confetti], `sign` speech-bubble text, `sign_at` sec, `subscribe` bool, `shirt` color, `long_hair` bool, `side` left/right | hook, emotion, outro |

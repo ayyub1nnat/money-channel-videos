@@ -24,7 +24,7 @@ today's run uploads it (main video public at 12:00 Los Angeles = 15:00 New York 
 - Channel SEO: run `channel_seo_snippet.py` unchanged (idempotent): channel keywords/translations, adds new long videos to their playlist (ids in playlists.json), posts one question comment under each public long video (scheduled ones get theirs on a later run).
 
 ## 3. Build tomorrow's video (date X+1)
-Follow RUNBOOK.md sections 1–4 for date X+1: pick the next unused topic, write `days/<X+1>/script.json`, preview, look at `preview_grid.jpg`, fix issues, full build (run it in the background, ≈15–20 min), check frames, write `seo.json`.
+Follow RUNBOOK.md sections 1–4 for date X+1 **in the whiteboard style** (`"style": "sketch"` + a `draws` item per line, build with `build_sketch.py`, see RUNBOOK): pick the next unused topic, write `days/<X+1>/script.json`, preview, look at `preview_grid.jpg`, fix issues, full build with `build_sketch.py` (run it in the background, ≈20 min), check frames, write `seo.json`.
 Then the teaser Short: add `"short": {"hook": "<= 40 chars, punchy", "clips": [[scene, first_line, last_line], ...]}` to script.json (3–4 clips: the hook + the most striking/visual moments, 35–50 s total; avoid `timeline` scenes, their bottom labels get cropped), keep timeline.json newer than script.json (`touch -r days/<X+1>/timeline.json days/<X+1>/script.json`), run `python3 short.py days/<X+1>` (≈1 min), look at 3–4 frames (no overlapping captions, nothing cut off), and add `"short": {"title", "description", "tags"}` to seo.json (title ≤ 90 chars; `#shorts` and the link are added at upload).
 
 ## 4. Save
