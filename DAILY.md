@@ -23,21 +23,24 @@ today's run uploads it (main video and Short both public at 11:00 Baku time on X
 
 - Channel SEO: run `channel_seo_snippet.py` unchanged (idempotent): channel keywords/translations, adds new long videos to their playlist (ids in playlists.json), posts one question comment under each public long video (scheduled ones get theirs on a later run).
 
-## 3. Build tomorrow's video (date X+1)
-Use the ★ "fast whiteboard" format from RUNBOOK.md (one line + one drawing per scene, emotional voice, `big_headings`, chapters):
-pick the next unused topic, write `days/<X+1>/script.json` (+ `"thumbnail"`), run `python3 build_sketch.py days/<X+1> --preview`, look at `preview_grid.jpg`,
-fix issues, then `python3 build_sketch.py days/<X+1>` in the background (≈15-20 min) → video.mp4, subtitles.srt, chapters.txt, thumbnail.
-Then the Short: write its OWN script `days/<X+1>/short_v/script.json` (vertical, 8-10 scenes, see RUNBOOK), `python3 build_sketch.py days/<X+1>/short_v`,
-`cp days/<X+1>/short_v/short.mp4 days/<X+1>/short.mp4`.
-Then the SECOND, standalone Short (owner's choice 2026-10-25: 2 Shorts a day): a different, self-contained topic (not about the main video,
-no "full video" call — end with "follow for one simple money move every day"), same vertical fast format, 8-10 scenes, truthful hook
-(example: shorts/2026-10-25-subscriptions/script.json). Write `days/<X+1>/short2/script.json`, `python3 build_sketch.py days/<X+1>/short2`,
-`cp days/<X+1>/short2/short.mp4 days/<X+1>/short2.mp4`. It goes public at 19:00 Baku.
-Check 3-4 frames of each. Write seo.json (with chapters from chapters.txt, the `short` title/description/tags and the `short2`
-title/description/tags) and localizations.json (incl. `_short` and `_short2`).
+## 3. Build tomorrow's video (date X+1) — ★★ illustrated POV format (RUNBOOK.md)
+- Pick the next unused topic and turn it into a POV story. Write `days/<X+1>/pov/script.json` (main, with `thumbnail`),
+  `days/<X+1>/pov_short/script.json` (teaser Short) and `days/<X+1>/pov_short2/script.json` (standalone Short, different topic).
+  Commit + push them to main and note the commit SHA.
+- Images: Cloudflare creds must exist in the workbench → run once:
+  `import json,os; os.makedirs("/mnt/files/sml",exist_ok=True); json.dump({"account_id": <from task prompt>, "api_token": <from task prompt>}, open("/mnt/files/sml/cf_creds.json","w"))`
+  then `SHA="<sha>"; JOBS=["days/<X+1>/pov","days/<X+1>/pov_short","days/<X+1>/pov_short2"]; exec(requests.get(f"https://raw.githubusercontent.com/ayyub1nnat/money-channel-videos/{SHA}/images_snippet.py").text)`
+  and poll `print(IMG_STATUS)` every ~2 min until `running` is False (≈20 min). Flagged images: reword that scene's prompt, commit, re-run (existing images are skipped).
+- `./fetch_imgs.sh days/<X+1>/pov days/<X+1>/pov_short days/<X+1>/pov_short2`, then for each dir `python3 build_pov.py <dir> --preview`, look at
+  preview_grid.jpg (hero consistent? weird hands/faces? → reword + regenerate), then `python3 build_pov.py <dir>`.
+- `cp days/<X+1>/pov/{video.mp4,thumbnail.jpg,subtitles.srt,chapters.txt} days/<X+1>/`, `cp days/<X+1>/pov_short/short.mp4 days/<X+1>/short.mp4`,
+  `cp days/<X+1>/pov_short2/short.mp4 days/<X+1>/short2.mp4`, `mkdir -p days/<X+1>/short2 && cp days/<X+1>/pov_short2/subtitles.srt days/<X+1>/short2/`.
+- Write `days/<X+1>/seo.json` (title = the POV title, description with chapters from chapters.txt, tags, `short` and `short2` title/description/tags)
+  and `localizations.json` (es, pt, hi, de, fr incl. `_short` and `_short2`).
+- If Cloudflare fails (quota/token), fall back to the whiteboard format (build_sketch.py) so a video still goes out, and tell the owner.
 
 ## 4. Save
-- On `main`: commit `days/<X+1>/{script.json,seo.json,localizations.json,thumbnail.jpg,subtitles.srt,chapters.txt,timeline.json}` and `days/<X+1>/short_v/{script.json,timeline.json}` and `days/<X+1>/short2/{script.json,timeline.json,subtitles.srt}` and topics.json (topic → `used: true`, `date: X+1`, `status: "built, waiting for upload"`, `localized: false`), push.
+- On `main`: commit `days/<X+1>/{script.json,seo.json,localizations.json,thumbnail.jpg,subtitles.srt,chapters.txt,timeline.json}` and `days/<X+1>/short_v/{script.json,timeline.json}` and `days/<X+1>/pov*/{script.json,timeline.json}` and `days/<X+1>/short2/subtitles.srt` and topics.json (topic → `used: true`, `date: X+1`, `status: "built, waiting for upload"`, `localized: false`), push.
 - Media branch (holds ONLY the next video, force-pushed):
   ```bash
   rm -rf /home/claude/media && mkdir /home/claude/media && cd /home/claude/media && git init -q -b media

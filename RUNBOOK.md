@@ -15,7 +15,27 @@ cd /home/claude/repo && bash setup.sh
 ## 1. Pick today's topic
 Open `topics.json`, take the first topic with `"used": false`. If fewer than 10 remain, append ~15 new, non-overlapping topics in the same niche (mix formats: step-by-step plans, "N habits/mistakes", myths, challenges, explainers, "what I'd do if...").
 
-## ★ FORMAT SINCE 2026-10-25 (owner's decision, based on results): "fast whiteboard"
+## ★★ FORMAT SINCE 2026-10-26 (owner's decision): illustrated "POV" stories — this WINS over the whiteboard section below
+Inspired by big finance channels that use AI-illustrated POV stories (we use OUR OWN hero, never copy another channel's character).
+- Hero: **Sam** — reference image `brand/hero_ref.jpg` (early 30s, dark brown wavy hair, round glasses, stubble, mustard-yellow
+  sweater, white collar, dark jeans). Write `{HERO}` in an image prompt wherever Sam appears; images_snippet.py sends the reference.
+  Recurring side characters: Jake (young man, blue shirt, impulsive spender), Mia (woman with a ponytail, credit-card spender).
+- Narration in 2nd person ("You..."), Sam is "you" on screen. Contrast: calm, prepared you vs. stressed people around you. Emotional,
+  concrete, true numbers (say "not guaranteed" for any investment growth).
+- Titles: "POV: You <did the smart thing> — <others> Still <are stuck>" / "POV: You Earn $X and Still Save $Y — ...". Thumbnail:
+  `"thumbnail": {"img": "<prompt: {HERO} calm in front, stressed people behind>", "image": "thumb", "text": ["2-3 WORDS", "2-3 WORDS"], "color": "#5BE37D", "pos": "right"}`.
+- Main video `days/<date>/pov/script.json`: `"style": "pov"`, speed 1.04, 35-50 scenes (≈5-8 min), each scene 1-2 short sentences
+  + one `"img"` prompt (concrete scene, setting, emotion; no text in images) + optional `"tag"` (big number/label, ≤ 22 chars,
+  `"tag_color"` red #E23B3B loss / green #1B9E4B win / orange #E88A1A / blue #2C7BE5) + `"chapter"` at section starts.
+- Shorts (vertical, 8 scenes, speed 1.1, prompts end with "vertical composition"): `pov_short` = teaser of the main story ending
+  "The full story is on my channel"; `pov_short2` = standalone money tip story ending "Follow for one simple money move every day!".
+- Image budget: Cloudflare free tier ≈ 10,000 neurons/day (resets 00:00 UTC) ≈ 85 images at 1024x576 → keep total scenes
+  (main + 2 Shorts + thumb) ≤ 70. If an image is "flagged" (false positive), reword the prompt and regenerate that one.
+- Pipeline: commit scripts → in the workbench set `SHA`, `JOBS` and exec `images_snippet.py` (background; poll `IMG_STATUS`)
+  → `./fetch_imgs.sh <dirs>` → `python3 build_pov.py <dir> --preview` (look at preview_grid.jpg) → `python3 build_pov.py <dir>`.
+- Reference: `days/2026-10-26/pov`, `pov_short`, `pov_short2`.
+
+## ★ (older) FORMAT SINCE 2026-10-25 (owner's decision, based on results): "fast whiteboard"
 The emotional, fast Short ("This $5 Habit Is Stealing $1,825...") got 43 views vs 11 for the calmer video. EVERY main video and EVERY Short now uses this format:
 - `"style": "sketch"`, `"speed": 1.08` (main) / `1.1` (Short), `"lead": 0.3`, `"scene_gap": 0.35` (Short 0.3), `"tail": 1.5`, main also `"big_headings": true`; Short `"vertical": true`.
 - **One line per scene, one drawing per scene** → a new page with a new doodle every ~4 s. Each scene: `{"heading": "2-4 punchy words", "lines": ["one spoken sentence or two short ones"], "draws": [{...}]}`.
