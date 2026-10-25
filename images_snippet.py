@@ -13,7 +13,7 @@ STYLE = ("Flat 2D cartoon illustration for a YouTube personal finance story, cle
          "bright warm colors, expressive friendly faces, detailed but uncluttered background, webcomic style. No text, no letters, no watermark.")
 HERO_TXT = ("Sam, the man from image 0: early 30s, short dark brown wavy hair, round glasses, light stubble, "
             "mustard-yellow crewneck sweater over a white collar, dark jeans")
-HERO_REF = requests.get(f"{RAW}/main/brand/hero_ref.jpg", timeout=60)
+HERO_REF = requests.get(f"{RAW}/{SHA}/brand/hero_ref.jpg", timeout=60)
 HERO_REF = HERO_REF.content if HERO_REF.status_code == 200 else None
 IMG_STATUS = globals().get("IMG_STATUS") or {"done": 0, "skipped": 0, "errors": [], "running": False, "neurons_hint": 0}
 
