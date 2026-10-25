@@ -26,10 +26,9 @@
     "color": "coral"
    },
    "lines": [
-    "Your car makes a strange noise, and suddenly you need four hundred dollars you don't have.",
-    "If that sounds familiar, you're not alone.",
-    "In the Federal Reserve's yearly survey, more than a third of American adults said they couldn't cover a four hundred dollar surprise with cash.",
-    "Today I'll show you how to build an emergency fund, step by step, even on a small paycheck."
+    "Your car breaks down, and suddenly you need four hundred dollars you don't have.",
+    "More than a third of American adults couldn't cover that with cash.",
+    "Here's how to build an emergency fund, even on a small paycheck."
    ]
   },
   {
@@ -43,13 +42,11 @@
      "sweat"
     ],
     "sign": "The car broke down!",
-    "sign_at": 1.5
+    "sign_at": 0.8
    },
    "lines": [
     "Without savings, every surprise turns into debt.",
-    "A flat tire, a doctor visit, or a missed shift goes straight onto a credit card.",
-    "Then the interest makes next month even tighter.",
-    "It's not because people are bad with money. It's because life is unpredictable, and there's no cushion.",
+    "A flat tire or a doctor visit goes straight onto a credit card, and the interest makes next month even tighter.",
     "An emergency fund breaks that cycle. It's the money that stands between you and new debt."
    ]
   },
@@ -128,8 +125,7 @@
     "Set up an automatic transfer to your emergency fund on payday.",
     "Many banks and credit unions let you split your direct deposit, so part of each paycheck lands in savings automatically.",
     "Then your bills get paid, and the rest is for spending.",
-    "Money you never see in your checking account is money you won't accidentally spend.",
-    "Start with whatever amount feels easy, and raise it a little every few months."
+    "Money you never see in your checking account is money you won't accidentally spend."
    ]
   },
   {
@@ -153,7 +149,6 @@
     "Where you keep the money matters too.",
     "If it sits in your checking account, it's too easy to spend.",
     "Keep it in a separate savings account, ideally a high yield one at a federally insured bank or credit union.",
-    "Some people even keep it at a different bank, so it's not sitting right next to their everyday money.",
     "Avoid investing your emergency fund. It needs to be there, at full value, the moment you need it."
    ]
   },
@@ -202,7 +197,6 @@
     "Decide ahead of time what counts as a real emergency.",
     "A car repair you need for work, a medical bill, or a sudden drop in income? Yes.",
     "A great sale, a concert, or a holiday trip? Those deserve their own savings goal.",
-    "A simple test: is it unexpected, is it necessary, and is it urgent? If not, it's not an emergency.",
     "And if you do use the fund, that's okay. That's what it's for. Just start refilling it right away."
    ]
   },
@@ -285,8 +279,7 @@
    },
    "lines": [
     "You don't need a big income to build a safety net. You just need to start, and keep going.",
-    "Every dollar you set aside today is one less dollar you'll have to borrow tomorrow.",
-    "If this video helped, like it and subscribe for more simple ways to feel calmer about money.",
+    "If this helped, like the video and subscribe for more simple ways to feel calmer about money.",
     "Tell me in the comments: how much is your first savings goal? See you in the next one."
    ]
   }
@@ -315,5 +308,6 @@
     1
    ]
   ]
- }
+ },
+ "speed": 1.06
 }
