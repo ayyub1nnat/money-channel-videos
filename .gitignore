@@ -16,3 +16,11 @@ shorts/*/*.mp4
 shorts/*/*.wav
 shorts/*/*.m4a
 shorts/*/list.txt
+days/**/*.mp4
+days/**/*.wav
+days/**/*.m4a
+days/**/prev/
+days/**/list.txt
+days/**/build.log
+days/**/preview_grid.jpg
+days/**/thumbnail.png
