@@ -23,9 +23,11 @@
    "date": "2026-10-25",
    "status": "scheduled",
    "localized": true,
-   "video_id": "JS9FbVuBHBI",
+   "video_id": "xzSIjbVQ8AE",
    "short_id": "unxGqCjFcCI",
-   "short_status": "scheduled"
+   "short_status": "scheduled",
+   "old_video_id_private": "JS9FbVuBHBI",
+   "note": "rebuilt with tighter pacing on 2026-10-25"
   },
   {
    "title": "The 50/30/20 Budget Explained Simply",
