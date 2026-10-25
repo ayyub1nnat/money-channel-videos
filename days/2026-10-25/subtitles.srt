@@ -1,527 +1,451 @@
 1
-00:00:00,600 --> 00:00:02,369
-Your car makes a strange noise,
+00:00:00,600 --> 00:00:01,788
+Your car breaks down,
 
 2
-00:00:02,269 --> 00:00:04,631
+00:00:01,688 --> 00:00:03,965
 and suddenly you need four hundred dollars
 
 3
-00:00:04,531 --> 00:00:05,439
+00:00:03,865 --> 00:00:04,743
 you don't have.
 
 4
-00:00:05,719 --> 00:00:07,035
-If that sounds familiar,
+00:00:05,023 --> 00:00:06,835
+More than a third of American adults
 
 5
-00:00:06,935 --> 00:00:07,896
-you're not alone.
+00:00:06,735 --> 00:00:08,262
+couldn't cover that with cash.
 
 6
-00:00:08,176 --> 00:00:10,440
-In the Federal Reserve's yearly survey,
+00:00:08,542 --> 00:00:10,847
+Here's how to build an emergency fund,
 
 7
-00:00:10,340 --> 00:00:12,438
-more than a third of American adults
-
-8
-00:00:12,338 --> 00:00:14,602
-said they couldn't cover a four hundred
-
-9
-00:00:14,502 --> 00:00:16,045
-dollar surprise with cash.
-
-10
-00:00:16,325 --> 00:00:18,468
-Today I'll show you how to build
-
-11
-00:00:18,368 --> 00:00:20,512
-an emergency fund, step by step,
-
-12
-00:00:20,412 --> 00:00:22,108
+00:00:10,747 --> 00:00:12,298
 even on a small paycheck.
 
-13
-00:00:22,908 --> 00:00:25,913
+8
+00:00:13,098 --> 00:00:16,002
 Without savings, every surprise turns into debt.
 
-14
-00:00:26,193 --> 00:00:27,916
-A flat tire, a doctor visit,
+9
+00:00:16,282 --> 00:00:18,030
+A flat tire or a doctor visit
 
-15
-00:00:27,816 --> 00:00:30,002
-or a missed shift goes straight onto
+10
+00:00:17,930 --> 00:00:19,905
+goes straight onto a credit card,
 
-16
-00:00:29,902 --> 00:00:30,814
-a credit card.
+11
+00:00:19,805 --> 00:00:22,575
+and the interest makes next month even tighter.
 
-17
-00:00:31,094 --> 00:00:33,633
-Then the interest makes next month even tighter.
-
-18
-00:00:33,913 --> 00:00:36,018
-It's not because people are bad with
-
-19
-00:00:35,918 --> 00:00:38,357
-money. It's because life is unpredictable,
-
-20
-00:00:38,257 --> 00:00:39,638
-and there's no cushion.
-
-21
-00:00:39,918 --> 00:00:42,237
+12
+00:00:22,855 --> 00:00:25,115
 An emergency fund breaks that cycle.
 
-22
-00:00:42,137 --> 00:00:44,578
+13
+00:00:25,015 --> 00:00:27,395
 It's the money that stands between you
 
-23
-00:00:44,478 --> 00:00:45,379
+14
+00:00:27,295 --> 00:00:28,176
 and new debt.
 
-24
-00:00:46,179 --> 00:00:47,942
+15
+00:00:28,976 --> 00:00:30,667
 You may have heard you need three
 
-25
-00:00:47,842 --> 00:00:49,554
+16
+00:00:30,567 --> 00:00:32,210
 to six months of expenses saved.
 
-26
-00:00:49,834 --> 00:00:51,684
+17
+00:00:32,490 --> 00:00:34,257
 That's a great long term goal,
 
-27
-00:00:51,584 --> 00:00:54,193
+18
+00:00:34,157 --> 00:00:36,646
 but on a low income it can feel impossible.
 
-28
-00:00:54,473 --> 00:00:56,633
+19
+00:00:36,926 --> 00:00:39,041
 So start smaller. Your first goal is
 
-29
-00:00:56,533 --> 00:00:57,835
+20
+00:00:38,941 --> 00:00:40,217
 five hundred dollars.
 
-30
-00:00:58,115 --> 00:01:00,269
+21
+00:00:40,497 --> 00:00:42,559
 That alone covers a lot of common
 
-31
-00:01:00,169 --> 00:01:02,324
+22
+00:00:42,459 --> 00:00:44,521
 surprises, like a car repair or a
 
-32
-00:01:02,224 --> 00:01:03,382
+23
+00:00:44,421 --> 00:00:45,532
 new phone screen.
 
-33
-00:01:03,662 --> 00:01:04,624
+24
+00:00:45,812 --> 00:00:46,750
 Once you hit it,
 
-34
-00:01:04,524 --> 00:01:06,724
+25
+00:00:46,650 --> 00:00:48,793
 you can raise the goal to one thousand.
 
-35
-00:01:07,524 --> 00:01:10,441
+26
+00:00:49,593 --> 00:00:52,367
 Next, find a little money that's already slipping away.
 
-36
-00:01:10,721 --> 00:01:12,990
+27
+00:00:52,647 --> 00:00:54,863
 Look for subscriptions and apps you forgot
 
-37
-00:01:12,890 --> 00:01:13,920
+28
+00:00:54,763 --> 00:00:55,769
 you're paying for.
 
-38
-00:01:14,200 --> 00:01:15,553
+29
+00:00:56,049 --> 00:00:57,345
 Check for bank fees,
 
-39
-00:01:15,453 --> 00:01:17,998
+30
+00:00:57,245 --> 00:00:59,676
 like overdraft or monthly account fees.
 
-40
-00:01:17,898 --> 00:01:20,442
+31
+00:00:59,576 --> 00:01:02,007
 Many banks offer accounts without them.
 
-41
-00:01:20,722 --> 00:01:22,964
+32
+00:01:02,287 --> 00:01:04,415
 And notice the small daily extras,
 
-42
-00:01:22,864 --> 00:01:24,792
+33
+00:01:04,315 --> 00:01:06,145
 like snacks or delivery fees.
 
-43
-00:01:25,072 --> 00:01:27,108
+34
+00:01:06,425 --> 00:01:08,353
 Even sixty dollars a month adds up
 
-44
-00:01:27,008 --> 00:01:29,556
+35
+00:01:08,253 --> 00:01:10,665
 to seven hundred and twenty dollars a year.
 
-45
-00:01:30,356 --> 00:01:32,148
+36
+00:01:11,465 --> 00:01:13,216
 Now pick an amount you can save
 
-46
-00:01:32,048 --> 00:01:34,277
+37
+00:01:13,116 --> 00:01:15,294
 every single week, no matter how small.
 
-47
-00:01:34,557 --> 00:01:36,832
+38
+00:01:15,574 --> 00:01:17,797
 Ten dollars a week becomes five hundred
 
-48
-00:01:36,732 --> 00:01:38,450
+39
+00:01:17,697 --> 00:01:19,377
 and twenty dollars in a year.
 
-49
-00:01:38,730 --> 00:01:41,680
+40
+00:01:19,657 --> 00:01:22,558
 Twenty five dollars a week becomes thirteen hundred.
 
-50
-00:01:41,960 --> 00:01:45,005
+41
+00:01:22,838 --> 00:01:25,775
 And fifty dollars a week becomes twenty six hundred.
 
-51
-00:01:45,285 --> 00:01:47,711
+42
+00:01:26,055 --> 00:01:28,414
 The amount matters less than the habit.
 
-52
-00:01:47,611 --> 00:01:49,857
+43
+00:01:28,314 --> 00:01:30,499
 Consistency is what builds the fund.
 
-53
-00:01:50,657 --> 00:01:52,904
+44
+00:01:31,299 --> 00:01:33,473
 The easiest way to stay consistent is
 
-54
-00:01:52,804 --> 00:01:54,528
+45
+00:01:33,373 --> 00:01:35,042
 to take willpower out of it.
 
-55
-00:01:54,808 --> 00:01:57,201
+46
+00:01:35,322 --> 00:01:37,650
 Set up an automatic transfer to your
 
-56
-00:01:57,101 --> 00:01:58,793
+47
+00:01:37,550 --> 00:01:39,197
 emergency fund on payday.
 
-57
-00:01:59,073 --> 00:02:01,426
+48
+00:01:39,477 --> 00:01:41,766
 Many banks and credit unions let you
 
-58
-00:02:01,326 --> 00:02:03,053
+49
+00:01:41,666 --> 00:01:43,346
 split your direct deposit,
 
-59
-00:02:02,953 --> 00:02:06,558
+50
+00:01:43,246 --> 00:01:46,751
 so part of each paycheck lands in savings automatically.
 
-60
-00:02:06,838 --> 00:02:08,267
+51
+00:01:47,031 --> 00:01:48,461
 Then your bills get paid,
 
-61
-00:02:08,167 --> 00:02:09,810
+52
+00:01:48,361 --> 00:01:50,003
 and the rest is for spending.
 
-62
-00:02:10,090 --> 00:02:12,066
+53
+00:01:50,283 --> 00:01:52,171
 Money you never see in your checking
 
-63
-00:02:11,966 --> 00:02:14,463
+54
+00:01:52,071 --> 00:01:54,456
 account is money you won't accidentally spend.
 
-64
-00:02:14,743 --> 00:02:16,899
-Start with whatever amount feels easy,
-
-65
-00:02:16,799 --> 00:02:19,008
-and raise it a little every few months.
-
-66
-00:02:19,808 --> 00:02:21,447
+55
+00:01:55,256 --> 00:01:56,833
 Where you keep the money matters too.
 
-67
-00:02:21,727 --> 00:02:23,695
+56
+00:01:57,113 --> 00:01:59,080
 If it sits in your checking account,
 
-68
-00:02:23,595 --> 00:02:24,888
+57
+00:01:58,980 --> 00:02:00,273
 it's too easy to spend.
 
-69
-00:02:25,168 --> 00:02:27,566
+58
+00:02:00,553 --> 00:02:02,894
 Keep it in a separate savings account,
 
-70
-00:02:27,466 --> 00:02:29,320
+59
+00:02:02,794 --> 00:02:04,604
 ideally a high yield one at a
 
-71
-00:02:29,220 --> 00:02:31,678
+60
+00:02:04,504 --> 00:02:06,903
 federally insured bank or credit union.
 
-72
-00:02:31,958 --> 00:02:33,581
-Some people even keep it at a
-
-73
-00:02:33,481 --> 00:02:35,735
-different bank, so it's not sitting right
-
-74
-00:02:35,635 --> 00:02:37,259
-next to their everyday money.
-
-75
-00:02:37,539 --> 00:02:39,904
+61
+00:02:07,183 --> 00:02:09,476
 Avoid investing your emergency fund.
 
-76
-00:02:39,804 --> 00:02:41,225
+62
+00:02:09,376 --> 00:02:10,755
 It needs to be there,
 
-77
-00:02:41,125 --> 00:02:43,616
+63
+00:02:10,655 --> 00:02:13,070
 at full value, the moment you need it.
 
-78
-00:02:44,416 --> 00:02:45,840
+64
+00:02:13,870 --> 00:02:15,230
 Want to get there faster?
 
-79
-00:02:45,740 --> 00:02:48,489
+65
+00:02:15,130 --> 00:02:17,752
 Use money that isn't part of your normal paycheck.
 
-80
-00:02:48,769 --> 00:02:50,646
+66
+00:02:18,032 --> 00:02:19,864
 A tax refund, if you get one,
 
-81
-00:02:50,546 --> 00:02:53,282
+67
+00:02:19,764 --> 00:02:22,432
 can fill your starter fund in a single day.
 
-82
-00:02:53,562 --> 00:02:55,129
+68
+00:02:22,712 --> 00:02:24,233
 A few hours of side work,
 
-83
-00:02:55,029 --> 00:02:57,241
+69
+00:02:24,133 --> 00:02:26,279
 or selling things you no longer use,
 
-84
-00:02:57,141 --> 00:02:58,355
+70
+00:02:26,179 --> 00:02:27,359
 can add up quickly.
 
-85
-00:02:58,635 --> 00:03:01,089
+71
+00:02:27,639 --> 00:02:29,984
 Even cash gifts can go straight into the fund.
 
-86
-00:03:01,369 --> 00:03:03,103
+72
+00:02:30,264 --> 00:02:31,919
 Try sending at least half of any
 
-87
-00:03:03,003 --> 00:03:04,175
+73
+00:02:31,819 --> 00:02:32,939
 surprise money there.
 
-88
-00:03:04,975 --> 00:03:07,390
+74
+00:02:33,739 --> 00:02:35,986
 Decide ahead of time what counts as
 
-89
-00:03:07,290 --> 00:03:08,514
+75
+00:02:35,886 --> 00:02:37,029
 a real emergency.
 
-90
-00:03:08,794 --> 00:03:10,915
+76
+00:02:37,309 --> 00:02:39,347
 A car repair you need for work,
 
-91
-00:03:10,815 --> 00:03:13,001
+77
+00:02:39,247 --> 00:02:41,347
 a medical bill, or a sudden drop
 
-92
-00:03:12,901 --> 00:03:13,979
+78
+00:02:41,247 --> 00:02:42,284
 in income? Yes.
 
-93
-00:03:14,259 --> 00:03:15,836
+79
+00:02:42,564 --> 00:02:44,078
 A great sale, a concert,
 
-94
-00:03:15,736 --> 00:03:16,944
+80
+00:02:43,978 --> 00:02:45,137
 or a holiday trip?
 
-95
-00:03:16,844 --> 00:03:19,221
+81
+00:02:45,037 --> 00:02:47,316
 Those deserve their own savings goal.
 
-96
-00:03:19,501 --> 00:03:21,799
-A simple test: is it unexpected,
-
-97
-00:03:21,699 --> 00:03:24,135
-is it necessary, and is it urgent?
-
-98
-00:03:24,035 --> 00:03:26,196
-If not, it's not an emergency.
-
-99
-00:03:26,476 --> 00:03:28,106
+82
+00:02:47,596 --> 00:02:49,133
 And if you do use the fund,
 
-100
-00:03:28,006 --> 00:03:30,032
+83
+00:02:49,033 --> 00:02:50,943
 that's okay. That's what it's for.
 
-101
-00:03:29,932 --> 00:03:32,015
+84
+00:02:50,843 --> 00:02:52,806
 Just start refilling it right away.
 
-102
-00:03:32,815 --> 00:03:34,285
+85
+00:02:53,606 --> 00:02:55,043
 Here's the full roadmap,
 
-103
-00:03:34,185 --> 00:03:35,427
+86
+00:02:54,943 --> 00:02:56,157
 one stage at a time.
 
-104
-00:03:35,707 --> 00:03:37,327
+87
+00:02:56,437 --> 00:02:58,042
 First, five hundred dollars.
 
-105
-00:03:37,227 --> 00:03:38,684
+88
+00:02:57,942 --> 00:02:59,386
 That's your starter fund.
 
-106
-00:03:38,964 --> 00:03:40,604
+89
+00:02:59,666 --> 00:03:01,187
 Then, one thousand dollars,
 
-107
-00:03:40,504 --> 00:03:41,801
+90
+00:03:01,087 --> 00:03:02,291
 for a bigger cushion.
 
-108
-00:03:42,081 --> 00:03:44,842
+91
+00:03:02,571 --> 00:03:05,266
 Next, three months of essential expenses,
 
-109
-00:03:44,742 --> 00:03:47,892
+92
+00:03:05,166 --> 00:03:08,241
 like rent, food, utilities, and transportation.
 
-110
-00:03:48,172 --> 00:03:49,877
+93
+00:03:08,521 --> 00:03:10,167
 And over time, if you can,
 
-111
-00:03:49,777 --> 00:03:52,036
+94
+00:03:10,067 --> 00:03:12,248
 six months. Every stage makes you a
 
-112
-00:03:51,936 --> 00:03:53,579
+95
+00:03:12,148 --> 00:03:13,734
 little safer than before.
 
-113
-00:03:54,379 --> 00:03:55,368
+96
+00:03:14,534 --> 00:03:15,480
 Let's recap.
 
-114
-00:03:55,648 --> 00:03:56,751
+97
+00:03:15,760 --> 00:03:16,832
 Start with a small,
 
-115
-00:03:56,651 --> 00:03:58,600
+98
+00:03:16,732 --> 00:03:18,622
 clear goal of five hundred dollars.
 
-116
-00:03:58,880 --> 00:04:02,213
+99
+00:03:18,902 --> 00:03:22,122
 Find hidden money in fees and forgotten subscriptions.
 
-117
-00:04:02,493 --> 00:04:04,250
+100
+00:03:22,402 --> 00:03:24,123
 Save a fixed amount every week.
 
-118
-00:04:04,530 --> 00:04:06,312
+101
+00:03:24,403 --> 00:03:26,102
 Automate the transfer on payday.
 
-119
-00:04:06,592 --> 00:04:08,087
+102
+00:03:26,382 --> 00:03:27,841
 And keep it in a separate,
 
-120
-00:04:07,987 --> 00:04:09,375
+103
+00:03:27,741 --> 00:03:29,096
 insured savings account.
 
-121
-00:04:10,175 --> 00:04:11,948
+104
+00:03:29,896 --> 00:03:31,582
 You don't need a big income to
 
-122
-00:04:11,848 --> 00:04:13,008
+105
+00:03:31,482 --> 00:03:32,587
 build a safety net.
 
-123
-00:04:12,908 --> 00:04:14,290
+106
+00:03:32,487 --> 00:03:33,803
 You just need to start,
 
-124
-00:04:14,190 --> 00:04:15,127
+107
+00:03:33,703 --> 00:03:34,596
 and keep going.
 
-125
-00:04:15,407 --> 00:04:17,382
-Every dollar you set aside today is
+108
+00:03:34,876 --> 00:03:36,825
+If this helped, like the video and
 
-126
-00:04:17,282 --> 00:04:19,900
-one less dollar you'll have to borrow tomorrow.
+109
+00:03:36,725 --> 00:03:38,891
+subscribe for more simple ways to feel
 
-127
-00:04:20,180 --> 00:04:21,458
-If this video helped,
+110
+00:03:38,791 --> 00:03:39,924
+calmer about money.
 
-128
-00:04:21,358 --> 00:04:23,534
-like it and subscribe for more simple
-
-129
-00:04:23,434 --> 00:04:25,329
-ways to feel calmer about money.
-
-130
-00:04:25,609 --> 00:04:27,019
+111
+00:03:40,204 --> 00:03:41,568
 Tell me in the comments:
 
-131
-00:04:26,919 --> 00:04:28,983
+112
+00:03:41,468 --> 00:03:43,465
 how much is your first savings goal?
 
-132
-00:04:28,883 --> 00:04:30,293
+113
+00:03:43,365 --> 00:03:44,729
 See you in the next one.
