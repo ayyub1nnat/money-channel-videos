@@ -152,11 +152,12 @@ def auto_draw(line):
     return {"icon": "bulb"}
 
 VERTICAL = False
+BIGHEAD = False
 def cells(n):
     if VERTICAL:
         if n <= 1: return [(W / 2, H * 0.42, 640)]
         return [(W / 2, H * (0.30 + 0.28 * i / max(1, n - 1)), 380) for i in range(n)]
-    if n <= 1: return [(960, 540, 420)]
+    if n <= 1: return [(960, 590 if BIGHEAD else 540, 400 if BIGHEAD else 420)]
     if n == 2: return [(560, 540, 360), (1360, 540, 360)]
     if n == 3: return [(370, 540, 300), (960, 540, 300), (1550, 540, 300)]
     if n == 4: return [(600, 365, 235), (1320, 365, 235), (600, 715, 235), (1320, 715, 235)]
@@ -184,6 +185,8 @@ class Scene:
         if head:
             if VERTICAL:
                 cont, fill, w, sz = text_paths(head, 110, W / 2, 330, "center", maxw=W - 120); hx0 = W / 2 - w / 2; uy = 365
+            elif BIGHEAD:
+                cont, fill, w, sz = text_paths(head, 96, W / 2, 168, "center", maxw=W - 300); hx0 = W / 2 - w / 2; uy = 196
             else:
                 cont, fill, w, sz = text_paths(head, 64, 90, 128, "left", maxw=1700); hx0 = 90; uy = 150
             self.fixed.append(Drawing(cont, 0.05, 0.05 + min(1.1, 0.25 + 0.035 * len(head)), 2.2 if not VERTICAL else 3.2, INK, center=(hx0 + w / 2, uy - 30), text_fill=fill))
@@ -219,7 +222,7 @@ class Scene:
                     if si in ic.get("f", []): fills += ps
                 tdur = min(1.7, max(0.7, dur * 0.5))
                 self.drawings.append(Drawing(strokes, t0, t0 + tdur, max(4.5, size / 36), INK, fills, acc, center=(cx, cy)))
-                ly = oy + size + 52; lt = t0 + tdur
+                ly = oy + size + max(52, size * 0.22); lt = t0 + tdur
             if label:
                 ldur = min(1.1, 0.3 + 0.04 * len(label))
                 cont, fill, w, _ = text_paths(label, max(40, size * 0.19), cx, ly, "center", maxw=min(size * 2.0 if len(cl) <= 3 else 520, W - 140))
@@ -303,8 +306,9 @@ class Video:
     def __init__(self, wd):
         self.TL = json.load(open(f"{wd}/timeline.json"))
         spec = json.load(open(f"{wd}/script.json"))
-        global W, H, VERTICAL
+        global W, H, VERTICAL, BIGHEAD
         if spec.get("vertical"): W, H, VERTICAL = 1080, 1920, True
+        BIGHEAD = bool(spec.get("big_headings"))
         self.scenes = [Scene(sc, sp, i) for i, (sc, sp) in enumerate(zip(self.TL["scenes"], spec["scenes"]))]
         self.hand = (W + 200, H + 200)
     def frame(self, c, t):

@@ -15,7 +15,18 @@ cd /home/claude/repo && bash setup.sh
 ## 1. Pick today's topic
 Open `topics.json`, take the first topic with `"used": false`. If fewer than 10 remain, append ~15 new, non-overlapping topics in the same niche (mix formats: step-by-step plans, "N habits/mistakes", myths, challenges, explainers, "what I'd do if...").
 
-## 2. Write `days/YYYY-MM-DD/script.json`
+## ★ FORMAT SINCE 2026-10-25 (owner's decision, based on results): "fast whiteboard"
+The emotional, fast Short ("This $5 Habit Is Stealing $1,825...") got 43 views vs 11 for the calmer video. EVERY main video and EVERY Short now uses this format:
+- `"style": "sketch"`, `"speed": 1.08` (main) / `1.1` (Short), `"lead": 0.3`, `"scene_gap": 0.35` (Short 0.3), `"tail": 1.5`, main also `"big_headings": true`; Short `"vertical": true`.
+- **One line per scene, one drawing per scene** → a new page with a new doodle every ~4 s. Each scene: `{"heading": "2-4 punchy words", "lines": ["one spoken sentence or two short ones"], "draws": [{...}]}`.
+- Main video: 40-60 scenes (≈3-4.5 min). Mark section starts with `"chapter": "Step 1: ..."` (≥ 10 s apart) → YouTube chapters.
+- Voice: emotional, direct, second person. Short sentences. Questions ("Be honest."), surprise ("Wait."), stakes ("And that's how the debt trap starts."), relief ("No panic. Just paid."). Exclamation marks where a real person would raise their voice.
+- Hook (first 2-3 scenes): a shocking but TRUE number or scenario + "you" + what they'll get. Titles/thumbnails may be clickbait in tone, never in substance: everything promised must be in the video, every number correct.
+- Numbers on screen as `big` draws, colored (red = loss/danger, green = savings/win, yellow = math).
+- Short (separate script in `days/<date>/short_v/script.json`, NOT cut from the main video): 8-10 scenes, 35-45 s, same topic, self-contained value, ends with "the full step-by-step plan is in the full video on my channel" (`play` icon). Build it with `python3 build_sketch.py days/<date>/short_v` → `short_v/short.mp4`; copy it to `days/<date>/short.mp4`.
+- Reference scripts: `days/2026-10-25/fast/script.json` (main) and `shorts/2026-10-25-five-dollars/script.json` (Short).
+
+## 2. Write `days/YYYY-MM-DD/script.json` (older notes; the ★ format above wins where they differ)
 Target **4–6 minutes**: 9–12 scenes, 3–6 lines per scene, each line one or two short spoken sentences (~8–22 words).
 Writing rules:
 - Hook in the first 2 lines (a relatable pain + the promise of the video). No "Hey guys, welcome back".

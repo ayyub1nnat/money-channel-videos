@@ -1,0 +1,588 @@
+{
+ "title": "How to Build an Emergency Fund on a Low Income (Step by Step)",
+ "voice": "af_heart",
+ "speed": 1.08,
+ "style": "sketch",
+ "lead": 0.3,
+ "scene_gap": 0.35,
+ "tail": 1.5,
+ "thumbnail": {
+  "line1": "Emergency Fund",
+  "line2": "On a Low",
+  "badge": "INCOME",
+  "sub": "Start with just $10 a week",
+  "mood": "happy",
+  "props": [
+   "coins"
+  ],
+  "bg": [
+   "#7EE8C4",
+   "#2EC4B6"
+  ]
+ },
+ "scenes": [
+  {
+   "heading": "Your car just broke",
+   "lines": [
+    "Imagine this. Your car breaks down, and the mechanic says: four hundred dollars."
+   ],
+   "draws": [
+    {
+     "icon": "car",
+     "label": "$400 repair"
+    }
+   ],
+   "chapter": "Could You Cover a $400 Surprise?"
+  },
+  {
+   "heading": "Could you pay it?",
+   "lines": [
+    "Could you pay that right now, in cash? Be honest."
+   ],
+   "draws": [
+    {
+     "icon": "question",
+     "label": "Right now? In cash?"
+    }
+   ]
+  },
+  {
+   "heading": "You're not alone",
+   "lines": [
+    "If the answer is no, you are not alone. Not even close."
+   ],
+   "draws": [
+    {
+     "icon": "people",
+     "label": "Millions of people"
+    }
+   ]
+  },
+  {
+   "heading": "1 in 3",
+   "lines": [
+    "More than a third of American adults couldn't cover a four hundred dollar surprise with cash."
+   ],
+   "draws": [
+    {
+     "big": "37%",
+     "label": "of U.S. adults",
+     "color": "#FF6B6B"
+    }
+   ]
+  },
+  {
+   "heading": "Here's the fix",
+   "lines": [
+    "So today, I'll show you how to build an emergency fund, even on a small paycheck."
+   ],
+   "draws": [
+    {
+     "icon": "umbrella",
+     "label": "Your safety net"
+    }
+   ]
+  },
+  {
+   "heading": "The debt trap",
+   "lines": [
+    "Here's what happens without one. Every surprise goes straight onto a credit card."
+   ],
+   "draws": [
+    {
+     "icon": "card",
+     "label": "Swipe... again"
+    }
+   ],
+   "chapter": "Why You Need a Safety Net"
+  },
+  {
+   "heading": "It snowballs",
+   "lines": [
+    "Then the interest makes next month even tighter. And the cycle repeats."
+   ],
+   "draws": [
+    {
+     "icon": "chart_down",
+     "label": "Interest piles up"
+    }
+   ]
+  },
+  {
+   "heading": "Not your fault",
+   "lines": [
+    "It's not because you're bad with money. Life is just unpredictable."
+   ],
+   "draws": [
+    {
+     "icon": "person_sad",
+     "label": "Life happens"
+    }
+   ]
+  },
+  {
+   "heading": "Break the cycle",
+   "lines": [
+    "An emergency fund is the wall between you and new debt."
+   ],
+   "draws": [
+    {
+     "icon": "shield",
+     "label": "You vs. debt",
+     "color": "#3BB273"
+    }
+   ]
+  },
+  {
+   "heading": "Forget 6 months",
+   "lines": [
+    "You've heard you need six months of expenses saved. On a low income, that feels impossible."
+   ],
+   "draws": [
+    {
+     "icon": "calendar",
+     "label": "6 months?! No way."
+    }
+   ],
+   "chapter": "Step 1: Start With $500"
+  },
+  {
+   "heading": "Start small",
+   "lines": [
+    "So forget that for now. Your first goal is just five hundred dollars."
+   ],
+   "draws": [
+    {
+     "big": "$500",
+     "label": "Starter goal",
+     "color": "#9B5DE5"
+    }
+   ]
+  },
+  {
+   "heading": "$500 = peace",
+   "lines": [
+    "That alone covers a car repair, a new phone screen, or a surprise bill."
+   ],
+   "draws": [
+    {
+     "icon": "phone",
+     "label": "Repairs & screens"
+    }
+   ]
+  },
+  {
+   "heading": "Then level up",
+   "lines": [
+    "Hit it? Great. Now aim for one thousand."
+   ],
+   "draws": [
+    {
+     "icon": "target",
+     "label": "Next: $1,000"
+    }
+   ]
+  },
+  {
+   "heading": "Money leaks",
+   "lines": [
+    "Step two. Find the money that's already slipping away."
+   ],
+   "draws": [
+    {
+     "icon": "magnifier",
+     "label": "Find the leaks"
+    }
+   ],
+   "chapter": "Step 2: Find Hidden Money"
+  },
+  {
+   "heading": "Forgotten apps",
+   "lines": [
+    "Subscriptions you forgot about. Apps you never open."
+   ],
+   "draws": [
+    {
+     "icon": "phone",
+     "label": "Cancel them"
+    }
+   ]
+  },
+  {
+   "heading": "Bank fees?!",
+   "lines": [
+    "Overdraft fees. Monthly account fees. Many banks offer accounts without them."
+   ],
+   "draws": [
+    {
+     "icon": "bank",
+     "label": "Stop paying fees"
+    }
+   ]
+  },
+  {
+   "heading": "Daily extras",
+   "lines": [
+    "And those little daily extras. Snacks, delivery fees, impulse buys."
+   ],
+   "draws": [
+    {
+     "icon": "coffee",
+     "label": "It adds up"
+    }
+   ]
+  },
+  {
+   "heading": "$720 a year",
+   "lines": [
+    "Just sixty dollars a month is seven hundred and twenty dollars a year!"
+   ],
+   "draws": [
+    {
+     "big": "$720",
+     "label": "found money",
+     "color": "#FFB627"
+    }
+   ]
+  },
+  {
+   "heading": "Every week",
+   "lines": [
+    "Step three. Pick an amount you can save every single week, no matter how small."
+   ],
+   "draws": [
+    {
+     "icon": "calendar",
+     "label": "Every. Single. Week."
+    }
+   ],
+   "chapter": "Step 3: Small Amounts Add Up"
+  },
+  {
+   "heading": "$10 a week",
+   "lines": [
+    "Ten dollars a week becomes five hundred and twenty dollars in a year."
+   ],
+   "draws": [
+    {
+     "big": "$520",
+     "label": "$10 a week",
+     "color": "#2EC4B6"
+    }
+   ]
+  },
+  {
+   "heading": "$25 a week",
+   "lines": [
+    "Twenty five a week? That's thirteen hundred."
+   ],
+   "draws": [
+    {
+     "big": "$1,300",
+     "label": "$25 a week",
+     "color": "#5DA9E9"
+    }
+   ]
+  },
+  {
+   "heading": "$50 a week",
+   "lines": [
+    "Fifty a week? Twenty six hundred dollars!"
+   ],
+   "draws": [
+    {
+     "big": "$2,600",
+     "label": "$50 a week",
+     "color": "#3BB273"
+    }
+   ]
+  },
+  {
+   "heading": "Habit wins",
+   "lines": [
+    "The amount matters less than the habit. Consistency builds the fund."
+   ],
+   "draws": [
+    {
+     "icon": "brain",
+     "label": "Habit > amount"
+    }
+   ]
+  },
+  {
+   "heading": "Automate it",
+   "lines": [
+    "Step four. Take willpower out of the game completely."
+   ],
+   "draws": [
+    {
+     "icon": "gears",
+     "label": "Zero willpower"
+    }
+   ],
+   "chapter": "Step 4: Automate It"
+  },
+  {
+   "heading": "Payday transfer",
+   "lines": [
+    "Set up an automatic transfer to savings on payday."
+   ],
+   "draws": [
+    {
+     "icon": "calendar",
+     "label": "Auto-transfer"
+    }
+   ]
+  },
+  {
+   "heading": "Split it",
+   "lines": [
+    "Many banks let you split your direct deposit, so part of every paycheck lands in savings by itself."
+   ],
+   "draws": [
+    {
+     "icon": "bank",
+     "label": "Split deposit"
+    }
+   ]
+  },
+  {
+   "heading": "Out of sight",
+   "lines": [
+    "Money you never see in checking is money you won't spend."
+   ],
+   "draws": [
+    {
+     "icon": "lock",
+     "label": "Out of sight"
+    }
+   ]
+  },
+  {
+   "heading": "Keep it apart",
+   "lines": [
+    "Step five. Where you keep this money matters."
+   ],
+   "draws": [
+    {
+     "icon": "question",
+     "label": "Where?"
+    }
+   ],
+   "chapter": "Step 5: Keep It Separate"
+  },
+  {
+   "heading": "Not in checking",
+   "lines": [
+    "If it sits in your checking account, it will disappear. Trust me."
+   ],
+   "draws": [
+    {
+     "icon": "cross",
+     "label": "Not in checking"
+    }
+   ]
+  },
+  {
+   "heading": "Separate savings",
+   "lines": [
+    "Put it in a separate savings account, ideally high yield, at a federally insured bank or credit union."
+   ],
+   "draws": [
+    {
+     "icon": "shield",
+     "label": "Separate & insured",
+     "color": "#3BB273"
+    }
+   ]
+  },
+  {
+   "heading": "Don't invest it",
+   "lines": [
+    "And don't invest it. It needs to be there, at full value, the moment you need it."
+   ],
+   "draws": [
+    {
+     "icon": "chart_down",
+     "label": "Not in stocks"
+    }
+   ]
+  },
+  {
+   "heading": "Turbo boost",
+   "lines": [
+    "Want to get there faster? Use money that isn't part of your paycheck."
+   ],
+   "draws": [
+    {
+     "icon": "rocket",
+     "label": "Go faster"
+    }
+   ],
+   "chapter": "Step 6: Boost It With Extra Cash"
+  },
+  {
+   "heading": "Tax refund",
+   "lines": [
+    "A tax refund can fill your starter fund in a single day."
+   ],
+   "draws": [
+    {
+     "icon": "receipt",
+     "label": "Tax refund"
+    }
+   ]
+  },
+  {
+   "heading": "Side cash",
+   "lines": [
+    "A few hours of side work. Selling stuff you don't use anymore."
+   ],
+   "draws": [
+    {
+     "icon": "cart",
+     "label": "Sell & side work"
+    }
+   ]
+  },
+  {
+   "heading": "Half of it",
+   "lines": [
+    "Rule of thumb: send at least half of any surprise money straight to the fund."
+   ],
+   "draws": [
+    {
+     "big": "50%",
+     "label": "of surprise money",
+     "color": "#FF6B6B"
+    }
+   ]
+  },
+  {
+   "heading": "Real emergencies",
+   "lines": [
+    "Step seven. Decide ahead of time what counts as an emergency."
+   ],
+   "draws": [
+    {
+     "icon": "list",
+     "label": "Decide ahead"
+    }
+   ],
+   "chapter": "Step 7: Know What Counts"
+  },
+  {
+   "heading": "Yes",
+   "lines": [
+    "A car repair you need for work, a medical bill, losing your job? Yes."
+   ],
+   "draws": [
+    {
+     "icon": "check",
+     "label": "Car, medical, job"
+    }
+   ]
+  },
+  {
+   "heading": "No!",
+   "lines": [
+    "A big sale, a concert, a holiday trip? No. Those get their own savings goal."
+   ],
+   "draws": [
+    {
+     "icon": "cross",
+     "label": "Sales, concerts, trips"
+    }
+   ]
+  },
+  {
+   "heading": "Refill it",
+   "lines": [
+    "And if you use it? That's okay. That's what it's for. Just start refilling it."
+   ],
+   "draws": [
+    {
+     "icon": "piggy",
+     "label": "Used it? Refill it"
+    }
+   ]
+  },
+  {
+   "heading": "The roadmap",
+   "lines": [
+    "Here's the full roadmap. First, five hundred. Then one thousand."
+   ],
+   "draws": [
+    {
+     "icon": "seedling",
+     "label": "$500, then $1,000"
+    }
+   ],
+   "chapter": "Your Emergency Fund Roadmap"
+  },
+  {
+   "heading": "3 months",
+   "lines": [
+    "Then three months of essentials: rent, food, utilities, transport."
+   ],
+   "draws": [
+    {
+     "big": "3 mo",
+     "label": "of essentials",
+     "color": "#2EC4B6"
+    }
+   ]
+  },
+  {
+   "heading": "6 months",
+   "lines": [
+    "And over time, six months. Every stage makes you safer than before."
+   ],
+   "draws": [
+    {
+     "big": "6 mo",
+     "label": "real freedom",
+     "color": "#3BB273"
+    }
+   ]
+  },
+  {
+   "heading": "You can do this",
+   "lines": [
+    "You don't need a big income to build a safety net. You just need to start."
+   ],
+   "draws": [
+    {
+     "icon": "trophy",
+     "label": "Just start"
+    }
+   ],
+   "chapter": "You Can Do This"
+  },
+  {
+   "heading": "Your turn",
+   "lines": [
+    "If this helped, subscribe for one simple money move every day."
+   ],
+   "draws": [
+    {
+     "icon": "bell",
+     "label": "Subscribe"
+    }
+   ]
+  },
+  {
+   "heading": "Tell me",
+   "lines": [
+    "And tell me in the comments: what's your first savings goal?"
+   ],
+   "draws": [
+    {
+     "icon": "mail",
+     "label": "Your first goal?"
+    }
+   ]
+  }
+ ],
+ "big_headings": true
+}

@@ -1,0 +1,126 @@
+{
+ "title": "Could You Survive a $400 Emergency? Most People Can't",
+ "voice": "af_heart",
+ "speed": 1.1,
+ "style": "sketch",
+ "vertical": true,
+ "lead": 0.25,
+ "scene_gap": 0.3,
+ "tail": 1.2,
+ "scenes": [
+  {
+   "heading": "WAIT.",
+   "lines": [
+    "Could you pay a four hundred dollar emergency today? In cash? Be honest."
+   ],
+   "draws": [
+    {
+     "big": "$400",
+     "label": "right now?",
+     "color": "#FF6B6B"
+    }
+   ]
+  },
+  {
+   "heading": "Most can't",
+   "lines": [
+    "More than a third of Americans couldn't. And that's exactly how the debt trap starts."
+   ],
+   "draws": [
+    {
+     "big": "1 in 3",
+     "label": "Americans",
+     "color": "#FF6B6B"
+    }
+   ]
+  },
+  {
+   "heading": "The trap",
+   "lines": [
+    "The car breaks, it goes on the credit card, and the interest eats your next month."
+   ],
+   "draws": [
+    {
+     "icon": "card",
+     "label": "Swipe. Repeat."
+    }
+   ]
+  },
+  {
+   "heading": "The fix",
+   "lines": [
+    "Here's the fix. Forget six months of savings. Start with just five hundred dollars."
+   ],
+   "draws": [
+    {
+     "big": "$500",
+     "label": "your first goal",
+     "color": "#9B5DE5"
+    }
+   ]
+  },
+  {
+   "heading": "How?",
+   "lines": [
+    "Ten dollars a week. That's it. That's five hundred and twenty dollars in one year."
+   ],
+   "draws": [
+    {
+     "big": "$10/wk",
+     "label": "= $520 a year",
+     "color": "#2EC4B6"
+    }
+   ]
+  },
+  {
+   "heading": "Autopilot",
+   "lines": [
+    "Set it to move automatically on payday, so you never even see it."
+   ],
+   "draws": [
+    {
+     "icon": "gears",
+     "label": "Auto-transfer"
+    }
+   ]
+  },
+  {
+   "heading": "Hide it",
+   "lines": [
+    "Keep it in a separate savings account. Not your checking. Out of sight, out of mind."
+   ],
+   "draws": [
+    {
+     "icon": "lock",
+     "label": "Separate account"
+    }
+   ]
+  },
+  {
+   "heading": "No panic",
+   "lines": [
+    "So next time life hits you with a surprise? You just pay it. No panic."
+   ],
+   "draws": [
+    {
+     "icon": "shield",
+     "label": "Paid. Done.",
+     "color": "#3BB273"
+    }
+   ]
+  },
+  {
+   "heading": "Full plan",
+   "lines": [
+    "Want the full step by step plan? It's in the full video on my channel."
+   ],
+   "draws": [
+    {
+     "icon": "play",
+     "label": "Full video on my channel",
+     "color": "#FF6B6B"
+    }
+   ]
+  }
+ ]
+}
