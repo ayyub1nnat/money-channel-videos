@@ -1,0 +1,223 @@
+{
+ "title": "You're Probably Paying For Subscriptions You Forgot About",
+ "duration": 36.508,
+ "scenes": [
+  {
+   "id": "s0",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Quick question",
+   "start": 0.25,
+   "end": 4.18,
+   "line_starts": [
+    0.25
+   ],
+   "subs": [
+    {
+     "start": 0.25,
+     "end": 2.278,
+     "text": "How much do you spend on subscriptions"
+    },
+    {
+     "start": 2.278,
+     "end": 3.88,
+     "text": "every month? Guess. Right now."
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Most people say...",
+   "start": 4.18,
+   "end": 7.66,
+   "line_starts": [
+    4.18
+   ],
+   "subs": [
+    {
+     "start": 4.18,
+     "end": 6.353,
+     "text": "In one survey, most people guessed around"
+    },
+    {
+     "start": 6.353,
+     "end": 7.36,
+     "text": "eighty six dollars."
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "visual": "sketch",
+   "params": {},
+   "heading": "The real number",
+   "start": 7.66,
+   "end": 11.384,
+   "line_starts": [
+    7.66
+   ],
+   "subs": [
+    {
+     "start": 7.66,
+     "end": 9.942,
+     "text": "The real number? Over two hundred dollars."
+    },
+    {
+     "start": 9.942,
+     "end": 11.084,
+     "text": "Every. Single. Month."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Where it hides",
+   "start": 11.384,
+   "end": 16.766,
+   "line_starts": [
+    11.384
+   ],
+   "subs": [
+    {
+     "start": 11.384,
+     "end": 13.439,
+     "text": "The free trial you forgot to cancel."
+    },
+    {
+     "start": 13.439,
+     "end": 14.81,
+     "text": "The app you opened once."
+    },
+    {
+     "start": 14.81,
+     "end": 16.466,
+     "text": "The second streaming service."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Per year",
+   "start": 16.766,
+   "end": 20.013,
+   "line_starts": [
+    16.766
+   ],
+   "subs": [
+    {
+     "start": 16.766,
+     "end": 18.392,
+     "text": "That gap alone can cost you over"
+    },
+    {
+     "start": 18.392,
+     "end": 19.713,
+     "text": "a thousand dollars a year."
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Tonight",
+   "start": 20.013,
+   "end": 24.03,
+   "line_starts": [
+    20.013
+   ],
+   "subs": [
+    {
+     "start": 20.013,
+     "end": 21.818,
+     "text": "So tonight, open your bank app and"
+    },
+    {
+     "start": 21.818,
+     "end": 23.73,
+     "text": "scroll through last month's charges."
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Ask one thing",
+   "start": 24.03,
+   "end": 27.18,
+   "line_starts": [
+    24.03
+   ],
+   "subs": [
+    {
+     "start": 24.03,
+     "end": 24.963,
+     "text": "For each one, ask:"
+    },
+    {
+     "start": 24.963,
+     "end": 26.88,
+     "text": "would I sign up for this again today?"
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "visual": "sketch",
+   "params": {},
+   "heading": "No? Cut it.",
+   "start": 27.18,
+   "end": 30.386,
+   "line_starts": [
+    27.18
+   ],
+   "subs": [
+    {
+     "start": 27.18,
+     "end": 28.277,
+     "text": "If the answer is no,"
+    },
+    {
+     "start": 28.277,
+     "end": 30.086,
+     "text": "cancel it. Right there. No guilt."
+    }
+   ]
+  },
+  {
+   "id": "s8",
+   "visual": "sketch",
+   "params": {},
+   "heading": "Your turn",
+   "start": 30.386,
+   "end": 36.508,
+   "line_starts": [
+    30.386
+   ],
+   "subs": [
+    {
+     "start": 30.386,
+     "end": 32.126,
+     "text": "Tell me in the comments how many"
+    },
+    {
+     "start": 32.126,
+     "end": 34.193,
+     "text": "you found. Follow for one simple money"
+    },
+    {
+     "start": 34.193,
+     "end": 35.008,
+     "text": "move every day!"
+    }
+   ]
+  }
+ ]
+}

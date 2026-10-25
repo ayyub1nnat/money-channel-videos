@@ -66,6 +66,26 @@ try:
             except Exception as ex: out["short_localized"] = str(ex)[:300]
         except Exception as ex:
             out["short_error"] = str(ex)[:300]
+    # standalone Short (media/short2.mp4, own topic, no link to the main video) → public 19:00 Baku
+    if requests.head(f"{RAW}/media/short2.mp4", timeout=60, allow_redirects=True).status_code == 200:
+        try:
+            s2 = seo.get("short2", {})
+            t2 = s2["title"][:90]
+            if "#shorts" not in t2.lower(): t2 = (t2 + " #shorts")[:100]
+            d2 = (s2.get("description", "") + "\n\n▶️ More simple money moves every day: https://www.youtube.com/@simplemoneylifeez"
+                  + "\n\nThis video is for educational purposes only and is not financial advice.\n\n#shorts #personalfinance #money")
+            sid2 = yt_upload_video(yt_download(f"{RAW}/media/short2.mp4", "/home/user/short2.mp4"),
+                                   {"title": t2, "description": d2[:4900], "tags": s2.get("tags", []) + ["shorts"],
+                                    "categoryId": "27", "defaultLanguage": "en", "defaultAudioLanguage": "en"}, status_for(19))
+            out["short2_id"] = sid2
+            try:
+                yt_insert_caption(sid2, yt_download(f"{RAW}/main/days/{DATE}/short2/subtitles.srt", "/home/user/s2.srt")); out["short2_captions"] = "ok"
+            except Exception as ex: out["short2_captions"] = str(ex)[:300]
+            try:
+                localize(sid2, loc.get("_short2", {})); out["short2_localized"] = "ok"
+            except Exception as ex: out["short2_localized"] = str(ex)[:300]
+        except Exception as ex:
+            out["short2_error"] = str(ex)[:300]
 except Exception as ex:
     out.update(ok=False, error=str(ex)[:400])
 print("RESULT", json.dumps(out, ensure_ascii=False))

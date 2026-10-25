@@ -1,0 +1,31 @@
+{
+ "title": "You're Probably Paying For Subscriptions You Forgot About",
+ "voice": "af_heart",
+ "speed": 1.1,
+ "style": "sketch",
+ "vertical": true,
+ "big_headings": true,
+ "lead": 0.25,
+ "scene_gap": 0.3,
+ "tail": 1.2,
+ "scenes": [
+  {"heading": "Quick question", "lines": ["How much do you spend on subscriptions every month? Guess. Right now."],
+   "draws": [{"icon": "question", "label": "Your guess?"}]},
+  {"heading": "Most people say...", "lines": ["In one survey, most people guessed around eighty six dollars."],
+   "draws": [{"big": "$86", "label": "what people guess", "color": "#FFB627"}]},
+  {"heading": "The real number", "lines": ["The real number? Over two hundred dollars. Every. Single. Month."],
+   "draws": [{"big": "$219", "label": "what they really pay", "color": "#FF6B6B"}]},
+  {"heading": "Where it hides", "lines": ["The free trial you forgot to cancel. The app you opened once. The second streaming service."],
+   "draws": [{"icon": "phone", "label": "silent charges"}]},
+  {"heading": "Per year", "lines": ["That gap alone can cost you over a thousand dollars a year."],
+   "draws": [{"big": "$1,600", "label": "a year, gone quietly", "color": "#FF6B6B"}]},
+  {"heading": "Tonight", "lines": ["So tonight, open your bank app and scroll through last month's charges."],
+   "draws": [{"icon": "magnifier", "label": "check last month"}]},
+  {"heading": "Ask one thing", "lines": ["For each one, ask: would I sign up for this again today?"],
+   "draws": [{"icon": "check", "label": "Yes? Keep it.", "color": "#3BB273"}]},
+  {"heading": "No? Cut it.", "lines": ["If the answer is no, cancel it. Right there. No guilt."],
+   "draws": [{"icon": "scissors", "label": "Cancel it today", "color": "#3BB273"}]},
+  {"heading": "Your turn", "lines": ["Tell me in the comments how many you found. Follow for one simple money move every day!"],
+   "draws": [{"icon": "bell", "label": "Follow for more"}]}
+ ]
+}

@@ -1,0 +1,31 @@
+{
+ "title": "Your Bank Might Charge You $35 For a $4 Coffee",
+ "voice": "af_heart",
+ "speed": 1.1,
+ "style": "sketch",
+ "vertical": true,
+ "big_headings": true,
+ "lead": 0.25,
+ "scene_gap": 0.3,
+ "tail": 1.2,
+ "scenes": [
+  {"heading": "Wait...", "lines": ["Your bank might charge you thirty five dollars for a four dollar coffee."],
+   "draws": [{"big": "$35", "label": "for a $4 coffee?!", "color": "#FF6B6B"}]},
+  {"heading": "How?", "lines": ["If your account is a little short, many banks still approve the payment."],
+   "draws": [{"icon": "card", "label": "approved... but"}]},
+  {"heading": "The fee", "lines": ["And then they hit you with an overdraft fee. Often around thirty five dollars."],
+   "draws": [{"icon": "bank", "label": "overdraft fee"}]},
+  {"heading": "Again. And again.", "lines": ["Three small purchases on a bad day? That can be over a hundred dollars in fees."],
+   "draws": [{"big": "$105", "label": "3 coffees, 3 fees", "color": "#FF6B6B"}]},
+  {"heading": "The fix #1", "lines": ["Here's the move. Call your bank or open the app, and turn off overdraft coverage for debit card purchases."],
+   "draws": [{"icon": "lock", "label": "opt out", "color": "#3BB273"}]},
+  {"heading": "What happens?", "lines": ["Now if you're short, the card just gets declined. Awkward for a second, but free."],
+   "draws": [{"icon": "cross", "label": "declined = $0 fee"}]},
+  {"heading": "The fix #2", "lines": ["Then set a low balance alert, so your phone warns you before it happens."],
+   "draws": [{"icon": "bell", "label": "alert under $50", "color": "#3BB273"}]},
+  {"heading": "Two minutes", "lines": ["Two minutes today can save you hundreds this year."],
+   "draws": [{"icon": "clock", "label": "2 minutes"}]},
+  {"heading": "Your turn", "lines": ["Do it right now. And follow for one simple money move every day!"],
+   "draws": [{"icon": "thumbsup", "label": "Follow for more"}]}
+ ]
+}

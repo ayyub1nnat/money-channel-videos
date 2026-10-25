@@ -40,5 +40,27 @@
       "title": "Où part ton salaire ? Utilise la règle 50/30/20 💸 #shorts",
       "description": "Ton salaire disparaît en deux semaines ? Donne un rôle à chaque dollar : 50 % besoins, 30 % envies, 20 % ton futur."
     }
+  },
+  "_short2": {
+    "es": {
+      "title": "Tu banco podría cobrarte $35 por un café de $4 😤",
+      "description": "Las comisiones por sobregiro pueden convertir un café de $4 en uno de $39. La solución en 2 minutos: desactiva la cobertura de sobregiro para compras con tarjeta de débito y activa una alerta de saldo bajo."
+    },
+    "pt": {
+      "title": "Seu banco pode cobrar $35 por um café de $4 😤",
+      "description": "Taxas de cheque especial podem transformar um café de $4 em um de $39. A solução de 2 minutos: desative a cobertura de saldo negativo para compras no débito e ative um alerta de saldo baixo."
+    },
+    "hi": {
+      "title": "आपका बैंक $4 की कॉफ़ी पर $35 ले सकता है 😤",
+      "description": "ओवरड्राफ्ट फीस $4 की कॉफ़ी को $39 की बना सकती है। 2 मिनट का उपाय: डेबिट कार्ड खरीद के लिए ओवरड्राफ्ट कवरेज बंद करें और लो बैलेंस अलर्ट लगाएं।"
+    },
+    "de": {
+      "title": "Deine Bank kassiert vielleicht $35 für einen $4-Kaffee 😤",
+      "description": "Überziehungsgebühren können aus einem $4-Kaffee einen $39-Kaffee machen. Die 2-Minuten-Lösung: Überziehung bei Debitkartenzahlungen abschalten und einen Alarm für niedrigen Kontostand einrichten."
+    },
+    "fr": {
+      "title": "Ta banque peut te facturer 35 $ pour un café à 4 $ 😤",
+      "description": "Les frais de découvert peuvent transformer un café à 4 $ en café à 39 $. La solution en 2 minutes : désactive la couverture de découvert pour les achats par carte de débit et active une alerte de solde bas."
+    }
   }
 }
