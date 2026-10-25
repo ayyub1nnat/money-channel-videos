@@ -29,6 +29,20 @@
     "Your car breaks down, and suddenly you need four hundred dollars you don't have.",
     "More than a third of American adults couldn't cover that with cash.",
     "Here's how to build an emergency fund, even on a small paycheck."
+   ],
+   "draws": [
+    {
+     "icon": "car",
+     "label": "Surprise: $400"
+    },
+    {
+     "big": "37%",
+     "label": "can't cover it with cash"
+    },
+    {
+     "icon": "umbrella",
+     "label": "Build a safety net"
+    }
    ]
   },
   {
@@ -48,6 +62,20 @@
     "Without savings, every surprise turns into debt.",
     "A flat tire or a doctor visit goes straight onto a credit card, and the interest makes next month even tighter.",
     "An emergency fund breaks that cycle. It's the money that stands between you and new debt."
+   ],
+   "draws": [
+    {
+     "icon": "card",
+     "label": "Surprise goes on a card"
+    },
+    {
+     "icon": "chart_down",
+     "label": "Interest piles up"
+    },
+    {
+     "icon": "shield",
+     "label": "Fund = no new debt"
+    }
    ]
   },
   {
@@ -64,6 +92,28 @@
     "So start smaller. Your first goal is five hundred dollars.",
     "That alone covers a lot of common surprises, like a car repair or a new phone screen.",
     "Once you hit it, you can raise the goal to one thousand."
+   ],
+   "draws": [
+    {
+     "icon": "calendar",
+     "label": "3-6 months?"
+    },
+    {
+     "icon": "person_sad",
+     "label": "Feels impossible"
+    },
+    {
+     "big": "$500",
+     "label": "Starter goal"
+    },
+    {
+     "icon": "phone",
+     "label": "Repairs & screens"
+    },
+    {
+     "icon": "target",
+     "label": "Then $1,000"
+    }
    ]
   },
   {
@@ -84,6 +134,28 @@
     "Check for bank fees, like overdraft or monthly account fees. Many banks offer accounts without them.",
     "And notice the small daily extras, like snacks or delivery fees.",
     "Even sixty dollars a month adds up to seven hundred and twenty dollars a year."
+   ],
+   "draws": [
+    {
+     "icon": "magnifier",
+     "label": "Find the leaks"
+    },
+    {
+     "icon": "phone",
+     "label": "Forgotten apps"
+    },
+    {
+     "icon": "bank",
+     "label": "Bank fees"
+    },
+    {
+     "icon": "coffee",
+     "label": "Daily extras"
+    },
+    {
+     "big": "$720",
+     "label": "a year"
+    }
    ]
   },
   {
@@ -107,6 +179,28 @@
     "Twenty five dollars a week becomes thirteen hundred.",
     "And fifty dollars a week becomes twenty six hundred.",
     "The amount matters less than the habit. Consistency is what builds the fund."
+   ],
+   "draws": [
+    {
+     "icon": "calendar",
+     "label": "Every single week"
+    },
+    {
+     "big": "$520",
+     "label": "$10 a week"
+    },
+    {
+     "big": "$1,300",
+     "label": "$25 a week"
+    },
+    {
+     "big": "$2,600",
+     "label": "$50 a week"
+    },
+    {
+     "icon": "brain",
+     "label": "Habit beats amount"
+    }
    ]
   },
   {
@@ -126,7 +220,30 @@
     "Many banks and credit unions let you split your direct deposit, so part of each paycheck lands in savings automatically.",
     "Then your bills get paid, and the rest is for spending.",
     "Money you never see in your checking account is money you won't accidentally spend."
-   ]
+   ],
+   "draws": [
+    {
+     "icon": "gears",
+     "label": "No willpower"
+    },
+    {
+     "icon": "calendar",
+     "label": "Payday transfer"
+    },
+    {
+     "icon": "bank",
+     "label": "Split deposit"
+    },
+    {
+     "icon": "receipt",
+     "label": "Bills paid"
+    },
+    {
+     "icon": "lock",
+     "label": "Out of sight"
+    }
+   ],
+   "flow": true
   },
   {
    "visual": "compare",
@@ -150,6 +267,24 @@
     "If it sits in your checking account, it's too easy to spend.",
     "Keep it in a separate savings account, ideally a high yield one at a federally insured bank or credit union.",
     "Avoid investing your emergency fund. It needs to be there, at full value, the moment you need it."
+   ],
+   "draws": [
+    {
+     "icon": "question",
+     "label": "Where to keep it?"
+    },
+    {
+     "icon": "cross",
+     "label": "Not in checking"
+    },
+    {
+     "icon": "shield",
+     "label": "Separate & insured"
+    },
+    {
+     "icon": "chart_down",
+     "label": "Don't invest it"
+    }
    ]
   },
   {
@@ -182,6 +317,28 @@
     "A few hours of side work, or selling things you no longer use, can add up quickly.",
     "Even cash gifts can go straight into the fund.",
     "Try sending at least half of any surprise money there."
+   ],
+   "draws": [
+    {
+     "icon": "rocket",
+     "label": "Go faster"
+    },
+    {
+     "icon": "receipt",
+     "label": "Tax refund"
+    },
+    {
+     "icon": "cart",
+     "label": "Side work, sell stuff"
+    },
+    {
+     "icon": "gift",
+     "label": "Cash gifts"
+    },
+    {
+     "big": "50%",
+     "label": "of surprise money"
+    }
    ]
   },
   {
@@ -198,6 +355,24 @@
     "A car repair you need for work, a medical bill, or a sudden drop in income? Yes.",
     "A great sale, a concert, or a holiday trip? Those deserve their own savings goal.",
     "And if you do use the fund, that's okay. That's what it's for. Just start refilling it right away."
+   ],
+   "draws": [
+    {
+     "icon": "list",
+     "label": "Decide ahead"
+    },
+    {
+     "icon": "check",
+     "label": "Car, medical, job"
+    },
+    {
+     "icon": "cross",
+     "label": "Sales, concerts, trips"
+    },
+    {
+     "icon": "piggy",
+     "label": "Used it? Refill it"
+    }
    ]
   },
   {
@@ -229,7 +404,28 @@
     "Then, one thousand dollars, for a bigger cushion.",
     "Next, three months of essential expenses, like rent, food, utilities, and transportation.",
     "And over time, if you can, six months. Every stage makes you a little safer than before."
-   ]
+   ],
+   "draws": [
+    {
+     "icon": "seedling",
+     "label": "Stage by stage"
+    },
+    {
+     "big": "$500"
+    },
+    {
+     "big": "$1,000"
+    },
+    {
+     "big": "3 mo",
+     "label": "of essentials"
+    },
+    {
+     "big": "6 mo",
+     "label": "long term"
+    }
+   ],
+   "flow": true
   },
   {
    "visual": "checklist",
@@ -265,6 +461,32 @@
     "Save a fixed amount every week.",
     "Automate the transfer on payday.",
     "And keep it in a separate, insured savings account."
+   ],
+   "draws": [
+    {
+     "icon": "list",
+     "label": "Recap"
+    },
+    {
+     "big": "$500",
+     "label": "first goal"
+    },
+    {
+     "icon": "scissors",
+     "label": "Cut fees"
+    },
+    {
+     "icon": "calendar",
+     "label": "Save weekly"
+    },
+    {
+     "icon": "gears",
+     "label": "Automate"
+    },
+    {
+     "icon": "shield",
+     "label": "Keep it separate"
+    }
    ]
   },
   {
@@ -281,6 +503,20 @@
     "You don't need a big income to build a safety net. You just need to start, and keep going.",
     "If this helped, like the video and subscribe for more simple ways to feel calmer about money.",
     "Tell me in the comments: how much is your first savings goal? See you in the next one."
+   ],
+   "draws": [
+    {
+     "icon": "seedling",
+     "label": "Just start"
+    },
+    {
+     "icon": "bell",
+     "label": "Subscribe"
+    },
+    {
+     "icon": "mail",
+     "label": "Your first goal?"
+    }
    ]
   }
  ],
@@ -309,5 +545,6 @@
    ]
   ]
  },
- "speed": 1.06
+ "speed": 1.06,
+ "style": "sketch"
 }
