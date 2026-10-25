@@ -1,0 +1,320 @@
+{
+ "title": "POV: You Earn $4,000 a Month and Still Save $800 — Your Coworkers Can't Figure Out How",
+ "style": "pov",
+ "voice": "af_heart",
+ "speed": 1.04,
+ "lead": 0.3,
+ "gap": 0.3,
+ "scene_gap": 0.45,
+ "tail": 2.0,
+ "thumbnail": {
+  "image": "thumb",
+  "text": [
+   "SAVES $800",
+   "EVERY MONTH"
+  ],
+  "color": "#5BE37D",
+  "pos": "right",
+  "img": "{HERO} standing in the foreground of an office, smiling calmly and holding a phone, behind him two stressed coworkers, a man in a blue shirt holding a pile of bills and a woman with a ponytail staring shocked at her phone, bright office, strong contrast between calm and panic, composition with the hero on the left third"
+ },
+ "scenes": [
+  {
+   "chapter": "Same Paycheck, Different Life",
+   "lines": [
+    "It's Friday. Payday. You and your coworkers all just got paid the same amount.",
+    "Four thousand dollars."
+   ],
+   "img": "{HERO} sitting at an office desk smiling calmly at a phone showing a bank deposit notification, coworkers at nearby desks also checking their phones, bright modern open office",
+   "tag": "+$4,000"
+  },
+  {
+   "lines": [
+    "Jake is already talking about the new truck he just financed.",
+    "Mia is planning a weekend trip she'll put on a credit card."
+   ],
+   "img": "two excited coworkers in an office break room, a young man in a blue shirt holding car keys and a woman with a ponytail showing a travel website on her phone, {HERO} watching them with a polite smile while drinking coffee"
+  },
+  {
+   "lines": [
+    "And you? You already know exactly where every dollar is going.",
+    "Because you made that decision once, months ago."
+   ],
+   "img": "{HERO} at a cozy kitchen table at night writing a simple budget in a notebook, a laptop and a cup of tea next to him, warm lamp light"
+  },
+  {
+   "lines": [
+    "Two weeks from now, Jake and Mia will be checking their balance, wondering where it all went.",
+    "You won't."
+   ],
+   "img": "a stressed young man in a blue shirt and a worried woman with a ponytail staring at their phones in an office hallway, {HERO} walking past them relaxed, holding a coffee",
+   "tag": "$12.40 left"
+  },
+  {
+   "lines": [
+    "This isn't about earning more. It's about one simple rule.",
+    "Here's how it works, and how you can start tonight."
+   ],
+   "img": "{HERO} standing in front of a big whiteboard with a pie chart split into three colored parts, pointing at it confidently, bright classroom-like room",
+   "tag": "50 / 30 / 20"
+  },
+  {
+   "chapter": "The 50/30/20 Rule",
+   "lines": [
+    "The rule is called fifty, thirty, twenty.",
+    "Fifty percent of your take home pay goes to needs."
+   ],
+   "img": "close up of a large hand-drawn pie chart on paper, the biggest half colored blue, a pencil and a calculator next to it on a wooden desk",
+   "tag": "50% NEEDS",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "Thirty percent goes to wants.",
+    "And twenty percent goes to your future. Savings, and paying off debt."
+   ],
+   "img": "the same pie chart now with an orange slice and a green slice added, coins stacked next to the green slice, wooden desk, top-down view",
+   "tag": "30% WANTS · 20% FUTURE",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "On four thousand dollars a month, that's two thousand for needs, twelve hundred for wants, and eight hundred for your future."
+   ],
+   "img": "three glass jars on a kitchen counter labeled with colored stickers, one big jar full of bills, a medium jar and a smaller jar with coins, {HERO} dropping money into the small jar",
+   "tag": "$2,000 · $1,200 · $800",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Simple, right? But the magic isn't the math.",
+    "The magic is that you decide before the money shows up."
+   ],
+   "img": "{HERO} on his couch setting up automatic transfers on a laptop, a calendar on the wall with payday circled in red, cozy living room"
+  },
+  {
+   "chapter": "Needs: The 50%",
+   "lines": [
+    "Let's start with needs. Rent. Groceries. Utilities. Insurance. Getting to work.",
+    "The things you'd still pay for if life got hard."
+   ],
+   "img": "a neat apartment entrance with a small hallway, a grocery bag on a table, a light switch and a bus pass, {HERO} hanging his keys, morning light"
+  },
+  {
+   "lines": [
+    "Here's where most people get stuck.",
+    "Jake's truck payment is eight hundred and ninety dollars a month."
+   ],
+   "img": "the young man in a blue shirt proudly standing next to a shiny huge new pickup truck in a parking lot, a paper with a monthly payment in his hand",
+   "tag": "$890 / month"
+  },
+  {
+   "lines": [
+    "Add his rent and insurance, and his needs are already eating seventy percent of his paycheck.",
+    "There's nothing left to save, before the month even starts."
+   ],
+   "img": "the young man in a blue shirt at his kitchen table surrounded by bills, holding his head in his hands, a calculator showing a big number, evening light",
+   "tag": "70% gone"
+  },
+  {
+   "lines": [
+    "You drive a ten year old car that's paid off.",
+    "It's not exciting. But it costs you almost nothing every month."
+   ],
+   "img": "{HERO} happily washing an older but clean silver sedan in a driveway on a sunny afternoon, a bucket and sponge, suburban house behind",
+   "tag": "PAID OFF",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "If your needs are over fifty percent, don't panic.",
+    "Look at the big three first. Housing, car, and food. That's where the real money is."
+   ],
+   "img": "three large icons drawn on a chalkboard, a house, a car and a shopping cart, {HERO} circling them with chalk, classroom"
+  },
+  {
+   "chapter": "Wants: The 30%",
+   "lines": [
+    "Now the fun part. Wants.",
+    "Eating out. Streaming. Hobbies. That concert. Yes, you're allowed to enjoy your money."
+   ],
+   "img": "{HERO} laughing with two friends at an outdoor burger restaurant on a warm evening, string lights above, plates of food on the table"
+  },
+  {
+   "lines": [
+    "This is what most budgets get wrong. They try to cut all the fun.",
+    "And then people quit after two weeks."
+   ],
+   "img": "a frustrated woman with a ponytail ripping up a strict budget sheet full of red crossed out lines, crumpled papers on the floor, apartment living room"
+  },
+  {
+   "lines": [
+    "With fifty, thirty, twenty, the fun is planned.",
+    "So when you spend it, you spend it with zero guilt."
+   ],
+   "img": "{HERO} relaxed on a couch with popcorn watching a movie on TV, a cat next to him, cozy evening living room, warm lights",
+   "tag": "ZERO GUILT",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "Mia doesn't have a wants budget. She has a credit card.",
+    "And it charges her over twenty percent interest."
+   ],
+   "img": "the woman with a ponytail at a shopping mall carrying many shopping bags, swiping a credit card at a checkout, the cashier smiling",
+   "tag": "20%+ interest"
+  },
+  {
+   "lines": [
+    "That weekend trip will cost her a lot more than she thinks, if it takes months to pay off."
+   ],
+   "img": "the woman with a ponytail at home at night opening a credit card statement envelope with a shocked face, a suitcase with travel stickers in the corner"
+  },
+  {
+   "chapter": "Future: The 20%",
+   "lines": [
+    "And now the part that changes your life. Twenty percent for your future.",
+    "For you, that's eight hundred dollars a month."
+   ],
+   "img": "{HERO} looking out a big window at a sunrise over the city, holding a coffee mug, thoughtful hopeful expression",
+   "tag": "$800 / month",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "The trick? It leaves your account the same day you get paid.",
+    "Automatically. You never even see it."
+   ],
+   "img": "a smartphone screen illustration showing an automatic transfer from checking to savings with a green check mark, {HERO}'s hand holding the phone, blurred office background",
+   "tag": "AUTO-SAVE"
+  },
+  {
+   "lines": [
+    "First, you build an emergency fund. A few months of expenses, sitting there, just in case."
+   ],
+   "img": "a big sturdy piggy bank wearing a small umbrella hat, rain falling outside a window behind it, cozy shelf, {HERO} placing a coin into it"
+  },
+  {
+   "lines": [
+    "Then, if you have high interest debt, you crush it.",
+    "And after that, you start investing for the long run."
+   ],
+   "img": "{HERO} cutting a credit card in half with big scissors at a desk, a paper saying DEBT FREE pinned on a cork board behind him, confident smile"
+  },
+  {
+   "chapter": "One Year Later",
+   "lines": [
+    "Fast forward one year.",
+    "The office is buzzing. Rumors about layoffs."
+   ],
+   "img": "a tense modern office, worried employees whispering in small groups, a manager in a suit walking with a folder, gray cloudy light through windows"
+  },
+  {
+   "lines": [
+    "Jake can't sleep. One missed paycheck, and the truck is in trouble.",
+    "Mia's card is maxed out."
+   ],
+   "img": "the young man in a blue shirt lying awake in bed at night staring at the ceiling, phone glowing with a payment reminder, dark bedroom"
+  },
+  {
+   "lines": [
+    "You? You have almost ten thousand dollars saved.",
+    "You're not happy about the news. But you're not scared either."
+   ],
+   "img": "{HERO} sitting calmly at his desk in the tense office, looking at a savings app on his phone, a small plant on his desk, soft light around him",
+   "tag": "$9,600 saved",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "That's what money really buys. Not stuff.",
+    "Options. And peace of mind."
+   ],
+   "img": "{HERO} walking in a park in autumn with colorful leaves, hands in pockets, relaxed smile, golden afternoon light"
+  },
+  {
+   "chapter": "Five Years Later",
+   "lines": [
+    "Now jump five years ahead.",
+    "If that eight hundred a month was invested and grew around seven percent a year, it could be worth about fifty seven thousand dollars."
+   ],
+   "img": "{HERO} at a home office looking at a laptop showing a steadily rising green investment chart, a framed photo and a plant on the desk",
+   "tag": "≈ $57,000",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Markets go up and down, so nothing is guaranteed.",
+    "But time and consistency are on your side."
+   ],
+   "img": "an illustrated winding mountain road going up through hills, with small dips along the way, a tiny car climbing toward a sunny peak, wide landscape"
+  },
+  {
+   "lines": [
+    "Jake is on his second truck loan.",
+    "Mia is still paying for trips she barely remembers."
+   ],
+   "img": "the young man in a blue shirt signing papers at a car dealership desk with a salesman, and next to that the woman with a ponytail looking at old vacation photos on her phone with a sad face"
+  },
+  {
+   "lines": [
+    "And here's the crazy part. You all earned the same money.",
+    "The only difference was a plan."
+   ],
+   "img": "split scene, on the left the stressed coworkers in a messy apartment with bills, on the right {HERO} in a calm bright tidy apartment reading a book"
+  },
+  {
+   "chapter": "Start Tonight",
+   "lines": [
+    "So how do you start? Tonight, take your monthly take home pay. Not your salary. What actually lands in your account."
+   ],
+   "img": "{HERO} at a kitchen table at night with a laptop open to a bank app and a notebook, writing a number, warm lamp light"
+  },
+  {
+   "lines": [
+    "Multiply it by point five, point three, and point two.",
+    "Those are your three numbers."
+   ],
+   "img": "a notebook page with three simple boxes drawn in blue, orange and green ink, a calculator and a pen lying on it, top-down view",
+   "tag": "× 0.5   × 0.3   × 0.2"
+  },
+  {
+   "lines": [
+    "Then look at last month's spending.",
+    "Be honest. Which bucket is too big?"
+   ],
+   "img": "{HERO} highlighting lines on a printed bank statement with a yellow highlighter, a mug of coffee next to him, focused face"
+  },
+  {
+   "lines": [
+    "You don't have to be perfect on day one.",
+    "Even sixty, thirty, ten is a huge win if you saved nothing before."
+   ],
+   "img": "a staircase drawn on a wall with small steps going upward, {HERO} climbing the first step with a smile, bright simple room",
+   "tag": "PROGRESS > PERFECT",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "Last step. Set up an automatic transfer for payday.",
+    "That's it. You just became the person who saves first."
+   ],
+   "img": "{HERO} pressing a big confirm button on his phone, a small celebration with confetti around him, cozy living room"
+  },
+  {
+   "lines": [
+    "Next payday, your coworkers will be wondering where their money went.",
+    "You'll already know."
+   ],
+   "img": "{HERO} walking out of the office building at sunset, confident and relaxed, coworkers in the background looking at their phones stressed"
+  },
+  {
+   "lines": [
+    "If this helped, subscribe for a new simple money move every day.",
+    "And tell me in the comments. What's your biggest bucket right now?"
+   ],
+   "img": "{HERO} waving at the viewer from a cozy home office, a laptop and a plant on the desk, warm friendly light",
+   "tag": "SUBSCRIBE",
+   "tag_color": "#E23B3B"
+  }
+ ]
+}

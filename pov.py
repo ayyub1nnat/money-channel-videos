@@ -1,0 +1,101 @@
+"""Illustrated "POV" video renderer: one AI illustration per scene with slow camera moves (Ken Burns),
+soft crossfades, optional pop-in tag (big number / short label) and burned-in subtitles.
+Usage: python3 pov.py <wd> <t0> <t1> <out.mp4|.png>
+Needs <wd>/timeline.json (tts.py) and <wd>/img/NNN.jpg (scene index, 3 digits). script.json "vertical": true → 1080x1920."""
+import json, sys, os, math, subprocess, random
+from PIL import Image, ImageDraw, ImageFont, ImageFilter
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+wd = sys.argv[1]; t0 = float(sys.argv[2]); t1 = float(sys.argv[3]); out = sys.argv[4]
+S = json.load(open(f"{wd}/script.json")); TL = json.load(open(f"{wd}/timeline.json"))
+V = bool(S.get("vertical")); W, H = (1080, 1920) if V else (1920, 1080); FPS = 24; XF = 0.35
+SC = TL["scenes"]; SPEC = S["scenes"]
+FONT = os.path.join(HERE, "fonts", "Poppins-Bold.ttf")
+if not os.path.exists(FONT): FONT = "/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf"
+
+_img = {}
+def base(i):
+    if i not in _img:
+        p = f"{wd}/img/{i:03d}.jpg"
+        im = Image.open(p).convert("RGB") if os.path.exists(p) else Image.new("RGB", (W, H), (235, 230, 220))
+        # cover-fit into a canvas 12% larger than the frame so the camera can move
+        cw, ch = int(W * 1.12), int(H * 1.12); s = max(cw / im.width, ch / im.height)
+        im = im.resize((math.ceil(im.width * s), math.ceil(im.height * s)), Image.LANCZOS)
+        x, y = (im.width - cw) // 2, (im.height - ch) // 2
+        _img[i] = im.crop((x, y, x + cw, y + ch))
+        if len(_img) > 4: _img.pop(next(iter(_img)))
+    return _img[i]
+
+def ease(u): return u * u * (3 - 2 * u)
+def scene_frame(i, t):
+    s = SC[i]; d = max(0.1, s["end"] - s["start"] + XF); u = ease(min(1, max(0, (t - s["start"]) / d)))
+    im = base(i); cw, ch = im.size
+    r = random.Random(i * 7 + 3); mode = r.choice(["in", "out", "left", "right"]) if i else "in"
+    z0, z1 = {"in": (1.0, 1.10), "out": (1.10, 1.0)}.get(mode, (1.06, 1.06))
+    z = z0 + (z1 - z0) * u; vw, vh = min(W / z, cw), min(H / z, ch)
+    cx, cy = cw / 2, ch / 2
+    if mode == "left": cx = cw / 2 + (cw - vw) / 2 * (0.9 - 1.8 * u)
+    if mode == "right": cx = cw / 2 - (cw - vw) / 2 * (0.9 - 1.8 * u)
+    box = (cx - vw / 2, cy - vh / 2, cx + vw / 2, cy + vh / 2)
+    return im.resize((W, H), Image.BILINEAR, box=box)
+
+# ---- overlays
+_txt = {}
+def font(sz): return ImageFont.truetype(FONT, sz)
+def wrap(d, text, f, maxw):
+    lines, cur = [], ""
+    for w in text.split():
+        nxt = (cur + " " + w).strip()
+        if d.textlength(nxt, font=f) <= maxw: cur = nxt
+        else: lines.append(cur); cur = w
+    if cur: lines.append(cur)
+    return lines
+def sub_img(text):
+    if text in _txt: return _txt[text]
+    f = font(46 if V else 44); d = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
+    lines = wrap(d, text, f, W * (0.82 if V else 0.7)); lh = int(f.size * 1.3)
+    tw = int(max(d.textlength(l, font=f) for l in lines)); pw, ph = tw + 56, lh * len(lines) + 30
+    im = Image.new("RGBA", (pw, ph), (0, 0, 0, 0)); dd = ImageDraw.Draw(im)
+    dd.rounded_rectangle((0, 0, pw - 1, ph - 1), 18, fill=(20, 20, 24, 215))
+    for k, l in enumerate(lines):
+        lw = dd.textlength(l, font=f); dd.text(((pw - lw) / 2, 13 + k * lh), l, font=f, fill="white")
+    _txt[text] = im; return im
+def tag_img(text, color):
+    key = ("tag", text, color)
+    if key in _txt: return _txt[key]
+    f = font(84 if V else 76); d = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
+    tw = int(d.textlength(text, font=f)); pw, ph = tw + 70, int(f.size * 1.5)
+    im = Image.new("RGBA", (pw + 16, ph + 16), (0, 0, 0, 0)); dd = ImageDraw.Draw(im)
+    dd.rounded_rectangle((10, 12, pw + 10, ph + 12), 26, fill=(0, 0, 0, 90))
+    dd.rounded_rectangle((2, 2, pw, ph), 26, fill="white", outline=(25, 25, 25), width=5)
+    dd.text((35, (ph - f.size * 1.2) / 2), text, font=f, fill=color)
+    _txt[key] = im; return im
+
+def frame(t):
+    i = next((k for k, s in enumerate(SC) if t < s["end"]), len(SC) - 1)
+    fr = scene_frame(i, t)
+    if i + 1 < len(SC) and t > SC[i]["end"] - XF:     # crossfade into the next scene
+        a = ease((t - (SC[i]["end"] - XF)) / XF); fr = Image.blend(fr, scene_frame(i + 1, t), a)
+    fr = fr.convert("RGBA")
+    tg = SPEC[i].get("tag")
+    if tg:
+        dt = t - SC[i]["start"] - 0.25
+        if dt > 0:
+            im = tag_img(tg, SPEC[i].get("tag_color", "#E23B3B"))
+            sc_ = 0.7 + 0.3 * ease(min(1, dt / 0.18))
+            im2 = im.resize((max(1, int(im.width * sc_)), max(1, int(im.height * sc_))), Image.BILINEAR)
+            x = (W - im2.width) // 2 if V else 56 + (im.width - im2.width) // 2; y = int(H * (0.10 if V else 0.06)) + (im.height - im2.height) // 2
+            fr.alpha_composite(im2, (x, y))
+    for s in SC[i]["subs"] + (SC[i + 1]["subs"] if i + 1 < len(SC) else []):
+        if s["start"] <= t < s["end"] + 0.1:
+            im = sub_img(s["text"]); fr.alpha_composite(im, ((W - im.width) // 2, int(H * (0.70 if V else 0.86)) - im.height // 2)); break
+    return fr.convert("RGB")
+
+if out.endswith(".png"):
+    frame(t0).save(out); sys.exit(0)
+n0, n1 = round(t0 * FPS), round(t1 * FPS)
+p = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
+                      "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", out], stdin=subprocess.PIPE)
+for n in range(n0, n1):
+    p.stdin.write(frame(n / FPS).tobytes())
+p.stdin.close(); assert p.wait() == 0

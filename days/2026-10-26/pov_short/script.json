@@ -1,0 +1,15 @@
+{
+ "title": "POV: Same Paycheck as Your Coworkers, But You Save $800",
+ "style": "pov", "vertical": true, "voice": "af_heart", "speed": 1.1,
+ "lead": 0.25, "gap": 0.25, "scene_gap": 0.3, "tail": 1.2,
+ "scenes": [
+  {"lines": ["You and your coworkers just got paid the exact same four thousand dollars."], "img": "{HERO} in an office smiling at his phone showing a deposit, coworkers around him also looking at phones, vertical composition", "tag": "+$4,000"},
+  {"lines": ["Jake just financed a truck. Eight hundred ninety a month."], "img": "a young man in a blue shirt proudly leaning on a huge shiny new pickup truck in a parking lot, vertical composition", "tag": "$890/mo"},
+  {"lines": ["Mia is booking a trip on a credit card with over twenty percent interest."], "img": "a woman with a ponytail booking a vacation on her phone with a credit card in hand, excited, vertical composition", "tag": "20%+ APR"},
+  {"lines": ["You? Eight hundred dollars left your account the second you got paid. Automatically."], "img": "{HERO} on his couch looking at a phone with a green check mark savings transfer, relaxed, vertical composition", "tag": "$800 saved", "tag_color": "#1B9E4B"},
+  {"lines": ["Fifty percent needs. Thirty percent wants. Twenty percent future. Decided once."], "img": "a big pie chart in blue orange and green drawn on a whiteboard, {HERO} pointing at the green slice, vertical composition", "tag": "50 / 30 / 20"},
+  {"lines": ["One year later, layoff rumors hit the office. Jake can't sleep."], "img": "a young man in a blue shirt lying awake in bed at night with his phone glowing, worried, vertical composition"},
+  {"lines": ["You have almost ten thousand dollars saved. You're calm."], "img": "{HERO} calmly drinking coffee by a window at sunrise, peaceful smile, vertical composition", "tag": "$9,600", "tag_color": "#1B9E4B"},
+  {"lines": ["Same paycheck. Different plan. The full story is on my channel."], "img": "{HERO} walking out of an office building at sunset, confident, coworkers stressed in the background, vertical composition"}
+ ]
+}

@@ -1,0 +1,15 @@
+{
+ "title": "Your Bank Might Charge You $35 For a $4 Coffee",
+ "style": "pov", "vertical": true, "voice": "af_heart", "speed": 1.1,
+ "lead": 0.25, "gap": 0.25, "scene_gap": 0.3, "tail": 1.2,
+ "scenes": [
+  {"lines": ["Your bank might charge you thirty five dollars for a four dollar coffee."], "img": "a shocked young woman with a ponytail in a coffee shop holding a small coffee cup and staring at her phone, vertical composition", "tag": "$35 fee?!"},
+  {"lines": ["If your account is a little short, many banks still approve the payment."], "img": "a debit card being tapped on a card reader at a coffee shop counter, green approved light, vertical composition"},
+  {"lines": ["Then they hit you with an overdraft fee. Often around thirty five dollars."], "img": "a big old-fashioned bank building with a grumpy fat cat banker counting money on the steps, cartoon, vertical composition", "tag": "OVERDRAFT"},
+  {"lines": ["Three small purchases on a bad day? That can be over a hundred dollars in fees."], "img": "a young woman with a ponytail at home at night staring at her laptop with three red warning notifications, stressed, vertical composition", "tag": "$105", "tag_color": "#E23B3B"},
+  {"lines": ["Here's the fix. Open your bank app and turn off overdraft coverage for debit card purchases."], "img": "{HERO} sitting on a couch confidently tapping a toggle switch in a bank app on his phone, vertical composition", "tag": "OPT OUT", "tag_color": "#1B9E4B"},
+  {"lines": ["If you're short, the card just gets declined. Awkward for a second, but free."], "img": "{HERO} at a store checkout shrugging and smiling after a card decline, the cashier smiling back kindly, vertical composition", "tag": "$0 fee", "tag_color": "#1B9E4B"},
+  {"lines": ["Then set a low balance alert, so your phone warns you first."], "img": "a smartphone on a table with a bell notification icon glowing, {HERO}'s hand reaching for it, vertical composition"},
+  {"lines": ["Two minutes today can save you hundreds. Follow for one simple money move every day!"], "img": "{HERO} giving a thumbs up and smiling in a cozy room, vertical composition", "tag": "FOLLOW", "tag_color": "#E23B3B"}
+ ]
+}
