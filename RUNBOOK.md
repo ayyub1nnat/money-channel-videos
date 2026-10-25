@@ -2,7 +2,7 @@
 
 Channel niche: **personal finance & getting your life together** (budgeting, saving, debt, habits, side income, productivity), English, US audience.
 Style: friendly, practical, calm female narrator (Kokoro voice `af_heart`), flat cartoon animation, burned-in subtitles, soft background music ducked under the voice.
-Publish time: **12:00 America/Los_Angeles (15:00 New York) every day; teaser Short 16:00 LA (19:00 NY)** (upload earlier as private with `publishAt`).
+Publish time: **11:00 Asia/Baku every day, video and Short** (owner's choice 2026-10-25) (upload earlier as private with `publishAt`).
 
 ---
 

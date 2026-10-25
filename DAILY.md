@@ -1,10 +1,10 @@
 # Daily run — Simple Money Life
 
-Runs every day at **00:02 America/Los_Angeles**. All YouTube API calls go through `yt_lib.py`, which uses the channel owner's OWN Google Cloud project (credentials in the Composio workbench's private file /mnt/files/sml/yt_creds.json; own quota: 100 uploads + 10,000 units per day, not shared).
-Let **X** = today's date in America/Los_Angeles (`TZ=America/Los_Angeles date +%F`).
+Runs every day at **09:30 Asia/Baku**. Video AND Short go public at **11:00 Asia/Baku** (owner's choice, 2026-10-25). All YouTube API calls go through `yt_lib.py`, which uses the channel owner's OWN Google Cloud project (credentials in the Composio workbench's private file /mnt/files/sml/yt_creds.json; own quota: 100 uploads + 10,000 units per day, not shared).
+Let **X** = today's date in Asia/Baku (`TZ=Asia/Baku date +%F`).
 
 The pipeline works one day ahead: the video for date X was built yesterday and waits on the `media` branch;
-today's run uploads it (main video public at 12:00 Los Angeles = 15:00 New York on X; its teaser Short at 16:00 Los Angeles = 19:00 New York), then builds the video for X+1.
+today's run uploads it (main video and Short both public at 11:00 Baku time on X), then builds the video for X+1.
 
 ## 1. Setup
 - `add_repo` owner `ayyub1nnat`, repo `money-channel-videos`, access `push`; clone to `/home/claude/money-channel-videos`; `register_repo_root`.
@@ -15,7 +15,7 @@ today's run uploads it (main video public at 12:00 Los Angeles = 15:00 New York 
 ## 2. Upload the waiting video
 - `curl -s https://raw.githubusercontent.com/ayyub1nnat/money-channel-videos/media/meta.json` → its `date` should be X (or earlier if a previous upload failed).
 - Check `topics.json`: if that date's topic already has a `video_id` (or status says uploaded), skip to step 3.
-- Run the contents of `upload_snippet.py` unchanged in COMPOSIO_REMOTE_WORKBENCH (load it from the raw URL at the current commit SHA to avoid GitHub's 5-min raw cache, e.g. `RAW/<sha>/upload_snippet.py`). It uploads the main video (scheduled 12:00 LA), thumbnail, English captions, translations, and the teaser Short (16:00 LA). Read the `RESULT` line.
+- Run the contents of `upload_snippet.py` unchanged in COMPOSIO_REMOTE_WORKBENCH (load it from the raw URL at the current commit SHA to avoid GitHub's 5-min raw cache, e.g. `RAW/<sha>/upload_snippet.py`). It uploads the main video and the Short (both scheduled 11:00 Baku), thumbnail, English captions and translations. Read the `RESULT` line.
   - ok → record on that topic in topics.json: `video_id`, `short_id`, `status: "scheduled"`, `short_status: "scheduled"`, `localized: true` (if `localized`/`short_localized` are "ok"). Any sub-step that isn't "ok" (thumbnail/captions/localized) → fix and redo just that sub-step with yt_lib (don't re-upload).
   - ok:false → read the error. Never re-run the whole snippet if a video id was already created (check the channel's recent uploads first) — that would duplicate. Fix the cause and retry once; still failing → send the owner the files + title/description/tags for a manual upload and mark `status: "manual upload needed"`.
 
@@ -45,7 +45,7 @@ title/description/tags) and localizations.json (incl. `_short`).
 
 ## 5. Report to the owner (in Azerbaijani, short)
 Send with SendUserMessage (and SendUserFile for files):
-- Today's video: title + `https://studio.youtube.com/video/<id>/edit`, goes public 12:00 Los Angeles time (Baku: 23:00 the same day until Nov 1, 00:00 next day after). Short: 16:00 Los Angeles (Baku: 03:00 next day until Nov 1, 04:00 after).
+- Today's video and Short: titles + `https://studio.youtube.com/video/<id>/edit` links, both go public at 11:00 Baku time.
 - Today's teaser Short: `https://studio.youtube.com/video/<short_id>/edit` (or the file for manual upload if quota ran out).
 - Tomorrow's video is ready: title + thumbnail file.
 - Any problem, plainly, with what they need to do (e.g. manual upload: attach video.mp4 + title + description).

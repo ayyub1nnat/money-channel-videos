@@ -1,8 +1,8 @@
 # Paste into COMPOSIO_REMOTE_WORKBENCH as-is. Uses the channel's OWN Google Cloud project via yt_lib.py
 # (own quota, not shared). Uploads the video waiting on the `media` branch (date in media/meta.json):
-#   main video  → private, publishAt 12:00 America/Los_Angeles on that date (public now if that time passed)
+#   main video  → private, publishAt 11:00 Asia/Baku on that date (public now if that time passed)
 #   thumbnail, English CC track (days/<date>/subtitles.srt), translated titles/descriptions (localizations.json)
-#   teaser Short (media/short.mp4, if present) → publishAt 16:00 LA, description links to the main video
+#   Short (media/short.mp4, if present) → publishAt 11:00 Asia/Baku too, description links to the main video
 # Prints RESULT {...}. Safe to re-run only if RESULT was not ok (otherwise it would upload a duplicate).
 import requests, json, datetime
 from zoneinfo import ZoneInfo
@@ -16,7 +16,7 @@ seo = requests.get(f"{RAW}/main/days/{DATE}/seo.json", timeout=60).json()
 lr = requests.get(f"{RAW}/main/days/{DATE}/localizations.json", timeout=60)
 loc = lr.json() if lr.status_code == 200 else {}
 
-LA = ZoneInfo("America/Los_Angeles")
+LA = ZoneInfo("Asia/Baku")   # owner's choice (2026-10-25): video AND Short public at 11:00 Baku time
 y, m, d = map(int, DATE.split("-"))
 now = datetime.datetime.now(datetime.timezone.utc)
 def status_for(hour):
@@ -37,7 +37,7 @@ def localize(vid, locs):
 out = {"date": DATE}
 try:
     p = yt_download(f"{RAW}/media/video.mp4", "/home/user/video.mp4")
-    st = status_for(12)
+    st = status_for(11)
     vid = yt_upload_video(p, {"title": seo["title"][:100], "description": seo["description"][:4900], "tags": seo["tags"],
                               "categoryId": seo.get("categoryId", "27"), "defaultLanguage": "en", "defaultAudioLanguage": "en"}, st)
     out.update(ok=True, video_id=vid, status_set=st)
@@ -57,7 +57,7 @@ try:
                      + "\n\nThis video is for educational purposes only and is not financial advice.\n\n#shorts #personalfinance #money")
             sid = yt_upload_video(yt_download(f"{RAW}/media/short.mp4", "/home/user/short.mp4"),
                                   {"title": stitle, "description": sdesc[:4900], "tags": sh.get("tags", seo["tags"][:10]) + ["shorts"],
-                                   "categoryId": seo.get("categoryId", "27"), "defaultLanguage": "en", "defaultAudioLanguage": "en"}, status_for(16))
+                                   "categoryId": seo.get("categoryId", "27"), "defaultLanguage": "en", "defaultAudioLanguage": "en"}, status_for(11))
             out["short_id"] = sid
             try:
                 localize(sid, {k: {"title": v["title"][:100], "description": f"▶️ {link}\n\n" + v["description"]}
