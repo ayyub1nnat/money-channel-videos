@@ -1,495 +1,463 @@
 1
-00:00:00,600 --> 00:00:02,340
-You get paid, and two weeks later
+00:00:00,300 --> 00:00:01,998
+You get paid. Two weeks later,
 
 2
-00:00:02,240 --> 00:00:03,483
-the money is just gone,
+00:00:01,898 --> 00:00:03,063
+the money is just...
 
 3
-00:00:03,383 --> 00:00:05,173
-and you're not sure where it went.
+00:00:02,963 --> 00:00:05,247
+gone. And you have no idea where it went.
 
 4
-00:00:05,453 --> 00:00:07,393
-One simple rule can fix that:
+00:00:05,497 --> 00:00:07,632
+Sound familiar? You're not bad with money.
 
 5
-00:00:07,293 --> 00:00:08,789
-fifty, thirty, twenty.
+00:00:07,532 --> 00:00:09,280
+You just don't have a plan for it.
 
 6
-00:00:09,069 --> 00:00:10,732
-By the end, you'll know your own
+00:00:09,530 --> 00:00:11,481
+One simple rule fixes this.
 
 7
-00:00:10,632 --> 00:00:12,392
-three numbers, down to the dollar.
+00:00:11,381 --> 00:00:12,990
+Fifty. Thirty. Twenty.
 
 8
-00:00:13,192 --> 00:00:14,333
-The idea is simple.
+00:00:13,240 --> 00:00:14,520
+By the end of this video,
 
 9
-00:00:14,233 --> 00:00:16,962
-You split your take-home pay into three buckets.
+00:00:14,420 --> 00:00:15,984
+you'll know your three numbers,
 
 10
-00:00:17,242 --> 00:00:18,846
-Fifty percent goes to needs,
+00:00:15,884 --> 00:00:16,881
+down to the dollar.
 
 11
-00:00:18,746 --> 00:00:21,047
-the things you must pay to live and work.
+00:00:17,131 --> 00:00:19,391
+Here's the idea. You split your take-home
 
 12
-00:00:21,327 --> 00:00:23,054
-Thirty percent goes to wants,
+00:00:19,291 --> 00:00:20,602
+pay into three buckets.
 
 13
-00:00:22,954 --> 00:00:25,297
-the fun stuff that makes life enjoyable.
+00:00:20,852 --> 00:00:22,448
+Fifty percent goes to needs.
 
 14
-00:00:25,577 --> 00:00:27,795
-And twenty percent goes to your future:
+00:00:22,348 --> 00:00:24,586
+The stuff you must pay to live and work.
 
 15
-00:00:27,695 --> 00:00:29,369
-savings and paying down debt.
+00:00:24,836 --> 00:00:26,501
+Thirty percent goes to wants.
 
 16
-00:00:29,649 --> 00:00:31,828
-It was made popular by Elizabeth Warren
+00:00:26,401 --> 00:00:28,821
+The fun stuff that makes life worth living.
 
 17
-00:00:31,728 --> 00:00:33,161
-and her daughter, Amelia,
+00:00:29,071 --> 00:00:31,254
+And twenty percent goes to your future.
 
 18
-00:00:33,061 --> 00:00:34,707
-in their book All Your Worth.
+00:00:31,154 --> 00:00:32,964
+Savings, and crushing your debt.
 
 19
-00:00:35,507 --> 00:00:37,732
-Step one: start with your take-home pay,
+00:00:33,214 --> 00:00:35,309
+It was made popular by Elizabeth Warren
 
 20
-00:00:37,632 --> 00:00:38,582
-not your salary.
+00:00:35,209 --> 00:00:36,537
+and her daughter Amelia,
 
 21
-00:00:38,862 --> 00:00:40,986
-That's what actually lands in your bank
+00:00:36,437 --> 00:00:38,020
+in their book All Your Worth.
 
 22
-00:00:40,886 --> 00:00:42,024
-account after taxes.
+00:00:38,270 --> 00:00:40,614
+Step one. Start with your take-home pay.
 
 23
-00:00:42,304 --> 00:00:44,240
-If money for retirement comes out of
+00:00:40,514 --> 00:00:41,512
+Not your salary.
 
 24
-00:00:44,140 --> 00:00:46,841
-your paycheck, count it toward your twenty percent.
+00:00:41,762 --> 00:00:43,875
+It's what actually lands in your bank
 
 25
-00:00:47,121 --> 00:00:48,358
-Let's use an example:
+00:00:43,775 --> 00:00:44,963
+account after taxes.
 
 26
-00:00:48,258 --> 00:00:50,038
-three thousand dollars a month.
+00:00:45,213 --> 00:00:47,200
+If retirement money comes out of your
 
 27
-00:00:50,838 --> 00:00:52,283
-With three thousand dollars,
+00:00:47,100 --> 00:00:49,546
+paycheck, count it toward your twenty percent.
 
 28
-00:00:52,183 --> 00:00:53,148
-the math is quick.
+00:00:49,796 --> 00:00:50,805
+Let's make it real.
 
 29
-00:00:53,428 --> 00:00:55,333
-Fifteen hundred dollars for needs.
+00:00:50,705 --> 00:00:53,198
+Say you bring home three thousand dollars a month.
 
 30
-00:00:55,613 --> 00:00:57,330
-Nine hundred dollars for wants.
+00:00:53,448 --> 00:00:55,491
+Fifteen hundred dollars goes to needs.
 
 31
-00:00:57,610 --> 00:00:59,896
-And six hundred dollars for savings and
+00:00:55,741 --> 00:00:57,627
+Nine hundred dollars goes to wants.
 
 32
-00:00:59,796 --> 00:01:01,018
-extra debt payments.
+00:00:57,877 --> 00:01:00,154
+And six hundred dollars goes to savings
 
 33
-00:01:01,298 --> 00:01:02,841
-That's it. Three numbers,
+00:01:00,054 --> 00:01:01,494
+and extra debt payments.
 
 34
-00:01:02,741 --> 00:01:04,399
-and every dollar has a job.
+00:01:01,744 --> 00:01:03,241
+That's it. Three numbers.
 
 35
-00:01:05,199 --> 00:01:07,120
-Needs are the bills you'd still have
+00:01:03,141 --> 00:01:04,918
+Every single dollar has a job.
 
 36
-00:01:07,020 --> 00:01:08,588
-to pay, even in a hard month.
+00:01:05,168 --> 00:01:07,031
+Needs are the bills you'd still pay,
 
 37
-00:01:08,868 --> 00:01:10,770
-Rent or mortgage, utilities,
+00:01:06,931 --> 00:01:08,255
+even in your worst month.
 
 38
-00:01:10,670 --> 00:01:12,058
-and basic groceries.
+00:01:08,505 --> 00:01:11,629
+Rent or mortgage. Utilities. Basic groceries.
 
 39
-00:01:12,338 --> 00:01:14,435
-Getting to work, like a car payment,
+00:01:11,879 --> 00:01:13,824
+Getting to work. A car payment,
 
 40
-00:01:14,335 --> 00:01:15,490
+00:01:13,724 --> 00:01:14,955
 gas, or a bus pass.
 
 41
-00:01:15,770 --> 00:01:18,596
+00:01:15,205 --> 00:01:17,964
 Insurance, child care, and the minimum payment
 
 42
-00:01:18,496 --> 00:01:19,426
+00:01:17,864 --> 00:01:18,773
 on every debt.
 
 43
-00:01:19,706 --> 00:01:21,676
-Notice: groceries are a need,
+00:01:19,023 --> 00:01:21,227
+But careful! Groceries are a need.
 
 44
-00:01:21,576 --> 00:01:22,901
-but takeout is not.
+00:01:21,127 --> 00:01:22,155
+Takeout is NOT.
 
 45
-00:01:23,701 --> 00:01:26,076
+00:01:22,405 --> 00:01:24,741
 Wants are everything that's nice to have,
 
 46
-00:01:25,976 --> 00:01:27,019
+00:01:24,641 --> 00:01:25,668
 but not required.
 
 47
-00:01:27,299 --> 00:01:29,079
-Eating out, streaming services,
+00:01:25,918 --> 00:01:28,017
+Eating out. Streaming. New clothes.
 
 48
-00:01:28,979 --> 00:01:30,434
-new clothes, and hobbies.
+00:01:27,917 --> 00:01:29,787
+Concerts. That shiny new phone.
 
 49
-00:01:30,714 --> 00:01:33,576
-Trips, concerts, and that upgrade to the newest phone.
+00:01:30,037 --> 00:01:31,481
+And here's the best part.
 
 50
-00:01:33,856 --> 00:01:35,683
-And here's the part people love:
+00:01:31,381 --> 00:01:33,846
+This money is meant to be spent. Guilt free!
 
 51
-00:01:35,583 --> 00:01:38,059
-this money is meant to be spent, guilt free.
+00:01:34,096 --> 00:01:36,357
+Because a budget you actually enjoy is
 
 52
-00:01:38,339 --> 00:01:40,388
-A budget you actually enjoy is a
+00:01:36,257 --> 00:01:38,291
+a budget you'll actually stick to.
 
 53
-00:01:40,288 --> 00:01:42,337
-budget you'll actually stick to.
-
-54
-00:01:43,137 --> 00:01:45,518
+00:01:38,541 --> 00:01:40,893
 The last twenty percent is for future you.
 
-55
-00:01:45,798 --> 00:01:48,036
+54
+00:01:41,143 --> 00:01:43,341
 First, build a small emergency fund,
 
+55
+00:01:43,241 --> 00:01:45,381
+so surprises don't become new debt.
+
 56
-00:01:47,936 --> 00:01:50,294
-so surprises don't turn into new debt.
+00:01:45,631 --> 00:01:47,543
+Next, attack high interest debt,
 
 57
-00:01:50,574 --> 00:01:52,838
-Next, pay extra on high-interest debt,
-
-58
-00:01:52,738 --> 00:01:53,863
+00:01:47,443 --> 00:01:48,562
 like credit cards.
 
+58
+00:01:48,812 --> 00:01:51,445
+Then, save for retirement and your bigger goals.
+
 59
-00:01:54,143 --> 00:01:56,736
-Then save for retirement and your bigger goals.
+00:01:51,695 --> 00:01:53,165
+Now the eye opening part.
 
 60
-00:01:57,016 --> 00:01:59,626
-Remember, minimum payments count as needs.
+00:01:53,065 --> 00:01:55,576
+Compare the plan with what you really spend.
 
 61
-00:01:59,526 --> 00:02:01,599
-Anything extra you pay goes here.
-
-62
-00:02:02,399 --> 00:02:03,833
-Now the eye-opening part:
-
-63
-00:02:03,733 --> 00:02:06,180
-compare the plan with what you really spend.
-
-64
-00:02:06,460 --> 00:02:07,986
+00:01:55,826 --> 00:01:57,337
 Pull up your last two or three
 
-65
-00:02:07,886 --> 00:02:09,648
+62
+00:01:57,237 --> 00:01:58,984
 months of bank and card statements.
 
-66
-00:02:09,928 --> 00:02:11,880
-Sort each purchase into needs,
+63
+00:01:59,234 --> 00:02:01,269
+Sort every purchase into needs,
 
-67
-00:02:11,780 --> 00:02:12,991
+64
+00:02:01,169 --> 00:02:02,392
 wants, or savings.
 
+65
+00:02:02,642 --> 00:02:04,215
+Most people are shocked.
+
+66
+00:02:04,115 --> 00:02:06,486
+Wants hide in tiny, everyday charges.
+
+67
+00:02:06,736 --> 00:02:08,414
+But what if your needs eat way
+
 68
-00:02:13,271 --> 00:02:14,979
-Most people are surprised.
+00:02:08,314 --> 00:02:10,307
+more than half? This is the question
 
 69
-00:02:14,879 --> 00:02:17,699
-Wants often hide in small, everyday charges.
+00:02:10,207 --> 00:02:10,886
+I get most.
 
 70
-00:02:18,499 --> 00:02:20,537
-Here's the question people ask most:
+00:02:11,136 --> 00:02:13,015
+Honestly? That's really common,
 
 71
-00:02:20,437 --> 00:02:22,744
-what if my needs take way more than half?
+00:02:12,915 --> 00:02:15,426
+especially with high rent or a low income.
 
 72
-00:02:23,024 --> 00:02:25,695
-That's really common, especially with high rent
-
-73
-00:02:25,595 --> 00:02:26,571
-or a low income.
-
-74
-00:02:26,851 --> 00:02:28,381
+00:02:15,676 --> 00:02:17,204
 It doesn't mean you failed.
 
-75
-00:02:28,281 --> 00:02:29,706
-The numbers are a target,
+73
+00:02:17,104 --> 00:02:18,631
+These numbers are a target,
 
-76
-00:02:29,606 --> 00:02:30,235
+74
+00:02:18,531 --> 00:02:19,159
 not a law.
 
+75
+00:02:19,409 --> 00:02:21,856
+Try sixty, twenty, twenty for a while.
+
+76
+00:02:21,756 --> 00:02:23,647
+Or even seventy, twenty, ten.
+
 77
-00:02:30,515 --> 00:02:32,854
-Try sixty, twenty, twenty for a while,
+00:02:23,897 --> 00:02:25,321
+The one thing to protect?
 
 78
-00:02:32,754 --> 00:02:34,563
-or even seventy, twenty, ten.
+00:02:25,221 --> 00:02:27,176
+Save something. Even if it's small.
 
 79
-00:02:34,843 --> 00:02:36,676
-The one thing to protect is saving
-
-80
-00:02:36,576 --> 00:02:38,204
-something, even if it's small.
-
-81
-00:02:39,004 --> 00:02:40,671
+00:02:27,426 --> 00:02:28,899
 Then chip away at your needs,
 
-82
-00:02:40,571 --> 00:02:41,265
-bit by bit.
+80
+00:02:28,799 --> 00:02:29,704
+little by little.
 
-83
-00:02:41,545 --> 00:02:43,881
+81
+00:02:29,954 --> 00:02:32,249
 Shop around for car and renters insurance
 
-84
-00:02:43,781 --> 00:02:44,535
+82
+00:02:32,149 --> 00:02:32,891
 once a year.
 
+83
+00:02:33,141 --> 00:02:35,112
+Check a cheaper prepaid phone plan.
+
+84
+00:02:35,012 --> 00:02:37,304
+Many cost way less than the big carriers.
+
 85
-00:02:44,815 --> 00:02:46,939
-Look at a cheaper prepaid phone plan.
+00:02:37,554 --> 00:02:38,637
+Cook at home more.
 
 86
-00:02:46,839 --> 00:02:49,180
-Many cost far less than the big carriers.
+00:02:38,537 --> 00:02:40,385
+Buy store brands for the basics.
 
 87
-00:02:49,460 --> 00:02:50,522
-Cook at home more,
-
-88
-00:02:50,422 --> 00:02:52,445
-and buy store brands for the basics.
-
-89
-00:02:52,725 --> 00:02:54,066
+00:02:40,635 --> 00:02:41,964
 And when your lease is up,
 
-90
-00:02:53,966 --> 00:02:56,072
+88
+00:02:41,864 --> 00:02:43,949
 think about a roommate or a cheaper place.
 
-91
-00:02:56,872 --> 00:02:59,153
-The secret to sticking with it? Automate it.
+89
+00:02:44,199 --> 00:02:46,824
+The secret to sticking with it? Automate everything.
 
-92
-00:02:59,433 --> 00:03:01,493
+90
+00:02:47,074 --> 00:02:49,086
 On payday, move your twenty percent to
 
-93
-00:03:01,393 --> 00:03:03,144
-savings before you can spend it.
+91
+00:02:48,986 --> 00:02:50,695
+savings before you can touch it.
 
-94
-00:03:03,424 --> 00:03:04,857
+92
+00:02:50,945 --> 00:02:52,368
 Put your bills on autopay,
 
-95
-00:03:04,757 --> 00:03:06,549
+93
+00:02:52,268 --> 00:02:54,045
 so your needs are always covered.
 
+94
+00:02:54,295 --> 00:02:55,817
+Whatever's left in checking?
+
+95
+00:02:55,717 --> 00:02:57,543
+That's your wants money. Enjoy it!
+
 96
-00:03:06,829 --> 00:03:08,728
-Whatever is left in checking is your
+00:02:57,793 --> 00:02:59,658
+Watch out for three mistakes.
 
 97
-00:03:08,628 --> 00:03:10,176
-wants money. Spend it freely.
-
-98
-00:03:10,976 --> 00:03:12,759
-A few mistakes trip people up,
-
-99
-00:03:12,659 --> 00:03:13,992
-so let's fix them now.
-
-100
-00:03:14,272 --> 00:03:16,530
+00:02:59,558 --> 00:03:01,849
 One: using your salary before taxes.
 
-101
-00:03:16,430 --> 00:03:18,208
-Your numbers end up too big.
+98
+00:03:01,749 --> 00:03:03,675
+Your numbers come out too big.
 
-102
-00:03:18,488 --> 00:03:20,329
+99
+00:03:03,925 --> 00:03:05,763
 Two: calling every want a need.
 
-103
-00:03:20,229 --> 00:03:21,678
+100
+00:03:05,663 --> 00:03:07,109
 Be honest with yourself.
 
-104
-00:03:21,958 --> 00:03:24,558
-Three: forgetting costs that only come once
+101
+00:03:07,359 --> 00:03:09,684
+Three: forgetting costs that hit once or
 
-105
-00:03:24,458 --> 00:03:25,488
-or twice a year,
+102
+00:03:09,584 --> 00:03:11,964
+twice a year, like car repairs and gifts.
 
-106
-00:03:25,388 --> 00:03:27,058
-like car repairs and gifts.
-
-107
-00:03:27,338 --> 00:03:28,728
+103
+00:03:12,214 --> 00:03:13,611
 Divide those by twelve,
 
-108
-00:03:28,628 --> 00:03:30,858
+104
+00:03:13,511 --> 00:03:15,754
 and set that amount aside every month.
 
-109
-00:03:31,658 --> 00:03:33,953
-Let's recap the whole plan in four steps.
+105
+00:03:16,004 --> 00:03:18,253
+Quick recap. Find your take-home pay.
 
-110
-00:03:34,233 --> 00:03:35,595
-Find your take-home pay.
-
-111
-00:03:35,875 --> 00:03:37,680
+106
+00:03:18,153 --> 00:03:20,054
 Split it fifty, thirty, twenty.
 
-112
-00:03:37,960 --> 00:03:39,999
-Compare it with your real spending,
+107
+00:03:20,304 --> 00:03:21,840
+Check your real spending,
 
-113
-00:03:39,899 --> 00:03:41,605
-and adjust if needs run high.
+108
+00:03:21,740 --> 00:03:23,276
+adjust if needs run high,
 
-114
-00:03:41,885 --> 00:03:43,264
-And automate your savings,
+109
+00:03:23,176 --> 00:03:24,769
+and automate your savings.
 
-115
-00:03:43,164 --> 00:03:44,787
-so it happens without thinking.
-
-116
-00:03:45,587 --> 00:03:47,270
+110
+00:03:25,019 --> 00:03:26,683
 You don't need a fancy app or
 
-117
-00:03:47,170 --> 00:03:49,671
+111
+00:03:26,583 --> 00:03:29,056
 a finance degree. Just three simple numbers.
 
-118
-00:03:49,951 --> 00:03:52,369
-If your twenty percent is starting from
+112
+00:03:29,306 --> 00:03:31,717
+If your twenty percent starts at zero,
 
-119
-00:03:52,269 --> 00:03:54,865
-zero, watch our emergency fund video next.
+113
+00:03:31,617 --> 00:03:33,845
+watch my emergency fund video next.
 
-120
-00:03:55,145 --> 00:03:57,140
-If this helped, like the video and
+114
+00:03:34,095 --> 00:03:36,357
+Subscribe for one simple money move every
 
-121
-00:03:57,040 --> 00:03:59,537
-subscribe for a simple money tip every day.
+115
+00:03:36,257 --> 00:03:38,203
+day. And tell me your three numbers
 
-122
-00:03:59,817 --> 00:04:01,043
-Tell me in the comments:
-
-123
-00:04:00,943 --> 00:04:02,356
-what are your three numbers?
-
-124
-00:04:02,256 --> 00:04:03,482
-See you in the next one.
+116
+00:03:38,103 --> 00:03:39,047
+in the comments!

@@ -43,8 +43,9 @@
    "date": "2026-10-26",
    "status": "built, waiting for upload",
    "localized": false,
-   "style": "sketch",
-   "final_title": "The 50/30/20 Budget Explained Simply (With a Real Example)"
+   "style": "fast-sketch",
+   "final_title": "The 50/30/20 Budget Explained Simply (With a Real Example)",
+   "note": "rebuilt in fast whiteboard format + standalone Short on 2026-10-25"
   },
   {
    "title": "How to Stop Living Paycheck to Paycheck",
