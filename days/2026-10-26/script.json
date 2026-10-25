@@ -1,0 +1,668 @@
+{
+ "title": "The 50/30/20 Budget Explained Simply (With a Real Example)",
+ "voice": "af_heart",
+ "speed": 1.06,
+ "style": "sketch",
+ "thumbnail": {
+  "line1": "Every Dollar",
+  "line2": "Gets a Job",
+  "badge": "50/30/20",
+  "sub": "Needs, wants, savings",
+  "mood": "happy",
+  "props": [
+   "coins"
+  ],
+  "bg": [
+   "#B892FF",
+   "#7B2CBF"
+  ]
+ },
+ "scenes": [
+  {
+   "visual": "person",
+   "heading": "Where Did Your Paycheck Go?",
+   "params": {
+    "mood": "sad",
+    "arms": "head",
+    "props": [
+     "question"
+    ]
+   },
+   "lines": [
+    "You get paid, and two weeks later the money is just gone, and you're not sure where it went.",
+    "One simple rule can fix that: fifty, thirty, twenty.",
+    "By the end, you'll know your own three numbers, down to the dollar."
+   ],
+   "draws": [
+    {
+     "icon": "wallet",
+     "label": "Payday... then gone"
+    },
+    {
+     "big": "50/30/20",
+     "label": "One simple rule",
+     "color": "#2EC4B6"
+    },
+    {
+     "icon": "target",
+     "label": "Your 3 numbers"
+    }
+   ]
+  },
+  {
+   "visual": "pie",
+   "heading": "What Is the 50/30/20 Rule?",
+   "params": {
+    "parts": [
+     [
+      50,
+      "Needs"
+     ],
+     [
+      30,
+      "Wants"
+     ],
+     [
+      20,
+      "Savings"
+     ]
+    ],
+    "center": "Pay"
+   },
+   "lines": [
+    "The idea is simple. You split your take-home pay into three buckets.",
+    "Fifty percent goes to needs, the things you must pay to live and work.",
+    "Thirty percent goes to wants, the fun stuff that makes life enjoyable.",
+    "And twenty percent goes to your future: savings and paying down debt.",
+    "It was made popular by Elizabeth Warren and her daughter, Amelia, in their book All Your Worth."
+   ],
+   "draws": [
+    {
+     "icon": "coins",
+     "label": "3 buckets"
+    },
+    {
+     "big": "50%",
+     "label": "Needs",
+     "color": "#2EC4B6"
+    },
+    {
+     "big": "30%",
+     "label": "Wants",
+     "color": "#FF9F1C"
+    },
+    {
+     "big": "20%",
+     "label": "Savings & debt",
+     "color": "#7B2CBF"
+    },
+    {
+     "icon": "book",
+     "label": "All Your Worth"
+    }
+   ]
+  },
+  {
+   "visual": "stat",
+   "heading": "Step 1: Find Your Take-Home Pay",
+   "params": {
+    "value": 3000,
+    "prefix": "$",
+    "caption": "monthly take-home pay"
+   },
+   "lines": [
+    "Step one: start with your take-home pay, not your salary.",
+    "That's what actually lands in your bank account after taxes.",
+    "If money for retirement comes out of your paycheck, count it toward your twenty percent.",
+    "Let's use an example: three thousand dollars a month."
+   ],
+   "draws": [
+    {
+     "icon": "receipt",
+     "label": "Take-home pay"
+    },
+    {
+     "icon": "bank",
+     "label": "After taxes"
+    },
+    {
+     "icon": "piggy",
+     "label": "Retirement = savings"
+    },
+    {
+     "big": "$3,000",
+     "label": "Monthly take-home"
+    }
+   ]
+  },
+  {
+   "visual": "growth",
+   "heading": "Step 2: Do the Math",
+   "params": {
+    "bars": [
+     1500,
+     900,
+     600
+    ],
+    "bar_labels": [
+     "Needs",
+     "Wants",
+     "Save"
+    ]
+   },
+   "lines": [
+    "With three thousand dollars, the math is quick.",
+    "Fifteen hundred dollars for needs.",
+    "Nine hundred dollars for wants.",
+    "And six hundred dollars for savings and extra debt payments.",
+    "That's it. Three numbers, and every dollar has a job."
+   ],
+   "draws": [
+    {
+     "icon": "pencil",
+     "label": "Quick math"
+    },
+    {
+     "big": "$1,500",
+     "label": "Needs",
+     "color": "#2EC4B6"
+    },
+    {
+     "big": "$900",
+     "label": "Wants",
+     "color": "#FF9F1C"
+    },
+    {
+     "big": "$600",
+     "label": "Future you",
+     "color": "#7B2CBF"
+    },
+    {
+     "icon": "check",
+     "label": "Every dollar has a job"
+    }
+   ]
+  },
+  {
+   "visual": "list",
+   "heading": "The 50%: Needs",
+   "params": {
+    "items": [
+     "Housing",
+     "Utilities",
+     "Groceries",
+     "Transport",
+     "Minimums"
+    ]
+   },
+   "lines": [
+    "Needs are the bills you'd still have to pay, even in a hard month.",
+    "Rent or mortgage, utilities, and basic groceries.",
+    "Getting to work, like a car payment, gas, or a bus pass.",
+    "Insurance, child care, and the minimum payment on every debt.",
+    "Notice: groceries are a need, but takeout is not."
+   ],
+   "draws": [
+    {
+     "icon": "question",
+     "label": "What's a need?"
+    },
+    {
+     "icon": "house",
+     "label": "Rent & utilities"
+    },
+    {
+     "icon": "car",
+     "label": "Transport"
+    },
+    {
+     "icon": "shield",
+     "label": "Insurance & minimums"
+    },
+    {
+     "icon": "pizza",
+     "label": "Takeout = want"
+    }
+   ]
+  },
+  {
+   "visual": "cards",
+   "heading": "The 30%: Wants",
+   "params": {
+    "items": [
+     [
+      "Eating out",
+      true
+     ],
+     [
+      "Streaming",
+      true
+     ],
+     [
+      "Hobbies",
+      true
+     ],
+     [
+      "Travel",
+      true
+     ]
+    ]
+   },
+   "lines": [
+    "Wants are everything that's nice to have, but not required.",
+    "Eating out, streaming services, new clothes, and hobbies.",
+    "Trips, concerts, and that upgrade to the newest phone.",
+    "And here's the part people love: this money is meant to be spent, guilt free.",
+    "A budget you actually enjoy is a budget you'll actually stick to."
+   ],
+   "draws": [
+    {
+     "icon": "gift",
+     "label": "Nice to have"
+    },
+    {
+     "icon": "coffee",
+     "label": "Eating out"
+    },
+    {
+     "icon": "plane",
+     "label": "Trips & upgrades"
+    },
+    {
+     "icon": "heart",
+     "label": "Guilt-free spending"
+    },
+    {
+     "icon": "thumbsup",
+     "label": "Easier to stick to"
+    }
+   ]
+  },
+  {
+   "visual": "timeline",
+   "heading": "The 20%: Your Future",
+   "params": {
+    "steps": [
+     [
+      "1",
+      "Emergency fund"
+     ],
+     [
+      "2",
+      "High-interest debt"
+     ],
+     [
+      "3",
+      "Retirement & goals"
+     ]
+    ]
+   },
+   "lines": [
+    "The last twenty percent is for future you.",
+    "First, build a small emergency fund, so surprises don't turn into new debt.",
+    "Next, pay extra on high-interest debt, like credit cards.",
+    "Then save for retirement and your bigger goals.",
+    "Remember, minimum payments count as needs. Anything extra you pay goes here."
+   ],
+   "draws": [
+    {
+     "icon": "rocket",
+     "label": "Future you"
+    },
+    {
+     "icon": "umbrella",
+     "label": "Emergency fund"
+    },
+    {
+     "icon": "card",
+     "label": "Extra on debt"
+    },
+    {
+     "icon": "seedling",
+     "label": "Retirement & goals"
+    },
+    {
+     "icon": "scale",
+     "label": "Minimums vs extra"
+    }
+   ],
+   "flow": true
+  },
+  {
+   "visual": "phone",
+   "heading": "Step 3: Check Your Real Numbers",
+   "params": {
+    "title": "Last month",
+    "items": [
+     [
+      "Needs",
+      "?"
+     ],
+     [
+      "Wants",
+      "?"
+     ],
+     [
+      "Savings",
+      "?"
+     ]
+    ]
+   },
+   "lines": [
+    "Now the eye-opening part: compare the plan with what you really spend.",
+    "Pull up your last two or three months of bank and card statements.",
+    "Sort each purchase into needs, wants, or savings.",
+    "Most people are surprised. Wants often hide in small, everyday charges."
+   ],
+   "draws": [
+    {
+     "icon": "magnifier",
+     "label": "Check real spending"
+    },
+    {
+     "icon": "calendar",
+     "label": "Last 2-3 months"
+    },
+    {
+     "icon": "list",
+     "label": "Sort every purchase"
+    },
+    {
+     "icon": "warning",
+     "label": "Small daily charges"
+    }
+   ]
+  },
+  {
+   "visual": "balance",
+   "heading": "What If Needs Are Over 50%?",
+   "params": {
+    "left": "Needs",
+    "right": "Wants",
+    "heavy": "left",
+    "caption": "Adjust the split"
+   },
+   "lines": [
+    "Here's the question people ask most: what if my needs take way more than half?",
+    "That's really common, especially with high rent or a low income.",
+    "It doesn't mean you failed. The numbers are a target, not a law.",
+    "Try sixty, twenty, twenty for a while, or even seventy, twenty, ten.",
+    "The one thing to protect is saving something, even if it's small."
+   ],
+   "draws": [
+    {
+     "icon": "person_sad",
+     "label": "Needs over 50%?"
+    },
+    {
+     "icon": "house",
+     "label": "High rent"
+    },
+    {
+     "icon": "target",
+     "label": "A target, not a law"
+    },
+    {
+     "big": "60/20/20",
+     "label": "Adjust for now",
+     "color": "#FF6B6B"
+    },
+    {
+     "icon": "piggy",
+     "label": "Always save something"
+    }
+   ]
+  },
+  {
+   "visual": "checklist",
+   "heading": "Shrink Your Needs Over Time",
+   "params": {
+    "items": [
+     [
+      "1",
+      "Shop insurance"
+     ],
+     [
+      "2",
+      "Cheaper phone plan"
+     ],
+     [
+      "3",
+      "Cook at home"
+     ],
+     [
+      "4",
+      "Housing options"
+     ]
+    ]
+   },
+   "lines": [
+    "Then chip away at your needs, bit by bit.",
+    "Shop around for car and renters insurance once a year.",
+    "Look at a cheaper prepaid phone plan. Many cost far less than the big carriers.",
+    "Cook at home more, and buy store brands for the basics.",
+    "And when your lease is up, think about a roommate or a cheaper place."
+   ],
+   "draws": [
+    {
+     "icon": "scissors",
+     "label": "Trim needs"
+    },
+    {
+     "icon": "shield",
+     "label": "Shop insurance yearly"
+    },
+    {
+     "icon": "phone",
+     "label": "Cheaper phone plan"
+    },
+    {
+     "icon": "cart",
+     "label": "Store brands"
+    },
+    {
+     "icon": "people",
+     "label": "Roommate option"
+    }
+   ]
+  },
+  {
+   "visual": "flow",
+   "heading": "Step 4: Make It Automatic",
+   "params": {
+    "source": "Paycheck",
+    "targets": [
+     "Savings",
+     "Bills",
+     "Spending"
+    ]
+   },
+   "lines": [
+    "The secret to sticking with it? Automate it.",
+    "On payday, move your twenty percent to savings before you can spend it.",
+    "Put your bills on autopay, so your needs are always covered.",
+    "Whatever is left in checking is your wants money. Spend it freely."
+   ],
+   "draws": [
+    {
+     "icon": "gears",
+     "label": "Automate it"
+    },
+    {
+     "icon": "calendar",
+     "label": "Payday transfer"
+    },
+    {
+     "icon": "bell",
+     "label": "Bills on autopay"
+    },
+    {
+     "icon": "wallet",
+     "label": "Leftover = wants"
+    }
+   ],
+   "flow": true
+  },
+  {
+   "visual": "compare",
+   "heading": "3 Mistakes to Avoid",
+   "params": {
+    "left_title": "Mistake",
+    "right_title": "Fix",
+    "left": [
+     "Gross pay",
+     "Wants as needs",
+     "Forget yearly bills"
+    ],
+    "right": [
+     "Take-home pay",
+     "Be honest",
+     "Save monthly"
+    ]
+   },
+   "lines": [
+    "A few mistakes trip people up, so let's fix them now.",
+    "One: using your salary before taxes. Your numbers end up too big.",
+    "Two: calling every want a need. Be honest with yourself.",
+    "Three: forgetting costs that only come once or twice a year, like car repairs and gifts.",
+    "Divide those by twelve, and set that amount aside every month."
+   ],
+   "draws": [
+    {
+     "icon": "warning",
+     "label": "3 mistakes"
+    },
+    {
+     "icon": "cross",
+     "label": "Using gross pay"
+    },
+    {
+     "icon": "scale",
+     "label": "Wants dressed as needs"
+    },
+    {
+     "icon": "gift",
+     "label": "Irregular costs"
+    },
+    {
+     "icon": "hourglass",
+     "label": "Save monthly for them"
+    }
+   ]
+  },
+  {
+   "visual": "checklist",
+   "heading": "Quick Recap",
+   "params": {
+    "items": [
+     [
+      "1",
+      "Take-home pay"
+     ],
+     [
+      "2",
+      "Split 50/30/20"
+     ],
+     [
+      "3",
+      "Compare & adjust"
+     ],
+     [
+      "4",
+      "Automate"
+     ]
+    ]
+   },
+   "lines": [
+    "Let's recap the whole plan in four steps.",
+    "Find your take-home pay.",
+    "Split it fifty, thirty, twenty.",
+    "Compare it with your real spending, and adjust if needs run high.",
+    "And automate your savings, so it happens without thinking."
+   ],
+   "draws": [
+    {
+     "icon": "list",
+     "label": "Recap"
+    },
+    {
+     "icon": "receipt",
+     "label": "1. Take-home pay"
+    },
+    {
+     "big": "50/30/20",
+     "label": "2. Split it",
+     "color": "#2EC4B6"
+    },
+    {
+     "icon": "magnifier",
+     "label": "3. Compare & adjust"
+    },
+    {
+     "icon": "gears",
+     "label": "4. Automate"
+    }
+   ]
+  },
+  {
+   "visual": "person",
+   "heading": "You've Got This",
+   "params": {
+    "mood": "happy",
+    "props": [
+     "confetti"
+    ],
+    "subscribe": true
+   },
+   "lines": [
+    "You don't need a fancy app or a finance degree. Just three simple numbers.",
+    "If your twenty percent is starting from zero, watch our emergency fund video next.",
+    "If this helped, like the video and subscribe for a simple money tip every day.",
+    "Tell me in the comments: what are your three numbers? See you in the next one."
+   ],
+   "draws": [
+    {
+     "icon": "bulb",
+     "label": "Just 3 numbers"
+    },
+    {
+     "icon": "umbrella",
+     "label": "Emergency fund next"
+    },
+    {
+     "icon": "bell",
+     "label": "Subscribe"
+    },
+    {
+     "icon": "mail",
+     "label": "Your 3 numbers?"
+    }
+   ]
+  }
+ ],
+ "short": {
+  "hook": "Every dollar needs a job",
+  "clips": [
+   [
+    0,
+    0,
+    2
+   ],
+   [
+    3,
+    1,
+    3
+   ],
+   [
+    8,
+    0,
+    2
+   ],
+   [
+    10,
+    1,
+    2
+   ]
+  ]
+ }
+}
