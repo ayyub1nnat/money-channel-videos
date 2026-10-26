@@ -1,10 +1,10 @@
 # Daily run — Simple Money Life
 
-Runs every day at **09:30 Asia/Baku**. Main video AND its Short go public at **08:00 Asia/Baku** (owner's choice 2026-10-26); the standalone Short at **19:00 Asia/Baku**. All YouTube API calls go through `yt_lib.py`, which uses the channel owner's OWN Google Cloud project (credentials in the Composio workbench's private file /mnt/files/sml/yt_creds.json; own quota: 100 uploads + 10,000 units per day, not shared).
+Runs every day at **09:30 Asia/Baku**. Main video AND its Short go public at **20:00 Asia/Baku** (owner's choice 2026-10-26); the standalone Short at **19:00 Asia/Baku**. All YouTube API calls go through `yt_lib.py`, which uses the channel owner's OWN Google Cloud project (credentials in the Composio workbench's private file /mnt/files/sml/yt_creds.json; own quota: 100 uploads + 10,000 units per day, not shared).
 Let **X** = today's date in Asia/Baku (`TZ=Asia/Baku date +%F`).
 
-Because 08:00 is before the run, each run BUILDS the content for date X+1 and UPLOADS it in the same run, scheduled for
-08:00 (video + teaser Short) and 19:00 (standalone Short) on X+1. Order: setup → step 2 (catch-up only) → step 3 build X+1 →
+To stay one day ahead, each run BUILDS the content for date X+1 and UPLOADS it in the same run, scheduled for
+20:00 (video + teaser Short) and 19:00 (standalone Short) on X+1. Order: setup → step 2 (catch-up only) → step 3 build X+1 →
 step 4 save + media branch → step 2 again for X+1 (upload) → step 5 report.
 
 ## 1. Setup
@@ -16,7 +16,7 @@ step 4 save + media branch → step 2 again for X+1 (upload) → step 5 report.
 ## 2. Upload (catch-up first, then X+1 after step 4)
 - `curl -s https://raw.githubusercontent.com/ayyub1nnat/money-channel-videos/media/meta.json` → `date`. At the START of the run it should already be uploaded (it is X, uploaded yesterday); if its topic has no `video_id`, upload it now (catch-up: anything whose time already passed goes public immediately). After step 4 it is X+1 → upload it.
 - Check `topics.json`: if that date's topic already has a `video_id` (or status says uploaded), skip to step 3.
-- Run the contents of `upload_snippet.py` unchanged in COMPOSIO_REMOTE_WORKBENCH (load it from the raw URL at the current commit SHA to avoid GitHub's 5-min raw cache, e.g. `RAW/<sha>/upload_snippet.py`). It uploads the main video and its Short (scheduled 08:00 Baku on the media date), the standalone Short (19:00 Baku), thumbnail, English captions and translations. Read the `RESULT` line.
+- Run the contents of `upload_snippet.py` unchanged in COMPOSIO_REMOTE_WORKBENCH (load it from the raw URL at the current commit SHA to avoid GitHub's 5-min raw cache, e.g. `RAW/<sha>/upload_snippet.py`). It uploads the main video and its Short (scheduled 20:00 Baku on the media date), the standalone Short (19:00 Baku), thumbnail, English captions and translations. Read the `RESULT` line.
   - ok → record on that topic in topics.json: `video_id`, `short_id`, `status: "scheduled"`, `short_status: "scheduled"`, `short2_id`, `localized: true` (if `localized`/`short_localized` are "ok"). Any sub-step that isn't "ok" (thumbnail/captions/localized) → fix and redo just that sub-step with yt_lib (don't re-upload).
   - ok:false → read the error. Never re-run the whole snippet if a video id was already created (check the channel's recent uploads first) — that would duplicate. Fix the cause and retry once; still failing → send the owner the files + title/description/tags for a manual upload and mark `status: "manual upload needed"`.
 
@@ -51,9 +51,9 @@ step 4 save + media branch → step 2 again for X+1 (upload) → step 5 report.
   git remote add origin https://github.com/ayyub1nnat/money-channel-videos && git push -qf origin media
   ```
   Only do this after the previous media date was uploaded (step 2 catch-up) or handed to the owner — never overwrite a video that still needs uploading.
-- Then go back to step 2 and upload X+1 (it will be scheduled for 08:00 / 19:00 on X+1).
+- Then go back to step 2 and upload X+1 (it will be scheduled for 20:00 / 19:00 on X+1).
 
 ## 5. Report to the owner (in Azerbaijani, short)
 Send with SendUserMessage (and SendUserFile for files):
-- Tomorrow's (X+1) uploads: main video + teaser Short (08:00 Baku) and standalone Short (19:00 Baku): titles + `https://studio.youtube.com/video/<id>/edit` links + thumbnail file.
+- Tomorrow's (X+1) uploads: main video + teaser Short (20:00 Baku) and standalone Short (19:00 Baku): titles + `https://studio.youtube.com/video/<id>/edit` links + thumbnail file.
 - Any problem, plainly, with what they need to do (e.g. manual upload: attach video.mp4 + title + description).
