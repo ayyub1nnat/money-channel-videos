@@ -25,6 +25,7 @@ step 4 save + media branch → step 2 again for X+1 (upload) → step 5 report.
 - Channel SEO: run `channel_seo_snippet.py` unchanged (idempotent): channel keywords/translations, adds new long videos to their playlist (ids in playlists.json), posts one question comment under each public long video (scheduled ones get theirs on a later run).
 
 ## 3. Build tomorrow's video (date X+1) — ★★ illustrated POV format (RUNBOOK.md)
+- **Every title (main, teaser Short, standalone Short, all translations) starts with "POV:"** and is a catchy, honest clickbait title (RUNBOOK.md). Check existing channel uploads so a Short topic is never repeated.
 - Pick the next unused topic and turn it into a POV story. Write `days/<X+1>/pov/script.json` (main, with `thumbnail`),
   `days/<X+1>/pov_short/script.json` (teaser Short) and `days/<X+1>/pov_short2/script.json` (standalone Short, different topic).
   Commit + push them to main and note the commit SHA.

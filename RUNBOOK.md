@@ -22,7 +22,12 @@ Inspired by big finance channels that use AI-illustrated POV stories (we use OUR
   Recurring side characters: Jake (young man, blue shirt, impulsive spender), Mia (woman with a ponytail, credit-card spender).
 - Narration in 2nd person ("You..."), Sam is "you" on screen. Contrast: calm, prepared you vs. stressed people around you. Emotional,
   concrete, true numbers (say "not guaranteed" for any investment growth).
-- Titles: "POV: You <did the smart thing> — <others> Still <are stuck>" / "POV: You Earn $X and Still Save $Y — ...". Thumbnail:
+- **EVERY title starts with "POV:"** (owner's rule 2026-10-26): main video, teaser Short AND standalone Short, in English and in every
+  translation (fr: "POV : "). Clickbait in tone (curiosity gap, "…", a shocking but TRUE number, "YOU" in caps once, 1 emoji on Shorts),
+  never in substance. Shorts: e.g. "POV: Your Friend Earns $2,000 More Than You… and Asks YOU for Money 😳",
+  "POV: You Think You Pay $86 for Subscriptions… It's Really $219 😱". Before picking a Short topic, check the channel's existing
+  uploads so it isn't a repeat (2026-10-27 short2 repeated the subscriptions topic of YAlE1_vk2NQ).
+- Title patterns: "POV: You <did the smart thing> — <others> Still <are stuck>" / "POV: You Earn $X and Still Save $Y — ...". Thumbnail:
   `"thumbnail": {"img": "<prompt: {HERO} calm in front, stressed people behind>", "image": "thumb", "text": ["2-3 WORDS", "2-3 WORDS"], "color": "#5BE37D", "pos": "right"}`.
 - Main video `days/<date>/pov/script.json`: `"style": "pov"`, speed 1.04, 35-50 scenes (≈5-8 min), each scene 1-2 short sentences
   + one `"img"` prompt (concrete scene, setting, emotion; no text in images) + optional `"tag"` (big number/label, ≤ 22 chars,
