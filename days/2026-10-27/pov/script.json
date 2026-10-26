@@ -1,0 +1,358 @@
+{
+ "title": "POV: You Earn $3,500 a Month and Never Run Out — Jake Earns $5,500 and Is Broke Again",
+ "style": "pov",
+ "voice": "af_heart",
+ "speed": 1.04,
+ "lead": 0.3,
+ "gap": 0.3,
+ "scene_gap": 0.45,
+ "tail": 2.0,
+ "thumbnail": {
+  "image": "thumb",
+  "text": [
+   "1 MONTH",
+   "AHEAD"
+  ],
+  "color": "#5BE37D",
+  "pos": "right",
+  "img": "{HERO} standing in the foreground of a living room smiling calmly holding a phone, behind him a young man in a blue shirt panicking with empty wallet and a pile of bills flying around, strong contrast between calm and panic, composition with the hero on the left third"
+ },
+ "scenes": [
+  {
+   "chapter": "Day 28",
+   "lines": [
+    "It's the twenty eighth. Rent is due in three days.",
+    "You open your bank app. And you're calm."
+   ],
+   "img": "{HERO} sitting on a cozy couch in the evening calmly looking at a banking app on his phone, a wall calendar behind him with the end of the month circled, warm lamp light",
+   "tag": "DAY 28"
+  },
+  {
+   "lines": [
+    "Then your phone buzzes. It's Jake.",
+    "Can you spot me two hundred until Friday?"
+   ],
+   "img": "a young man in a blue shirt pacing in a messy apartment at night typing a text message on his phone, worried face, empty pizza boxes on the table"
+  },
+  {
+   "lines": [
+    "Here's the funny part. Jake earns fifty five hundred dollars a month.",
+    "You earn thirty five hundred."
+   ],
+   "img": "split scene, on the left a young man in a blue shirt in a stylish expensive apartment looking at his phone nervously, on the right {HERO} in a smaller cozy tidy apartment smiling, bright illustration",
+   "tag": "$5,500 vs $3,500",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "And he's the one who's broke. Again."
+   ],
+   "img": "a young man in a blue shirt sitting on the floor of his apartment holding an empty wallet upside down, surrounded by shopping bags and a new gaming console",
+   "tag": "BROKE AGAIN",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Surveys keep finding that around half of Americans say they live paycheck to paycheck.",
+    "Even plenty of people with good salaries."
+   ],
+   "img": "a busy city street at rush hour with many tired people looking at their phones with worried faces, gray evening light, wide shot",
+   "tag": "1 IN 2"
+  },
+  {
+   "lines": [
+    "You used to be one of them.",
+    "Here's exactly how you got out. And how you can too."
+   ],
+   "img": "{HERO} standing on a hill at sunrise looking back at a foggy city below, relieved hopeful expression, wide landscape"
+  },
+  {
+   "chapter": "Two Years Ago",
+   "lines": [
+    "Two years ago, you were Jake.",
+    "Payday felt like a party. The last week felt like survival."
+   ],
+   "img": "{HERO} at a crowded bar on a payday night buying drinks for friends, laughing, credit card in hand, neon lights"
+  },
+  {
+   "lines": [
+    "Your account hit zero around day twenty six.",
+    "Every single month."
+   ],
+   "img": "{HERO} at a grocery store checkout looking stressed at his phone while the cashier waits, a few items on the belt, harsh fluorescent light",
+   "tag": "$0 ON DAY 26",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Then your car needed a six hundred dollar repair.",
+    "It went straight onto a credit card."
+   ],
+   "img": "{HERO} at an auto repair shop handing a credit card to a mechanic, an old silver sedan with its hood open behind him, worried face",
+   "tag": "$600 ON CREDIT",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "That night, you finally saw it.",
+    "The problem wasn't your income. It was that there was no gap between what came in and what went out."
+   ],
+   "img": "{HERO} sitting alone at a kitchen table late at night, staring at a pile of bills and a laptop, thoughtful moment of realization, dim warm light"
+  },
+  {
+   "chapter": "Step 1: Find the Leaks",
+   "lines": [
+    "So one Sunday, you wrote down every fixed bill.",
+    "Rent. Phone. Insurance. Utilities. Minimum payments."
+   ],
+   "img": "{HERO} at a sunny kitchen table on a Sunday morning writing a list in a notebook, a cup of coffee and a stack of envelopes next to him"
+  },
+  {
+   "lines": [
+    "Then you went through three months of bank statements.",
+    "Every coffee. Every delivery. Every subscription."
+   ],
+   "img": "{HERO} highlighting lines on printed bank statements with a yellow highlighter, papers spread across a table, focused face, top-down angle"
+  },
+  {
+   "lines": [
+    "The result hurt. Food delivery alone was about one hundred eighty dollars a month."
+   ],
+   "img": "a doorstep piled high with many food delivery bags and paper cups, {HERO} opening the door looking surprised and guilty",
+   "tag": "$180 / MONTH",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Three streaming services you barely watched.",
+    "And a gym you hadn't visited since March."
+   ],
+   "img": "a dusty unused gym bag and running shoes in a corner of an apartment, a TV in the background showing a streaming menu, nobody watching",
+   "tag": "$94 FORGOTTEN",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "You didn't cut all the fun. You kept one streaming service and cooked a few more nights a week.",
+    "Suddenly, about one hundred fifty dollars a month was free."
+   ],
+   "img": "{HERO} happily cooking pasta in a small kitchen, steam rising from a pot, vegetables on the counter, warm evening light",
+   "tag": "+$150 / MONTH",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "chapter": "Step 2: Pay Yourself First",
+   "lines": [
+    "Next came the rule that changed everything.",
+    "Pay yourself first."
+   ],
+   "img": "{HERO} standing in front of a big whiteboard drawing an arrow from a paycheck to a piggy bank, confident smile, bright room"
+  },
+  {
+   "lines": [
+    "On payday, ten percent leaves automatically.",
+    "Three hundred fifty dollars, straight into a separate savings account."
+   ],
+   "img": "a smartphone in {HERO}'s hand showing an automatic transfer with a green check mark, blurred office background",
+   "tag": "$350 AUTO-SAVE",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Add the one hundred fifty you freed up.",
+    "That's five hundred dollars a month you never even see."
+   ],
+   "img": "three glass jars on a kitchen shelf filling up with coins and bills, {HERO} dropping money into the fullest one, morning light",
+   "tag": "$500 / MONTH",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Jake does the opposite.",
+    "He spends first, and saves whatever is left. Which is nothing."
+   ],
+   "img": "a young man in a blue shirt at a shopping mall carrying many bags, swiping a card at a sneaker store, excited face, bright shop lights"
+  },
+  {
+   "chapter": "Step 3: The Starter Cushion",
+   "lines": [
+    "Your first goal was small.",
+    "One thousand dollars. A starter emergency fund."
+   ],
+   "img": "a big sturdy piggy bank on a shelf with a little umbrella above it, {HERO} carefully placing a bill into it, cozy room",
+   "tag": "$1,000 GOAL",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "Two months later, you hit it.",
+    "And then, of course, the car broke down again."
+   ],
+   "img": "an old silver sedan with steam coming from the hood on the side of a road, {HERO} standing next to it with his phone, calm face"
+  },
+  {
+   "lines": [
+    "This time, you paid in cash.",
+    "No credit card. No panic. Just paid."
+   ],
+   "img": "{HERO} at the auto repair shop counter calmly paying with cash, the mechanic smiling and shaking his hand",
+   "tag": "PAID IN CASH",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Jake got a surprise bill that same month.",
+    "It went on his card, at over twenty percent interest."
+   ],
+   "img": "a young man in a blue shirt at his kitchen table at night opening a credit card statement envelope with a shocked face, a calculator next to him",
+   "tag": "20%+ APR",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "chapter": "Step 4: One Month Ahead",
+   "lines": [
+    "Then you set a bigger goal.",
+    "Get one full month ahead."
+   ],
+   "img": "{HERO} pinning a goal card onto a cork board next to a calendar, determined smile, home office"
+  },
+  {
+   "lines": [
+    "That means this month's bills get paid with last month's money.",
+    "Payday stops being a rescue."
+   ],
+   "img": "a calendar on a wall with two months side by side and an arrow from one to the next, {HERO} pointing at it, bright room"
+  },
+  {
+   "lines": [
+    "At five hundred a month, saving another thirty five hundred dollars took about seven months."
+   ],
+   "img": "a staircase of stacked coins growing taller step by step on a wooden table, top-down warm light",
+   "tag": "≈ 7 MONTHS",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "It wasn't exciting. Honestly, it was a little boring.",
+    "But every month, the cushion got bigger."
+   ],
+   "img": "{HERO} reading a book on a park bench in autumn, eating a homemade sandwich, colorful leaves falling, relaxed"
+  },
+  {
+   "lines": [
+    "And then one day it happened.",
+    "Payday came, and you didn't need it."
+   ],
+   "img": "{HERO} jumping with joy in his living room holding his phone up, confetti in the air, bright happy light",
+   "tag": "1 MONTH AHEAD",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "chapter": "Step 5: A Bills Account",
+   "lines": [
+    "One last trick. You opened a second checking account just for bills."
+   ],
+   "img": "{HERO} at a bank counter with a friendly teller, signing a form, modern bright bank interior"
+  },
+  {
+   "lines": [
+    "Every payday, the exact amount for your bills moves there.",
+    "Rent and utilities come out of it automatically."
+   ],
+   "img": "an illustrated flow of money from one bank card into a small house icon and a lightbulb icon, clean simple illustration, soft colors",
+   "tag": "BILLS ON AUTOPILOT",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "Whatever is left in your main account is yours to spend.",
+    "No mental math. No surprises."
+   ],
+   "img": "{HERO} smiling at a farmers market buying fresh fruit, paying with his card without worry, sunny day"
+  },
+  {
+   "chapter": "One Year Later",
+   "lines": [
+    "Fast forward one year.",
+    "Your company cuts overtime for three months."
+   ],
+   "img": "a tense office meeting room, a manager presenting to worried employees, {HERO} sitting among them, gray light through windows"
+  },
+  {
+   "lines": [
+    "Jake panics. His card is maxed out.",
+    "He's picking up weekend shifts just to keep up."
+   ],
+   "img": "a young man in a blue shirt working a late weekend shift at a warehouse, exhausted, carrying boxes, harsh lights",
+   "tag": "CARD MAXED",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "You? You trim your spending a little and keep going.",
+    "Your cushion covers the gap."
+   ],
+   "img": "{HERO} calmly drinking tea at his kitchen table, looking at his savings app, a plant on the windowsill, soft morning light",
+   "tag": "CALM",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Same city. Same rent. Jake even earns more than you.",
+    "The only difference is the gap between what comes in, and what goes out."
+   ],
+   "img": "split scene, on the left a young man in a blue shirt stressed in a messy apartment surrounded by bills, on the right {HERO} relaxed in a calm tidy apartment reading a book"
+  },
+  {
+   "chapter": "Start This Week",
+   "lines": [
+    "So here's your plan.",
+    "This weekend, write down your fixed bills and look at last month's spending."
+   ],
+   "img": "{HERO} at a kitchen table with a laptop and notebook on a Saturday morning, sunlight through the window, coffee mug"
+  },
+  {
+   "lines": [
+    "Find three leaks you won't miss.",
+    "And cancel them tonight."
+   ],
+   "img": "{HERO} on his couch tapping cancel on subscriptions on his phone, a satisfied smile, cozy evening living room",
+   "tag": "3 LEAKS",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "Then set up an automatic transfer for payday.",
+    "Even fifty dollars counts."
+   ],
+   "img": "{HERO} pressing a big confirm button on his phone, small sparkles around it, cozy room",
+   "tag": "START WITH $50",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "First goal, one thousand dollars.",
+    "Then one month ahead. One step at a time."
+   ],
+   "img": "{HERO} climbing a simple staircase drawn on a wall, step by step, smiling, bright minimal room",
+   "tag": "$1,000 → 1 MONTH",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "Next month, on the twenty eighth, you'll open your bank app.",
+    "And you'll be calm too."
+   ],
+   "img": "{HERO} on the couch at the end of the month smiling at his phone, a calendar behind him, warm cozy evening light"
+  },
+  {
+   "lines": [
+    "If this helped, subscribe for a new simple money move every day.",
+    "And tell me in the comments. What day of the month does your money usually run out?"
+   ],
+   "img": "{HERO} waving at the viewer from a cozy home office, a laptop and a plant on the desk, warm friendly light",
+   "tag": "SUBSCRIBE",
+   "tag_color": "#E23B3B"
+  }
+ ]
+}

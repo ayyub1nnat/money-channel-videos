@@ -1,0 +1,72 @@
+{
+ "title": "POV: You Earn Less Than Your Friend, But You're Never Broke",
+ "style": "pov",
+ "vertical": true,
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lead": 0.25,
+ "gap": 0.25,
+ "scene_gap": 0.3,
+ "tail": 1.2,
+ "scenes": [
+  {
+   "lines": [
+    "Jake earns fifty five hundred a month. You earn thirty five hundred."
+   ],
+   "img": "split scene, a young man in a blue shirt in a fancy apartment on the left, {HERO} in a cozy small apartment on the right, vertical composition",
+   "tag": "$5,500 vs $3,500",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "It's the twenty eighth, and Jake is texting you for two hundred dollars."
+   ],
+   "img": "a young man in a blue shirt pacing at night texting on his phone, worried, vertical composition",
+   "tag": "DAY 28"
+  },
+  {
+   "lines": [
+    "You used to be broke on day twenty six too. Every month."
+   ],
+   "img": "{HERO} at a grocery checkout looking stressed at his phone, vertical composition",
+   "tag": "$0 ON DAY 26",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "So you found your leaks. Food delivery, forgotten subscriptions. A hundred fifty a month."
+   ],
+   "img": "a doorstep piled with food delivery bags, {HERO} opening the door surprised, vertical composition",
+   "tag": "+$150",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Then you paid yourself first. Five hundred dollars, automatically, every payday."
+   ],
+   "img": "{HERO} looking at a phone with a green check mark savings transfer, relaxed on a couch, vertical composition",
+   "tag": "$500/MO",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "A starter fund first. Then one full month ahead."
+   ],
+   "img": "{HERO} jumping with joy in his living room holding his phone, confetti, vertical composition",
+   "tag": "1 MONTH AHEAD",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Now your bills get paid with last month's money. Payday isn't a rescue anymore."
+   ],
+   "img": "{HERO} calmly drinking tea at a kitchen table looking at a savings app, morning light, vertical composition"
+  },
+  {
+   "lines": [
+    "Jake earns more. You're the calm one. The full story is on my channel."
+   ],
+   "img": "{HERO} walking confidently down a sunny street, a young man in a blue shirt stressed on his phone in the background, vertical composition"
+  }
+ ]
+}

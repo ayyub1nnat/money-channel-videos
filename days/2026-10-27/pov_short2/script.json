@@ -1,0 +1,74 @@
+{
+ "title": "You're Probably Paying For Subscriptions You Forgot About",
+ "style": "pov",
+ "vertical": true,
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lead": 0.25,
+ "gap": 0.25,
+ "scene_gap": 0.3,
+ "tail": 1.2,
+ "scenes": [
+  {
+   "lines": [
+    "Quick question. How much do you spend on subscriptions every month?"
+   ],
+   "img": "a young woman with a ponytail on a couch looking at her phone with a puzzled face, cozy room, vertical composition",
+   "tag": "?"
+  },
+  {
+   "lines": [
+    "In one survey, people guessed around eighty six dollars."
+   ],
+   "img": "a young woman with a ponytail confidently holding up her hand guessing, thought bubble with coins, vertical composition",
+   "tag": "$86 GUESS",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "The real average? Over two hundred dollars a month."
+   ],
+   "img": "a young woman with a ponytail shocked looking at a long receipt unrolling to the floor, vertical composition",
+   "tag": "$219 REAL",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Free trials that quietly turned into payments. Apps you opened once. A gym you forgot."
+   ],
+   "img": "a messy desk with a phone showing many app icons, a dusty gym bag and a forgotten tablet, vertical composition"
+  },
+  {
+   "lines": [
+    "Here's the ten minute fix. Open your bank app and look for recurring charges from the last three months."
+   ],
+   "img": "{HERO} on a couch scrolling through a banking app on his phone, focused face, vertical composition",
+   "tag": "10 MIN FIX",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "For each one, ask. Would I sign up for this again today? If not, cancel it right now."
+   ],
+   "img": "{HERO} tapping a cancel button on his phone with a satisfied smile, small sparkles, vertical composition",
+   "tag": "CANCEL",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Cutting just fifty dollars a month puts six hundred dollars a year back in your pocket."
+   ],
+   "img": "{HERO} dropping coins into a big glass jar on a kitchen counter, happy, vertical composition",
+   "tag": "+$600 / YEAR",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Go check yours tonight. Follow for one simple money move every day!"
+   ],
+   "img": "{HERO} giving a thumbs up and smiling in a cozy room, vertical composition",
+   "tag": "FOLLOW",
+   "tag_color": "#E23B3B"
+  }
+ ]
+}
