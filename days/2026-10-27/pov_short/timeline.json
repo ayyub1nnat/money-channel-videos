@@ -1,0 +1,195 @@
+{
+ "title": "POV: You Earn Less Than Your Friend, But You're Never Broke",
+ "duration": 33.47,
+ "scenes": [
+  {
+   "id": "s0",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 0.25,
+   "end": 4.058,
+   "line_starts": [
+    0.25
+   ],
+   "subs": [
+    {
+     "start": 0.25,
+     "end": 2.24,
+     "text": "Jake earns fifty five hundred a month."
+    },
+    {
+     "start": 2.24,
+     "end": 3.758,
+     "text": "You earn thirty five hundred."
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 4.058,
+   "end": 7.875,
+   "line_starts": [
+    4.058
+   ],
+   "subs": [
+    {
+     "start": 4.058,
+     "end": 5.197,
+     "text": "It's the twenty eighth,"
+    },
+    {
+     "start": 5.197,
+     "end": 7.575,
+     "text": "and Jake is texting you for two hundred dollars."
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 7.875,
+   "end": 11.015,
+   "line_starts": [
+    7.875
+   ],
+   "subs": [
+    {
+     "start": 7.875,
+     "end": 9.269,
+     "text": "You used to be broke on day"
+    },
+    {
+     "start": 9.269,
+     "end": 10.715,
+     "text": "twenty six too. Every month."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 11.015,
+   "end": 16.123,
+   "line_starts": [
+    11.015
+   ],
+   "subs": [
+    {
+     "start": 11.015,
+     "end": 12.341,
+     "text": "So you found your leaks."
+    },
+    {
+     "start": 12.341,
+     "end": 14.497,
+     "text": "Food delivery, forgotten subscriptions."
+    },
+    {
+     "start": 14.497,
+     "end": 15.823,
+     "text": "A hundred fifty a month."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 16.123,
+   "end": 20.695,
+   "line_starts": [
+    16.123
+   ],
+   "subs": [
+    {
+     "start": 16.123,
+     "end": 17.691,
+     "text": "Then you paid yourself first."
+    },
+    {
+     "start": 17.691,
+     "end": 20.395,
+     "text": "Five hundred dollars, automatically, every payday."
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 20.695,
+   "end": 23.526,
+   "line_starts": [
+    20.695
+   ],
+   "subs": [
+    {
+     "start": 20.695,
+     "end": 21.826,
+     "text": "A starter fund first."
+    },
+    {
+     "start": 21.826,
+     "end": 23.226,
+     "text": "Then one full month ahead."
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 23.526,
+   "end": 28.191,
+   "line_starts": [
+    23.526
+   ],
+   "subs": [
+    {
+     "start": 23.526,
+     "end": 25.373,
+     "text": "Now your bills get paid with last"
+    },
+    {
+     "start": 25.373,
+     "end": 27.891,
+     "text": "month's money. Payday isn't a rescue anymore."
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 28.191,
+   "end": 33.47,
+   "line_starts": [
+    28.191
+   ],
+   "subs": [
+    {
+     "start": 28.191,
+     "end": 30.218,
+     "text": "Jake earns more. You're the calm one."
+    },
+    {
+     "start": 30.218,
+     "end": 31.97,
+     "text": "The full story is on my channel."
+    }
+   ]
+  }
+ ]
+}

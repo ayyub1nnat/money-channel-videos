@@ -1,0 +1,195 @@
+{
+ "title": "You're Probably Paying For Subscriptions You Forgot About",
+ "duration": 35.418,
+ "scenes": [
+  {
+   "id": "s0",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 0.25,
+   "end": 3.952,
+   "line_starts": [
+    0.25
+   ],
+   "subs": [
+    {
+     "start": 0.25,
+     "end": 2.157,
+     "text": "Quick question. How much do you spend"
+    },
+    {
+     "start": 2.157,
+     "end": 3.652,
+     "text": "on subscriptions every month?"
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 3.952,
+   "end": 7.181,
+   "line_starts": [
+    3.952
+   ],
+   "subs": [
+    {
+     "start": 3.952,
+     "end": 6.881,
+     "text": "In one survey, people guessed around eighty six dollars."
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 7.181,
+   "end": 9.988,
+   "line_starts": [
+    7.181
+   ],
+   "subs": [
+    {
+     "start": 7.181,
+     "end": 9.688,
+     "text": "The real average? Over two hundred dollars a month."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 9.988,
+   "end": 15.256,
+   "line_starts": [
+    9.988
+   ],
+   "subs": [
+    {
+     "start": 9.988,
+     "end": 12.708,
+     "text": "Free trials that quietly turned into payments."
+    },
+    {
+     "start": 12.708,
+     "end": 13.95,
+     "text": "Apps you opened once."
+    },
+    {
+     "start": 13.95,
+     "end": 14.956,
+     "text": "A gym you forgot."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 15.256,
+   "end": 21.076,
+   "line_starts": [
+    15.256
+   ],
+   "subs": [
+    {
+     "start": 15.256,
+     "end": 16.663,
+     "text": "Here's the ten minute fix."
+    },
+    {
+     "start": 16.663,
+     "end": 18.341,
+     "text": "Open your bank app and look for"
+    },
+    {
+     "start": 18.341,
+     "end": 20.776,
+     "text": "recurring charges from the last three months."
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 21.076,
+   "end": 25.901,
+   "line_starts": [
+    21.076
+   ],
+   "subs": [
+    {
+     "start": 21.076,
+     "end": 22.058,
+     "text": "For each one, ask."
+    },
+    {
+     "start": 22.058,
+     "end": 23.693,
+     "text": "Would I sign up for this again"
+    },
+    {
+     "start": 23.693,
+     "end": 25.601,
+     "text": "today? If not, cancel it right now."
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 25.901,
+   "end": 30.287,
+   "line_starts": [
+    25.901
+   ],
+   "subs": [
+    {
+     "start": 25.901,
+     "end": 27.754,
+     "text": "Cutting just fifty dollars a month puts"
+    },
+    {
+     "start": 27.754,
+     "end": 29.987,
+     "text": "six hundred dollars a year back in your pocket."
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 30.287,
+   "end": 35.418,
+   "line_starts": [
+    30.287
+   ],
+   "subs": [
+    {
+     "start": 30.287,
+     "end": 31.552,
+     "text": "Go check yours tonight."
+    },
+    {
+     "start": 31.552,
+     "end": 33.918,
+     "text": "Follow for one simple money move every day!"
+    }
+   ]
+  }
+ ]
+}
