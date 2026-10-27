@@ -1,0 +1,364 @@
+{
+ "title": "POV: You Did 10 Small Things for One Year — Now You Have $5,300 More and Your Friends Are Still Broke",
+ "style": "pov",
+ "voice": "af_heart",
+ "speed": 1.04,
+ "lead": 0.3,
+ "gap": 0.3,
+ "scene_gap": 0.45,
+ "tail": 2.0,
+ "thumbnail": {
+  "image": "thumb",
+  "text": [
+   "10 TINY",
+   "HABITS"
+  ],
+  "color": "#5BE37D",
+  "pos": "right",
+  "img": "{HERO} standing in the foreground at a New Year's party smiling calmly holding a phone with a green savings chart, behind him a young man in a blue shirt and a young woman with a ponytail stressed holding credit card bills and empty wallets, confetti, strong contrast between calm and panic, composition with the hero on the left third"
+ },
+ "scenes": [
+  {
+   "chapter": "New Year's Eve",
+   "lines": [
+    "It's New Year's Eve. Your friends are making big promises again.",
+    "New gym. New diet. This is finally my year."
+   ],
+   "img": "a lively New Year's Eve house party with friends raising glasses and confetti, a young man in a blue shirt and a young woman with a ponytail excitedly making promises, {HERO} smiling quietly at the side, warm festive lights"
+  },
+  {
+   "lines": [
+    "And you? You're just smiling.",
+    "Because one year ago, you made a different kind of promise."
+   ],
+   "img": "{HERO} at a party holding a glass of sparkling water, smiling calmly and knowingly, friends blurred in the background, fairy lights"
+  },
+  {
+   "lines": [
+    "Not one big change. Ten small ones.",
+    "So small they almost felt silly."
+   ],
+   "img": "{HERO} writing a short list in a small notebook at a kitchen table at night, a cup of tea, cozy lamp light",
+   "tag": "10 SMALL THINGS",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "Tonight, your savings account says five thousand three hundred dollars more than last year.",
+    "And your life feels calmer than it has in years."
+   ],
+   "img": "{HERO} on a couch looking at a banking app on his phone with a big relieved smile, a green savings chart floating softly beside him",
+   "tag": "+$5,300",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Meanwhile, Jake just checked his card.",
+    "He spent more on holiday gifts than he has in savings."
+   ],
+   "img": "a young man in a blue shirt at a party staring at his phone in shock, a pile of wrapped gifts and shopping bags next to him, worried face",
+   "tag": "SAVINGS: $0",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Here are the ten small things you did. And exactly how much each one was worth."
+   ],
+   "img": "{HERO} walking along a path lined with ten small glowing lanterns at dusk, peaceful hopeful mood, wide shot"
+  },
+  {
+   "chapter": "1. Pay Yourself First",
+   "lines": [
+    "Thing number one. You paid yourself first.",
+    "Fifty dollars, moved automatically to savings, every single week."
+   ],
+   "img": "{HERO} setting up an automatic transfer on his phone in a bright kitchen in the morning, coffee mug, focused calm face",
+   "tag": "$50 / WEEK",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "You never saw that money, so you never missed it.",
+    "By December, that alone was twenty six hundred dollars."
+   ],
+   "img": "a glass jar slowly filling with coins and dollar bills on a sunny windowsill, calendar pages flying in the background",
+   "tag": "$2,600",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "chapter": "2. The Sunday Check",
+   "lines": [
+    "Thing number two. Every Sunday, five minutes. You opened your bank app and just looked.",
+    "No judging. Just looking."
+   ],
+   "img": "{HERO} on a Sunday morning in pajamas on a sofa calmly scrolling a banking app, sunlight, plant in the corner",
+   "tag": "5 MIN SUNDAYS",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "Most people avoid that app when money is tight.",
+    "Mia hadn't opened hers in two months."
+   ],
+   "img": "a young woman with a ponytail nervously hiding her phone face down on a table, a stack of unopened envelopes beside her, anxious expression"
+  },
+  {
+   "chapter": "3. The 24-Hour Rule",
+   "lines": [
+    "Thing number three. The twenty four hour rule.",
+    "Anything you want that costs over fifty dollars, you wait one day."
+   ],
+   "img": "{HERO} looking at an online shop on a laptop with a shopping cart, then closing the laptop with a calm smile, a clock on the wall",
+   "tag": "24-HOUR RULE",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "Half the time, the next morning, you didn't even want it anymore."
+   ],
+   "img": "{HERO} waking up in the morning stretching in bed and laughing, a thought bubble with a pair of expensive sneakers fading away"
+  },
+  {
+   "lines": [
+    "Jake has a different rule. See it, buy it.",
+    "His closet is full of things with the tags still on."
+   ],
+   "img": "a young man in a blue shirt opening a closet overflowing with clothes and shoe boxes with price tags still attached, surprised guilty face",
+   "tag": "TAGS STILL ON",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "chapter": "4. Cook 3 More Nights",
+   "lines": [
+    "Thing number four. You cooked dinner at home three more nights a week."
+   ],
+   "img": "{HERO} cooking a colorful pasta dinner in a small cozy kitchen, steam rising, happy relaxed face",
+   "tag": "3 NIGHTS / WEEK",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "A delivery dinner was costing you around twenty five dollars. Cooking it, about ten.",
+    "Fifteen dollars saved each time. Over two thousand dollars a year."
+   ],
+   "img": "split scene, on the left a food delivery bag with a long receipt, on the right {HERO} serving a simple homemade meal on a plate, bright illustration",
+   "tag": "+$2,340",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "chapter": "5. Cancel 2 Subscriptions",
+   "lines": [
+    "Thing number five. You canceled two subscriptions you forgot you had.",
+    "Thirty dollars a month. Gone in ten minutes."
+   ],
+   "img": "{HERO} on a couch tapping cancel on subscription apps on his phone, small app icons floating away, satisfied face",
+   "tag": "+$360 / YEAR",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "chapter": "6. One No-Spend Day",
+   "lines": [
+    "Thing number six. One no spend day every week.",
+    "Wednesdays. No coffee shop. No online orders. Nothing."
+   ],
+   "img": "{HERO} walking in a park on a sunny weekday holding a reusable water bottle, a calendar in the corner with Wednesdays marked",
+   "tag": "NO-SPEND WEDNESDAY",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "It sounds tiny. But it taught you something big.",
+    "Most of your spending was habit, not need."
+   ],
+   "img": "{HERO} sitting on a park bench thinking with a light bulb glowing softly above his head, autumn leaves"
+  },
+  {
+   "chapter": "7. Pay the Card in Full",
+   "lines": [
+    "Thing number seven. You paid your credit card in full. Every month.",
+    "Card interest often runs over twenty percent a year. You paid zero."
+   ],
+   "img": "{HERO} at a desk pressing a pay full balance button on a laptop, a green check mark, relieved expression",
+   "tag": "0% INTEREST PAID",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Mia pays the minimum.",
+    "Her balance hasn't moved all year, even though she pays every month."
+   ],
+   "img": "a young woman with a ponytail looking at a credit card statement with a frustrated face, the balance number staying high, rain on the window",
+   "tag": "STUCK",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "chapter": "8. Ten Pages a Day",
+   "lines": [
+    "Thing number eight. Ten pages a day.",
+    "Not a book a week. Just ten pages, every night before bed."
+   ],
+   "img": "{HERO} reading a book in bed with a small warm reading lamp, peaceful face, a stack of finished books on the nightstand",
+   "tag": "10 PAGES / DAY",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "That's over three thousand pages in a year. More than a dozen books.",
+    "A few of them were about money. They changed how you think."
+   ],
+   "img": "a tall stack of colorful books on a wooden floor next to {HERO} sitting cross-legged and smiling, cozy living room",
+   "tag": "12+ BOOKS",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "chapter": "9. A Daily Walk",
+   "lines": [
+    "Thing number nine. A twenty minute walk, every day. Phone in your pocket."
+   ],
+   "img": "{HERO} walking on a tree-lined street in the morning with headphones, golden sunlight, relaxed smile",
+   "tag": "20 MIN WALK",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "You slept better. You stressed less.",
+    "And stressed people spend more. That's not a coincidence."
+   ],
+   "img": "{HERO} sleeping peacefully in a tidy bedroom at night, moonlight through the window, calm atmosphere"
+  },
+  {
+   "chapter": "10. Save Half of Every Raise",
+   "lines": [
+    "Thing number ten. The big one. When you got a raise in June, you saved half of it."
+   ],
+   "img": "{HERO} reading a raise letter at his office desk with a happy surprised face, colleagues in the background",
+   "tag": "SAVE HALF THE RAISE",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "You still enjoyed the other half. But your lifestyle didn't jump with your paycheck."
+   ],
+   "img": "{HERO} enjoying a nice dinner with friends at a simple restaurant, smiling, warm evening lights"
+  },
+  {
+   "lines": [
+    "Jake got a raise too. A week later, he had a new car payment."
+   ],
+   "img": "a young man in a blue shirt standing proudly next to a shiny new car in a parking lot, a long loan contract unrolling from his hand",
+   "tag": "NEW CAR PAYMENT",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "chapter": "Why Small Wins",
+   "lines": [
+    "Here's what nobody tells you about small things.",
+    "On their own, they don't feel like anything."
+   ],
+   "img": "{HERO} placing a single small brick on a low wall at sunrise, thoughtful expression"
+  },
+  {
+   "lines": [
+    "Fifty dollars doesn't feel like much. Ten pages doesn't feel like much.",
+    "But they stack. Every day. Every week."
+   ],
+   "img": "a staircase made of small glowing blocks rising up a hill, {HERO} climbing it calmly, wide shot, dreamy sky"
+  },
+  {
+   "lines": [
+    "Big resolutions fail because they need motivation.",
+    "Small habits work because they don't."
+   ],
+   "img": "split scene, on the left a young man in a blue shirt exhausted and quitting at a gym in February, on the right {HERO} calmly reading a book at home, bright illustration"
+  },
+  {
+   "chapter": "The Numbers",
+   "lines": [
+    "Let's add it up.",
+    "Fifty a week. Cooking at home. Two subscriptions."
+   ],
+   "img": "{HERO} at a kitchen table with a notebook and calculator adding numbers, focused, a cup of tea"
+  },
+  {
+   "lines": [
+    "That's about fifty three hundred dollars.",
+    "And that's before the money you didn't waste on things you'd have regretted."
+   ],
+   "img": "a big glowing savings jar full of money on a table with {HERO} standing proudly beside it, soft spotlight",
+   "tag": "$5,300",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Put that in a high yield savings account, and it can even earn a bit of interest. Rates change, nothing is guaranteed.",
+    "But the real win isn't the money."
+   ],
+   "img": "{HERO} looking at a savings app showing a small green interest number, relaxed smile, cozy room"
+  },
+  {
+   "lines": [
+    "It's the feeling.",
+    "When your car needed new tires in October, you just paid for them. No panic. No card."
+   ],
+   "img": "{HERO} at a car repair shop calmly handing over a debit card to a mechanic, a new tire beside him, calm smile",
+   "tag": "NO PANIC",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "chapter": "One Year Later",
+   "lines": [
+    "Back at the party, Jake asks you how you did it.",
+    "Did you get a big raise?"
+   ],
+   "img": "a young man in a blue shirt at the New Year's party asking {HERO} a question with a curious puzzled face, confetti in the air"
+  },
+  {
+   "lines": [
+    "You laugh. Not really.",
+    "I just did ten small things. Every day."
+   ],
+   "img": "{HERO} laughing warmly at a party, friends listening with interest, glowing string lights"
+  },
+  {
+   "chapter": "Start Tonight",
+   "lines": [
+    "So here's your plan. Don't try all ten tomorrow.",
+    "Pick two. The two that feel easiest."
+   ],
+   "img": "{HERO} holding up two fingers with a friendly encouraging smile, bright simple background",
+   "tag": "PICK 2",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "My pick? Set up the automatic transfer tonight. Even twenty dollars a week.",
+    "And put a twenty four hour rule on your shopping cart."
+   ],
+   "img": "{HERO} on a couch at night setting up a transfer on his phone, an online shopping cart icon with a timer on the screen beside him",
+   "tag": "START WITH $20",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Next month, add one more. Then another.",
+    "By next New Year's Eve, you won't need a resolution."
+   ],
+   "img": "{HERO} walking up a sunny hill path with a small backpack, a city skyline behind him, hopeful wide shot"
+  },
+  {
+   "lines": [
+    "You'll be the one smiling quietly at the party."
+   ],
+   "img": "{HERO} at a New Year's party smiling calmly as fireworks burst outside the window, friends celebrating around him"
+  },
+  {
+   "lines": [
+    "If this helped, subscribe for a new simple money move every day.",
+    "And tell me in the comments. Which of the ten things are you starting with?"
+   ],
+   "img": "{HERO} waving warmly at the viewer in a cozy living room, friendly smile, warm light",
+   "tag": "SUBSCRIBE",
+   "tag_color": "#2C7BE5"
+  }
+ ]
+}

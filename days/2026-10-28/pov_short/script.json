@@ -1,0 +1,75 @@
+{
+ "title": "POV: You Did 10 Tiny Things for a Year… Now You Have $5,300 More 😳",
+ "style": "pov",
+ "vertical": true,
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lead": 0.25,
+ "gap": 0.25,
+ "scene_gap": 0.3,
+ "tail": 1.2,
+ "scenes": [
+  {
+   "lines": [
+    "One year ago, you didn't make a big resolution. You made ten tiny ones."
+   ],
+   "img": "{HERO} writing a short list in a small notebook at night, cozy lamp light, vertical composition",
+   "tag": "10 TINY HABITS",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "Fifty dollars a week, moved to savings automatically. Twenty six hundred by December."
+   ],
+   "img": "a glass jar filling with coins and bills on a sunny windowsill, vertical composition",
+   "tag": "$2,600",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Three more dinners at home every week. Over two thousand dollars saved."
+   ],
+   "img": "{HERO} cooking a colorful pasta dinner in a cozy kitchen, steam rising, vertical composition",
+   "tag": "+$2,340",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "A twenty four hour rule for anything over fifty dollars."
+   ],
+   "img": "{HERO} closing a laptop with an online shopping cart, calm smile, clock on the wall, vertical composition",
+   "tag": "24-HOUR RULE",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "Jake? See it, buy it. Tags still on."
+   ],
+   "img": "a young man in a blue shirt opening a closet overflowing with clothes with price tags still attached, vertical composition",
+   "tag": "TAGS STILL ON",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Card paid in full every month. Zero interest."
+   ],
+   "img": "{HERO} pressing a pay full balance button on a laptop, green check mark, vertical composition",
+   "tag": "$0 INTEREST",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "New Year's Eve. Five thousand three hundred dollars more. And way less stress."
+   ],
+   "img": "{HERO} at a New Year's party smiling calmly looking at a savings app, confetti, vertical composition",
+   "tag": "+$5,300",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Want all ten small things? The full story is on my channel."
+   ],
+   "img": "{HERO} waving at the viewer with a friendly smile, warm living room, vertical composition"
+  }
+ ]
+}

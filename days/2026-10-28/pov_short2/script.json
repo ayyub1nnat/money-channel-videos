@@ -1,0 +1,75 @@
+{
+ "title": "POV: You Only Pay the Minimum on a $3,000 Card… It Takes 15 YEARS 😱",
+ "style": "pov",
+ "vertical": true,
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lead": 0.25,
+ "gap": 0.25,
+ "scene_gap": 0.3,
+ "tail": 1.2,
+ "scenes": [
+  {
+   "lines": [
+    "Mia owes three thousand dollars on her credit card. So she pays the minimum. Every month."
+   ],
+   "img": "a young woman with a ponytail on a couch paying a credit card bill on her phone, relieved but tired face, vertical composition",
+   "tag": "$3,000 DEBT",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "The interest rate? Twenty two percent. Pretty normal for a card."
+   ],
+   "img": "a credit card statement with a big red interest rate number, a young woman with a ponytail squinting at it, vertical composition",
+   "tag": "22% APR",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "Her first minimum payment is about eighty five dollars. Feels fine, right?"
+   ],
+   "img": "a young woman with a ponytail shrugging with a small smile, a bill showing a small payment amount, vertical composition",
+   "tag": "$85 / MONTH",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "But most of it is just interest. And as the balance drops, so does the minimum."
+   ],
+   "img": "a young woman with a ponytail watching coins drip slowly out of her wallet into a huge pile labeled bank, worried face, vertical composition"
+  },
+  {
+   "lines": [
+    "Keep paying only the minimum, and it takes about fifteen years to be debt free."
+   ],
+   "img": "an older a young woman with a ponytail with a few gray hairs still paying a credit card bill, calendar pages flying past, vertical composition",
+   "tag": "15 YEARS",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "She'd pay around four thousand four hundred dollars in interest. More than she borrowed."
+   ],
+   "img": "a young woman with a ponytail shocked looking at a long receipt unrolling to the floor, vertical composition",
+   "tag": "$4,400 INTEREST",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Now the fix. Pay a fixed one fifty a month instead. Done in about two years. Around seven hundred seventy dollars in interest."
+   ],
+   "img": "{HERO} on a couch setting up a fixed monthly payment on his phone, calm confident smile, vertical composition",
+   "tag": "2 YEARS",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Same card. Same debt. Thirteen years faster. Follow for one simple money move every day!"
+   ],
+   "img": "{HERO} walking happily down a sunny street cutting a credit card in half, vertical composition",
+   "tag": "13 YEARS FASTER",
+   "tag_color": "#1B9E4B"
+  }
+ ]
+}
