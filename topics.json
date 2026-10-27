@@ -71,11 +71,15 @@
    "title": "10 Small Things That Will Change Your Life in a Year",
    "used": true,
    "date": "2026-10-28",
-   "status": "built, waiting for upload",
-   "localized": false,
+   "status": "scheduled",
+   "localized": true,
    "format": "pov",
    "published_title": "POV: You Did 10 Small Things for a Year — You're $5,300 Richer, Your Friends Are Still Broke",
-   "short2_topic": "Credit card minimum payment trap ($3,000 at 22%: 15 years vs 2 years)"
+   "short2_topic": "Credit card minimum payment trap ($3,000 at 22%: 15 years vs 2 years)",
+   "short_status": "scheduled",
+   "video_id": "ikLvIdfjuLw",
+   "short_id": "W2LsLv0Beo4",
+   "short2_id": "XhR7ji1fsVk"
   },
   {
    "title": "How to Pay Off Debt Fast: Snowball vs Avalanche",
