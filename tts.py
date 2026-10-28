@@ -7,7 +7,7 @@ wd, md = sys.argv[1], sys.argv[2]
 S = json.load(open(f"{wd}/script.json"))
 k = Kokoro(f"{md}/kokoro-v1.0.onnx", f"{md}/voices-v1.0.bin")
 SR = 24000
-VOICE = S.get("voice", "af_heart"); SPEED = float(S.get("speed", 1.0))
+VOICE = S.get("voice", "am_michael"); SPEED = float(S.get("speed", 1.0))
 LEAD, GAP, SCENE_GAP, TAIL = float(S.get("lead", 0.6)), float(S.get("gap", 0.38)), float(S.get("scene_gap", 0.9)), float(S.get("tail", 1.5))
 
 def chunks(line, maxw=7):

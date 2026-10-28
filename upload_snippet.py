@@ -1,8 +1,8 @@
 # Paste into COMPOSIO_REMOTE_WORKBENCH as-is. Uses the channel's OWN Google Cloud project via yt_lib.py
 # (own quota, not shared). Uploads the video waiting on the `media` branch (date in media/meta.json):
-#   main video  → private, publishAt 20:00 Asia/Baku on that date (public now if that time passed)
+#   main video  → private, publishAt 18:00 Asia/Baku on that date (public now if that time passed)
 #   thumbnail, English CC track (days/<date>/subtitles.srt), translated titles/descriptions (localizations.json)
-#   Short (media/short.mp4, if present) → publishAt 20:00 Asia/Baku too, description links to the main video
+#   Short (media/short.mp4, if present) → publishAt 18:00 Asia/Baku too, description links to the main video
 # Prints RESULT {...}. Safe to re-run only if RESULT was not ok (otherwise it would upload a duplicate).
 import requests, json, datetime
 from zoneinfo import ZoneInfo
@@ -16,7 +16,7 @@ seo = requests.get(f"{RAW}/main/days/{DATE}/seo.json", timeout=60).json()
 lr = requests.get(f"{RAW}/main/days/{DATE}/localizations.json", timeout=60)
 loc = lr.json() if lr.status_code == 200 else {}
 
-LA = ZoneInfo("Asia/Baku")   # owner's choice (2026-10-26): video AND its Short public at 20:00 Baku; standalone Short 19:00
+LA = ZoneInfo("Asia/Baku")   # owner's choice (2026-10-28): main video AND both Shorts public at 18:00 Baku
 y, m, d = map(int, DATE.split("-"))
 now = datetime.datetime.now(datetime.timezone.utc)
 def status_for(hour):
@@ -37,7 +37,7 @@ def localize(vid, locs):
 out = {"date": DATE}
 try:
     p = yt_download(f"{RAW}/media/video.mp4", "/home/user/video.mp4")
-    st = status_for(20)
+    st = status_for(18)
     vid = yt_upload_video(p, {"title": seo["title"][:100], "description": seo["description"][:4900], "tags": seo["tags"],
                               "categoryId": seo.get("categoryId", "27"), "defaultLanguage": "en", "defaultAudioLanguage": "en"}, st)
     out.update(ok=True, video_id=vid, status_set=st)
@@ -57,7 +57,7 @@ try:
                      + "\n\nThis video is for educational purposes only and is not financial advice.\n\n#shorts #personalfinance #money")
             sid = yt_upload_video(yt_download(f"{RAW}/media/short.mp4", "/home/user/short.mp4"),
                                   {"title": stitle, "description": sdesc[:4900], "tags": sh.get("tags", seo["tags"][:10]) + ["shorts"],
-                                   "categoryId": seo.get("categoryId", "27"), "defaultLanguage": "en", "defaultAudioLanguage": "en"}, status_for(20))
+                                   "categoryId": seo.get("categoryId", "27"), "defaultLanguage": "en", "defaultAudioLanguage": "en"}, status_for(18))
             out["short_id"] = sid
             try:
                 localize(sid, {k: {"title": v["title"][:100], "description": f"▶️ {link}\n\n" + v["description"]}
@@ -66,7 +66,7 @@ try:
             except Exception as ex: out["short_localized"] = str(ex)[:300]
         except Exception as ex:
             out["short_error"] = str(ex)[:300]
-    # standalone Short (media/short2.mp4, own topic, no link to the main video) → public 19:00 Baku
+    # standalone Short (media/short2.mp4, own topic, no link to the main video) → public 18:00 Baku
     if requests.head(f"{RAW}/media/short2.mp4", timeout=60, allow_redirects=True).status_code == 200:
         try:
             s2 = seo.get("short2", {})
@@ -76,7 +76,7 @@ try:
                   + "\n\nThis video is for educational purposes only and is not financial advice.\n\n#shorts #personalfinance #money")
             sid2 = yt_upload_video(yt_download(f"{RAW}/media/short2.mp4", "/home/user/short2.mp4"),
                                    {"title": t2, "description": d2[:4900], "tags": s2.get("tags", []) + ["shorts"],
-                                    "categoryId": "27", "defaultLanguage": "en", "defaultAudioLanguage": "en"}, status_for(19))
+                                    "categoryId": "27", "defaultLanguage": "en", "defaultAudioLanguage": "en"}, status_for(18))
             out["short2_id"] = sid2
             try:
                 yt_insert_caption(sid2, yt_download(f"{RAW}/main/days/{DATE}/short2/subtitles.srt", "/home/user/s2.srt")); out["short2_captions"] = "ok"

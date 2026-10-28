@@ -1,8 +1,8 @@
 # Daily YouTube Video — Runbook
 
 Channel niche: **personal finance & getting your life together** (budgeting, saving, debt, habits, side income, productivity), English, US audience.
-Style: friendly, practical, calm female narrator (Kokoro voice `af_heart`), flat cartoon animation, burned-in subtitles, soft background music ducked under the voice.
-Publish time: **20:00 Asia/Baku every day, main video and its Short; the standalone Short at 19:00 Asia/Baku** (owner's choice 2026-10-26) (upload earlier as private with `publishAt`).
+Style: friendly, practical, emotional MALE narrator (Kokoro voice `am_michael`, owner's choice 2026-10-28; was af_heart), flat cartoon animation, burned-in subtitles, soft background music ducked under the voice.
+Publish time: **18:00 Asia/Baku every day for the main video and both Shorts** (owner's choice 2026-10-28) (upload earlier as private with `publishAt`).
 
 ---
 
@@ -29,10 +29,15 @@ Inspired by big finance channels that use AI-illustrated POV stories (we use OUR
   uploads so it isn't a repeat (2026-10-27 short2 repeated the subscriptions topic of YAlE1_vk2NQ).
 - Title patterns: "POV: You <did the smart thing> — <others> Still <are stuck>" / "POV: You Earn $X and Still Save $Y — ...". Thumbnail:
   `"thumbnail": {"img": "<prompt: {HERO} calm in front, stressed people behind>", "image": "thumb", "text": ["2-3 WORDS", "2-3 WORDS"], "color": "#5BE37D", "pos": "right"}`.
-- Main video `days/<date>/pov/script.json`: `"style": "pov"`, speed 1.04, 35-50 scenes (≈5-8 min), each scene 1-2 short sentences
+- **VOICE + LENGTH SINCE 2026-10-28 (owner's decision):** every script (main + both Shorts) uses `"voice": "am_michael"` (male).
+  Write for a real, emotional human narrator: short sentences, questions, pauses with "...", exclamation marks where a person
+  would raise their voice, contractions ("you're", "it's"), no robotic lists. The main video must be **9-10 minutes**
+  (check `timeline.json` duration: 540-600 s; add or trim lines if outside). To stay within ≤ 70 images/day, the main video has
+  **50-53 scenes with 2-4 lines each (≈ 10-11 s per image, ≈ 1,250-1,350 spoken words at am_michael speed 1.0 ≈ 2.5 words/s)**; Shorts stay at 8 scenes.
+- Main video `days/<date>/pov/script.json`: `"style": "pov"`, speed 1.0, 50-53 scenes (9-10 min, see above), each scene 2-4 short sentences
   + one `"img"` prompt (concrete scene, setting, emotion; no text in images) + optional `"tag"` (big number/label, ≤ 22 chars,
   `"tag_color"` red #E23B3B loss / green #1B9E4B win / orange #E88A1A / blue #2C7BE5) + `"chapter"` at section starts.
-- Shorts (vertical, 8 scenes, speed 1.1, prompts end with "vertical composition"): `pov_short` = teaser of the main story ending
+- Shorts (vertical, 8 scenes, speed 1.08, voice am_michael, prompts end with "vertical composition"): `pov_short` = teaser of the main story ending
   "The full story is on my channel"; `pov_short2` = standalone money tip story ending "Follow for one simple money move every day!".
 - Image budget: Cloudflare free tier ≈ 10,000 neurons/day (resets 00:00 UTC) ≈ 85 images at 1024x576 → keep total scenes
   (main + 2 Shorts + thumb) ≤ 70. If an image is "flagged" (false positive), reword the prompt and regenerate that one.
@@ -69,7 +74,7 @@ Writing rules:
 ```json
 {
   "title": "…YouTube title, ≤ 70 chars…",
-  "voice": "af_heart",
+  "voice": "am_michael",
   "thumbnail": {"line1": "Stop Living", "line2": "Paycheck to", "badge": "Paycheck", "sub": "Simple 5-step plan",
                 "mood": "happy|sad|surprised|neutral", "props": ["coins"|"question"], "bg": ["#FFD23F", "#FF9F1C"]},
   "scenes": [ {"visual": "<template>", "heading": "…", "params": {…}, "lines": ["…", "…"]} ]
