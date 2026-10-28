@@ -17,7 +17,7 @@ Open `topics.json`, take the first topic with `"used": false`. If fewer than 10 
 
 ## ★★ FORMAT SINCE 2026-10-26 (owner's decision): illustrated "POV" stories — this WINS over the whiteboard section below
 Inspired by big finance channels that use AI-illustrated POV stories (we use OUR OWN hero, never copy another channel's character).
-- Hero: **Sam** — reference image `brand/hero_ref.jpg` (early 30s, dark brown wavy hair, round glasses, stubble, mustard-yellow
+- Hero: **Sam** (owner confirmed 2026-10-28: Sam is the main character of EVERY video, also on the channel avatar/banner in brand/) — reference image `brand/hero_ref.jpg` (early 30s, dark brown wavy hair, round glasses, stubble, mustard-yellow
   sweater, white collar, dark jeans). Write `{HERO}` in an image prompt wherever Sam appears; images_snippet.py sends the reference.
   Recurring side characters: Jake (young man, blue shirt, impulsive spender), Mia (woman with a ponytail, credit-card spender).
 - Narration in 2nd person ("You..."), Sam is "you" on screen. Contrast: calm, prepared you vs. stressed people around you. Emotional,
