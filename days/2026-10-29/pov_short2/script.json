@@ -1,0 +1,73 @@
+{
+ "style": "pov",
+ "vertical": true,
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lead": 0.25,
+ "gap": 0.25,
+ "scene_gap": 0.3,
+ "tail": 1.2,
+ "title": "POV: Christmas Is 8 Weeks Away… and Your $600 Is Already Saved 🎄",
+ "scenes": [
+  {
+   "lines": [
+    "Every December, Mia says the same thing. Christmas snuck up on me again."
+   ],
+   "img": "a young woman with a ponytail in a busy shopping mall with Christmas decorations, carrying many shopping bags, stressed face, vertical composition"
+  },
+  {
+   "lines": [
+    "So she puts nine hundred dollars of gifts on her credit card."
+   ],
+   "img": "a young woman with a ponytail at a store checkout handing over a credit card, worried face, Christmas lights, vertical composition",
+   "tag": "$900 ON CARD",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "At twenty two percent, paying it off slowly can cost her a hundred dollars or more in interest."
+   ],
+   "img": "a young woman with a ponytail in January looking at a credit card bill in shock, snow outside the window, vertical composition",
+   "tag": "+ INTEREST",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "But Christmas isn't a surprise. It's on the same day every year."
+   ],
+   "img": "{HERO} pointing calmly at a wall calendar with December 25 circled, cozy room, vertical composition"
+  },
+  {
+   "lines": [
+    "So back in January, you opened a separate savings account. You called it Christmas."
+   ],
+   "img": "{HERO} on a couch opening a savings account on his phone, calm small smile, winter scarf on the chair, vertical composition",
+   "tag": "SINKING FUND",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "Fifty dollars a month, on autopilot. By December, that's six hundred dollars, waiting."
+   ],
+   "img": "{HERO} watching a jar with a red bow slowly fill with coins, happy calm face, vertical composition",
+   "tag": "$600 READY",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Starting late? It's not too late. Forty dollars a week for eight weeks is three hundred twenty dollars."
+   ],
+   "img": "{HERO} dropping a few bills into a jar with a red bow, Christmas lights in the background, vertical composition",
+   "tag": "$320 IN 8 WEEKS",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "Same Christmas. Zero debt in January. Follow for one simple money move every day!"
+   ],
+   "img": "{HERO} handing a wrapped gift to a friend in a cozy living room with a Christmas tree, warm smile, vertical composition",
+   "tag": "$0 DEBT",
+   "tag_color": "#1B9E4B"
+  }
+ ]
+}

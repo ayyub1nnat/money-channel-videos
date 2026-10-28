@@ -1,0 +1,73 @@
+{
+ "style": "pov",
+ "vertical": true,
+ "voice": "af_heart",
+ "speed": 1.1,
+ "lead": 0.25,
+ "gap": 0.25,
+ "scene_gap": 0.3,
+ "tail": 1.2,
+ "title": "POV: You Owe $14,000… Jake Pays Minimums for 7 YEARS, You're Free in 29 Months 😳",
+ "scenes": [
+  {
+   "lines": [
+    "You owe fourteen thousand dollars. A medical bill, a car loan, and a credit card at twenty five percent."
+   ],
+   "img": "{HERO} at a kitchen table at night staring at a pile of bills and a calculator, serious face, vertical composition",
+   "tag": "$14,000",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Jake has the same pile. He just pays the minimums."
+   ],
+   "img": "a young man in a blue shirt on a couch lazily paying a bill on his phone, vertical composition"
+  },
+  {
+   "lines": [
+    "That card alone takes him over seven years. And about nine thousand five hundred dollars in interest."
+   ],
+   "img": "a young man in a blue shirt surrounded by flying calendar pages, shocked face, vertical composition",
+   "tag": "$9,500 INTEREST",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "You find one hundred seventy dollars extra a month. Six hundred total."
+   ],
+   "img": "{HERO} writing a number in a notebook with a confident smile, coins jar beside him, vertical composition",
+   "tag": "$600 / MONTH",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Mia rolls a snowball: smallest debt first. Debt free in thirty months."
+   ],
+   "img": "a young woman with a ponytail rolling a big snowball down a snowy hill with a big smile, vertical composition",
+   "tag": "30 MONTHS",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "You start an avalanche: highest interest first. Debt free in twenty nine months."
+   ],
+   "img": "{HERO} standing on a snowy mountain top with arms raised at sunrise, vertical composition",
+   "tag": "29 MONTHS",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "And you pay about nine hundred dollars less interest than Mia."
+   ],
+   "img": "{HERO} putting cash into a piggy bank with a calm satisfied smile, vertical composition",
+   "tag": "+$900",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Snowball or avalanche? Which one is right for you? The full story is on my channel."
+   ],
+   "img": "{HERO} waving at the viewer with a friendly smile in a cozy living room, vertical composition"
+  }
+ ]
+}

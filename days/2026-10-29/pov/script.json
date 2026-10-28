@@ -1,0 +1,385 @@
+{
+ "title": "POV: YOU Owe $14,000 and Are Debt Free in 29 Months — Jake Is Still Paying for 7 Years",
+ "style": "pov",
+ "voice": "af_heart",
+ "speed": 1.04,
+ "lead": 0.3,
+ "gap": 0.3,
+ "scene_gap": 0.45,
+ "tail": 2.0,
+ "thumbnail": {
+  "image": "thumb",
+  "text": [
+   "SNOWBALL",
+   "OR AVALANCHE?"
+  ],
+  "color": "#5BE37D",
+  "pos": "right",
+  "img": "{HERO} standing calmly in the foreground smiling and holding a credit card cut in half, behind him a young man in a blue shirt panicking buried in a pile of bills and a snowy mountain with a rolling avalanche, strong contrast between calm and panic, composition with the hero on the left third"
+ },
+ "scenes": [
+  {
+   "chapter": "The Debt Pile",
+   "lines": [
+    "It's a Sunday night. You spread every bill you owe across the kitchen table.",
+    "And for the first time, you add it all up."
+   ],
+   "img": "{HERO} at a kitchen table at night with bills and envelopes spread out in front of him, a calculator and a cup of tea, serious but calm face, warm lamp light"
+  },
+  {
+   "lines": [
+    "Fourteen thousand dollars.",
+    "Your stomach drops. Just for a second."
+   ],
+   "img": "close-up of {HERO} staring at a calculator, eyebrows raised, a small bead of sweat, bills around him",
+   "tag": "$14,000",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "A twelve hundred dollar medical bill.",
+    "A five thousand five hundred dollar car loan at seven percent."
+   ],
+   "img": "{HERO} holding up a hospital bill in one hand and a car key in the other, thoughtful face, kitchen at night",
+   "tag": "3 DEBTS",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "And a credit card with seven thousand three hundred dollars on it.",
+    "At twenty five percent interest."
+   ],
+   "img": "{HERO} holding a single credit card between two fingers looking at it with a worried frown, a glowing red warning symbol floating beside it",
+   "tag": "25% APR",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Your friend Jake has almost the same pile.",
+    "His plan? Pay the minimums and hope."
+   ],
+   "img": "a young man in a blue shirt on a messy couch shrugging and tossing bills into a drawer, carefree but tired face, cluttered living room"
+  },
+  {
+   "lines": [
+    "Your friend Mia just texted you.",
+    "I'm doing the snowball method. Want to join?"
+   ],
+   "img": "a young woman with a ponytail smiling and typing on her phone on a bus, determined hopeful face, city outside the window"
+  },
+  {
+   "lines": [
+    "So tonight, you do something different.",
+    "You run the numbers on all three plans. Jake's. Mia's. And one more."
+   ],
+   "img": "{HERO} opening a laptop at the kitchen table, sleeves pushed up, focused calm expression, three paper stacks next to him",
+   "tag": "3 PLANS",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "chapter": "The Minimum Trap",
+   "lines": [
+    "Plan one. Jake's plan. Minimums only.",
+    "That's four hundred thirty dollars a month."
+   ],
+   "img": "a young man in a blue shirt paying bills on his phone with a bored face, a calendar on the wall behind him",
+   "tag": "$430 / MONTH",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "The medical bill? Gone in two years.",
+    "The car loan? About two and a half."
+   ],
+   "img": "a young man in a blue shirt looking at a wall calendar with months crossed off, slightly relieved"
+  },
+  {
+   "lines": [
+    "But that credit card?",
+    "At one hundred eighty a month, it takes over seven years."
+   ],
+   "img": "a young man in a blue shirt slowly aging on a couch, calendar pages flying through the air around him, credit card on the table",
+   "tag": "7.5 YEARS",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Because every month, about one hundred fifty dollars of his payment is just interest.",
+    "He pays, and the balance barely moves."
+   ],
+   "img": "a young man in a blue shirt pouring coins into a leaky bucket, the coins dripping out of a hole at the bottom, frustrated face",
+   "tag": "-$152 INTEREST",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Total interest on Jake's plan?",
+    "Almost nine thousand five hundred dollars."
+   ],
+   "img": "a young man in a blue shirt staring in shock at a very long receipt unrolling across the floor of his living room",
+   "tag": "$9,500 INTEREST",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Nine thousand five hundred dollars. For nothing.",
+    "That's a used car. Or a full emergency fund."
+   ],
+   "img": "{HERO} at the kitchen table shaking his head slowly, a thought bubble showing a small used car and a piggy bank"
+  },
+  {
+   "chapter": "Finding $170",
+   "lines": [
+    "So before any method, you need one thing.",
+    "A little extra every month."
+   ],
+   "img": "{HERO} leaning back in his chair at the kitchen table, thinking with one hand on his chin, notebook open"
+  },
+  {
+   "lines": [
+    "You cancel two streaming services you barely watch.",
+    "That's thirty dollars."
+   ],
+   "img": "{HERO} on a couch canceling a subscription on a tablet, a calm small smile",
+   "tag": "+$30",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "You cook three more dinners at home each week instead of ordering in.",
+    "That's about one hundred dollars a month."
+   ],
+   "img": "{HERO} cooking a simple pasta dinner in a small cozy kitchen, steam rising, happy relaxed face",
+   "tag": "+$100",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "And you sell the bike you haven't ridden in a year, then call your phone company for a cheaper plan.",
+    "Another forty a month."
+   ],
+   "img": "{HERO} on the phone in his living room smiling, a bicycle with a sold tag by the door",
+   "tag": "+$40",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "One hundred seventy dollars extra.",
+    "Now you can pay six hundred a month instead of four thirty."
+   ],
+   "img": "{HERO} writing $600 in a notebook with a confident smile, a jar of coins beside him",
+   "tag": "$600 / MONTH",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "chapter": "The Snowball",
+   "lines": [
+    "Plan two. Mia's plan. The debt snowball.",
+    "Pay the minimums on everything. Then throw all the extra at the smallest balance."
+   ],
+   "img": "a young woman with a ponytail rolling a small snowball down a snowy hill, cheerful determined face",
+   "tag": "SNOWBALL",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "For Mia, that's the twelve hundred dollar medical bill.",
+    "And six months later, it's gone."
+   ],
+   "img": "a young woman with a ponytail tearing a paid bill in half with a huge smile, confetti in her apartment",
+   "tag": "PAID: MONTH 6",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "That first win feels amazing.",
+    "Now that whole payment rolls onto the car loan."
+   ],
+   "img": "a young woman with a ponytail with a growing snowball rolling behind her down a hill, excited face"
+  },
+  {
+   "lines": [
+    "The car is paid off in month seventeen.",
+    "Then everything rolls onto the credit card."
+   ],
+   "img": "a young woman with a ponytail holding car keys up proudly in front of her car, sunny parking lot",
+   "tag": "CAR: MONTH 17",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Thirty months. Completely debt free.",
+    "About three thousand eight hundred dollars in interest."
+   ],
+   "img": "a young woman with a ponytail jumping for joy in a park with a giant snowball behind her, sunny day",
+   "tag": "30 MONTHS",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "chapter": "The Avalanche",
+   "lines": [
+    "Plan three. The one you keep looking at.",
+    "The debt avalanche."
+   ],
+   "img": "{HERO} at his laptop looking at a mountain illustration on the screen, curious focused face",
+   "tag": "AVALANCHE",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "Same minimums. Same six hundred dollars.",
+    "But the extra goes to the highest interest rate first. Not the smallest balance."
+   ],
+   "img": "{HERO} pointing at a credit card pinned on a corkboard among other bills, calm determined expression"
+  },
+  {
+   "lines": [
+    "For you, that's the credit card. Twenty five percent.",
+    "It's the debt that grows the fastest."
+   ],
+   "img": "{HERO} standing in front of a big credit card shaped boulder at the top of a snowy mountain, ready to push it",
+   "tag": "25% FIRST",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "The hard part? For almost two years, no debt disappears.",
+    "You just watch the card balance shrink. Month after month."
+   ],
+   "img": "{HERO} on a couch at night checking a slowly falling chart on his phone, patient calm face, rain on the window"
+  },
+  {
+   "lines": [
+    "Jake asks why you're bothering.",
+    "You just smile. Every dollar you save on interest is a dollar that works for you."
+   ],
+   "img": "a young man in a blue shirt laughing and pointing at {HERO} in a coffee shop, {HERO} smiling calmly with a cup of coffee"
+  },
+  {
+   "lines": [
+    "Month twenty eight. The credit card hits zero.",
+    "The big one. The scary one. Gone."
+   ],
+   "img": "{HERO} cutting a credit card in half at the kitchen table with a big relieved smile, morning sunlight",
+   "tag": "CARD: $0",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "One month later, the rest is gone too.",
+    "Twenty nine months. Debt free."
+   ],
+   "img": "{HERO} standing on top of a snowy mountain with arms raised at sunrise, triumphant peaceful face",
+   "tag": "29 MONTHS",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "chapter": "Head to Head",
+   "lines": [
+    "So who won?",
+    "Here are the real numbers. Side by side."
+   ],
+   "img": "{HERO} and a young woman with a ponytail sitting at a cafe table comparing notebooks, friendly curious mood"
+  },
+  {
+   "lines": [
+    "Jake's minimums: about seven and a half years.",
+    "Nine thousand five hundred dollars in interest."
+   ],
+   "img": "a young man in a blue shirt sitting alone surrounded by tall piles of bills, exhausted face",
+   "tag": "$9,500",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Mia's snowball: thirty months.",
+    "Three thousand eight hundred in interest."
+   ],
+   "img": "a young woman with a ponytail smiling holding a snowball, a little proud",
+   "tag": "$3,800",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "Your avalanche: twenty nine months.",
+    "About two thousand nine hundred in interest."
+   ],
+   "img": "{HERO} smiling calmly holding a small mountain shaped trophy",
+   "tag": "$2,900",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "The avalanche saved you about nine hundred dollars more than the snowball.",
+    "And it finished one month sooner."
+   ],
+   "img": "{HERO} putting a stack of bills into a piggy bank, satisfied smile",
+   "tag": "+$900 SAVED",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "chapter": "Which One Wins",
+   "lines": [
+    "But here's the part nobody tells you.",
+    "The difference between the two methods is small. The difference from Jake is huge."
+   ],
+   "img": "{HERO} and a young woman with a ponytail high-fiving in a park, a young man in a blue shirt in the background looking at his phone",
+   "tag": "BOTH WIN",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "The snowball gives you quick wins.",
+    "Research suggests those small wins help people stick with the plan."
+   ],
+   "img": "a young woman with a ponytail checking off a list on her fridge with a marker, happy face"
+  },
+  {
+   "lines": [
+    "The avalanche costs less.",
+    "But only if you don't quit in the long middle."
+   ],
+   "img": "{HERO} jogging steadily up a long mountain path, calm focused face"
+  },
+  {
+   "lines": [
+    "So pick the one you'll actually finish.",
+    "Need motivation? Snowball. Love the math? Avalanche."
+   ],
+   "img": "{HERO} standing at a fork in a snowy mountain trail, one path with a small snowball sign and one with a mountain sign, thoughtful smile"
+  },
+  {
+   "lines": [
+    "Either way, the real secret is the same.",
+    "Find extra money, and never stop at the minimum."
+   ],
+   "img": "{HERO} setting up an automatic payment on his phone, a calm confident smile, cozy living room"
+  },
+  {
+   "chapter": "29 Months Later",
+   "lines": [
+    "Twenty nine months later, it's Sunday night again.",
+    "The kitchen table is empty. No bills. Just a cup of tea."
+   ],
+   "img": "{HERO} at a clean empty kitchen table at night with only a cup of tea, peaceful content smile, warm lamp light"
+  },
+  {
+   "lines": [
+    "And that six hundred dollars a month?",
+    "Now it goes straight into your savings."
+   ],
+   "img": "{HERO} watching a savings account grow on his phone, a glowing green chart beside him",
+   "tag": "+$600 / MONTH",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "If this helped, subscribe for a new simple money move every day.",
+    "And tell me in the comments. Are you team snowball or team avalanche?"
+   ],
+   "img": "{HERO} waving warmly at the viewer in a cozy living room, friendly smile, warm light",
+   "tag": "SUBSCRIBE",
+   "tag_color": "#2C7BE5"
+  }
+ ]
+}
