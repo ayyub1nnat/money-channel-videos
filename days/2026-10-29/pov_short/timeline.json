@@ -1,0 +1,200 @@
+{
+ "title": "POV: You Owe $14,000\u2026 Jake Pays Minimums for 7 YEARS, You're Free in 29 Months \ud83d\ude33",
+ "duration": 37.709,
+ "scenes": [
+  {
+   "id": "s0",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 0.25,
+   "end": 6.454,
+   "line_starts": [
+    0.25
+   ],
+   "subs": [
+    {
+     "start": 0.25,
+     "end": 2.218,
+     "text": "You owe fourteen thousand dollars."
+    },
+    {
+     "start": 2.218,
+     "end": 3.781,
+     "text": "A medical bill, a car loan,"
+    },
+    {
+     "start": 3.781,
+     "end": 6.154,
+     "text": "and a credit card at twenty five percent."
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 6.454,
+   "end": 9.596,
+   "line_starts": [
+    6.454
+   ],
+   "subs": [
+    {
+     "start": 6.454,
+     "end": 7.788,
+     "text": "Jake has the same pile."
+    },
+    {
+     "start": 7.788,
+     "end": 9.296,
+     "text": "He just pays the minimums."
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 9.596,
+   "end": 15.246,
+   "line_starts": [
+    9.596
+   ],
+   "subs": [
+    {
+     "start": 9.596,
+     "end": 11.541,
+     "text": "That card alone takes him over seven"
+    },
+    {
+     "start": 11.541,
+     "end": 13.865,
+     "text": "years. And about nine thousand five hundred"
+    },
+    {
+     "start": 13.865,
+     "end": 14.946,
+     "text": "dollars in interest."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 15.246,
+   "end": 19.348,
+   "line_starts": [
+    15.246
+   ],
+   "subs": [
+    {
+     "start": 15.246,
+     "end": 17.56,
+     "text": "You find one hundred seventy dollars extra"
+    },
+    {
+     "start": 17.56,
+     "end": 19.048,
+     "text": "a month. Six hundred total."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 19.348,
+   "end": 23.712,
+   "line_starts": [
+    19.348
+   ],
+   "subs": [
+    {
+     "start": 19.348,
+     "end": 20.585,
+     "text": "Mia rolls a snowball:"
+    },
+    {
+     "start": 20.585,
+     "end": 23.412,
+     "text": "smallest debt first. Debt free in thirty months."
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 23.712,
+   "end": 28.4,
+   "line_starts": [
+    23.712
+   ],
+   "subs": [
+    {
+     "start": 23.712,
+     "end": 24.989,
+     "text": "You start an avalanche:"
+    },
+    {
+     "start": 24.989,
+     "end": 28.1,
+     "text": "highest interest first. Debt free in twenty nine months."
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 28.4,
+   "end": 31.602,
+   "line_starts": [
+    28.4
+   ],
+   "subs": [
+    {
+     "start": 28.4,
+     "end": 30.207,
+     "text": "And you pay about nine hundred dollars"
+    },
+    {
+     "start": 30.207,
+     "end": 31.302,
+     "text": "less interest than Mia."
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 31.602,
+   "end": 37.709,
+   "line_starts": [
+    31.602
+   ],
+   "subs": [
+    {
+     "start": 31.602,
+     "end": 33.906,
+     "text": "Snowball or avalanche? Which one is right"
+    },
+    {
+     "start": 33.906,
+     "end": 36.209,
+     "text": "for you? The full story is on my channel."
+    }
+   ]
+  }
+ ]
+}
