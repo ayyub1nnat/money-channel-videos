@@ -1,0 +1,215 @@
+{
+ "title": "POV: You Wait 24 Hours Before Buying\u2026 and Keep $1,140 a Year \ud83d\uded2",
+ "duration": 37.851,
+ "scenes": [
+  {
+   "id": "s0",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 0.25,
+   "end": 5.915,
+   "line_starts": [
+    0.25
+   ],
+   "subs": [
+    {
+     "start": 0.25,
+     "end": 2.411,
+     "text": "Eleven P M. Mia sees a jacket"
+    },
+    {
+     "start": 2.411,
+     "end": 4.572,
+     "text": "on sale. Ninety five dollars."
+    },
+    {
+     "start": 4.572,
+     "end": 5.615,
+     "text": "Only two left!"
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 5.915,
+   "end": 10.663,
+   "line_starts": [
+    5.915
+   ],
+   "subs": [
+    {
+     "start": 5.915,
+     "end": 7.56,
+     "text": "She buys it in ten seconds."
+    },
+    {
+     "start": 7.56,
+     "end": 9.206,
+     "text": "It still has the tags on it"
+    },
+    {
+     "start": 9.206,
+     "end": 10.363,
+     "text": "three months later."
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 10.663,
+   "end": 14.761,
+   "line_starts": [
+    10.663
+   ],
+   "subs": [
+    {
+     "start": 10.663,
+     "end": 12.011,
+     "text": "You see the same sale."
+    },
+    {
+     "start": 12.011,
+     "end": 13.359,
+     "text": "But you have one rule."
+    },
+    {
+     "start": 13.359,
+     "end": 14.461,
+     "text": "Twenty four hours."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 14.761,
+   "end": 18.41,
+   "line_starts": [
+    14.761
+   ],
+   "subs": [
+    {
+     "start": 14.761,
+     "end": 16.024,
+     "text": "You put it in the cart."
+    },
+    {
+     "start": 16.024,
+     "end": 17.012,
+     "text": "You close the app."
+    },
+    {
+     "start": 17.012,
+     "end": 18.11,
+     "text": "And you go to sleep."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 18.41,
+   "end": 21.789,
+   "line_starts": [
+    18.41
+   ],
+   "subs": [
+    {
+     "start": 18.41,
+     "end": 20.706,
+     "text": "Next morning? You don't even remember why"
+    },
+    {
+     "start": 20.706,
+     "end": 21.489,
+     "text": "you wanted it."
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 21.789,
+   "end": 25.589,
+   "line_starts": [
+    21.789
+   ],
+   "subs": [
+    {
+     "start": 21.789,
+     "end": 23.727,
+     "text": "Most of those late night carts?"
+    },
+    {
+     "start": 23.727,
+     "end": 25.289,
+     "text": "They just quietly expire."
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 25.589,
+   "end": 31.853,
+   "line_starts": [
+    25.589
+   ],
+   "subs": [
+    {
+     "start": 25.589,
+     "end": 27.789,
+     "text": "Skip just ninety five dollars of stuff"
+    },
+    {
+     "start": 27.789,
+     "end": 29.874,
+     "text": "a month, and that's one thousand one"
+    },
+    {
+     "start": 29.874,
+     "end": 31.553,
+     "text": "hundred forty dollars a year."
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 31.853,
+   "end": 37.851,
+   "line_starts": [
+    31.853
+   ],
+   "subs": [
+    {
+     "start": 31.853,
+     "end": 33.665,
+     "text": "Wait one day. Keep the money."
+    },
+    {
+     "start": 33.665,
+     "end": 36.351,
+     "text": "Follow for one simple money move every day!"
+    }
+   ]
+  }
+ ]
+}
