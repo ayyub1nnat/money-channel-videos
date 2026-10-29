@@ -1,31 +1,26 @@
 {
  "title": "POV: You Wait 24 Hours Before Buying\u2026 and Keep $1,140 a Year \ud83d\uded2",
- "duration": 37.851,
+ "duration": 24.816,
  "scenes": [
   {
    "id": "s0",
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 0.25,
-   "end": 5.915,
+   "start": 0.0,
+   "end": 3.42,
    "line_starts": [
-    0.25
+    0.0
    ],
    "subs": [
     {
-     "start": 0.25,
-     "end": 2.411,
-     "text": "Eleven P M. Mia sees a jacket"
+     "start": 0.0,
+     "end": 2.205,
+     "text": "Eleven P M. A jacket on sale."
     },
     {
-     "start": 2.411,
-     "end": 4.572,
-     "text": "on sale. Ninety five dollars."
-    },
-    {
-     "start": 4.572,
-     "end": 5.615,
+     "start": 2.205,
+     "end": 3.27,
      "text": "Only two left!"
     }
    ]
@@ -35,26 +30,21 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 5.915,
-   "end": 10.663,
+   "start": 3.42,
+   "end": 7.263,
    "line_starts": [
-    5.915
+    3.42
    ],
    "subs": [
     {
-     "start": 5.915,
-     "end": 7.56,
-     "text": "She buys it in ten seconds."
+     "start": 3.42,
+     "end": 5.054,
+     "text": "Mia buys it in ten seconds."
     },
     {
-     "start": 7.56,
-     "end": 9.206,
-     "text": "It still has the tags on it"
-    },
-    {
-     "start": 9.206,
-     "end": 10.363,
-     "text": "three months later."
+     "start": 5.054,
+     "end": 7.113,
+     "text": "Tags still on, three months later."
     }
    ]
   },
@@ -63,26 +53,16 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 10.663,
-   "end": 14.761,
+   "start": 7.263,
+   "end": 9.453,
    "line_starts": [
-    10.663
+    7.263
    ],
    "subs": [
     {
-     "start": 10.663,
-     "end": 12.011,
-     "text": "You see the same sale."
-    },
-    {
-     "start": 12.011,
-     "end": 13.359,
-     "text": "But you have one rule."
-    },
-    {
-     "start": 13.359,
-     "end": 14.461,
-     "text": "Twenty four hours."
+     "start": 7.263,
+     "end": 9.303,
+     "text": "You? One rule. Twenty four hours."
     }
    ]
   },
@@ -91,26 +71,21 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 14.761,
-   "end": 18.41,
+   "start": 9.453,
+   "end": 11.842,
    "line_starts": [
-    14.761
+    9.453
    ],
    "subs": [
     {
-     "start": 14.761,
-     "end": 16.024,
-     "text": "You put it in the cart."
+     "start": 9.453,
+     "end": 11.003,
+     "text": "Add to cart. Close the app."
     },
     {
-     "start": 16.024,
-     "end": 17.012,
-     "text": "You close the app."
-    },
-    {
-     "start": 17.012,
-     "end": 18.11,
-     "text": "And you go to sleep."
+     "start": 11.003,
+     "end": 11.692,
+     "text": "Go to sleep."
     }
    ]
   },
@@ -119,21 +94,16 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 18.41,
-   "end": 21.789,
+   "start": 11.842,
+   "end": 13.718,
    "line_starts": [
-    18.41
+    11.842
    ],
    "subs": [
     {
-     "start": 18.41,
-     "end": 20.706,
-     "text": "Next morning? You don't even remember why"
-    },
-    {
-     "start": 20.706,
-     "end": 21.489,
-     "text": "you wanted it."
+     "start": 11.842,
+     "end": 13.568,
+     "text": "Next morning, you don't even want it."
     }
    ]
   },
@@ -142,21 +112,16 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 21.789,
-   "end": 25.589,
+   "start": 13.718,
+   "end": 16.391,
    "line_starts": [
-    21.789
+    13.718
    ],
    "subs": [
     {
-     "start": 21.789,
-     "end": 23.727,
-     "text": "Most of those late night carts?"
-    },
-    {
-     "start": 23.727,
-     "end": 25.289,
-     "text": "They just quietly expire."
+     "start": 13.718,
+     "end": 16.241,
+     "text": "Most late night carts just quietly expire."
     }
    ]
   },
@@ -165,26 +130,21 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 25.589,
-   "end": 31.853,
+   "start": 16.391,
+   "end": 20.294,
    "line_starts": [
-    25.589
+    16.391
    ],
    "subs": [
     {
-     "start": 25.589,
-     "end": 27.789,
-     "text": "Skip just ninety five dollars of stuff"
+     "start": 16.391,
+     "end": 18.059,
+     "text": "Ninety five dollars a month?"
     },
     {
-     "start": 27.789,
-     "end": 29.874,
-     "text": "a month, and that's one thousand one"
-    },
-    {
-     "start": 29.874,
-     "end": 31.553,
-     "text": "hundred forty dollars a year."
+     "start": 18.059,
+     "end": 20.144,
+     "text": "That's eleven hundred forty a year."
     }
    ]
   },
@@ -193,21 +153,21 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 31.853,
-   "end": 37.851,
+   "start": 20.294,
+   "end": 24.816,
    "line_starts": [
-    31.853
+    20.294
    ],
    "subs": [
     {
-     "start": 31.853,
-     "end": 33.665,
-     "text": "Wait one day. Keep the money."
+     "start": 20.294,
+     "end": 22.752,
+     "text": "Follow for more. Because tonight at eleven,"
     },
     {
-     "start": 33.665,
-     "end": 36.351,
-     "text": "Follow for one simple money move every day!"
+     "start": 22.752,
+     "end": 24.066,
+     "text": "another sale is coming."
     }
    ]
   }

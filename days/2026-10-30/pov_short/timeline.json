@@ -1,27 +1,22 @@
 {
  "title": "POV: Jake Spends $14 Before 9 AM\u2026 You Spend $1 and Save $3,276 a Year \ud83d\ude33",
- "duration": 40.214,
+ "duration": 26.947,
  "scenes": [
   {
    "id": "s0",
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 0.25,
-   "end": 4.95,
+   "start": 0.0,
+   "end": 2.793,
    "line_starts": [
-    0.25
+    0.0
    ],
    "subs": [
     {
-     "start": 0.25,
-     "end": 2.099,
-     "text": "Jake hits snooze three times."
-    },
-    {
-     "start": 2.099,
-     "end": 4.65,
-     "text": "He wakes up at eight fifty. Late. Again."
+     "start": 0.0,
+     "end": 2.643,
+     "text": "Jake wastes fourteen dollars before nine A M."
     }
    ]
   },
@@ -30,21 +25,16 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 4.95,
-   "end": 9.817,
+   "start": 2.793,
+   "end": 5.646,
    "line_starts": [
-    4.95
+    2.793
    ],
    "subs": [
     {
-     "start": 4.95,
-     "end": 6.538,
-     "text": "No coffee, no breakfast."
-    },
-    {
-     "start": 6.538,
-     "end": 9.517,
-     "text": "So he buys both on the way. Fourteen dollars."
+     "start": 2.793,
+     "end": 5.496,
+     "text": "Snooze. Late. Coffee and a sandwich on the way."
     }
    ]
   },
@@ -53,21 +43,16 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 9.817,
-   "end": 14.043,
+   "start": 5.646,
+   "end": 8.541,
    "line_starts": [
-    9.817
+    5.646
    ],
    "subs": [
     {
-     "start": 9.817,
-     "end": 12.453,
-     "text": "Every workday. That's about three thousand five"
-    },
-    {
-     "start": 12.453,
-     "end": 13.743,
-     "text": "hundred dollars a year!"
+     "start": 5.646,
+     "end": 8.391,
+     "text": "Every workday? Thirty five hundred dollars a year."
     }
    ]
   },
@@ -76,21 +61,21 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 14.043,
-   "end": 18.046,
+   "start": 8.541,
+   "end": 11.045,
    "line_starts": [
-    14.043
+    8.541
    ],
    "subs": [
     {
-     "start": 14.043,
-     "end": 16.432,
-     "text": "You? Your phone charges across the room."
+     "start": 8.541,
+     "end": 9.923,
+     "text": "You? Phone across the room."
     },
     {
-     "start": 16.432,
-     "end": 17.746,
-     "text": "So you have to get up."
+     "start": 9.923,
+     "end": 10.895,
+     "text": "You have to get up."
     }
    ]
   },
@@ -99,26 +84,21 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 18.046,
-   "end": 23.365,
+   "start": 11.045,
+   "end": 13.869,
    "line_starts": [
-    18.046
+    11.045
    ],
    "subs": [
     {
-     "start": 18.046,
-     "end": 19.637,
-     "text": "The coffee's already made."
+     "start": 11.045,
+     "end": 12.412,
+     "text": "Coffee made last night."
     },
     {
-     "start": 19.637,
-     "end": 21.167,
-     "text": "You set it up last night."
-    },
-    {
-     "start": 21.167,
-     "end": 23.065,
-     "text": "Breakfast costs you one dollar."
+     "start": 12.412,
+     "end": 13.719,
+     "text": "Breakfast? One dollar."
     }
    ]
   },
@@ -127,21 +107,21 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 23.365,
-   "end": 28.461,
+   "start": 13.869,
+   "end": 17.121,
    "line_starts": [
-    23.365
+    13.869
    ],
    "subs": [
     {
-     "start": 23.365,
-     "end": 25.42,
-     "text": "Then ten minutes with your bank app."
+     "start": 13.869,
+     "end": 15.475,
+     "text": "Ten minutes in your bank app."
     },
     {
-     "start": 25.42,
-     "end": 28.161,
-     "text": "You catch a forgotten fifteen dollar free trial."
+     "start": 15.475,
+     "end": 16.971,
+     "text": "Forgotten trial? Cancelled."
     }
    ]
   },
@@ -150,25 +130,20 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 28.461,
-   "end": 34.328,
+   "start": 17.121,
+   "end": 20.995,
    "line_starts": [
-    28.461
+    17.121
    ],
    "subs": [
     {
-     "start": 28.461,
-     "end": 30.051,
-     "text": "Same job. Same paycheck."
+     "start": 17.121,
+     "end": 19.886,
+     "text": "Same paycheck. Three thousand two hundred seventy"
     },
     {
-     "start": 30.051,
-     "end": 32.901,
-     "text": "You keep three thousand two hundred seventy"
-    },
-    {
-     "start": 32.901,
-     "end": 34.028,
+     "start": 19.886,
+     "end": 20.845,
      "text": "six dollars more."
     }
    ]
@@ -178,26 +153,26 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 34.328,
-   "end": 40.214,
+   "start": 20.995,
+   "end": 26.947,
    "line_starts": [
-    34.328
+    20.995
    ],
    "subs": [
     {
-     "start": 34.328,
-     "end": 35.934,
-     "text": "The whole morning routine,"
+     "start": 20.995,
+     "end": 22.573,
+     "text": "Full routine on my channel."
     },
     {
-     "start": 35.934,
-     "end": 37.849,
-     "text": "step by step? The full story is"
+     "start": 22.573,
+     "end": 25.671,
+     "text": "Because Jake's still spending fourteen dollars before"
     },
     {
-     "start": 37.849,
-     "end": 38.714,
-     "text": "on my channel."
+     "start": 25.671,
+     "end": 26.197,
+     "text": "nine A M."
     }
    ]
   }
