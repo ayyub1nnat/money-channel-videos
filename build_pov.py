@@ -49,6 +49,11 @@ open(f"{wd}/list.txt", "w").write(f"file '{wd}/part1.mp4'\nfile '{wd}/part2.mp4'
 out = f"{wd}/{'short' if V else 'video'}.mp4"
 run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0", "-i", f"{wd}/list.txt", "-i", f"{wd}/mix.m4a",
      "-map", "0:v", "-map", "1:a", "-c", "copy", "-shortest", "-movflags", "+faststart", out])
+if os.path.getsize(out) > 90e6:          # GitHub's 100 MB file limit (media branch): squeeze until it fits
+    for crf in (26, 28, 30):
+        run(["ffmpeg", "-y", "-loglevel", "error", "-i", out, "-c:v", "libx264", "-preset", "medium", "-crf", str(crf), "-pix_fmt", "yuv420p",
+             "-c:a", "copy", "-movflags", "+faststart", f"{wd}/small.mp4"]); os.replace(f"{wd}/small.mp4", out)
+        if os.path.getsize(out) <= 90e6: break
 
 def ts(t):
     ms = int(round(t * 1000)); return f"{ms//3600000:02d}:{ms//60000%60:02d}:{ms//1000%60:02d},{ms%1000:03d}"

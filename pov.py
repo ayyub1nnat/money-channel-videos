@@ -120,7 +120,7 @@ if out.endswith(".png"):
     frame(t0).save(out); sys.exit(0)
 n0, n1 = round(t0 * FPS), round(t1 * FPS)
 p = subprocess.Popen(["ffmpeg", "-y", "-loglevel", "error", "-f", "rawvideo", "-pix_fmt", "rgb24", "-s", f"{W}x{H}", "-r", str(FPS), "-i", "-",
-                      "-c:v", "libx264", "-preset", "veryfast", "-crf", "20", "-pix_fmt", "yuv420p", out], stdin=subprocess.PIPE)
+                      "-c:v", "libx264", "-preset", "veryfast", "-crf", "20" if V else "24", "-pix_fmt", "yuv420p", out], stdin=subprocess.PIPE)
 for n in range(n0, n1):
     p.stdin.write(frame(n / FPS).tobytes())
 p.stdin.close(); assert p.wait() == 0
