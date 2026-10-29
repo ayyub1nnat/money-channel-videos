@@ -3,12 +3,13 @@ soft crossfades, optional pop-in tag (big number / short label) and burned-in su
 Usage: python3 pov.py <wd> <t0> <t1> <out.mp4|.png>
 Needs <wd>/timeline.json (tts.py) and <wd>/img/NNN.jpg (scene index, 3 digits). script.json "vertical": true → 1080x1920."""
 import json, sys, os, math, subprocess, random
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__))); from povlib import shots, shot_params
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 wd = sys.argv[1]; t0 = float(sys.argv[2]); t1 = float(sys.argv[3]); out = sys.argv[4]
 S = json.load(open(f"{wd}/script.json")); TL = json.load(open(f"{wd}/timeline.json"))
-V = bool(S.get("vertical")); W, H = (1080, 1920) if V else (1920, 1080); FPS = 24; XF = 0.35
+V = bool(S.get("vertical")); W, H = (1080, 1920) if V else (1920, 1080); FPS = 24; XF = 0.2 if V else 0.3
 SC = TL["scenes"]; SPEC = S["scenes"]
 FONT = os.path.join(HERE, "fonts", "Poppins-Bold.ttf")
 if not os.path.exists(FONT): FONT = "/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf"
@@ -28,14 +29,18 @@ def base(i):
 
 def ease(u): return u * u * (3 - 2 * u)
 def scene_frame(i, t):
-    s = SC[i]; d = max(0.1, s["end"] - s["start"] + XF); u = ease(min(1, max(0, (t - s["start"]) / d)))
-    im = base(i); cw, ch = im.size
-    r = random.Random(i * 7 + 3); mode = r.choice(["in", "out", "left", "right"]) if i else "in"
-    z0, z1 = {"in": (1.0, 1.10), "out": (1.10, 1.0)}.get(mode, (1.06, 1.06))
-    z = z0 + (z1 - z0) * u; vw, vh = min(W / z, cw), min(H / z, ch)
-    cx, cy = cw / 2, ch / 2
-    if mode == "left": cx = cw / 2 + (cw - vw) / 2 * (0.9 - 1.8 * u)
-    if mode == "right": cx = cw / 2 - (cw - vw) / 2 * (0.9 - 1.8 * u)
+    s = SC[i]; st = shots(s, V); j = max(0, sum(1 for x in st if x <= t) - 1)
+    a = st[j]; b = st[j + 1] if j + 1 < len(st) else s["end"] + XF
+    u = ease(min(1, max(0, (t - a) / max(0.1, b - a))))
+    im = base(i); cw, ch = im.size; p = shot_params(i, j)
+    if p["punch"]:                               # punch-in on part of the picture, slow push
+        z = p["z"] + 0.05 * u; vw, vh = W / z, H / z
+        cx = min(max(cw * p["fx"], vw / 2), cw - vw / 2); cy = min(max(ch * p["fy"], vh / 2), ch - vh / 2)
+    else:
+        mode = p["mode"]; z0, z1 = {"in": (1.0, 1.10), "out": (1.10, 1.0)}.get(mode, (1.06, 1.06))
+        z = z0 + (z1 - z0) * u; vw, vh = min(W / z, cw), min(H / z, ch); cx, cy = cw / 2, ch / 2
+        if mode == "left": cx = cw / 2 + (cw - vw) / 2 * (0.9 - 1.8 * u)
+        if mode == "right": cx = cw / 2 - (cw - vw) / 2 * (0.9 - 1.8 * u)
     box = (cx - vw / 2, cy - vh / 2, cx + vw / 2, cy + vh / 2)
     return im.resize((W, H), Image.BILINEAR, box=box)
 
@@ -71,12 +76,32 @@ def tag_img(text, color):
     dd.text((35, (ph - f.size * 1.2) / 2), text, font=f, fill=color)
     _txt[key] = im; return im
 
+HOOK = S.get("hook") if V else None          # Shorts: big headline visible from frame 0 to the end
+if isinstance(HOOK, str): HOOK = [HOOK]
+_hook = None
+def hook_img():
+    global _hook
+    if _hook is None:
+        sz = 92; f = font(sz); d = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
+        while max(d.textlength(l, font=f) for l in HOOK) > W - 90 and sz > 52: sz -= 4; f = font(sz)
+        lh = int(sz * 1.18); im = Image.new("RGBA", (W, lh * len(HOOK) + 60), (0, 0, 0, 0)); dd = ImageDraw.Draw(im)
+        for k, l in enumerate(HOOK):
+            words = l.split(); x = (W - d.textlength(l, font=f)) / 2
+            for w in words:
+                col = "#FFD23F" if any(c.isdigit() for c in w) or "$" in w else "white"
+                dd.text((x, 20 + k * lh), w, font=f, fill=col, stroke_width=11, stroke_fill="black")
+                x += d.textlength(w + " ", font=f)
+        _hook = im
+    return _hook
+
 def frame(t):
     i = next((k for k, s in enumerate(SC) if t < s["end"]), len(SC) - 1)
     fr = scene_frame(i, t)
     if i + 1 < len(SC) and t > SC[i]["end"] - XF:     # crossfade into the next scene
         a = ease((t - (SC[i]["end"] - XF)) / XF); fr = Image.blend(fr, scene_frame(i + 1, t), a)
     fr = fr.convert("RGBA")
+    if HOOK:
+        fr.alpha_composite(hook_img(), (0, int(H * 0.055)))
     tg = SPEC[i].get("tag")
     if tg:
         dt = t - SC[i]["start"] - 0.25
@@ -84,7 +109,7 @@ def frame(t):
             im = tag_img(tg, SPEC[i].get("tag_color", "#E23B3B"))
             sc_ = 0.7 + 0.3 * ease(min(1, dt / 0.18))
             im2 = im.resize((max(1, int(im.width * sc_)), max(1, int(im.height * sc_))), Image.BILINEAR)
-            x = (W - im2.width) // 2 if V else 56 + (im.width - im2.width) // 2; y = int(H * (0.10 if V else 0.06)) + (im.height - im2.height) // 2
+            x = (W - im2.width) // 2 if V else 56 + (im.width - im2.width) // 2; y = int(H * ((0.27 if HOOK else 0.10) if V else 0.06)) + (im.height - im2.height) // 2
             fr.alpha_composite(im2, (x, y))
     for s in SC[i]["subs"] + (SC[i + 1]["subs"] if i + 1 < len(SC) else []):
         if s["start"] <= t < s["end"] + 0.1:

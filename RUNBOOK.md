@@ -15,6 +15,20 @@ cd /home/claude/repo && bash setup.sh
 ## 1. Pick today's topic
 Open `topics.json`, take the first topic with `"used": false`. If fewer than 10 remain, append ~15 new, non-overlapping topics in the same niche (mix formats: step-by-step plans, "N habits/mistakes", myths, challenges, explainers, "what I'd do if...").
 
+## ★★★ RETENTION RULES SINCE 2026-10-29 (owner's decision after analytics: Shorts "stayed to watch" was only 26.9%)
+Goal: stop the swipe in the first second and keep people focused. Applies to every new script.
+- **Shorts** (`pov_short`, `pov_short2`): `"hook": ["LINE 1", "LINE 2"]` = big headline shown from frame 0 to the end (pov.py draws it,
+  numbers turn yellow; ≤ 22 chars per line, no emoji). The hook states the shocking concrete number/situation ("$14 GONE" / "BEFORE 9 AM").
+  `"speed": 1.15, "lead": 0.0, "gap": 0.15, "scene_gap": 0.15, "tail": 0.6`; 8 scenes, ONE short line per scene (≤ 12 words),
+  total 22-30 s. Line 1 = the shock itself, no setup. Last line loops back into the first (e.g. "...because Jake's still spending
+  fourteen dollars before nine A M." → hook), teaser still mentions "full routine/story on my channel".
+  Reference: `days/2026-10-30/pov_short`, `pov_short2` (script_v1.json = the old, slower version).
+- **Main video**: `"speed": 1.05, "lead": 0.1, "gap": 0.18, "scene_gap": 0.28`. Long scenes are automatically cut into ~4.6 s shots
+  (odd shots = punch-in on part of the illustration) so the picture changes every few seconds — no extra images needed.
+- **Sound design** (automatic in build_pov.py via sfx.py): whoosh on every scene change and in-scene cut, pop when a tag appears.
+  Tune with `"sfx_volume"` (default 0.45 Shorts / 0.30 main).
+- Voice energy: short punchy sentences, questions, "Wait.", "Here's the thing.", exclamation marks where a person would raise their voice.
+
 ## ★★ FORMAT SINCE 2026-10-26 (owner's decision): illustrated "POV" stories — this WINS over the whiteboard section below
 Inspired by big finance channels that use AI-illustrated POV stories (we use OUR OWN hero, never copy another channel's character).
 - Hero: **Sam** (owner confirmed 2026-10-28: Sam is the main character of EVERY video, also on the channel avatar/banner in brand/) — reference image `brand/hero_ref.jpg` (early 30s, dark brown wavy hair, round glasses, stubble, mustard-yellow

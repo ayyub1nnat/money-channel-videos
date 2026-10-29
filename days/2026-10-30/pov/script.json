@@ -2,11 +2,11 @@
  "title": "POV: Your Mornings Save YOU $3,276 a Year — Jake Spends $14 Before 9 AM Every Day",
  "style": "pov",
  "voice": "am_michael",
- "speed": 1.0,
- "lead": 0.3,
- "gap": 0.3,
- "scene_gap": 0.45,
- "tail": 2.0,
+ "speed": 1.05,
+ "lead": 0.1,
+ "gap": 0.18,
+ "scene_gap": 0.28,
+ "tail": 1.5,
  "thumbnail": {
   "image": "thumb",
   "text": [

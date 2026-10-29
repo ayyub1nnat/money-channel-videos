@@ -1,0 +1,73 @@
+{
+ "style": "pov",
+ "vertical": true,
+ "voice": "am_michael",
+ "speed": 1.08,
+ "lead": 0.25,
+ "gap": 0.25,
+ "scene_gap": 0.3,
+ "tail": 1.2,
+ "title": "POV: Jake Spends $14 Before 9 AM… You Spend $1 and Save $3,276 a Year 😳",
+ "scenes": [
+  {
+   "lines": [
+    "Jake hits snooze three times. He wakes up at eight fifty. Late. Again."
+   ],
+   "img": "a young man in a blue shirt jumping out of bed in panic looking at a clock showing almost nine, messy bedroom, vertical composition",
+   "tag": "8:50 AM",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "No coffee, no breakfast. So he buys both on the way. Fourteen dollars."
+   ],
+   "img": "a young man in a blue shirt hurrying along a city sidewalk in the morning with a paper coffee cup and a paper breakfast bag, worried face, vertical composition",
+   "tag": "$14 / DAY",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Every workday. That's about three thousand five hundred dollars a year!"
+   ],
+   "img": "a young man in a blue shirt standing next to a giant pile of paper coffee cups, shocked face, vertical composition",
+   "tag": "$3,528 / YEAR",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "You? Your phone charges across the room. So you have to get up."
+   ],
+   "img": "{HERO} walking across a bedroom at dawn to switch off his phone alarm, smiling, vertical composition"
+  },
+  {
+   "lines": [
+    "The coffee's already made. You set it up last night. Breakfast costs you one dollar."
+   ],
+   "img": "{HERO} eating oatmeal with coffee at a sunny kitchen table, content face, vertical composition",
+   "tag": "$1 / DAY",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Then ten minutes with your bank app. You catch a forgotten fifteen dollar free trial."
+   ],
+   "img": "{HERO} looking at his phone with raised eyebrows, a red warning icon floating above it, coffee mug, vertical composition",
+   "tag": "$15 SAVED",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Same job. Same paycheck. You keep three thousand two hundred seventy six dollars more."
+   ],
+   "img": "{HERO} holding a big glass jar full of coins and bills, proud smile, vertical composition",
+   "tag": "+$3,276",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "The whole morning routine, step by step? The full story is on my channel."
+   ],
+   "img": "{HERO} waving at the viewer with a coffee mug in a cozy sunny kitchen, friendly smile, vertical composition"
+  }
+ ]
+}

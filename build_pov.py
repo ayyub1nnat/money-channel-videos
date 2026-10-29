@@ -36,11 +36,14 @@ p1 = subprocess.Popen(["python3", f"{HERE}/pov.py", wd, "0", str(half), f"{wd}/p
 p2 = subprocess.Popen(["python3", f"{HERE}/pov.py", wd, str(half), str(D), f"{wd}/part2.mp4"])
 assert p1.wait() == 0 and p2.wait() == 0, "render failed"
 mv = float(S.get("music_volume", 0.30 if V else 0.26)); lufs = -13 if V else -14
-run(["ffmpeg", "-y", "-loglevel", "error", "-i", f"{wd}/voice.wav", "-stream_loop", "-1", "-i", f"{wd}/music.wav",
+xv = float(S.get("sfx_volume", 0.45 if V else 0.30))
+run(["python3", f"{HERE}/sfx.py", wd])
+run(["ffmpeg", "-y", "-loglevel", "error", "-i", f"{wd}/voice.wav", "-stream_loop", "-1", "-i", f"{wd}/music.wav", "-i", f"{wd}/sfx.wav",
      "-filter_complex",
      f"[0:a]aresample=44100,pan=stereo|c0=c0|c1=c0,asplit=2[v][vsc];[1:a]aresample=44100,volume={mv}[m];"
      "[m][vsc]sidechaincompress=threshold=0.02:ratio=9:attack=15:release=400:makeup=1[md];"
-     f"[v][md]amix=inputs=2:duration=first:normalize=0,afade=t=out:st={max(0, D - 2)}:d=2,loudnorm=I={lufs}:TP=-1.5:LRA=11[a]",
+     f"[2:a]aresample=44100,pan=stereo|c0=c0|c1=c0,volume={xv}[fx];"
+     f"[v][md][fx]amix=inputs=3:duration=first:normalize=0,afade=t=out:st={max(0, D - 2)}:d=2,loudnorm=I={lufs}:TP=-1.5:LRA=11[a]",
      "-map", "[a]", "-ar", "48000", "-c:a", "aac", "-b:a", "192k", f"{wd}/mix.m4a"])
 open(f"{wd}/list.txt", "w").write(f"file '{wd}/part1.mp4'\nfile '{wd}/part2.mp4'\n")
 out = f"{wd}/{'short' if V else 'video'}.mp4"

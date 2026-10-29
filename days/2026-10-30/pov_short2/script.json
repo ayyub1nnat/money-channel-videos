@@ -2,16 +2,16 @@
  "style": "pov",
  "vertical": true,
  "voice": "am_michael",
- "speed": 1.08,
- "lead": 0.25,
- "gap": 0.25,
- "scene_gap": 0.3,
- "tail": 1.2,
+ "speed": 1.15,
+ "lead": 0.0,
+ "gap": 0.15,
+ "scene_gap": 0.15,
+ "tail": 0.6,
  "title": "POV: You Wait 24 Hours Before Buying… and Keep $1,140 a Year 🛒",
  "scenes": [
   {
    "lines": [
-    "Eleven P M. Mia sees a jacket on sale. Ninety five dollars. Only two left!"
+    "Eleven P M. A jacket on sale. Only two left!"
    ],
    "img": "a young woman with a ponytail in bed at night staring at a shopping app on her phone with a flashing sale banner, excited face, vertical composition",
    "tag": "ONLY 2 LEFT!",
@@ -19,13 +19,13 @@
   },
   {
    "lines": [
-    "She buys it in ten seconds. It still has the tags on it three months later."
+    "Mia buys it in ten seconds. Tags still on, three months later."
    ],
    "img": "a young woman with a ponytail looking at a closet full of clothes with price tags still attached, guilty face, vertical composition"
   },
   {
    "lines": [
-    "You see the same sale. But you have one rule. Twenty four hours."
+    "You? One rule. Twenty four hours."
    ],
    "img": "{HERO} on a couch adding a jacket to an online cart on his phone, calm face, vertical composition",
    "tag": "24-HOUR RULE",
@@ -33,25 +33,25 @@
   },
   {
    "lines": [
-    "You put it in the cart. You close the app. And you go to sleep."
+    "Add to cart. Close the app. Go to sleep."
    ],
    "img": "{HERO} putting his phone face down on a nightstand and turning off the lamp, peaceful smile, vertical composition"
   },
   {
    "lines": [
-    "Next morning? You don't even remember why you wanted it."
+    "Next morning, you don't even want it."
    ],
    "img": "{HERO} looking at his phone in the morning with a puzzled shrug, coffee in hand, vertical composition"
   },
   {
    "lines": [
-    "Most of those late night carts? They just quietly expire."
+    "Most late night carts just quietly expire."
    ],
    "img": "an online shopping cart icon fading away into dust on a phone screen held by a man in a mustard sweater, vertical composition"
   },
   {
    "lines": [
-    "Skip just ninety five dollars of stuff a month, and that's one thousand one hundred forty dollars a year."
+    "Ninety five dollars a month? That's eleven hundred forty a year."
    ],
    "img": "{HERO} dropping cash into a glass savings jar on a kitchen table, satisfied smile, vertical composition",
    "tag": "+$1,140 / YEAR",
@@ -59,9 +59,13 @@
   },
   {
    "lines": [
-    "Wait one day. Keep the money. Follow for one simple money move every day!"
+    "Follow for more. Because tonight at eleven, another sale is coming."
    ],
    "img": "{HERO} giving a thumbs up to the viewer in a bright living room, friendly smile, vertical composition"
   }
+ ],
+ "hook": [
+  "$95 JACKET AT 11 PM?",
+  "USE THE 24-HOUR RULE"
  ]
 }
