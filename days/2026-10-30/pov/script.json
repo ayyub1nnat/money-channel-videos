@@ -1,0 +1,497 @@
+{
+ "title": "POV: Your Mornings Save YOU $3,276 a Year — Jake Spends $14 Before 9 AM Every Day",
+ "style": "pov",
+ "voice": "am_michael",
+ "speed": 1.0,
+ "lead": 0.3,
+ "gap": 0.3,
+ "scene_gap": 0.45,
+ "tail": 2.0,
+ "thumbnail": {
+  "image": "thumb",
+  "text": [
+   "$1 MORNING",
+   "VS $14"
+  ],
+  "color": "#5BE37D",
+  "pos": "right",
+  "img": "{HERO} standing calmly in the foreground in a sunny kitchen smiling and holding a coffee mug, behind him a young man in a blue shirt running late in panic holding an expensive coffee and a sandwich with dollar bills flying away, strong contrast between calm and panic, composition with the hero on the left third"
+ },
+ "scenes": [
+  {
+   "chapter": "Two Mornings",
+   "lines": [
+    "It's six thirty in the morning. Your alarm goes off... once.",
+    "And you actually get up.",
+    "No snooze. No panic. No racing heart. Just... up."
+   ],
+   "img": "{HERO} sitting up in bed at dawn, stretching with a calm smile, soft golden light through the window, alarm clock on the nightstand"
+  },
+  {
+   "lines": [
+    "Across town, Jake's alarm goes off at the exact same time.",
+    "He hits snooze. Then again. And again.",
+    "Every nine minutes, the same little fight with his phone."
+   ],
+   "img": "a young man in a blue shirt in bed slamming the snooze button on his phone, messy hair, dark bedroom, annoyed sleepy face",
+   "tag": "SNOOZE x3",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "By the time he opens his eyes for real, it's eight fifty.",
+    "His meeting starts at nine.",
+    "He's late. Again. Third time this month."
+   ],
+   "img": "a young man in a blue shirt jumping out of bed in shock looking at a clock showing almost nine, clothes everywhere, panicked face",
+   "tag": "8:50 AM",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "And here's the thing nobody tells you.",
+    "Jake's messy morning isn't just stressful.",
+    "It's costing him money. Real money. Every single day."
+   ],
+   "img": "a young man in a blue shirt running out of an apartment door holding his shoes, a trail of dollar bills flying out of his pocket"
+  },
+  {
+   "lines": [
+    "Stay with me, because by the end of this story you'll see exactly how much.",
+    "And the simple morning routine that makes you calmer, more productive...",
+    "and about three thousand dollars richer every single year."
+   ],
+   "img": "{HERO} standing calmly in a bright kitchen holding a mug, a glowing jar of coins on the counter behind him",
+   "tag": "+$3,276 / YEAR",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "chapter": "The Night Before",
+   "lines": [
+    "So let's rewind. Let's go back to the night before.",
+    "Because a good morning doesn't actually start in the morning.",
+    "It starts around nine thirty the evening before."
+   ],
+   "img": "{HERO} in a cozy living room at night switching off a lamp, a clock showing nine thirty, peaceful mood"
+  },
+  {
+   "lines": [
+    "You give it ten minutes. That's all.",
+    "You lay out tomorrow's clothes on the chair.",
+    "You pack your lunch. You fill the coffee maker and set the timer."
+   ],
+   "img": "{HERO} filling a coffee maker in a tidy kitchen at night, a lunch box and keys neatly lined up on the counter",
+   "tag": "10 MINUTES",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "Keys, wallet, badge... all in one little bowl by the door.",
+    "It feels almost too simple, right?",
+    "But every decision you make tonight is one you don't have to make half asleep."
+   ],
+   "img": "{HERO} dropping keys and a wallet into a small bowl by the front door at night, satisfied smile"
+  },
+  {
+   "lines": [
+    "And then you do one more thing. The big one.",
+    "You plug your phone in... across the room.",
+    "Not on your pillow. Not in your hand. Across the room."
+   ],
+   "img": "{HERO} placing his phone on a charger on a dresser far from the bed, bedroom at night, satisfied face"
+  },
+  {
+   "lines": [
+    "Why? Because now, when the alarm rings, you have to stand up to turn it off.",
+    "And once you're standing?",
+    "Honestly... the hardest part of the morning is already over."
+   ],
+   "img": "{HERO} walking across a bedroom at dawn to switch off his phone alarm, yawning but smiling"
+  },
+  {
+   "lines": [
+    "Meanwhile, Jake is in bed. Scrolling.",
+    "Eleven thirty. Midnight. Twelve forty.",
+    "One more video. Just one more."
+   ],
+   "img": "a young man in a blue shirt lying in bed at night lit by his phone screen, tired red eyes, clock showing past midnight",
+   "tag": "12:40 AM",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Most adults need at least seven hours of sleep a night.",
+    "Jake gets about six. And that's on a good night.",
+    "He doesn't feel tired at midnight. He feels it at seven."
+   ],
+   "img": "a young man in a blue shirt asleep in a tangled blanket, phone still in his hand, moonlight",
+   "tag": "< 7 HOURS",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "chapter": "The Snooze Trap",
+   "lines": [
+    "So the next morning, that snooze button feels like a lifesaver.",
+    "Just nine more minutes. What could go wrong?",
+    "But it isn't a lifesaver. It's a trap."
+   ],
+   "img": "a young man in a blue shirt hitting the snooze button again with his eyes closed, grumpy face, dark bedroom"
+  },
+  {
+   "lines": [
+    "Those extra minutes don't give you real, deep rest.",
+    "You just drift in and out, in and out...",
+    "and you wake up even groggier than before."
+   ],
+   "img": "a young man in a blue shirt half asleep with heavy eyelids, a small storm cloud over his head, bedroom in the morning"
+  },
+  {
+   "lines": [
+    "And then the scramble begins.",
+    "No clean shirt. No breakfast. Keys? Where are the keys?!",
+    "He finds them in yesterday's jeans. On the floor."
+   ],
+   "img": "a young man in a blue shirt frantically searching under couch cushions for keys, messy apartment, panicked face"
+  },
+  {
+   "lines": [
+    "He runs out the door with nothing.",
+    "No coffee. No food. No plan for the day.",
+    "Just stress. And a growing headache."
+   ],
+   "img": "a young man in a blue shirt rushing out of an apartment building, tie half done, stressed face"
+  },
+  {
+   "chapter": "The $14 Morning",
+   "lines": [
+    "And that's exactly where his wallet starts bleeding.",
+    "Quietly. Politely. Every single morning.",
+    "Watch this."
+   ],
+   "img": "a young man in a blue shirt walking down a busy street, his wallet open with coins falling out, rushed face"
+  },
+  {
+   "lines": [
+    "Stop number one: the coffee shop on the corner.",
+    "There's a line, of course. He's even later now.",
+    "A large latte. Six dollars."
+   ],
+   "img": "a young man in a blue shirt at a coffee shop counter paying with a card for a large latte, impatient face, line of people behind him",
+   "tag": "$6",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Stop number two: a breakfast sandwich, because he's starving.",
+    "He eats it in four bites, walking.",
+    "Eight dollars."
+   ],
+   "img": "a young man in a blue shirt eating a breakfast sandwich while walking fast, a paper bag in his hand",
+   "tag": "$8",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Fourteen dollars. Gone before nine A M.",
+    "Does that sound like a lot?",
+    "Not really, right? It's just breakfast."
+   ],
+   "img": "a young man in a blue shirt checking his banking app on the sidewalk with a shrug, a city street in the morning",
+   "tag": "$14 / DAY",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "But let's do the math. Fourteen dollars, every workday.",
+    "About twenty one workdays a month.",
+    "That's roughly two hundred ninety four dollars. Every month."
+   ],
+   "img": "a calendar wall filled with small coffee cups and sandwich icons on every weekday, a worried young man in a blue shirt looking at it",
+   "tag": "$294 / MONTH",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Over a full year? About three thousand five hundred dollars.",
+    "Gone. On coffee and sandwiches he barely even tasted.",
+    "That's a vacation. That's an emergency fund. Gone."
+   ],
+   "img": "a young man in a blue shirt standing next to a tall pile of paper coffee cups and sandwich wrappers taller than him, shocked face",
+   "tag": "$3,528 / YEAR",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "And you know what's worse?",
+    "Jake isn't even enjoying it.",
+    "He's eating at his desk, stressed, already behind on everything."
+   ],
+   "img": "a young man in a blue shirt at an office desk with a half-eaten sandwich, overflowing inbox on the screen, stressed face"
+  },
+  {
+   "chapter": "Your First 30 Minutes",
+   "lines": [
+    "Now. Let's look at your morning.",
+    "Same city. Same job. Same paycheck as Jake.",
+    "The only difference is what happens in the first thirty minutes."
+   ],
+   "img": "{HERO} opening the curtains in a sunny bedroom, smiling, birds outside the window"
+  },
+  {
+   "lines": [
+    "You get up at six thirty. You walk across the room.",
+    "You switch off the alarm.",
+    "And then you do something that feels weird at first... you leave the phone there."
+   ],
+   "img": "{HERO} walking past his phone on the dresser without touching it, sunrise light, relaxed face",
+   "tag": "NO PHONE",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "Because the second you open your phone, your morning isn't yours anymore.",
+    "Emails. News. Group chats. Other people's problems.",
+    "You haven't even brushed your teeth, and you're already stressed."
+   ],
+   "img": "a phone screen exploding with notification bubbles and red alert icons, a man in a mustard sweater turning away calmly"
+  },
+  {
+   "lines": [
+    "So instead, you drink a big glass of water.",
+    "You open the window. Cold air. Fresh air.",
+    "Five slow, deep breaths. That's it."
+   ],
+   "img": "{HERO} drinking a glass of water next to an open window, morning breeze, calm happy face"
+  },
+  {
+   "lines": [
+    "Then you move. Just ten minutes.",
+    "A walk around the block. A few stretches on the living room floor.",
+    "Nothing fancy. No gym. No fancy gear."
+   ],
+   "img": "{HERO} walking around a quiet neighborhood block at sunrise, hands in pockets, smiling",
+   "tag": "10 MIN WALK",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "You're not training for a marathon here.",
+    "You're just telling your body... hey. It's daytime now.",
+    "And by the time you get back, your head feels clear."
+   ],
+   "img": "{HERO} stretching his arms in a park at sunrise, a dog walker waving in the background"
+  },
+  {
+   "lines": [
+    "Back home, the coffee's already ready and waiting.",
+    "Because you set it up last night. Remember?",
+    "That smell. Honestly, it's the best part of the day."
+   ],
+   "img": "{HERO} pouring fresh coffee from a coffee maker into a mug in a sunny kitchen, delighted face"
+  },
+  {
+   "lines": [
+    "Coffee at home costs you about fifty cents a cup.",
+    "Oatmeal with a banana? Maybe another fifty cents.",
+    "So breakfast costs you about one dollar."
+   ],
+   "img": "{HERO} eating a bowl of oatmeal with banana slices at a kitchen table with a mug of coffee, content face",
+   "tag": "$1 / DAY",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "One dollar. Sitting down. Actually tasting your food.",
+    "Versus Jake's fourteen dollar sprint down the sidewalk.",
+    "Same caffeine. Same full stomach. Very different price."
+   ],
+   "img": "split scene: on the left a man in a mustard sweater calmly eating breakfast at home, on the right a young man in a blue shirt running with a coffee cup and sandwich",
+   "tag": "$1 VS $14",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "chapter": "The Money Check",
+   "lines": [
+    "And now comes the part that changes everything.",
+    "It takes ten minutes. And almost nobody does it.",
+    "The ten minute money check."
+   ],
+   "img": "{HERO} looking at a banking app on his phone with a mug of coffee, a small notebook open beside him",
+   "tag": "10-MIN MONEY CHECK",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "Now you pick up the phone. But only for this.",
+    "Minute one: you look at your balance.",
+    "No fear. No guessing. Just the real number."
+   ],
+   "img": "close-up of {HERO} looking at his phone screen with a calm nod, kitchen background"
+  },
+  {
+   "lines": [
+    "Next: you check what came out of your account yesterday.",
+    "Anything weird? A charge you don't recognize?",
+    "Most days, it's nothing. But today..."
+   ],
+   "img": "{HERO} squinting at a list of transactions on his phone, one line circled in red, thoughtful face"
+  },
+  {
+   "lines": [
+    "Today, you catch something.",
+    "A free trial you forgot about. It just turned into a fifteen dollar charge.",
+    "And it would've kept charging you. Every month."
+   ],
+   "img": "{HERO} pointing at his phone with raised eyebrows, a small red warning icon floating above it",
+   "tag": "$15 TRIAL",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "You cancel it. Right there. Thirty seconds.",
+    "Fifteen dollars a month, saved...",
+    "before your coffee is even cold."
+   ],
+   "img": "{HERO} tapping a cancel button on his phone with a satisfied grin, coffee mug in the other hand",
+   "tag": "SAVED",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Then you look ahead.",
+    "Which bills are due this week? Rent? Phone? The electric bill?",
+    "Is there enough money sitting there for all of them?"
+   ],
+   "img": "{HERO} looking at a wall calendar with a few bills marked, pen in hand, calm face"
+  },
+  {
+   "lines": [
+    "Jake never does this.",
+    "Last month, he completely forgot his electric bill.",
+    "Late fee. Thirty dollars. For absolutely nothing."
+   ],
+   "img": "a young man in a blue shirt opening a late payment notice envelope with a frustrated face, messy apartment",
+   "tag": "$30 LATE FEE",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "You? You haven't paid a late fee in over a year.",
+    "Because you see every bill coming... days before it hits.",
+    "No surprises. No panic. No fees."
+   ],
+   "img": "{HERO} relaxed on a couch with a green checkmark floating above a stack of paid bills",
+   "tag": "$0 LATE FEES",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "chapter": "Your Top 3",
+   "lines": [
+    "And then, the last part of your morning.",
+    "You open a little notebook.",
+    "And you pick your top three."
+   ],
+   "img": "{HERO} writing in a notebook at a kitchen table, three numbered boxes on the page, morning sun"
+  },
+  {
+   "lines": [
+    "Not a to-do list with twenty things on it. Nobody finishes those.",
+    "Just three.",
+    "The three things that would make today a win, even if nothing else gets done."
+   ],
+   "img": "{HERO} crossing out a long messy list and circling three items, confident smile"
+  },
+  {
+   "lines": [
+    "And the hardest one? You do it first.",
+    "Before the emails. Before the meetings. Before the noise starts.",
+    "While your brain is still fresh."
+   ],
+   "img": "{HERO} at an office desk focused on a laptop with headphones on, a coffee mug, early morning office mostly empty",
+   "tag": "HARDEST FIRST",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "By ten A M, your most important work is already done.",
+    "And Jake? He's still answering emails from yesterday.",
+    "Still on his second coffee. Still behind."
+   ],
+   "img": "split scene: a man in a mustard sweater leaning back relaxed at his desk with a checklist done, a young man in a blue shirt buried in papers behind him"
+  },
+  {
+   "lines": [
+    "Your boss notices. Of course she does.",
+    "You're the calm one. The one who actually gets things done.",
+    "And people like that... tend to get the raise first."
+   ],
+   "img": "a smiling female boss giving a thumbs up to {HERO} at his desk in a bright office, coworkers in the background"
+  },
+  {
+   "chapter": "The Math",
+   "lines": [
+    "So let's do the math. Just the money part.",
+    "Jake spends about three thousand five hundred dollars a year on rushed mornings.",
+    "You spend about two hundred fifty on breakfast at home."
+   ],
+   "img": "a big scale with a pile of coffee cups on one side, a young man in a blue shirt looking worried next to it",
+   "tag": "$3,528 VS $252",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "The difference?",
+    "Three thousand two hundred seventy six dollars. Every year.",
+    "That's about two hundred seventy three dollars a month, moved into savings on payday."
+   ],
+   "img": "{HERO} holding a large glass jar full of coins and bills, proud smile, bright kitchen",
+   "tag": "+$3,276",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "And that's without counting the late fees you never pay.",
+    "Without the free trials you catch.",
+    "And without the stress... which you can't even put a price on."
+   ],
+   "img": "{HERO} sitting in a peaceful kitchen with coffee as small red fee icons pop and disappear like bubbles around him"
+  },
+  {
+   "chapter": "One Year Later",
+   "lines": [
+    "Now fast forward one year.",
+    "Jake is still running out the door at eight fifty.",
+    "Still tired. Still buying the fourteen dollar breakfast. Still broke by Friday."
+   ],
+   "img": "a young man in a blue shirt running late down a rainy street holding a coffee cup, exhausted face"
+  },
+  {
+   "lines": [
+    "You? You've got over three thousand dollars sitting in savings.",
+    "From mornings. Just... mornings.",
+    "You didn't earn more. You didn't give up anything you love."
+   ],
+   "img": "{HERO} sitting by a window at sunrise looking at a savings goal reached on his phone, quietly proud",
+   "tag": "$3,276 SAVED",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "You just stopped letting your mornings happen to you.",
+    "So tonight, try just one thing.",
+    "Lay out your clothes. Set up the coffee. Put your phone across the room."
+   ],
+   "img": "{HERO} at night placing his phone across the room, clothes laid out on a chair, warm lamp light, gentle smile"
+  },
+  {
+   "lines": [
+    "If this helped, subscribe for one simple money move every day.",
+    "And tell me in the comments... what's the first thing you do in the morning?",
+    "Be honest. Is it your phone?"
+   ],
+   "img": "{HERO} waving warmly at the viewer in a cozy sunny kitchen, coffee mug in hand, friendly smile",
+   "tag": "SUBSCRIBE",
+   "tag_color": "#2C7BE5"
+  }
+ ]
+}
