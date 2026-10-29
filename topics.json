@@ -1,235 +1,240 @@
 {
- "note": "Daily video topics. The daily run builds the first topic with used=false for tomorrow's date, then sets used=true, date, and later video_id after upload. Add new topics when fewer than 10 remain.",
- "topics": [
-  {
-   "title": "How to Fix Your Finances in 30 Days",
-   "used": true,
-   "date": "2026-10-23",
-   "note": "first video, uploaded manually"
-  },
-  {
-   "title": "7 Money Habits That Keep You Broke (And What to Do Instead)",
-   "used": true,
-   "date": "2026-10-24",
-   "status": "scheduled",
-   "video_id": "WjtwxLPDMDY",
-   "short_status": "uploaded manually by owner",
-   "localized": true,
-   "short_id": "uMHruDoECPU"
-  },
-  {
-   "title": "How to Build an Emergency Fund on a Low Income",
-   "used": true,
-   "date": "2026-10-25",
-   "status": "scheduled",
-   "localized": true,
-   "video_id": "OPa192mGnso",
-   "short_id": "JXclyT6Lhy0",
-   "short_status": "scheduled",
-   "old_video_id_private": "JS9FbVuBHBI",
-   "note": "final: fast whiteboard format + standalone Short",
-   "style": "fast-sketch",
-   "old_private_ids": [
-    "JS9FbVuBHBI",
-    "xzSIjbVQ8AE",
-    "unxGqCjFcCI",
-    "a2H9t_uMZ4U",
-    "bsZyqqdOOXc"
-   ]
-  },
-  {
-   "title": "The 50/30/20 Budget Explained Simply",
-   "used": true,
-   "date": "2026-10-26",
-   "status": "scheduled",
-   "localized": true,
-   "style": "fast-sketch",
-   "final_title": "The 50/30/20 Budget Explained Simply (With a Real Example)",
-   "note": "rebuilt in fast whiteboard format + standalone Short on 2026-10-25",
-   "video_id": "-FMns8dcxMs",
-   "short_id": "1g9_GW5834g",
-   "short2_id": "FKeOFMnnURA",
-   "short_status": "scheduled",
-   "format": "pov",
-   "published_title": "POV: You Earn $4,000 a Month and Still Save $800 — Your Coworkers Can't Figure Out How"
-  },
-  {
-   "title": "How to Stop Living Paycheck to Paycheck",
-   "used": true,
-   "date": "2026-10-27",
-   "status": "scheduled",
-   "localized": true,
-   "format": "pov",
-   "published_title": "POV: You Earn $3,500 and Never Run Out of Money — Jake Earns $5,500 and Is Broke by Day 28",
-   "short2_topic": "Forgotten subscriptions ($86 guess vs $219 real)",
-   "video_id": "-gm0TwaC6Fc",
-   "short_id": "Kj7hkCBDHR4",
-   "short_status": "scheduled",
-   "short2_id": "7uJftdTroTw"
-  },
-  {
-   "title": "10 Small Things That Will Change Your Life in a Year",
-   "used": true,
-   "date": "2026-10-28",
-   "status": "scheduled",
-   "localized": true,
-   "format": "pov",
-   "published_title": "POV: You Did 10 Small Things for a Year — You're $5,300 Richer, Your Friends Are Still Broke",
-   "short2_topic": "Credit card minimum payment trap ($3,000 at 22%: 15 years vs 2 years)",
-   "short_status": "scheduled",
-   "video_id": "ikLvIdfjuLw",
-   "short_id": "W2LsLv0Beo4",
-   "short2_id": "XhR7ji1fsVk"
-  },
-  {
-   "title": "How to Pay Off Debt Fast: Snowball vs Avalanche",
-   "used": true,
-   "date": "2026-10-29",
-   "status": "scheduled",
-   "localized": true,
-   "format": "pov",
-   "published_title": "POV: YOU Owe $14,000 and Are Debt Free in 29 Months — Jake Is Still Paying for 7 Years",
-   "short2_topic": "Christmas sinking fund ($50/month = $600; $40/week x 8 = $320)",
-   "video_id": "pvUBcOnjpb4",
-   "short_id": "eWITFB06rhI",
-   "short_status": "scheduled",
-   "short2_id": "pK5p-FBGVvc"
-  },
-  {
-   "title": "The Morning Routine That Makes You More Productive",
-   "used": false
-  },
-  {
-   "title": "How to Save Your First $1,000",
-   "used": false
-  },
-  {
-   "title": "5 Money Myths That Keep You Poor",
-   "used": false
-  },
-  {
-   "title": "How to Make a Budget That You'll Actually Stick To",
-   "used": false
-  },
-  {
-   "title": "How to Get Your Life Together in 7 Days",
-   "used": false
-  },
-  {
-   "title": "Compound Interest Explained: Why Starting Early Matters",
-   "used": false
-  },
-  {
-   "title": "How to Spend Less on Groceries Without Eating Worse",
-   "used": false
-  },
-  {
-   "title": "The No-Spend Challenge: How It Works",
-   "used": false
-  },
-  {
-   "title": "How to Stop Impulse Buying for Good",
-   "used": false
-  },
-  {
-   "title": "6 Signs You're Better With Money Than You Think",
-   "used": false
-  },
-  {
-   "title": "How to Start Investing With Little Money (Beginner Basics)",
-   "used": false
-  },
-  {
-   "title": "How to Build Discipline When You Have No Motivation",
-   "used": false
-  },
-  {
-   "title": "Needs vs Wants: The Simple Test That Saves Money",
-   "used": false
-  },
-  {
-   "title": "How to Negotiate a Raise (Step by Step)",
-   "used": false
-  },
-  {
-   "title": "8 Side Hustle Ideas You Can Start This Weekend",
-   "used": false
-  },
-  {
-   "title": "How to Declutter Your Life and Your Finances",
-   "used": false
-  },
-  {
-   "title": "What to Do When You're Broke: A Calm Action Plan",
-   "used": false
-  },
-  {
-   "title": "How to Set Financial Goals You'll Actually Reach",
-   "used": false
-  },
-  {
-   "title": "The Pay Yourself First Method Explained",
-   "used": false
-  },
-  {
-   "title": "How to Reduce Your Monthly Bills (Phone, Internet, Insurance)",
-   "used": false
-  },
-  {
-   "title": "How to Talk About Money With Your Partner",
-   "used": false
-  },
-  {
-   "title": "7 Habits of People Who Are Good With Money",
-   "used": false
-  },
-  {
-   "title": "How to Build a Credit Score From Zero",
-   "used": false
-  },
-  {
-   "title": "Sinking Funds: The Budget Trick for Big Expenses",
-   "used": false
-  },
-  {
-   "title": "How to Stop Comparing Your Life to Others",
-   "used": false
-  },
-  {
-   "title": "The 24-Hour Rule and Other Tricks to Spend Smarter",
-   "used": false
-  },
-  {
-   "title": "How to Plan Your Week for a Calmer Life",
-   "used": false
-  },
-  {
-   "title": "How Inflation Affects Your Savings (Simply Explained)",
-   "used": false
-  },
-  {
-   "title": "How to Save Money on a Tight Budget: 12 Real Tips",
-   "used": false
-  },
-  {
-   "title": "How to Create Multiple Streams of Income",
-   "used": false
-  },
-  {
-   "title": "Financial Minimalism: Own Less, Save More",
-   "used": false
-  },
-  {
-   "title": "How to Recover From a Financial Mistake",
-   "used": false
-  },
-  {
-   "title": "The Cash Envelope Method Explained",
-   "used": false
-  },
-  {
-   "title": "How to Prepare for a Year-End Money Reset",
-   "used": false
-  }
- ]
+  "note": "Daily video topics. The daily run builds the first topic with used=false for tomorrow's date, then sets used=true, date, and later video_id after upload. Add new topics when fewer than 10 remain.",
+  "topics": [
+    {
+      "title": "How to Fix Your Finances in 30 Days",
+      "used": true,
+      "date": "2026-10-23",
+      "note": "first video, uploaded manually"
+    },
+    {
+      "title": "7 Money Habits That Keep You Broke (And What to Do Instead)",
+      "used": true,
+      "date": "2026-10-24",
+      "status": "scheduled",
+      "video_id": "WjtwxLPDMDY",
+      "short_status": "uploaded manually by owner",
+      "localized": true,
+      "short_id": "uMHruDoECPU"
+    },
+    {
+      "title": "How to Build an Emergency Fund on a Low Income",
+      "used": true,
+      "date": "2026-10-25",
+      "status": "scheduled",
+      "localized": true,
+      "video_id": "OPa192mGnso",
+      "short_id": "JXclyT6Lhy0",
+      "short_status": "scheduled",
+      "old_video_id_private": "JS9FbVuBHBI",
+      "note": "final: fast whiteboard format + standalone Short",
+      "style": "fast-sketch",
+      "old_private_ids": [
+        "JS9FbVuBHBI",
+        "xzSIjbVQ8AE",
+        "unxGqCjFcCI",
+        "a2H9t_uMZ4U",
+        "bsZyqqdOOXc"
+      ]
+    },
+    {
+      "title": "The 50/30/20 Budget Explained Simply",
+      "used": true,
+      "date": "2026-10-26",
+      "status": "scheduled",
+      "localized": true,
+      "style": "fast-sketch",
+      "final_title": "The 50/30/20 Budget Explained Simply (With a Real Example)",
+      "note": "rebuilt in fast whiteboard format + standalone Short on 2026-10-25",
+      "video_id": "-FMns8dcxMs",
+      "short_id": "1g9_GW5834g",
+      "short2_id": "FKeOFMnnURA",
+      "short_status": "scheduled",
+      "format": "pov",
+      "published_title": "POV: You Earn $4,000 a Month and Still Save $800 — Your Coworkers Can't Figure Out How"
+    },
+    {
+      "title": "How to Stop Living Paycheck to Paycheck",
+      "used": true,
+      "date": "2026-10-27",
+      "status": "scheduled",
+      "localized": true,
+      "format": "pov",
+      "published_title": "POV: You Earn $3,500 and Never Run Out of Money — Jake Earns $5,500 and Is Broke by Day 28",
+      "short2_topic": "Forgotten subscriptions ($86 guess vs $219 real)",
+      "video_id": "-gm0TwaC6Fc",
+      "short_id": "Kj7hkCBDHR4",
+      "short_status": "scheduled",
+      "short2_id": "7uJftdTroTw"
+    },
+    {
+      "title": "10 Small Things That Will Change Your Life in a Year",
+      "used": true,
+      "date": "2026-10-28",
+      "status": "scheduled",
+      "localized": true,
+      "format": "pov",
+      "published_title": "POV: You Did 10 Small Things for a Year — You're $5,300 Richer, Your Friends Are Still Broke",
+      "short2_topic": "Credit card minimum payment trap ($3,000 at 22%: 15 years vs 2 years)",
+      "short_status": "scheduled",
+      "video_id": "ikLvIdfjuLw",
+      "short_id": "W2LsLv0Beo4",
+      "short2_id": "XhR7ji1fsVk"
+    },
+    {
+      "title": "How to Pay Off Debt Fast: Snowball vs Avalanche",
+      "used": true,
+      "date": "2026-10-29",
+      "status": "scheduled",
+      "localized": true,
+      "format": "pov",
+      "published_title": "POV: YOU Owe $14,000 and Are Debt Free in 29 Months — Jake Is Still Paying for 7 Years",
+      "short2_topic": "Christmas sinking fund ($50/month = $600; $40/week x 8 = $320)",
+      "video_id": "pvUBcOnjpb4",
+      "short_id": "eWITFB06rhI",
+      "short_status": "scheduled",
+      "short2_id": "pK5p-FBGVvc"
+    },
+    {
+      "title": "The Morning Routine That Makes You More Productive",
+      "used": true,
+      "date": "2026-10-30",
+      "status": "built, waiting for upload",
+      "localized": false,
+      "format": "pov",
+      "pov_title": "POV: Your Mornings Save YOU $3,276 a Year — Jake Spends $14 Before 9 AM Every Day"
+    },
+    {
+      "title": "How to Save Your First $1,000",
+      "used": false
+    },
+    {
+      "title": "5 Money Myths That Keep You Poor",
+      "used": false
+    },
+    {
+      "title": "How to Make a Budget That You'll Actually Stick To",
+      "used": false
+    },
+    {
+      "title": "How to Get Your Life Together in 7 Days",
+      "used": false
+    },
+    {
+      "title": "Compound Interest Explained: Why Starting Early Matters",
+      "used": false
+    },
+    {
+      "title": "How to Spend Less on Groceries Without Eating Worse",
+      "used": false
+    },
+    {
+      "title": "The No-Spend Challenge: How It Works",
+      "used": false
+    },
+    {
+      "title": "How to Stop Impulse Buying for Good",
+      "used": false
+    },
+    {
+      "title": "6 Signs You're Better With Money Than You Think",
+      "used": false
+    },
+    {
+      "title": "How to Start Investing With Little Money (Beginner Basics)",
+      "used": false
+    },
+    {
+      "title": "How to Build Discipline When You Have No Motivation",
+      "used": false
+    },
+    {
+      "title": "Needs vs Wants: The Simple Test That Saves Money",
+      "used": false
+    },
+    {
+      "title": "How to Negotiate a Raise (Step by Step)",
+      "used": false
+    },
+    {
+      "title": "8 Side Hustle Ideas You Can Start This Weekend",
+      "used": false
+    },
+    {
+      "title": "How to Declutter Your Life and Your Finances",
+      "used": false
+    },
+    {
+      "title": "What to Do When You're Broke: A Calm Action Plan",
+      "used": false
+    },
+    {
+      "title": "How to Set Financial Goals You'll Actually Reach",
+      "used": false
+    },
+    {
+      "title": "The Pay Yourself First Method Explained",
+      "used": false
+    },
+    {
+      "title": "How to Reduce Your Monthly Bills (Phone, Internet, Insurance)",
+      "used": false
+    },
+    {
+      "title": "How to Talk About Money With Your Partner",
+      "used": false
+    },
+    {
+      "title": "7 Habits of People Who Are Good With Money",
+      "used": false
+    },
+    {
+      "title": "How to Build a Credit Score From Zero",
+      "used": false
+    },
+    {
+      "title": "Sinking Funds: The Budget Trick for Big Expenses",
+      "used": false
+    },
+    {
+      "title": "How to Stop Comparing Your Life to Others",
+      "used": false
+    },
+    {
+      "title": "The 24-Hour Rule and Other Tricks to Spend Smarter",
+      "used": false
+    },
+    {
+      "title": "How to Plan Your Week for a Calmer Life",
+      "used": false
+    },
+    {
+      "title": "How Inflation Affects Your Savings (Simply Explained)",
+      "used": false
+    },
+    {
+      "title": "How to Save Money on a Tight Budget: 12 Real Tips",
+      "used": false
+    },
+    {
+      "title": "How to Create Multiple Streams of Income",
+      "used": false
+    },
+    {
+      "title": "Financial Minimalism: Own Less, Save More",
+      "used": false
+    },
+    {
+      "title": "How to Recover From a Financial Mistake",
+      "used": false
+    },
+    {
+      "title": "The Cash Envelope Method Explained",
+      "used": false
+    },
+    {
+      "title": "How to Prepare for a Year-End Money Reset",
+      "used": false
+    }
+  ]
 }
