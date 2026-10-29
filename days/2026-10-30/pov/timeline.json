@@ -1,49 +1,49 @@
 {
  "title": "POV: Your Mornings Save YOU $3,276 a Year \u2014 Jake Spends $14 Before 9 AM Every Day",
- "duration": 581.467,
+ "duration": 540.765,
  "scenes": [
   {
    "id": "s0",
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 0.3,
-   "end": 12.347,
+   "start": 0.1,
+   "end": 11.185,
    "line_starts": [
-    0.3,
-    4.3,
-    5.907,
-    9.86
+    0.1,
+    3.838,
+    5.286,
+    9.007
    ],
    "subs": [
     {
-     "start": 0.3,
-     "end": 2.244,
+     "start": 0.1,
+     "end": 1.969,
      "text": "It's six thirty in the morning."
     },
     {
-     "start": 2.244,
-     "end": 4.0,
+     "start": 1.969,
+     "end": 3.658,
      "text": "Your alarm goes off... once."
     },
     {
-     "start": 4.3,
-     "end": 5.607,
+     "start": 3.838,
+     "end": 5.106,
      "text": "And you actually get up."
     },
     {
-     "start": 5.907,
-     "end": 7.429,
+     "start": 5.286,
+     "end": 6.762,
      "text": "No snooze. No panic."
     },
     {
-     "start": 7.429,
-     "end": 9.56,
+     "start": 6.762,
+     "end": 8.827,
      "text": "No racing heart. Just... up."
     },
     {
-     "start": 9.86,
-     "end": 11.897,
+     "start": 9.007,
+     "end": 10.905,
      "text": "You even have time to make the bed."
     }
    ]
@@ -53,48 +53,48 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 12.347,
-   "end": 26.53,
+   "start": 11.185,
+   "end": 24.434,
    "line_starts": [
-    12.347,
-    16.689,
-    19.153,
-    22.521
+    11.185,
+    15.199,
+    17.503,
+    20.637
    ],
    "subs": [
     {
-     "start": 12.347,
-     "end": 14.971,
+     "start": 11.185,
+     "end": 13.674,
      "text": "Across town, Jake's alarm goes off at"
     },
     {
-     "start": 14.971,
-     "end": 16.389,
+     "start": 13.674,
+     "end": 15.019,
      "text": "the exact same time."
     },
     {
-     "start": 16.689,
-     "end": 18.853,
+     "start": 15.199,
+     "end": 17.323,
      "text": "He hits snooze. Then again. And again."
     },
     {
-     "start": 19.153,
-     "end": 21.399,
+     "start": 17.503,
+     "end": 19.666,
      "text": "Every nine minutes, the same little fight"
     },
     {
-     "start": 21.399,
-     "end": 22.221,
+     "start": 19.666,
+     "end": 20.457,
      "text": "with his phone."
     },
     {
-     "start": 22.521,
-     "end": 24.668,
+     "start": 20.637,
+     "end": 22.759,
      "text": "And every time, he tells himself..."
     },
     {
-     "start": 24.668,
-     "end": 26.08,
+     "start": 22.759,
+     "end": 24.154,
      "text": "just five more minutes."
     }
    ]
@@ -104,32 +104,32 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 26.53,
-   "end": 35.359,
+   "start": 24.434,
+   "end": 32.639,
    "line_starts": [
-    26.53,
-    30.381,
-    32.278
+    24.434,
+    28.104,
+    29.827
    ],
    "subs": [
     {
-     "start": 26.53,
-     "end": 28.369,
+     "start": 24.434,
+     "end": 26.241,
      "text": "By the time he opens his eyes"
     },
     {
-     "start": 28.369,
-     "end": 30.081,
+     "start": 26.241,
+     "end": 27.924,
      "text": "for real, it's eight fifty."
     },
     {
-     "start": 30.381,
-     "end": 31.978,
+     "start": 28.104,
+     "end": 29.647,
      "text": "His meeting starts at nine."
     },
     {
-     "start": 32.278,
-     "end": 34.909,
+     "start": 29.827,
+     "end": 32.359,
      "text": "He's late. Again. Third time this month."
     }
    ]
@@ -139,43 +139,43 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 35.359,
-   "end": 49.012,
+   "start": 32.639,
+   "end": 45.379,
    "line_starts": [
-    35.359,
-    37.759,
-    40.438,
-    44.139
+    32.639,
+    34.86,
+    37.315,
+    40.765
    ],
    "subs": [
     {
-     "start": 35.359,
-     "end": 37.459,
+     "start": 32.639,
+     "end": 34.68,
      "text": "And here's the thing nobody tells you."
     },
     {
-     "start": 37.759,
-     "end": 40.138,
+     "start": 34.86,
+     "end": 37.135,
      "text": "Jake's messy morning isn't just stressful."
     },
     {
-     "start": 40.438,
-     "end": 41.943,
+     "start": 37.315,
+     "end": 38.761,
      "text": "It's costing him money."
     },
     {
-     "start": 41.943,
-     "end": 43.84,
+     "start": 38.761,
+     "end": 40.585,
      "text": "Real money. Every single day."
     },
     {
-     "start": 44.139,
-     "end": 46.509,
+     "start": 40.765,
+     "end": 43.087,
      "text": "Not in one big painful moment."
     },
     {
-     "start": 46.509,
-     "end": 48.562,
+     "start": 43.087,
+     "end": 45.099,
      "text": "In tiny, invisible pieces."
     }
    ]
@@ -185,37 +185,37 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 49.012,
-   "end": 61.889,
+   "start": 45.379,
+   "end": 57.395,
    "line_starts": [
-    49.012,
-    53.659,
-    57.995
+    45.379,
+    49.779,
+    53.758
    ],
    "subs": [
     {
-     "start": 49.012,
-     "end": 50.892,
+     "start": 45.379,
+     "end": 47.204,
      "text": "Stay with me, because by the end"
     },
     {
-     "start": 50.892,
-     "end": 53.359,
+     "start": 47.204,
+     "end": 49.599,
      "text": "of this story you'll see exactly how much."
     },
     {
-     "start": 53.659,
-     "end": 55.99,
+     "start": 49.779,
+     "end": 51.973,
      "text": "And the simple morning routine that makes"
     },
     {
-     "start": 55.99,
-     "end": 57.695,
+     "start": 51.973,
+     "end": 53.578,
      "text": "you calmer, more productive..."
     },
     {
-     "start": 57.995,
-     "end": 61.439,
+     "start": 53.758,
+     "end": 57.115,
      "text": "and about three thousand dollars richer every single year."
     }
    ]
@@ -225,48 +225,48 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 61.889,
-   "end": 76.335,
+   "start": 57.395,
+   "end": 71.025,
    "line_starts": [
-    61.889,
-    65.433,
-    68.947,
-    71.973
+    57.395,
+    60.798,
+    64.114,
+    66.897
    ],
    "subs": [
     {
-     "start": 61.889,
-     "end": 64.03,
+     "start": 57.395,
+     "end": 59.522,
      "text": "So let's rewind. Let's go back to"
     },
     {
-     "start": 64.03,
-     "end": 65.133,
+     "start": 59.522,
+     "end": 60.618,
      "text": "the night before."
     },
     {
-     "start": 65.433,
-     "end": 67.844,
+     "start": 60.798,
+     "end": 63.15,
      "text": "Because a good morning doesn't actually start"
     },
     {
-     "start": 67.844,
-     "end": 68.647,
+     "start": 63.15,
+     "end": 63.934,
      "text": "in the morning."
     },
     {
-     "start": 68.947,
-     "end": 71.673,
+     "start": 64.114,
+     "end": 66.717,
      "text": "It starts around nine thirty the evening before."
     },
     {
-     "start": 71.973,
-     "end": 73.832,
+     "start": 66.897,
+     "end": 68.726,
      "text": "Sounds boring? Stick with me."
     },
     {
-     "start": 73.832,
-     "end": 75.885,
+     "start": 68.726,
+     "end": 70.745,
      "text": "This is where the magic happens."
     }
    ]
@@ -276,32 +276,32 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 76.335,
-   "end": 85.459,
+   "start": 71.025,
+   "end": 79.368,
    "line_starts": [
-    76.335,
-    78.569,
-    81.255
+    71.025,
+    73.028,
+    75.486
    ],
    "subs": [
     {
-     "start": 76.335,
-     "end": 78.269,
+     "start": 71.025,
+     "end": 72.848,
      "text": "You give it ten minutes. That's all."
     },
     {
-     "start": 78.569,
-     "end": 80.956,
+     "start": 73.028,
+     "end": 75.306,
      "text": "You lay out tomorrow's clothes on the chair."
     },
     {
-     "start": 81.255,
-     "end": 82.429,
+     "start": 75.486,
+     "end": 76.611,
      "text": "You pack your lunch."
     },
     {
-     "start": 82.429,
-     "end": 85.009,
+     "start": 76.611,
+     "end": 79.088,
      "text": "You fill the coffee maker and set the timer."
     }
    ]
@@ -311,48 +311,48 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 85.459,
-   "end": 100.67,
+   "start": 79.368,
+   "end": 93.653,
    "line_starts": [
-    85.459,
-    89.416,
-    91.616,
-    96.34
+    79.368,
+    83.149,
+    85.092,
+    89.563
    ],
    "subs": [
     {
-     "start": 85.459,
-     "end": 88.025,
+     "start": 79.368,
+     "end": 81.895,
      "text": "Keys, wallet, badge... all in one little"
     },
     {
-     "start": 88.025,
-     "end": 89.116,
+     "start": 81.895,
+     "end": 82.969,
      "text": "bowl by the door."
     },
     {
-     "start": 89.416,
-     "end": 91.316,
+     "start": 83.149,
+     "end": 84.912,
      "text": "It feels almost too simple, right?"
     },
     {
-     "start": 91.616,
-     "end": 93.8,
+     "start": 85.092,
+     "end": 87.21,
      "text": "But every decision you make tonight is"
     },
     {
-     "start": 93.8,
-     "end": 96.04,
+     "start": 87.21,
+     "end": 89.383,
      "text": "one you don't have to make half asleep."
     },
     {
-     "start": 96.34,
-     "end": 97.842,
+     "start": 89.563,
+     "end": 91.038,
      "text": "No searching. No stress."
     },
     {
-     "start": 97.842,
-     "end": 100.22,
+     "start": 91.038,
+     "end": 93.373,
      "text": "Everything is right where you left it."
     }
    ]
@@ -362,47 +362,47 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 100.67,
-   "end": 109.613,
+   "start": 93.653,
+   "end": 101.887,
    "line_starts": [
-    100.67,
-    103.375,
-    106.079
+    93.653,
+    96.167,
+    98.639
    ],
    "subs": [
     {
-     "start": 100.67,
-     "end": 102.404,
+     "start": 93.653,
+     "end": 95.336,
      "text": "And then you do one more thing."
     },
     {
-     "start": 102.404,
-     "end": 103.075,
+     "start": 95.336,
+     "end": 95.987,
      "text": "The big one."
     },
     {
-     "start": 103.375,
-     "end": 104.841,
+     "start": 96.167,
+     "end": 97.564,
      "text": "You plug your phone in..."
     },
     {
-     "start": 104.841,
-     "end": 105.779,
+     "start": 97.564,
+     "end": 98.459,
      "text": "across the room."
     },
     {
-     "start": 106.079,
-     "end": 107.206,
+     "start": 98.639,
+     "end": 99.723,
      "text": "Not on your pillow."
     },
     {
-     "start": 107.206,
-     "end": 108.214,
+     "start": 99.723,
+     "end": 100.694,
      "text": "Not in your hand."
     },
     {
-     "start": 108.214,
-     "end": 109.163,
+     "start": 100.694,
+     "end": 101.607,
      "text": "Across the room."
     }
    ]
@@ -412,37 +412,37 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 109.613,
-   "end": 119.96,
+   "start": 101.887,
+   "end": 111.584,
    "line_starts": [
-    109.613,
-    114.499,
-    116.056
+    101.887,
+    106.548,
+    107.958
    ],
    "subs": [
     {
-     "start": 109.613,
-     "end": 111.998,
+     "start": 101.887,
+     "end": 104.217,
      "text": "Why? Because now, when the alarm rings,"
     },
     {
-     "start": 111.998,
-     "end": 114.199,
+     "start": 104.217,
+     "end": 106.368,
      "text": "you have to stand up to turn it off."
     },
     {
-     "start": 114.499,
-     "end": 115.756,
+     "start": 106.548,
+     "end": 107.778,
      "text": "And once you're standing?"
     },
     {
-     "start": 116.056,
-     "end": 118.573,
+     "start": 107.958,
+     "end": 110.397,
      "text": "Honestly... the hardest part of the morning"
     },
     {
-     "start": 118.573,
-     "end": 119.51,
+     "start": 110.397,
+     "end": 111.304,
      "text": "is already over."
     }
    ]
@@ -452,38 +452,38 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 119.96,
-   "end": 132.004,
+   "start": 111.584,
+   "end": 122.929,
    "line_starts": [
-    119.96,
-    122.461,
-    125.415,
-    127.761
+    111.584,
+    113.942,
+    116.733,
+    118.881
    ],
    "subs": [
     {
-     "start": 119.96,
-     "end": 122.161,
+     "start": 111.584,
+     "end": 113.762,
      "text": "Meanwhile, Jake is in bed. Scrolling."
     },
     {
-     "start": 122.461,
-     "end": 125.115,
+     "start": 113.942,
+     "end": 116.553,
      "text": "Eleven thirty. Midnight. Twelve forty."
     },
     {
-     "start": 125.415,
-     "end": 127.461,
+     "start": 116.733,
+     "end": 118.701,
      "text": "One more video. Just one more."
     },
     {
-     "start": 127.761,
-     "end": 129.447,
+     "start": 118.881,
+     "end": 120.555,
      "text": "His brain is wide awake."
     },
     {
-     "start": 129.447,
-     "end": 131.554,
+     "start": 120.555,
+     "end": 122.649,
      "text": "His body is begging for sleep."
     }
    ]
@@ -493,48 +493,48 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 132.004,
-   "end": 144.845,
+   "start": 122.929,
+   "end": 134.9,
    "line_starts": [
-    132.004,
-    135.226,
-    138.39,
-    141.959
+    122.929,
+    126.023,
+    128.939,
+    132.283
    ],
    "subs": [
     {
-     "start": 132.004,
-     "end": 134.006,
+     "start": 122.929,
+     "end": 124.926,
      "text": "Most adults need at least seven hours"
     },
     {
-     "start": 134.006,
-     "end": 134.926,
+     "start": 124.926,
+     "end": 125.843,
      "text": "of sleep a night."
     },
     {
-     "start": 135.226,
-     "end": 136.445,
+     "start": 126.023,
+     "end": 127.188,
      "text": "Jake gets about six."
     },
     {
-     "start": 136.445,
-     "end": 138.09,
+     "start": 127.188,
+     "end": 128.759,
      "text": "And that's on a good night."
     },
     {
-     "start": 138.39,
-     "end": 140.411,
+     "start": 128.939,
+     "end": 130.895,
      "text": "He doesn't feel tired at midnight."
     },
     {
-     "start": 140.411,
-     "end": 141.659,
+     "start": 130.895,
+     "end": 132.103,
      "text": "He feels it at seven."
     },
     {
-     "start": 141.959,
-     "end": 144.395,
+     "start": 132.283,
+     "end": 134.62,
      "text": "So every morning starts with a little sleep debt."
     }
    ]
@@ -544,42 +544,42 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 144.845,
-   "end": 154.469,
+   "start": 134.9,
+   "end": 143.853,
    "line_starts": [
-    144.845,
-    148.998,
-    151.821
+    134.9,
+    138.904,
+    141.428
    ],
    "subs": [
     {
-     "start": 144.845,
-     "end": 146.088,
+     "start": 134.9,
+     "end": 136.134,
      "text": "So the next morning,"
     },
     {
-     "start": 146.088,
-     "end": 148.698,
+     "start": 136.134,
+     "end": 138.724,
      "text": "that snooze button feels like a lifesaver."
     },
     {
-     "start": 148.998,
-     "end": 150.348,
+     "start": 138.904,
+     "end": 140.157,
      "text": "Just nine more minutes."
     },
     {
-     "start": 150.348,
-     "end": 151.521,
+     "start": 140.157,
+     "end": 141.248,
      "text": "What could go wrong?"
     },
     {
-     "start": 151.821,
-     "end": 153.306,
+     "start": 141.428,
+     "end": 142.877,
      "text": "But it isn't a lifesaver."
     },
     {
-     "start": 153.306,
-     "end": 154.019,
+     "start": 142.877,
+     "end": 143.573,
      "text": "It's a trap."
     }
    ]
@@ -589,32 +589,32 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 154.469,
-   "end": 163.013,
+   "start": 143.853,
+   "end": 151.775,
    "line_starts": [
-    154.469,
-    157.664,
-    160.108
+    143.853,
+    146.834,
+    149.127
    ],
    "subs": [
     {
-     "start": 154.469,
-     "end": 157.364,
+     "start": 143.853,
+     "end": 146.654,
      "text": "Those extra minutes don't give you real, deep rest."
     },
     {
-     "start": 157.664,
-     "end": 159.093,
+     "start": 146.834,
+     "end": 148.243,
      "text": "You just drift in and out,"
     },
     {
-     "start": 159.093,
-     "end": 159.808,
+     "start": 148.243,
+     "end": 148.947,
      "text": "in and out..."
     },
     {
-     "start": 160.108,
-     "end": 162.563,
+     "start": 149.127,
+     "end": 151.495,
      "text": "and you wake up even groggier than before."
     }
    ]
@@ -624,48 +624,48 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 163.013,
-   "end": 176.227,
+   "start": 151.775,
+   "end": 164.002,
    "line_starts": [
-    163.013,
-    164.872,
-    168.803,
-    172.361
+    151.775,
+    153.474,
+    157.144,
+    160.477
    ],
    "subs": [
     {
-     "start": 163.013,
-     "end": 164.572,
+     "start": 151.775,
+     "end": 153.294,
      "text": "And then the scramble begins."
     },
     {
-     "start": 164.872,
-     "end": 166.787,
+     "start": 153.474,
+     "end": 155.314,
      "text": "No clean shirt. No breakfast."
     },
     {
-     "start": 166.787,
-     "end": 168.503,
+     "start": 155.314,
+     "end": 156.964,
      "text": "Keys? Where are the keys?!"
     },
     {
-     "start": 168.803,
-     "end": 171.179,
+     "start": 157.144,
+     "end": 159.443,
      "text": "He finds them in yesterday's jeans."
     },
     {
-     "start": 171.179,
-     "end": 172.061,
+     "start": 159.443,
+     "end": 160.297,
      "text": "On the floor."
     },
     {
-     "start": 172.361,
-     "end": 174.518,
+     "start": 160.477,
+     "end": 162.527,
      "text": "His heart is pounding before he even"
     },
     {
-     "start": 174.518,
-     "end": 175.777,
+     "start": 162.527,
+     "end": 163.722,
      "text": "leaves the apartment."
     }
    ]
@@ -675,32 +675,32 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 176.227,
-   "end": 184.059,
+   "start": 164.002,
+   "end": 171.175,
    "line_starts": [
-    176.227,
-    178.397,
-    181.619
+    164.002,
+    165.973,
+    168.912
    ],
    "subs": [
     {
-     "start": 176.227,
-     "end": 178.097,
+     "start": 164.002,
+     "end": 165.793,
      "text": "He runs out the door with nothing."
     },
     {
-     "start": 178.397,
-     "end": 179.821,
+     "start": 165.973,
+     "end": 167.317,
      "text": "No coffee. No food."
     },
     {
-     "start": 179.821,
-     "end": 181.319,
+     "start": 167.317,
+     "end": 168.732,
      "text": "No plan for the day."
     },
     {
-     "start": 181.619,
-     "end": 183.609,
+     "start": 168.912,
+     "end": 170.895,
      "text": "Just stress. And a growing headache."
     }
    ]
@@ -710,38 +710,38 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 184.059,
-   "end": 194.625,
+   "start": 171.175,
+   "end": 181.018,
    "line_starts": [
-    184.059,
-    187.015,
-    189.904,
-    191.055
+    171.175,
+    173.949,
+    176.66,
+    177.676
    ],
    "subs": [
     {
-     "start": 184.059,
-     "end": 186.715,
+     "start": 171.175,
+     "end": 173.769,
      "text": "And that's exactly where his wallet starts bleeding."
     },
     {
-     "start": 187.015,
-     "end": 189.604,
+     "start": 173.949,
+     "end": 176.48,
      "text": "Quietly. Politely. Every single morning."
     },
     {
-     "start": 189.904,
-     "end": 190.755,
+     "start": 176.66,
+     "end": 177.496,
      "text": "Watch this."
     },
     {
-     "start": 191.055,
-     "end": 192.133,
+     "start": 177.676,
+     "end": 178.734,
      "text": "And the worst part?"
     },
     {
-     "start": 192.133,
-     "end": 194.175,
+     "start": 178.734,
+     "end": 180.738,
      "text": "He doesn't even notice it happening."
     }
    ]
@@ -751,32 +751,32 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 194.625,
-   "end": 203.534,
+   "start": 181.018,
+   "end": 189.27,
    "line_starts": [
-    194.625,
-    197.828,
-    200.906
+    181.018,
+    183.989,
+    186.847
    ],
    "subs": [
     {
-     "start": 194.625,
-     "end": 197.528,
+     "start": 181.018,
+     "end": 183.809,
      "text": "Stop number one: the coffee shop on the corner."
     },
     {
-     "start": 197.828,
-     "end": 199.398,
+     "start": 183.989,
+     "end": 185.503,
      "text": "There's a line, of course."
     },
     {
-     "start": 199.398,
-     "end": 200.606,
+     "start": 185.503,
+     "end": 186.667,
      "text": "He's even later now."
     },
     {
-     "start": 200.906,
-     "end": 203.084,
+     "start": 186.847,
+     "end": 188.99,
      "text": "A large latte. Six dollars."
     }
    ]
@@ -786,32 +786,32 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 203.534,
-   "end": 211.179,
+   "start": 189.27,
+   "end": 196.31,
    "line_starts": [
-    203.534,
-    207.535,
-    209.852
+    189.27,
+    193.044,
+    195.159
    ],
    "subs": [
     {
-     "start": 203.534,
-     "end": 205.878,
+     "start": 189.27,
+     "end": 191.546,
      "text": "Stop number two: a breakfast sandwich,"
     },
     {
-     "start": 205.878,
-     "end": 207.235,
+     "start": 191.546,
+     "end": 192.864,
      "text": "because he's starving."
     },
     {
-     "start": 207.535,
-     "end": 209.552,
+     "start": 193.044,
+     "end": 194.979,
      "text": "He eats it in four bites, walking."
     },
     {
-     "start": 209.852,
-     "end": 210.729,
+     "start": 195.159,
+     "end": 196.03,
      "text": "Eight dollars."
     }
    ]
@@ -821,33 +821,33 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 211.179,
-   "end": 221.66,
+   "start": 196.31,
+   "end": 205.935,
    "line_starts": [
-    211.179,
-    214.277,
-    216.101,
-    218.667
+    196.31,
+    199.185,
+    200.86,
+    203.15
    ],
    "subs": [
     {
-     "start": 211.179,
-     "end": 213.977,
+     "start": 196.31,
+     "end": 199.005,
      "text": "Fourteen dollars. Gone before nine A M."
     },
     {
-     "start": 214.277,
-     "end": 215.801,
+     "start": 199.185,
+     "end": 200.68,
      "text": "Does that sound like a lot?"
     },
     {
-     "start": 216.101,
-     "end": 218.367,
+     "start": 200.86,
+     "end": 202.97,
      "text": "Not really, right? It's just breakfast."
     },
     {
-     "start": 218.667,
-     "end": 221.21,
+     "start": 203.15,
+     "end": 205.655,
      "text": "And honestly, Jake would say the same thing."
     }
    ]
@@ -857,32 +857,32 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 221.66,
-   "end": 231.539,
+   "start": 205.935,
+   "end": 215.045,
    "line_starts": [
-    221.66,
-    225.359,
-    227.575
+    205.935,
+    209.344,
+    211.4
    ],
    "subs": [
     {
-     "start": 221.66,
-     "end": 223.045,
+     "start": 205.935,
+     "end": 207.251,
      "text": "But let's do the math."
     },
     {
-     "start": 223.045,
-     "end": 225.059,
+     "start": 207.251,
+     "end": 209.164,
      "text": "Fourteen dollars, every workday."
     },
     {
-     "start": 225.359,
-     "end": 227.275,
+     "start": 209.344,
+     "end": 211.22,
      "text": "About twenty one workdays a month."
     },
     {
-     "start": 227.575,
-     "end": 231.089,
+     "start": 211.4,
+     "end": 214.765,
      "text": "That's roughly two hundred ninety four dollars. Every month."
     }
    ]
@@ -892,38 +892,38 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 231.539,
-   "end": 244.833,
+   "start": 215.045,
+   "end": 227.525,
    "line_starts": [
-    231.539,
-    235.54,
-    239.552,
-    242.836
+    215.045,
+    218.844,
+    222.595,
+    225.736
    ],
    "subs": [
     {
-     "start": 231.539,
-     "end": 232.605,
+     "start": 215.045,
+     "end": 216.087,
      "text": "Over a full year?"
     },
     {
-     "start": 232.605,
-     "end": 235.24,
+     "start": 216.087,
+     "end": 218.664,
      "text": "About three thousand five hundred dollars."
     },
     {
-     "start": 235.54,
-     "end": 239.252,
+     "start": 218.844,
+     "end": 222.415,
      "text": "Gone. On coffee and sandwiches he barely even tasted."
     },
     {
-     "start": 239.552,
-     "end": 242.536,
+     "start": 222.595,
+     "end": 225.556,
      "text": "That's a vacation. That's an emergency fund. Gone."
     },
     {
-     "start": 242.836,
-     "end": 244.383,
+     "start": 225.736,
+     "end": 227.245,
      "text": "Think about that for a second."
     }
    ]
@@ -933,43 +933,43 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 244.833,
-   "end": 256.315,
+   "start": 227.525,
+   "end": 238.185,
    "line_starts": [
-    244.833,
-    246.399,
-    248.559,
-    252.697
+    227.525,
+    228.959,
+    230.925,
+    234.88
    ],
    "subs": [
     {
-     "start": 244.833,
-     "end": 246.099,
+     "start": 227.525,
+     "end": 228.779,
      "text": "And you know what's worse?"
     },
     {
-     "start": 246.399,
-     "end": 248.259,
+     "start": 228.959,
+     "end": 230.745,
      "text": "Jake isn't even enjoying it."
     },
     {
-     "start": 248.559,
-     "end": 250.021,
+     "start": 230.925,
+     "end": 232.363,
      "text": "He's eating at his desk,"
     },
     {
-     "start": 250.021,
-     "end": 252.397,
+     "start": 232.363,
+     "end": 234.7,
      "text": "stressed, already behind on everything."
     },
     {
-     "start": 252.697,
-     "end": 254.25,
+     "start": 234.88,
+     "end": 236.363,
      "text": "By lunch, he's exhausted."
     },
     {
-     "start": 254.25,
-     "end": 255.865,
+     "start": 236.363,
+     "end": 237.905,
      "text": "And he's buying lunch too."
     }
    ]
@@ -979,37 +979,37 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 256.315,
-   "end": 265.724,
+   "start": 238.185,
+   "end": 246.979,
    "line_starts": [
-    256.315,
-    258.16,
-    261.815
+    238.185,
+    239.848,
+    243.301
    ],
    "subs": [
     {
-     "start": 256.315,
-     "end": 257.86,
+     "start": 238.185,
+     "end": 239.668,
      "text": "Now. Let's look at your morning."
     },
     {
-     "start": 258.16,
-     "end": 259.757,
+     "start": 239.848,
+     "end": 241.406,
      "text": "Same city. Same job."
     },
     {
-     "start": 259.757,
-     "end": 261.515,
+     "start": 241.406,
+     "end": 243.121,
      "text": "Same paycheck as Jake."
     },
     {
-     "start": 261.815,
-     "end": 263.901,
+     "start": 243.301,
+     "end": 245.35,
      "text": "The only difference is what happens in"
     },
     {
-     "start": 263.901,
-     "end": 265.274,
+     "start": 245.35,
+     "end": 246.699,
      "text": "the first thirty minutes."
     }
    ]
@@ -1019,48 +1019,48 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 265.724,
-   "end": 279.923,
+   "start": 246.979,
+   "end": 260.389,
    "line_starts": [
-    265.724,
-    269.074,
-    270.856,
-    275.361
+    246.979,
+    250.127,
+    251.774,
+    256.022
    ],
    "subs": [
     {
-     "start": 265.724,
-     "end": 267.249,
+     "start": 246.979,
+     "end": 248.463,
      "text": "You get up at six thirty."
     },
     {
-     "start": 267.249,
-     "end": 268.774,
+     "start": 248.463,
+     "end": 249.947,
      "text": "You walk across the room."
     },
     {
-     "start": 269.074,
-     "end": 270.556,
+     "start": 250.127,
+     "end": 251.594,
      "text": "You switch off the alarm."
     },
     {
-     "start": 270.856,
-     "end": 272.748,
+     "start": 251.774,
+     "end": 253.604,
      "text": "And then you do something that feels"
     },
     {
-     "start": 272.748,
-     "end": 275.061,
+     "start": 253.604,
+     "end": 255.842,
      "text": "weird at first... you leave the phone there."
     },
     {
-     "start": 275.361,
-     "end": 277.598,
+     "start": 256.022,
+     "end": 258.244,
      "text": "No notifications. No headlines."
     },
     {
-     "start": 277.598,
-     "end": 279.473,
+     "start": 258.244,
+     "end": 260.109,
      "text": "Just you and a quiet room."
     }
    ]
@@ -1070,42 +1070,42 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 279.923,
-   "end": 291.829,
+   "start": 260.389,
+   "end": 271.59,
    "line_starts": [
-    279.923,
-    284.5,
-    288.203
+    260.389,
+    264.691,
+    268.221
    ],
    "subs": [
     {
-     "start": 279.923,
-     "end": 282.24,
+     "start": 260.389,
+     "end": 262.622,
      "text": "Because the second you open your phone,"
     },
     {
-     "start": 282.24,
-     "end": 284.2,
+     "start": 262.622,
+     "end": 264.511,
      "text": "your morning isn't yours anymore."
     },
     {
-     "start": 284.5,
-     "end": 286.269,
+     "start": 264.691,
+     "end": 266.433,
      "text": "Emails. News. Group chats."
     },
     {
-     "start": 286.269,
-     "end": 287.903,
+     "start": 266.433,
+     "end": 268.041,
      "text": "Other people's problems."
     },
     {
-     "start": 288.203,
-     "end": 289.989,
+     "start": 268.221,
+     "end": 269.958,
      "text": "You haven't even brushed your teeth,"
     },
     {
-     "start": 289.989,
-     "end": 291.379,
+     "start": 269.958,
+     "end": 271.31,
      "text": "and you're already stressed."
     }
    ]
@@ -1115,43 +1115,43 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 291.829,
-   "end": 303.617,
+   "start": 271.59,
+   "end": 282.5,
    "line_starts": [
-    291.829,
-    294.877,
-    297.745,
-    300.339
+    271.59,
+    274.436,
+    277.1,
+    279.477
    ],
    "subs": [
     {
-     "start": 291.829,
-     "end": 294.577,
+     "start": 271.59,
+     "end": 274.256,
      "text": "So instead, you drink a big glass of water."
     },
     {
-     "start": 294.877,
-     "end": 296.161,
+     "start": 274.436,
+     "end": 275.678,
      "text": "You open the window."
     },
     {
-     "start": 296.161,
-     "end": 297.445,
+     "start": 275.678,
+     "end": 276.92,
      "text": "Cold air. Fresh air."
     },
     {
-     "start": 297.745,
-     "end": 300.039,
+     "start": 277.1,
+     "end": 279.297,
      "text": "Five slow, deep breaths. That's it."
     },
     {
-     "start": 300.339,
-     "end": 301.682,
+     "start": 279.477,
+     "end": 280.78,
      "text": "Your body wakes up."
     },
     {
-     "start": 301.682,
-     "end": 303.167,
+     "start": 280.78,
+     "end": 282.22,
      "text": "Your mind slows down."
     }
    ]
@@ -1161,37 +1161,37 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 303.617,
-   "end": 313.372,
+   "start": 282.5,
+   "end": 291.639,
    "line_starts": [
-    303.617,
-    305.761,
-    310.044
+    282.5,
+    284.461,
+    288.618
    ],
    "subs": [
     {
-     "start": 303.617,
-     "end": 305.461,
+     "start": 282.5,
+     "end": 284.281,
      "text": "Then you move. Just ten minutes."
     },
     {
-     "start": 305.761,
-     "end": 307.231,
+     "start": 284.461,
+     "end": 285.929,
      "text": "A walk around the block."
     },
     {
-     "start": 307.231,
-     "end": 309.744,
+     "start": 285.929,
+     "end": 288.438,
      "text": "A few stretches on the living room floor."
     },
     {
-     "start": 310.044,
-     "end": 311.803,
+     "start": 288.618,
+     "end": 290.293,
      "text": "Nothing fancy. No gym."
     },
     {
-     "start": 311.803,
-     "end": 312.922,
+     "start": 290.293,
+     "end": 291.359,
      "text": "No fancy gear."
     }
    ]
@@ -1201,48 +1201,48 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 313.372,
-   "end": 327.276,
+   "start": 291.639,
+   "end": 304.725,
    "line_starts": [
-    313.372,
-    315.754,
-    319.204,
-    322.334
+    291.639,
+    293.867,
+    297.135,
+    300.037
    ],
    "subs": [
     {
-     "start": 313.372,
-     "end": 315.454,
+     "start": 291.639,
+     "end": 293.687,
      "text": "You're not training for a marathon here."
     },
     {
-     "start": 315.754,
-     "end": 317.62,
+     "start": 293.867,
+     "end": 295.697,
      "text": "You're just telling your body..."
     },
     {
-     "start": 317.62,
-     "end": 318.904,
+     "start": 295.697,
+     "end": 296.955,
      "text": "hey. It's daytime now."
     },
     {
-     "start": 319.204,
-     "end": 320.813,
+     "start": 297.135,
+     "end": 298.683,
      "text": "And by the time you get back,"
     },
     {
-     "start": 320.813,
-     "end": 322.034,
+     "start": 298.683,
+     "end": 299.857,
      "text": "your head feels clear."
     },
     {
-     "start": 322.334,
-     "end": 324.837,
+     "start": 300.037,
+     "end": 302.493,
      "text": "Some mornings you even see the sunrise."
     },
     {
-     "start": 324.837,
-     "end": 326.826,
+     "start": 302.493,
+     "end": 304.445,
      "text": "Jake hasn't seen one in months."
     }
    ]
@@ -1252,32 +1252,32 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 327.276,
-   "end": 336.595,
+   "start": 304.725,
+   "end": 313.351,
    "line_starts": [
-    327.276,
-    330.224,
-    332.956
+    304.725,
+    307.483,
+    310.019
    ],
    "subs": [
     {
-     "start": 327.276,
-     "end": 329.924,
+     "start": 304.725,
+     "end": 307.303,
      "text": "Back home, the coffee's already ready and waiting."
     },
     {
-     "start": 330.224,
-     "end": 332.656,
+     "start": 307.483,
+     "end": 309.839,
      "text": "Because you set it up last night. Remember?"
     },
     {
-     "start": 332.956,
-     "end": 335.457,
+     "start": 310.019,
+     "end": 312.413,
      "text": "That smell. Honestly, it's the best part"
     },
     {
-     "start": 335.457,
-     "end": 336.145,
+     "start": 312.413,
+     "end": 313.071,
      "text": "of the day."
     }
    ]
@@ -1287,48 +1287,48 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 336.595,
-   "end": 349.646,
+   "start": 313.351,
+   "end": 325.503,
    "line_starts": [
-    336.595,
-    339.791,
-    343.357,
-    345.93
+    313.351,
+    316.255,
+    319.615,
+    321.994
    ],
    "subs": [
     {
-     "start": 336.595,
-     "end": 338.767,
+     "start": 313.351,
+     "end": 315.394,
      "text": "Coffee at home costs you about fifty"
     },
     {
-     "start": 338.767,
-     "end": 339.491,
+     "start": 315.394,
+     "end": 316.075,
      "text": "cents a cup."
     },
     {
-     "start": 339.791,
-     "end": 341.288,
+     "start": 316.255,
+     "end": 317.713,
      "text": "Oatmeal with a banana?"
     },
     {
-     "start": 341.288,
-     "end": 343.057,
+     "start": 317.713,
+     "end": 319.435,
      "text": "Maybe another fifty cents."
     },
     {
-     "start": 343.357,
-     "end": 345.63,
+     "start": 319.615,
+     "end": 321.814,
      "text": "So breakfast costs you about one dollar."
     },
     {
-     "start": 345.93,
-     "end": 346.926,
+     "start": 321.994,
+     "end": 322.979,
      "text": "And you know what?"
     },
     {
-     "start": 346.926,
-     "end": 349.196,
+     "start": 322.979,
+     "end": 325.223,
      "text": "It tastes better than the six dollar one."
     }
    ]
@@ -1338,37 +1338,37 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 349.646,
-   "end": 360.91,
+   "start": 325.503,
+   "end": 336.04,
    "line_starts": [
-    349.646,
-    353.379,
-    356.885
+    325.503,
+    328.95,
+    332.248
    ],
    "subs": [
     {
-     "start": 349.646,
-     "end": 351.297,
+     "start": 325.503,
+     "end": 327.074,
      "text": "One dollar. Sitting down."
     },
     {
-     "start": 351.297,
-     "end": 353.079,
+     "start": 327.074,
+     "end": 328.77,
      "text": "Actually tasting your food."
     },
     {
-     "start": 353.379,
-     "end": 356.585,
+     "start": 328.95,
+     "end": 332.068,
      "text": "Versus Jake's fourteen dollar sprint down the sidewalk."
     },
     {
-     "start": 356.885,
-     "end": 359.07,
+     "start": 332.248,
+     "end": 334.394,
      "text": "Same caffeine. Same full stomach."
     },
     {
-     "start": 359.07,
-     "end": 360.46,
+     "start": 334.394,
+     "end": 335.76,
      "text": "Very different price."
     }
    ]
@@ -1378,32 +1378,32 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 360.91,
-   "end": 368.989,
+   "start": 336.04,
+   "end": 343.444,
    "line_starts": [
-    360.91,
-    363.84,
-    367.022
+    336.04,
+    338.7,
+    341.734
    ],
    "subs": [
     {
-     "start": 360.91,
-     "end": 363.54,
+     "start": 336.04,
+     "end": 338.52,
      "text": "And now comes the part that changes everything."
     },
     {
-     "start": 363.84,
-     "end": 365.128,
+     "start": 338.7,
+     "end": 339.975,
      "text": "It takes ten minutes."
     },
     {
-     "start": 365.128,
-     "end": 366.722,
+     "start": 339.975,
+     "end": 341.554,
      "text": "And almost nobody does it."
     },
     {
-     "start": 367.022,
-     "end": 368.539,
+     "start": 341.734,
+     "end": 343.164,
      "text": "The ten minute money check."
     }
    ]
@@ -1413,48 +1413,48 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 368.989,
-   "end": 381.192,
+   "start": 343.444,
+   "end": 354.694,
    "line_starts": [
-    368.989,
-    372.062,
-    374.285,
-    377.54
+    343.444,
+    346.227,
+    348.26,
+    351.279
    ],
    "subs": [
     {
-     "start": 368.989,
-     "end": 370.628,
+     "start": 343.444,
+     "end": 344.982,
      "text": "Now you pick up the phone."
     },
     {
-     "start": 370.628,
-     "end": 371.762,
+     "start": 344.982,
+     "end": 346.047,
      "text": "But only for this."
     },
     {
-     "start": 372.062,
-     "end": 373.985,
+     "start": 346.227,
+     "end": 348.08,
      "text": "Minute one: you look at your balance."
     },
     {
-     "start": 374.285,
-     "end": 375.763,
+     "start": 348.26,
+     "end": 349.679,
      "text": "No fear. No guessing."
     },
     {
-     "start": 375.763,
-     "end": 377.24,
+     "start": 349.679,
+     "end": 351.099,
      "text": "Just the real number."
     },
     {
-     "start": 377.54,
-     "end": 379.345,
+     "start": 351.279,
+     "end": 353.046,
      "text": "Ten minutes. One cup of coffee."
     },
     {
-     "start": 379.345,
-     "end": 380.742,
+     "start": 353.046,
+     "end": 354.414,
      "text": "That's the whole system."
     }
    ]
@@ -1464,32 +1464,32 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 381.192,
-   "end": 390.466,
+   "start": 354.694,
+   "end": 363.276,
    "line_starts": [
-    381.192,
-    384.521,
-    387.748
+    354.694,
+    357.762,
+    360.803
    ],
    "subs": [
     {
-     "start": 381.192,
-     "end": 382.954,
+     "start": 354.694,
+     "end": 356.374,
      "text": "Next: you check what came out of"
     },
     {
-     "start": 382.954,
-     "end": 384.221,
+     "start": 356.374,
+     "end": 357.582,
      "text": "your account yesterday."
     },
     {
-     "start": 384.521,
-     "end": 387.448,
+     "start": 357.762,
+     "end": 360.623,
      "text": "Anything weird? A charge you don't recognize?"
     },
     {
-     "start": 387.748,
-     "end": 390.016,
+     "start": 360.803,
+     "end": 362.996,
      "text": "Most days, it's nothing. But today..."
     }
    ]
@@ -1499,43 +1499,43 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 390.466,
-   "end": 404.48,
+   "start": 363.276,
+   "end": 376.389,
    "line_starts": [
-    390.466,
-    392.172,
-    397.323,
-    400.248
+    363.276,
+    364.831,
+    369.704,
+    372.436
    ],
    "subs": [
     {
-     "start": 390.466,
-     "end": 391.872,
+     "start": 363.276,
+     "end": 364.651,
      "text": "Today, you catch something."
     },
     {
-     "start": 392.172,
-     "end": 394.139,
+     "start": 364.831,
+     "end": 366.733,
      "text": "A free trial you forgot about."
     },
     {
-     "start": 394.139,
-     "end": 397.023,
+     "start": 366.733,
+     "end": 369.524,
      "text": "It just turned into a fifteen dollar charge."
     },
     {
-     "start": 397.323,
-     "end": 399.948,
+     "start": 369.704,
+     "end": 372.256,
      "text": "And it would've kept charging you. Every month."
     },
     {
-     "start": 400.248,
-     "end": 402.643,
+     "start": 372.436,
+     "end": 374.762,
      "text": "Fifteen dollars a month is one hundred"
     },
     {
-     "start": 402.643,
-     "end": 404.03,
+     "start": 374.762,
+     "end": 376.109,
      "text": "eighty dollars a year."
     }
    ]
@@ -1545,38 +1545,38 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 404.48,
-   "end": 415.219,
+   "start": 376.389,
+   "end": 386.205,
    "line_starts": [
-    404.48,
-    407.248,
-    409.376,
-    411.612
+    376.389,
+    378.902,
+    380.875,
+    382.941
    ],
    "subs": [
     {
-     "start": 404.48,
-     "end": 406.948,
+     "start": 376.389,
+     "end": 378.722,
      "text": "You cancel it. Right there. Thirty seconds."
     },
     {
-     "start": 407.248,
-     "end": 409.076,
+     "start": 378.902,
+     "end": 380.695,
      "text": "Fifteen dollars a month, saved..."
     },
     {
-     "start": 409.376,
-     "end": 411.312,
+     "start": 380.875,
+     "end": 382.761,
      "text": "before your coffee is even cold."
     },
     {
-     "start": 411.612,
-     "end": 413.902,
+     "start": 382.941,
+     "end": 385.106,
      "text": "If something's tight, you know today."
     },
     {
-     "start": 413.902,
-     "end": 414.769,
+     "start": 385.106,
+     "end": 385.925,
      "text": "Not on Friday."
     }
    ]
@@ -1586,48 +1586,48 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 415.219,
-   "end": 426.204,
+   "start": 386.205,
+   "end": 396.381,
    "line_starts": [
-    415.219,
-    416.609,
-    420.499,
-    423.302
+    386.205,
+    387.449,
+    391.09,
+    393.686
    ],
    "subs": [
     {
-     "start": 415.219,
-     "end": 416.309,
+     "start": 386.205,
+     "end": 387.269,
      "text": "Then you look ahead."
     },
     {
-     "start": 416.609,
-     "end": 418.375,
+     "start": 387.449,
+     "end": 389.151,
      "text": "Which bills are due this week?"
     },
     {
-     "start": 418.375,
-     "end": 420.199,
+     "start": 389.151,
+     "end": 390.91,
      "text": "Rent? Phone? The electric bill?"
     },
     {
-     "start": 420.499,
-     "end": 422.413,
+     "start": 391.09,
+     "end": 392.937,
      "text": "Is there enough money sitting there for"
     },
     {
-     "start": 422.413,
-     "end": 423.002,
+     "start": 392.937,
+     "end": 393.506,
      "text": "all of them?"
     },
     {
-     "start": 423.302,
-     "end": 424.664,
+     "start": 393.686,
+     "end": 395.028,
      "text": "He didn't lack the money."
     },
     {
-     "start": 424.664,
-     "end": 425.754,
+     "start": 395.028,
+     "end": 396.101,
      "text": "He just didn't look."
     }
    ]
@@ -1637,32 +1637,32 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 426.204,
-   "end": 434.923,
+   "start": 396.381,
+   "end": 404.413,
    "line_starts": [
-    426.204,
-    428.016,
-    431.39
+    396.381,
+    397.98,
+    401.116
    ],
    "subs": [
     {
-     "start": 426.204,
-     "end": 427.716,
+     "start": 396.381,
+     "end": 397.8,
      "text": "Jake never does this."
     },
     {
-     "start": 428.016,
-     "end": 431.09,
+     "start": 397.98,
+     "end": 400.936,
      "text": "Last month, he completely forgot his electric bill."
     },
     {
-     "start": 431.39,
-     "end": 432.996,
+     "start": 401.116,
+     "end": 402.687,
      "text": "Late fee. Thirty dollars."
     },
     {
-     "start": 432.996,
-     "end": 434.473,
+     "start": 402.687,
+     "end": 404.133,
      "text": "For absolutely nothing."
     }
    ]
@@ -1672,37 +1672,37 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 434.923,
-   "end": 444.702,
+   "start": 404.413,
+   "end": 413.423,
    "line_starts": [
-    434.923,
-    437.867,
-    441.522
+    404.413,
+    407.08,
+    410.511
    ],
    "subs": [
     {
-     "start": 434.923,
-     "end": 436.723,
+     "start": 404.413,
+     "end": 406.107,
      "text": "You? You haven't paid a late fee"
     },
     {
-     "start": 436.723,
-     "end": 437.567,
+     "start": 406.107,
+     "end": 406.9,
      "text": "in over a year."
     },
     {
-     "start": 437.867,
-     "end": 440.024,
+     "start": 407.08,
+     "end": 409.17,
      "text": "Because you see every bill coming..."
     },
     {
-     "start": 440.024,
-     "end": 441.222,
+     "start": 409.17,
+     "end": 410.331,
      "text": "days before it hits."
     },
     {
-     "start": 441.522,
-     "end": 444.252,
+     "start": 410.511,
+     "end": 413.143,
      "text": "No surprises. No panic. No fees."
     }
    ]
@@ -1712,33 +1712,33 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 444.702,
-   "end": 452.664,
+   "start": 413.423,
+   "end": 420.693,
    "line_starts": [
-    444.702,
-    447.008,
-    448.838,
-    450.59
+    413.423,
+    415.559,
+    417.25,
+    418.806
    ],
    "subs": [
     {
-     "start": 444.702,
-     "end": 446.708,
+     "start": 413.423,
+     "end": 415.379,
      "text": "And then, the last part of your morning."
     },
     {
-     "start": 447.008,
-     "end": 448.538,
+     "start": 415.559,
+     "end": 417.07,
      "text": "You open a little notebook."
     },
     {
-     "start": 448.838,
-     "end": 450.29,
+     "start": 417.25,
+     "end": 418.626,
      "text": "And you pick your top three."
     },
     {
-     "start": 450.59,
-     "end": 452.214,
+     "start": 418.806,
+     "end": 420.413,
      "text": "Small list. Big days."
     }
    ]
@@ -1748,48 +1748,48 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 452.664,
-   "end": 467.902,
+   "start": 420.693,
+   "end": 435.012,
    "line_starts": [
-    452.664,
-    457.223,
-    458.439,
-    463.208
+    420.693,
+    424.955,
+    426.051,
+    430.618
    ],
    "subs": [
     {
-     "start": 452.664,
-     "end": 454.993,
+     "start": 420.693,
+     "end": 422.925,
      "text": "Not a to-do list with twenty things"
     },
     {
-     "start": 454.993,
-     "end": 456.923,
+     "start": 422.925,
+     "end": 424.775,
      "text": "on it. Nobody finishes those."
     },
     {
-     "start": 457.223,
-     "end": 458.139,
+     "start": 424.955,
+     "end": 425.871,
      "text": "Just three."
     },
     {
-     "start": 458.439,
-     "end": 460.674,
+     "start": 426.051,
+     "end": 428.244,
      "text": "The three things that would make today"
     },
     {
-     "start": 460.674,
-     "end": 462.908,
+     "start": 428.244,
+     "end": 430.438,
      "text": "a win, even if nothing else gets done."
     },
     {
-     "start": 463.208,
-     "end": 466.038,
+     "start": 430.618,
+     "end": 433.36,
      "text": "Because willpower is strongest in the morning."
     },
     {
-     "start": 466.038,
-     "end": 467.452,
+     "start": 433.36,
+     "end": 434.732,
      "text": "Use it on what matters."
     }
    ]
@@ -1799,37 +1799,37 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 467.902,
-   "end": 476.269,
+   "start": 435.012,
+   "end": 442.82,
    "line_starts": [
-    467.902,
-    470.366,
-    474.154
+    435.012,
+    437.329,
+    440.933
    ],
    "subs": [
     {
-     "start": 467.902,
-     "end": 469.105,
+     "start": 435.012,
+     "end": 436.199,
      "text": "And the hardest one?"
     },
     {
-     "start": 469.105,
-     "end": 470.066,
+     "start": 436.199,
+     "end": 437.149,
      "text": "You do it first."
     },
     {
-     "start": 470.366,
-     "end": 472.525,
+     "start": 437.329,
+     "end": 439.448,
      "text": "Before the emails. Before the meetings."
     },
     {
-     "start": 472.525,
-     "end": 473.854,
+     "start": 439.448,
+     "end": 440.753,
      "text": "Before the noise starts."
     },
     {
-     "start": 474.154,
-     "end": 475.819,
+     "start": 440.933,
+     "end": 442.54,
      "text": "While your brain is still fresh."
     }
    ]
@@ -1839,43 +1839,43 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 476.269,
-   "end": 490.091,
+   "start": 442.82,
+   "end": 455.77,
    "line_starts": [
-    476.269,
-    480.145,
-    483.676,
-    486.625
+    442.82,
+    446.47,
+    449.806,
+    452.57
    ],
    "subs": [
     {
-     "start": 476.269,
-     "end": 477.025,
+     "start": 442.82,
+     "end": 443.554,
      "text": "By ten A M,"
     },
     {
-     "start": 477.025,
-     "end": 479.845,
+     "start": 443.554,
+     "end": 446.29,
      "text": "your most important work is already done."
     },
     {
-     "start": 480.145,
-     "end": 483.376,
+     "start": 446.47,
+     "end": 449.626,
      "text": "And Jake? He's still answering emails from yesterday."
     },
     {
-     "start": 483.676,
-     "end": 486.325,
+     "start": 449.806,
+     "end": 452.39,
      "text": "Still on his second coffee. Still behind."
     },
     {
-     "start": 486.625,
-     "end": 488.28,
+     "start": 452.57,
+     "end": 454.173,
      "text": "Not because you work longer."
     },
     {
-     "start": 488.28,
-     "end": 489.641,
+     "start": 454.173,
+     "end": 455.49,
      "text": "Because you work first."
     }
    ]
@@ -1885,37 +1885,37 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 490.091,
-   "end": 499.869,
+   "start": 455.77,
+   "end": 464.851,
    "line_starts": [
-    490.091,
-    492.808,
-    496.441
+    455.77,
+    458.304,
+    461.681
    ],
    "subs": [
     {
-     "start": 490.091,
-     "end": 492.508,
+     "start": 455.77,
+     "end": 458.124,
      "text": "Your boss notices. Of course she does."
     },
     {
-     "start": 492.808,
-     "end": 493.957,
+     "start": 458.304,
+     "end": 459.406,
      "text": "You're the calm one."
     },
     {
-     "start": 493.957,
-     "end": 496.141,
+     "start": 459.406,
+     "end": 461.501,
      "text": "The one who actually gets things done."
     },
     {
-     "start": 496.441,
-     "end": 497.784,
+     "start": 461.681,
+     "end": 462.984,
      "text": "And people like that..."
     },
     {
-     "start": 497.784,
-     "end": 499.419,
+     "start": 462.984,
+     "end": 464.571,
      "text": "tend to get the raise first."
     }
    ]
@@ -1925,42 +1925,42 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 499.869,
-   "end": 511.048,
+   "start": 464.851,
+   "end": 475.388,
    "line_starts": [
-    499.869,
-    502.688,
-    507.51
+    464.851,
+    467.514,
+    472.116
    ],
    "subs": [
     {
-     "start": 499.869,
-     "end": 501.159,
+     "start": 464.851,
+     "end": 466.123,
      "text": "So let's do the math."
     },
     {
-     "start": 501.159,
-     "end": 502.388,
+     "start": 466.123,
+     "end": 467.334,
      "text": "Just the money part."
     },
     {
-     "start": 502.688,
-     "end": 505.264,
+     "start": 467.514,
+     "end": 470.033,
      "text": "Jake spends about three thousand five hundred"
     },
     {
-     "start": 505.264,
-     "end": 507.21,
+     "start": 470.033,
+     "end": 471.936,
      "text": "dollars a year on rushed mornings."
     },
     {
-     "start": 507.51,
-     "end": 509.569,
+     "start": 472.116,
+     "end": 474.11,
      "text": "You spend about two hundred fifty on"
     },
     {
-     "start": 509.569,
-     "end": 510.598,
+     "start": 474.11,
+     "end": 475.108,
      "text": "breakfast at home."
     }
    ]
@@ -1970,38 +1970,38 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 511.048,
-   "end": 523.782,
+   "start": 475.388,
+   "end": 487.299,
    "line_starts": [
-    511.048,
-    512.229,
-    515.91,
-    521.251
+    475.388,
+    476.435,
+    479.838,
+    484.974
    ],
    "subs": [
     {
-     "start": 511.048,
-     "end": 511.929,
+     "start": 475.388,
+     "end": 476.255,
      "text": "The difference?"
     },
     {
-     "start": 512.229,
-     "end": 515.61,
+     "start": 476.435,
+     "end": 479.658,
      "text": "Three thousand two hundred seventy six dollars. Every year."
     },
     {
-     "start": 515.91,
-     "end": 518.67,
+     "start": 479.838,
+     "end": 482.552,
      "text": "That's about two hundred seventy three dollars"
     },
     {
-     "start": 518.67,
-     "end": 520.951,
+     "start": 482.552,
+     "end": 484.794,
      "text": "a month, moved into savings on payday."
     },
     {
-     "start": 521.251,
-     "end": 523.332,
+     "start": 484.974,
+     "end": 487.019,
      "text": "Little things. Every single morning."
     }
    ]
@@ -2011,37 +2011,37 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 523.782,
-   "end": 532.945,
+   "start": 487.299,
+   "end": 495.854,
    "line_starts": [
-    523.782,
-    527.063,
-    529.136
+    487.299,
+    490.451,
+    492.379
    ],
    "subs": [
     {
-     "start": 523.782,
-     "end": 526.004,
+     "start": 487.299,
+     "end": 489.514,
      "text": "And that's without counting the late fees"
     },
     {
-     "start": 526.004,
-     "end": 526.763,
+     "start": 489.514,
+     "end": 490.271,
      "text": "you never pay."
     },
     {
-     "start": 527.063,
-     "end": 528.836,
+     "start": 490.451,
+     "end": 492.199,
      "text": "Without the free trials you catch."
     },
     {
-     "start": 529.136,
-     "end": 530.513,
+     "start": 492.379,
+     "end": 493.688,
      "text": "And without the stress..."
     },
     {
-     "start": 530.513,
-     "end": 532.495,
+     "start": 493.688,
+     "end": 495.574,
      "text": "which you can't even put a price on."
     }
    ]
@@ -2051,48 +2051,48 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 532.945,
-   "end": 546.433,
+   "start": 495.854,
+   "end": 508.587,
    "line_starts": [
-    532.945,
-    534.904,
-    537.9,
-    543.439
+    495.854,
+    497.653,
+    500.46,
+    505.795
    ],
    "subs": [
     {
-     "start": 532.945,
-     "end": 534.604,
+     "start": 495.854,
+     "end": 497.473,
      "text": "Now fast forward one year."
     },
     {
-     "start": 534.904,
-     "end": 536.774,
+     "start": 497.653,
+     "end": 499.476,
      "text": "Jake is still running out the door"
     },
     {
-     "start": 536.774,
-     "end": 537.6,
+     "start": 499.476,
+     "end": 500.28,
      "text": "at eight fifty."
     },
     {
-     "start": 537.9,
-     "end": 540.922,
+     "start": 500.46,
+     "end": 503.434,
      "text": "Still tired. Still buying the fourteen dollar"
     },
     {
-     "start": 540.922,
-     "end": 543.139,
+     "start": 503.434,
+     "end": 505.615,
      "text": "breakfast. Still broke by Friday."
     },
     {
-     "start": 543.439,
-     "end": 544.953,
+     "start": 505.795,
+     "end": 507.291,
      "text": "Calm mornings. Every day."
     },
     {
-     "start": 544.953,
-     "end": 545.983,
+     "start": 507.291,
+     "end": 508.307,
      "text": "For a whole year."
     }
    ]
@@ -2102,48 +2102,48 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 546.433,
-   "end": 559.579,
+   "start": 508.587,
+   "end": 520.754,
    "line_starts": [
-    546.433,
-    550.115,
-    552.458,
-    556.108
+    508.587,
+    512.031,
+    514.099,
+    517.489
    ],
    "subs": [
     {
-     "start": 546.433,
-     "end": 548.779,
+     "start": 508.587,
+     "end": 510.851,
      "text": "You? You've got over three thousand dollars"
     },
     {
-     "start": 548.779,
-     "end": 549.815,
+     "start": 510.851,
+     "end": 511.851,
      "text": "sitting in savings."
     },
     {
-     "start": 550.115,
-     "end": 552.158,
+     "start": 512.031,
+     "end": 513.919,
      "text": "From mornings. Just... mornings."
     },
     {
-     "start": 552.458,
-     "end": 553.671,
+     "start": 514.099,
+     "end": 515.261,
      "text": "You didn't earn more."
     },
     {
-     "start": 553.671,
-     "end": 555.808,
+     "start": 515.261,
+     "end": 517.309,
      "text": "You didn't give up anything you love."
     },
     {
-     "start": 556.108,
-     "end": 557.698,
+     "start": 517.489,
+     "end": 519.06,
      "text": "Start there. Tomorrow morning,"
     },
     {
-     "start": 557.698,
-     "end": 559.129,
+     "start": 519.06,
+     "end": 520.474,
      "text": "you'll feel the difference."
     }
    ]
@@ -2153,37 +2153,37 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 559.579,
-   "end": 569.224,
+   "start": 520.754,
+   "end": 529.613,
    "line_starts": [
-    559.579,
-    562.269,
-    564.428
+    520.754,
+    523.222,
+    525.176
    ],
    "subs": [
     {
-     "start": 559.579,
-     "end": 561.969,
+     "start": 520.754,
+     "end": 523.042,
      "text": "You just stopped letting your mornings happen to you."
     },
     {
-     "start": 562.269,
-     "end": 564.128,
+     "start": 523.222,
+     "end": 524.996,
      "text": "So tonight, try just one thing."
     },
     {
-     "start": 564.428,
-     "end": 565.732,
+     "start": 525.176,
+     "end": 526.423,
      "text": "Lay out your clothes."
     },
     {
-     "start": 565.732,
-     "end": 566.849,
+     "start": 526.423,
+     "end": 527.492,
      "text": "Set up the coffee."
     },
     {
-     "start": 566.849,
-     "end": 568.774,
+     "start": 527.492,
+     "end": 529.333,
      "text": "Put your phone across the room."
     }
    ]
@@ -2193,37 +2193,37 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 569.224,
-   "end": 581.467,
+   "start": 529.613,
+   "end": 540.765,
    "line_starts": [
-    569.224,
-    573.079,
-    577.318
+    529.613,
+    533.294,
+    537.347
    ],
    "subs": [
     {
-     "start": 569.224,
-     "end": 571.555,
+     "start": 529.613,
+     "end": 531.909,
      "text": "If this helped, subscribe for one simple"
     },
     {
-     "start": 571.555,
-     "end": 572.779,
+     "start": 531.909,
+     "end": 533.114,
      "text": "money move every day."
     },
     {
-     "start": 573.079,
-     "end": 574.655,
+     "start": 533.294,
+     "end": 534.843,
      "text": "And tell me in the comments..."
     },
     {
-     "start": 574.655,
-     "end": 577.018,
+     "start": 534.843,
+     "end": 537.167,
      "text": "what's the first thing you do in the morning?"
     },
     {
-     "start": 577.318,
-     "end": 579.017,
+     "start": 537.347,
+     "end": 538.985,
      "text": "Be honest. Is it your phone?"
     }
    ]
