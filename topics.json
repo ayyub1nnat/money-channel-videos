@@ -119,11 +119,16 @@
    "title": "How to Save Your First $1,000",
    "used": true,
    "date": "2026-10-31",
-   "status": "built, waiting for upload",
-   "localized": false,
+   "status": "scheduled",
+   "localized": true,
    "format": "pov",
    "published_title": "POV: You Save Your First $1,000 in 90 Days — Jake Earns $900 More and Has $0 When His Car Breaks",
-   "short2_topic": "Halloween on a budget ($180 costume vs $12 DIY; NRF ~$115 avg; Nov 1 clearance)"
+   "short2_topic": "Halloween on a budget ($180 costume vs $12 DIY; NRF ~$115 avg; Nov 1 clearance)",
+   "short_status": "scheduled",
+   "video_id": "VsOHdgLVy00",
+   "short_id": "hI37FKl8lnM",
+   "short2_id": "3kQdHVmA3Uk",
+   "publish": "2026-10-31 18:00 Asia/Baku (all three)"
   },
   {
    "title": "5 Money Myths That Keep You Poor",
