@@ -1,0 +1,73 @@
+{
+ "style": "pov",
+ "vertical": true,
+ "voice": "am_michael",
+ "speed": 1.15,
+ "lead": 0.0,
+ "gap": 0.15,
+ "scene_gap": 0.15,
+ "tail": 0.6,
+ "title": "POV: Mia Spends $180 on a Costume She Wears Once… You Spend $12 🎃",
+ "scenes": [
+  {
+   "lines": [
+    "Mia's Halloween costume. One hundred eighty dollars. Worn once."
+   ],
+   "img": "a young woman with a ponytail in an elaborate expensive witch costume holding a long receipt, excited face, Halloween decorations, vertical composition",
+   "tag": "$180",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Plus decorations. Plus candy. Plus a second outfit for the party."
+   ],
+   "img": "a young woman with a ponytail carrying many shopping bags full of Halloween decorations and candy, stressed smile, vertical composition"
+  },
+  {
+   "lines": [
+    "This year's average Halloween budget? About one hundred fifteen dollars."
+   ],
+   "img": "a pile of Halloween pumpkins, candy and costumes next to a giant price tag with a dollar sign, vertical composition",
+   "tag": "~$115 AVG",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "You? Costume from your own closet. Twelve dollars for one prop."
+   ],
+   "img": "{HERO} dressed as a simple homemade scarecrow from old clothes with a straw hat, proud grin, vertical composition",
+   "tag": "$12",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Candy? One big bag on the list. That's it."
+   ],
+   "img": "{HERO} at a store holding one big bag of candy and a shopping list, calm smile, vertical composition"
+  },
+  {
+   "lines": [
+    "Then November first, you go back to the store."
+   ],
+   "img": "{HERO} walking into a store with a clearance sign covered in Halloween decorations, morning light, vertical composition"
+  },
+  {
+   "lines": [
+    "Next year's decorations. Often half off or more."
+   ],
+   "img": "{HERO} holding a pumpkin decoration with a big red discount sticker, delighted face, vertical composition",
+   "tag": "50% OFF",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Follow for one simple money move every day. Because next year, Mia pays full price again."
+   ],
+   "img": "{HERO} giving a thumbs up to the viewer in a cozy living room with a carved pumpkin, vertical composition"
+  }
+ ],
+ "hook": [
+  "$180 COSTUME",
+  "WORN ONCE"
+ ]
+}
