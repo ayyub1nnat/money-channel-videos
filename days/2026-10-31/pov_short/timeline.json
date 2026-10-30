@@ -1,27 +1,27 @@
 {
- "title": "POV: A $600 Car Repair Hits\u2026 Jake Has $0, YOU Just Pay It \ud83d\ude33",
- "duration": 28.729,
+ "title": "POV: You Spend $12 on Halloween\u2026 Mia Spends $180 and Wears It ONCE \ud83c\udf83",
+ "duration": 44.446,
  "scenes": [
   {
    "id": "s0",
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 0.0,
-   "end": 3.748,
+   "start": 0.1,
+   "end": 5.293,
    "line_starts": [
-    0.0
+    0.1
    ],
    "subs": [
     {
-     "start": 0.0,
-     "end": 1.861,
-     "text": "Six hundred dollar car repair."
+     "start": 0.1,
+     "end": 3.095,
+     "text": "Mia's Halloween costume cost one hundred eighty"
     },
     {
-     "start": 1.861,
-     "end": 3.598,
-     "text": "Jake has two hundred twelve."
+     "start": 3.095,
+     "end": 4.944,
+     "text": "dollars. She'll wear it once."
     }
    ]
   },
@@ -30,16 +30,21 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 3.748,
-   "end": 6.595,
+   "start": 5.293,
+   "end": 10.166,
    "line_starts": [
-    3.748
+    5.293
    ],
    "subs": [
     {
-     "start": 3.748,
-     "end": 6.445,
-     "text": "So it goes on the credit card. Twenty-two percent."
+     "start": 5.293,
+     "end": 6.926,
+     "text": "Then came the decorations,"
+    },
+    {
+     "start": 6.926,
+     "end": 9.816,
+     "text": "the candy... and a second outfit for Saturday."
     }
    ]
   },
@@ -48,21 +53,21 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 6.595,
-   "end": 9.987,
+   "start": 10.166,
+   "end": 16.776,
    "line_starts": [
-    6.595
+    10.166
    ],
    "subs": [
     {
-     "start": 6.595,
-     "end": 8.272,
-     "text": "Almost three years to pay off."
+     "start": 10.166,
+     "end": 12.999,
+     "text": "This year, Americans were expected to spend"
     },
     {
-     "start": 8.272,
-     "end": 9.837,
-     "text": "About eight hundred dollars."
+     "start": 12.999,
+     "end": 16.426,
+     "text": "about one hundred fifteen dollars each on Halloween."
     }
    ]
   },
@@ -71,16 +76,21 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 9.987,
-   "end": 12.394,
+   "start": 16.776,
+   "end": 21.83,
    "line_starts": [
-    9.987
+    16.776
    ],
    "subs": [
     {
-     "start": 9.987,
-     "end": 12.244,
-     "text": "You? Same repair. You just pay it. Calm."
+     "start": 16.776,
+     "end": 19.161,
+     "text": "You? Your costume came from your own"
+    },
+    {
+     "start": 19.161,
+     "end": 21.48,
+     "text": "closet. Plus one twelve-dollar hat."
     }
    ]
   },
@@ -89,21 +99,26 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 12.394,
-   "end": 15.809,
+   "start": 21.83,
+   "end": 26.436,
    "line_starts": [
-    12.394
+    21.83
    ],
    "subs": [
     {
-     "start": 12.394,
-     "end": 13.997,
-     "text": "Fifty dollars every payday."
+     "start": 21.83,
+     "end": 23.559,
+     "text": "Candy? One list. One trip."
     },
     {
-     "start": 13.997,
-     "end": 15.659,
-     "text": "Sent before you even see it."
+     "start": 23.559,
+     "end": 25.022,
+     "text": "The week of Halloween."
+    },
+    {
+     "start": 25.022,
+     "end": 26.086,
+     "text": "Not three trips."
     }
    ]
   },
@@ -112,21 +127,21 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 15.809,
-   "end": 20.01,
+   "start": 26.436,
+   "end": 30.201,
    "line_starts": [
-    15.809
+    26.436
    ],
    "subs": [
     {
-     "start": 15.809,
-     "end": 18.386,
-     "text": "Cancelled subscriptions. Sold four things."
+     "start": 26.436,
+     "end": 28.27,
+     "text": "And tomorrow, November first,"
     },
     {
-     "start": 18.386,
-     "end": 19.86,
-     "text": "Fixed your grocery list."
+     "start": 28.27,
+     "end": 29.851,
+     "text": "you go back to the store."
     }
    ]
   },
@@ -135,21 +150,21 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 20.01,
-   "end": 23.145,
+   "start": 30.201,
+   "end": 35.814,
    "line_starts": [
-    20.01
+    30.201
    ],
    "subs": [
     {
-     "start": 20.01,
-     "end": 21.689,
-     "text": "Ninety days. Same paycheck."
+     "start": 30.201,
+     "end": 33.03,
+     "text": "Next year's decorations are often half off."
     },
     {
-     "start": 21.689,
-     "end": 22.995,
-     "text": "One thousand dollars."
+     "start": 33.03,
+     "end": 35.464,
+     "text": "And you only buy what's on your list."
     }
    ]
   },
@@ -158,21 +173,26 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 23.145,
-   "end": 28.729,
+   "start": 35.814,
+   "end": 44.446,
    "line_starts": [
-    23.145
+    35.814
    ],
    "subs": [
     {
-     "start": 23.145,
-     "end": 24.601,
-     "text": "Full story on my channel."
+     "start": 35.814,
+     "end": 38.382,
+     "text": "Mia spent four hundred ten dollars."
     },
     {
-     "start": 24.601,
-     "end": 27.979,
-     "text": "Because Jake's next six hundred dollar surprise is coming."
+     "start": 38.382,
+     "end": 41.683,
+     "text": "You spent forty-two. The full Halloween money"
+    },
+    {
+     "start": 41.683,
+     "end": 43.296,
+     "text": "plan is on my channel."
     }
    ]
   }

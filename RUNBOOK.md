@@ -1,5 +1,12 @@
 # Daily YouTube Video — Runbook
 
+> ## ★★★★ OWNER'S RULES OF 2026-10-30 — THEY OVERRIDE EVERYTHING BELOW
+> See DAILY.md ("The owner's content rules"). In short: Sam in most scenes; informative save-money scripts; **1 Short (21:00 Baku) +
+> 1 main video (23:00 Baku) per day, built and uploaded the same day**; no title/hook text over the video; **no music, no transition
+> sounds**; clear outlined subtitles; am_michael at speed 0.95 (calm, emotional, not rushed); clickbait "POV:" titles; split
+> comparison thumbnails (thumb_pov.py `"layout": "split"`). The retention section (hook headline, speed 1.15, SFX) and the
+> 3-uploads/18:00 rules below are CANCELLED. Older sections are kept only as technical reference.
+
 Channel niche: **personal finance & getting your life together** (budgeting, saving, debt, habits, side income, productivity), English, US audience.
 Style: friendly, practical, emotional MALE narrator (Kokoro voice `am_michael`, owner's choice 2026-10-28; was af_heart), flat cartoon animation, burned-in subtitles, soft background music ducked under the voice.
 Publish time: **18:00 Asia/Baku every day for the main video and both Shorts** (owner's choice 2026-10-28) (upload earlier as private with `publishAt`).

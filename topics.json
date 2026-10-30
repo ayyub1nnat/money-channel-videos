@@ -1,5 +1,5 @@
 {
- "note": "Daily video topics. The daily run builds the first topic with used=false for tomorrow's date, then sets used=true, date, and later video_id after upload. Add new topics when fewer than 10 remain.",
+ "note": "Daily video topics. The daily run builds the first topic with used=false for tomorrow's date, then sets used=true, date, and later video_id after upload. Add new topics when fewer than 10 remain. | 2026-10-30: owner's new rules in DAILY.md (1 Short 21:00 + 1 video 23:00 Baku, same-day build).",
  "topics": [
   {
    "title": "How to Fix Your Finances in 30 Days",
@@ -116,19 +116,23 @@
    "note": "rebuilt 2026-10-29 with retention upgrade"
   },
   {
-   "title": "How to Save Your First $1,000",
+   "title": "Halloween on a Budget (Save Money on Halloween)",
    "used": true,
    "date": "2026-10-31",
-   "status": "scheduled",
-   "localized": true,
-   "format": "pov",
-   "published_title": "POV: You Save Your First $1,000 in 90 Days — Jake Earns $900 More and Has $0 When His Car Breaks",
-   "short2_topic": "Halloween on a budget ($180 costume vs $12 DIY; NRF ~$115 avg; Nov 1 clearance)",
-   "short_status": "scheduled",
-   "video_id": "VsOHdgLVy00",
-   "short_id": "hI37FKl8lnM",
-   "short2_id": "3kQdHVmA3Uk",
-   "publish": "2026-10-31 18:00 Asia/Baku (all three)"
+   "format": "pov-v2",
+   "status": "scripts ready; images pending (Cloudflare quota resets 00:00 UTC) → daily run builds + uploads",
+   "published_title": "POV: Mia Spends $410 on Halloween… You Spend $42 and Nobody Can Tell the Difference",
+   "publish": "2026-10-31 Short 21:00 / video 23:00 Baku",
+   "deleted_ids": [
+    "VsOHdgLVy00",
+    "hI37FKl8lnM",
+    "3kQdHVmA3Uk"
+   ]
+  },
+  {
+   "title": "How to Save Your First $1,000",
+   "used": false,
+   "note": "built for 2026-10-31 but deleted on the owner's request (2026-10-30, wanted Halloween that day); scripts kept in shorts/2026-10-31-first1000-deleted — rewrite in the new style before reuse"
   },
   {
    "title": "5 Money Myths That Keep You Poor",

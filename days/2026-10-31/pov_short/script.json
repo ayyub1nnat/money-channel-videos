@@ -2,74 +2,70 @@
  "style": "pov",
  "vertical": true,
  "voice": "am_michael",
- "speed": 1.15,
- "lead": 0.0,
- "gap": 0.15,
- "scene_gap": 0.15,
- "tail": 0.6,
- "title": "POV: A $600 Car Repair Hits… Jake Has $0, YOU Just Pay It 😳",
+ "speed": 0.95,
+ "lead": 0.1,
+ "gap": 0.3,
+ "scene_gap": 0.35,
+ "tail": 0.8,
+ "music": false,
+ "sfx": false,
+ "title": "POV: You Spend $12 on Halloween… Mia Spends $180 and Wears It ONCE 🎃",
  "scenes": [
   {
    "lines": [
-    "Six hundred dollar car repair. Jake has two hundred twelve."
+    "Mia's Halloween costume cost one hundred eighty dollars. She'll wear it once."
    ],
-   "img": "a young man in a blue shirt in a car repair garage staring at an invoice in shock, hands on his head, vertical composition",
-   "tag": "$600",
+   "img": "a young woman with a ponytail in an elaborate expensive witch costume holding a long receipt, excited face, Halloween decorations, vertical composition",
+   "tag": "$180",
    "tag_color": "#E23B3B"
   },
   {
    "lines": [
-    "So it goes on the credit card. Twenty-two percent."
+    "Then came the decorations, the candy... and a second outfit for Saturday."
    ],
-   "img": "a young man in a blue shirt nervously handing a credit card to a mechanic, sweat on his forehead, vertical composition",
-   "tag": "22% APR",
-   "tag_color": "#E23B3B"
+   "img": "a young woman with a ponytail carrying many shopping bags full of Halloween decorations and candy, stressed smile, vertical composition"
   },
   {
    "lines": [
-    "Almost three years to pay off. About eight hundred dollars."
+    "This year, Americans were expected to spend about one hundred fifteen dollars each on Halloween."
    ],
-   "img": "a young man in a blue shirt at a kitchen table at night with a very long credit card statement rolling onto the floor, vertical composition",
-   "tag": "~$800",
-   "tag_color": "#E23B3B"
+   "img": "a pile of Halloween pumpkins, candy and costumes next to a giant price tag with a dollar sign, vertical composition",
+   "tag": "~$115 EACH",
+   "tag_color": "#2C7BE5"
   },
   {
    "lines": [
-    "You? Same repair. You just pay it. Calm."
+    "You? Your costume came from your own closet. Plus one twelve-dollar hat."
    ],
-   "img": "{HERO} paying at a garage counter with a relaxed smile, mechanic smiling back, vertical composition"
-  },
-  {
-   "lines": [
-    "Fifty dollars every payday. Sent before you even see it."
-   ],
-   "img": "{HERO} tapping his phone that sends coins flying into a piggy bank, vertical composition",
-   "tag": "$50 / PAYDAY",
+   "img": "{HERO} dressed as a simple homemade scarecrow from old clothes with a straw hat, proud grin, vertical composition",
+   "tag": "$12",
    "tag_color": "#1B9E4B"
   },
   {
    "lines": [
-    "Cancelled subscriptions. Sold four things. Fixed your grocery list."
+    "Candy? One list. One trip. The week of Halloween. Not three trips."
    ],
-   "img": "{HERO} at home happily holding a box of old items and a shopping list, vertical composition"
+   "img": "{HERO} at a store holding one big bag of candy and a shopping list, calm smile, vertical composition"
   },
   {
    "lines": [
-    "Ninety days. Same paycheck. One thousand dollars."
+    "And tomorrow, November first, you go back to the store."
    ],
-   "img": "{HERO} jumping with joy holding his phone showing a goal reached, confetti, vertical composition",
-   "tag": "$1,000",
+   "img": "{HERO} walking into a store with a clearance sign covered in Halloween decorations, morning light, vertical composition"
+  },
+  {
+   "lines": [
+    "Next year's decorations are often half off. And you only buy what's on your list."
+   ],
+   "img": "{HERO} holding a pumpkin decoration with a big red discount sticker, delighted face, vertical composition",
+   "tag": "50% OFF",
    "tag_color": "#1B9E4B"
   },
   {
    "lines": [
-    "Full story on my channel. Because Jake's next six hundred dollar surprise is coming."
+    "Mia spent four hundred ten dollars. You spent forty-two. The full Halloween money plan is on my channel."
    ],
-   "img": "{HERO} waving at the viewer in a cozy living room, friendly smile, vertical composition"
+   "img": "{HERO} giving a thumbs up to the viewer in a cozy living room with a carved pumpkin, vertical composition"
   }
- ],
- "hook": [
-  "$600 CAR REPAIR",
-  "JAKE HAS $0"
  ]
 }

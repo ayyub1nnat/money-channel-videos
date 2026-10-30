@@ -56,14 +56,15 @@ def wrap(d, text, f, maxw):
     if cur: lines.append(cur)
     return lines
 def sub_img(text):
+    # owner 2026-10-30: clear subtitles that don't cover the picture: no dark box, white text with a thin black outline
     if text in _txt: return _txt[text]
-    f = font(46 if V else 44); d = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
-    lines = wrap(d, text, f, W * (0.82 if V else 0.7)); lh = int(f.size * 1.3)
-    tw = int(max(d.textlength(l, font=f) for l in lines)); pw, ph = tw + 56, lh * len(lines) + 30
+    f = font(50 if V else 46); d = ImageDraw.Draw(Image.new("RGBA", (1, 1)))
+    lines = wrap(d, text, f, W * (0.84 if V else 0.72)); lh = int(f.size * 1.25)
+    tw = int(max(d.textlength(l, font=f) for l in lines)); pw, ph = tw + 40, lh * len(lines) + 24
     im = Image.new("RGBA", (pw, ph), (0, 0, 0, 0)); dd = ImageDraw.Draw(im)
-    dd.rounded_rectangle((0, 0, pw - 1, ph - 1), 18, fill=(20, 20, 24, 215))
     for k, l in enumerate(lines):
-        lw = dd.textlength(l, font=f); dd.text(((pw - lw) / 2, 13 + k * lh), l, font=f, fill="white")
+        lw = dd.textlength(l, font=f)
+        dd.text(((pw - lw) / 2, 10 + k * lh), l, font=f, fill="white", stroke_width=5, stroke_fill=(0, 0, 0))
     _txt[text] = im; return im
 def tag_img(text, color):
     key = ("tag", text, color)
@@ -76,7 +77,7 @@ def tag_img(text, color):
     dd.text((35, (ph - f.size * 1.2) / 2), text, font=f, fill=color)
     _txt[key] = im; return im
 
-HOOK = S.get("hook") if V else None          # Shorts: big headline visible from frame 0 to the end
+HOOK = S.get("hook") if (V and S.get("hook_overlay")) else None   # owner 2026-10-30: no title/headline text over the video
 if isinstance(HOOK, str): HOOK = [HOOK]
 _hook = None
 def hook_img():
@@ -109,11 +110,11 @@ def frame(t):
             im = tag_img(tg, SPEC[i].get("tag_color", "#E23B3B"))
             sc_ = 0.7 + 0.3 * ease(min(1, dt / 0.18))
             im2 = im.resize((max(1, int(im.width * sc_)), max(1, int(im.height * sc_))), Image.BILINEAR)
-            x = (W - im2.width) // 2 if V else 56 + (im.width - im2.width) // 2; y = int(H * ((0.27 if HOOK else 0.10) if V else 0.06)) + (im.height - im2.height) // 2
+            x = (W - im2.width) // 2 if V else 56 + (im.width - im2.width) // 2; y = int(H * ((0.27 if HOOK else 0.58) if V else 0.06)) + (im.height - im2.height) // 2
             fr.alpha_composite(im2, (x, y))
     for s in SC[i]["subs"] + (SC[i + 1]["subs"] if i + 1 < len(SC) else []):
         if s["start"] <= t < s["end"] + 0.1:
-            im = sub_img(s["text"]); fr.alpha_composite(im, ((W - im.width) // 2, int(H * (0.70 if V else 0.86)) - im.height // 2)); break
+            im = sub_img(s["text"]); fr.alpha_composite(im, ((W - im.width) // 2, int(H * (0.80 if V else 0.89)) - im.height // 2)); break
     return fr.convert("RGB")
 
 if out.endswith(".png"):

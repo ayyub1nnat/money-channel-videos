@@ -1,60 +1,55 @@
 {
- "title": "POV: You Save Your First $1,000 in 90 Days \u2014 Jake Earns $900 More and Has $0 When His Car Breaks",
- "duration": 589.775,
+ "title": "POV: Mia Spends $410 on Halloween\u2026 You Spend $42 and Nobody Can Tell the Difference",
+ "duration": 589.264,
  "scenes": [
   {
    "id": "s0",
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 0.1,
-   "end": 13.207,
+   "start": 0.2,
+   "end": 16.252,
    "line_starts": [
-    0.1,
-    4.624,
-    6.749,
-    10.436
+    0.2,
+    4.509,
+    9.384,
+    12.807
    ],
    "subs": [
     {
-     "start": 0.1,
-     "end": 1.527,
-     "text": "It's a Tuesday morning."
+     "start": 0.2,
+     "end": 3.019,
+     "text": "It's Halloween night. Your doorbell rings for"
     },
     {
-     "start": 1.527,
-     "end": 3.327,
-     "text": "Your car makes a sound it has"
+     "start": 3.019,
+     "end": 4.209,
+     "text": "the twentieth time."
     },
     {
-     "start": 3.327,
-     "end": 4.444,
-     "text": "never made before."
+     "start": 4.509,
+     "end": 5.702,
+     "text": "You open the door,"
     },
     {
-     "start": 4.624,
-     "end": 6.569,
-     "text": "A loud, ugly grinding sound."
+     "start": 5.702,
+     "end": 9.084,
+     "text": "smile, and drop candy into a little pumpkin bucket."
     },
     {
-     "start": 6.749,
-     "end": 9.047,
-     "text": "Two hours later, the mechanic says it."
+     "start": 9.384,
+     "end": 11.582,
+     "text": "You're wearing a costume you made from"
     },
     {
-     "start": 9.047,
-     "end": 10.256,
-     "text": "Six hundred dollars."
+     "start": 11.582,
+     "end": 12.507,
+     "text": "your own closet."
     },
     {
-     "start": 10.436,
-     "end": 11.622,
-     "text": "And you... just nod."
-    },
-    {
-     "start": 11.622,
-     "end": 12.927,
-     "text": "You don't even flinch."
+     "start": 12.807,
+     "end": 15.752,
+     "text": "And this whole night cost you... forty-two dollars."
     }
    ]
   },
@@ -63,44 +58,49 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 13.207,
-   "end": 26.055,
+   "start": 16.252,
+   "end": 33.129,
    "line_starts": [
-    13.207,
-    16.345,
-    21.143,
-    23.152
+    16.252,
+    20.256,
+    24.215,
+    30.21
    ],
    "subs": [
     {
-     "start": 13.207,
-     "end": 14.716,
-     "text": "Because three months ago,"
+     "start": 16.252,
+     "end": 18.787,
+     "text": "Across town, your friend Mia is getting"
     },
     {
-     "start": 14.716,
-     "end": 16.165,
-     "text": "you started a tiny plan."
+     "start": 18.787,
+     "end": 19.956,
+     "text": "ready for a party."
     },
     {
-     "start": 16.345,
-     "end": 18.772,
-     "text": "And today, sitting in a separate account,"
+     "start": 20.256,
+     "end": 22.696,
+     "text": "Her costume? One hundred eighty dollars."
     },
     {
-     "start": 18.772,
-     "end": 20.963,
-     "text": "there's exactly one thousand dollars."
+     "start": 22.696,
+     "end": 23.915,
+     "text": "She'll wear it once."
     },
     {
-     "start": 21.143,
-     "end": 22.972,
-     "text": "Your first thousand. Your shield."
+     "start": 24.215,
+     "end": 26.577,
+     "text": "Plus a second outfit for Saturday."
     },
     {
-     "start": 23.152,
-     "end": 25.775,
-     "text": "And that changes everything about this Tuesday."
+     "start": 26.577,
+     "end": 29.91,
+     "text": "Plus new decorations. Plus a pumpkin patch trip."
+    },
+    {
+     "start": 30.21,
+     "end": 32.629,
+     "text": "And she's excited. Really excited."
     }
    ]
   },
@@ -109,44 +109,49 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 26.055,
-   "end": 39.014,
+   "start": 33.129,
+   "end": 46.201,
    "line_starts": [
-    26.055,
-    30.204,
-    34.843,
-    37.374
+    33.129,
+    36.744,
+    40.197,
+    43.946
    ],
    "subs": [
     {
-     "start": 26.055,
-     "end": 27.892,
-     "text": "Now meet Jake. Same week."
+     "start": 33.129,
+     "end": 34.817,
+     "text": "When she adds it all up next"
     },
     {
-     "start": 27.892,
-     "end": 30.024,
-     "text": "Same kind of car. Same sound."
+     "start": 34.817,
+     "end": 36.444,
+     "text": "week, the number will hurt."
     },
     {
-     "start": 30.204,
-     "end": 32.281,
-     "text": "Jake actually earns more than you."
+     "start": 36.744,
+     "end": 38.822,
+     "text": "Four hundred and ten dollars."
     },
     {
-     "start": 32.281,
-     "end": 34.663,
-     "text": "Nine hundred dollars more, every month."
+     "start": 38.822,
+     "end": 39.897,
+     "text": "On one holiday."
     },
     {
-     "start": 34.843,
-     "end": 37.194,
-     "text": "But when the mechanic says six hundred dollars..."
+     "start": 40.197,
+     "end": 41.105,
+     "text": "And most of it?"
     },
     {
-     "start": 37.374,
-     "end": 38.734,
-     "text": "Jake's stomach drops."
+     "start": 41.105,
+     "end": 43.646,
+     "text": "It's sitting on her credit card right now."
+    },
+    {
+     "start": 43.946,
+     "end": 45.701,
+     "text": "Let that sink in for a second."
     }
    ]
   },
@@ -155,43 +160,44 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 39.014,
-   "end": 49.532,
+   "start": 46.201,
+   "end": 60.44,
    "line_starts": [
-    39.014,
-    42.365,
-    44.272
+    46.201,
+    47.904,
+    54.811,
+    57.715
    ],
    "subs": [
     {
-     "start": 39.014,
-     "end": 40.364,
-     "text": "He checks his bank app."
+     "start": 46.201,
+     "end": 47.604,
+     "text": "Here's the crazy part."
     },
     {
-     "start": 40.364,
-     "end": 42.185,
-     "text": "Two hundred and twelve dollars."
+     "start": 47.904,
+     "end": 50.149,
+     "text": "At the party, nobody can tell which"
     },
     {
-     "start": 42.365,
-     "end": 44.092,
-     "text": "Rent is due in nine days."
+     "start": 50.149,
+     "end": 52.843,
+     "text": "costume cost one hundred eighty dollars..."
     },
     {
-     "start": 44.272,
-     "end": 46.067,
-     "text": "So he does what most people do."
+     "start": 52.843,
+     "end": 54.511,
+     "text": "and which one cost twelve."
     },
     {
-     "start": 46.067,
-     "end": 47.92,
-     "text": "He hands over the credit card..."
+     "start": 54.811,
+     "end": 57.415,
+     "text": "Everyone just has fun. Including you."
     },
     {
-     "start": 47.92,
-     "end": 49.252,
-     "text": "and hopes for the best."
+     "start": 57.715,
+     "end": 59.94,
+     "text": "Nobody checks the price tag on your hat."
     }
    ]
   },
@@ -200,44 +206,44 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 49.532,
-   "end": 62.875,
+   "start": 60.44,
+   "end": 76.331,
    "line_starts": [
-    49.532,
-    51.71,
-    55.796,
-    60.252
+    60.44,
+    62.461,
+    71.114,
+    74.36
    ],
    "subs": [
     {
-     "start": 49.532,
-     "end": 51.53,
-     "text": "And here's the part nobody tells you."
+     "start": 60.44,
+     "end": 62.161,
+     "text": "And Mia isn't unusual."
     },
     {
-     "start": 51.71,
-     "end": 53.491,
-     "text": "At twenty-two percent interest,"
+     "start": 62.461,
+     "end": 65.936,
+     "text": "The National Retail Federation expected Americans to"
     },
     {
-     "start": 53.491,
-     "end": 55.616,
-     "text": "paying twenty-five dollars a month..."
+     "start": 65.936,
+     "end": 68.208,
+     "text": "spend a record thirteen and a half"
     },
     {
-     "start": 55.796,
-     "end": 59.048,
-     "text": "that six-hundred-dollar repair takes Jake almost three"
+     "start": 68.208,
+     "end": 70.814,
+     "text": "billion dollars on Halloween this year."
     },
     {
-     "start": 59.048,
-     "end": 60.072,
-     "text": "years to pay off."
+     "start": 71.114,
+     "end": 74.06,
+     "text": "That's about one hundred fifteen dollars per person."
     },
     {
-     "start": 60.252,
-     "end": 62.595,
-     "text": "And it costs him about eight hundred dollars."
+     "start": 74.36,
+     "end": 75.831,
+     "text": "A new record. Again."
     }
    ]
   },
@@ -246,44 +252,44 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 62.875,
-   "end": 74.249,
+   "start": 76.331,
+   "end": 89.572,
    "line_starts": [
-    62.875,
-    64.711,
-    66.791,
-    71.174
+    76.331,
+    78.722,
+    80.865,
+    85.289
    ],
    "subs": [
     {
-     "start": 62.875,
-     "end": 64.531,
-     "text": "Same repair. Same week."
+     "start": 76.331,
+     "end": 78.422,
+     "text": "And here's how it usually happens."
     },
     {
-     "start": 64.711,
-     "end": 66.611,
-     "text": "For you, it's an annoying Tuesday."
+     "start": 78.722,
+     "end": 80.565,
+     "text": "It's never one big purchase."
     },
     {
-     "start": 66.791,
-     "end": 69.673,
-     "text": "For Jake, it's a two-hundred-dollar mistake that"
+     "start": 80.865,
+     "end": 82.794,
+     "text": "A ten-dollar decoration here."
     },
     {
-     "start": 69.673,
-     "end": 70.994,
-     "text": "follows him for years."
+     "start": 82.794,
+     "end": 84.989,
+     "text": "A fifteen-dollar candy run there."
     },
     {
-     "start": 71.174,
-     "end": 73.398,
-     "text": "And the only difference between them..."
+     "start": 85.289,
+     "end": 87.748,
+     "text": "Little 'it's just Halloween' moments..."
     },
     {
-     "start": 73.398,
-     "end": 73.969,
-     "text": "is a plan."
+     "start": 87.748,
+     "end": 89.072,
+     "text": "and they add up fast."
     }
    ]
   },
@@ -292,43 +298,49 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 74.249,
-   "end": 87.959,
+   "start": 89.572,
+   "end": 105.259,
    "line_starts": [
-    74.249,
-    77.06,
-    86.587
+    89.572,
+    91.016,
+    96.308,
+    101.359
    ],
    "subs": [
     {
-     "start": 74.249,
-     "end": 75.813,
-     "text": "And Jake is not alone."
+     "start": 89.572,
+     "end": 90.716,
+     "text": "So stay with me."
     },
     {
-     "start": 75.813,
-     "end": 76.88,
-     "text": "Not even close."
+     "start": 91.016,
+     "end": 93.325,
+     "text": "I'll show you exactly how you enjoyed"
     },
     {
-     "start": 77.06,
-     "end": 79.965,
-     "text": "In Bankrate's latest emergency savings survey,"
+     "start": 93.325,
+     "end": 96.008,
+     "text": "the same Halloween for forty-two dollars..."
     },
     {
-     "start": 79.965,
-     "end": 82.428,
-     "text": "fewer than half of American adults said"
+     "start": 96.308,
+     "end": 98.501,
+     "text": "and the one thing you'll do tomorrow"
     },
     {
-     "start": 82.428,
-     "end": 86.407,
-     "text": "they could cover a thousand-dollar surprise from their savings."
+     "start": 98.501,
+     "end": 101.059,
+     "text": "morning that makes next year even cheaper."
     },
     {
-     "start": 86.587,
-     "end": 87.679,
-     "text": "Fewer than half!"
+     "start": 101.359,
+     "end": 103.324,
+     "text": "No guilt. No boring rules."
+    },
+    {
+     "start": 103.324,
+     "end": 104.759,
+     "text": "Just smarter moves."
     }
    ]
   },
@@ -337,59 +349,34 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 87.959,
-   "end": 103.061,
+   "start": 105.259,
+   "end": 118.594,
    "line_starts": [
-    87.959,
-    89.23,
-    95.355,
-    99.523
+    105.259,
+    108.459,
+    112.023,
+    115.197
    ],
    "subs": [
     {
-     "start": 87.959,
-     "end": 89.05,
-     "text": "So stay with me."
+     "start": 105.259,
+     "end": 108.159,
+     "text": "Let's start with the biggest one. The costume."
     },
     {
-     "start": 89.23,
-     "end": 91.059,
-     "text": "Because in the next few minutes,"
+     "start": 108.459,
+     "end": 111.723,
+     "text": "Costumes are where Americans spend the most on Halloween."
     },
     {
-     "start": 91.059,
-     "end": 92.946,
-     "text": "I'll show you exactly how you got"
+     "start": 112.023,
+     "end": 114.897,
+     "text": "About four point four billion dollars this year."
     },
     {
-     "start": 92.946,
-     "end": 95.175,
-     "text": "to one thousand dollars in ninety days."
-    },
-    {
-     "start": 95.355,
-     "end": 96.431,
-     "text": "Not with a raise."
-    },
-    {
-     "start": 96.431,
-     "end": 98.014,
-     "text": "Not with a side business."
-    },
-    {
-     "start": 98.014,
-     "end": 99.343,
-     "text": "With six small moves."
-    },
-    {
-     "start": 99.523,
-     "end": 100.629,
-     "text": "Stay till the end,"
-    },
-    {
-     "start": 100.629,
-     "end": 102.781,
-     "text": "because the math surprised even me."
+     "start": 115.197,
+     "end": 118.094,
+     "text": "And most of them get worn one single night."
     }
    ]
   },
@@ -398,44 +385,59 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 103.061,
-   "end": 116.659,
+   "start": 118.594,
+   "end": 134.72,
    "line_starts": [
-    103.061,
-    105.482,
-    109.102,
-    112.919
+    118.594,
+    122.195,
+    126.309,
+    130.817
    ],
    "subs": [
     {
-     "start": 103.061,
-     "end": 105.302,
-     "text": "Let's rewind. Ninety days earlier."
+     "start": 118.594,
+     "end": 120.421,
+     "text": "But before you bought anything,"
     },
     {
-     "start": 105.482,
-     "end": 108.922,
-     "text": "You earn thirty-two hundred dollars a month after taxes."
+     "start": 120.421,
+     "end": 121.895,
+     "text": "you did one simple thing."
     },
     {
-     "start": 109.102,
-     "end": 110.786,
-     "text": "Rent, car, phone, food..."
+     "start": 122.195,
+     "end": 123.657,
+     "text": "You opened your closet."
     },
     {
-     "start": 110.786,
-     "end": 112.739,
-     "text": "it all goes out. Every month."
+     "start": 123.657,
+     "end": 126.009,
+     "text": "And you asked: what can I already be?"
     },
     {
-     "start": 112.919,
-     "end": 114.344,
-     "text": "And at the end of the month,"
+     "start": 126.309,
+     "end": 127.735,
+     "text": "An old flannel shirt,"
     },
     {
-     "start": 114.344,
-     "end": 116.379,
-     "text": "there's... nothing left. Sound familiar?"
+     "start": 127.735,
+     "end": 129.228,
+     "text": "jeans and a straw hat?"
+    },
+    {
+     "start": 129.228,
+     "end": 130.517,
+     "text": "That's a scarecrow."
+    },
+    {
+     "start": 130.817,
+     "end": 132.952,
+     "text": "You didn't need a fancy costume."
+    },
+    {
+     "start": 132.952,
+     "end": 134.22,
+     "text": "You needed an idea."
     }
    ]
   },
@@ -444,49 +446,44 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 116.659,
-   "end": 129.615,
+   "start": 134.72,
+   "end": 149.289,
    "line_starts": [
-    116.659,
-    121.611,
-    124.605,
-    127.576
+    134.72,
+    138.95,
+    142.42,
+    147.254
    ],
    "subs": [
     {
-     "start": 116.659,
-     "end": 119.31,
-     "text": "You'd read about emergency funds before."
+     "start": 134.72,
+     "end": 136.594,
+     "text": "A white shirt and a little face"
     },
     {
-     "start": 119.31,
-     "end": 121.431,
-     "text": "Three to six months of expenses."
+     "start": 136.594,
+     "end": 138.65,
+     "text": "paint? That's a ghost or a zombie."
     },
     {
-     "start": 121.611,
-     "end": 123.806,
-     "text": "And honestly? That number made you want"
+     "start": 138.95,
+     "end": 142.12,
+     "text": "A black sweater and cat ears? Done. Seriously."
     },
     {
-     "start": 123.806,
-     "end": 124.425,
-     "text": "to give up."
+     "start": 142.42,
+     "end": 144.748,
+     "text": "The best costumes are often the simple"
     },
     {
-     "start": 124.605,
-     "end": 126.387,
-     "text": "Ten thousand dollars? Fifteen?"
+     "start": 144.748,
+     "end": 146.954,
+     "text": "ones people recognize in one second."
     },
     {
-     "start": 126.387,
-     "end": 127.396,
-     "text": "On your paycheck?"
-    },
-    {
-     "start": 127.576,
-     "end": 129.335,
-     "text": "So you just... never started."
+     "start": 147.254,
+     "end": 148.789,
+     "text": "No sewing. No stress."
     }
    ]
   },
@@ -495,44 +492,49 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 129.615,
-   "end": 144.799,
+   "start": 149.289,
+   "end": 163.063,
    "line_starts": [
-    129.615,
-    132.368,
-    135.385,
-    142.297
+    149.289,
+    152.854,
+    157.059,
+    161.479
    ],
    "subs": [
     {
-     "start": 129.615,
-     "end": 132.188,
-     "text": "So you made one decision that changed everything."
+     "start": 149.289,
+     "end": 150.955,
+     "text": "You spent twelve dollars."
     },
     {
-     "start": 132.368,
-     "end": 135.205,
-     "text": "Forget the mountain. Just get to one thousand."
+     "start": 150.955,
+     "end": 152.554,
+     "text": "One prop. The straw hat."
     },
     {
-     "start": 135.385,
-     "end": 137.708,
-     "text": "One thousand dollars is small enough to"
+     "start": 152.854,
+     "end": 154.991,
+     "text": "Mia spent one hundred eighty."
     },
     {
-     "start": 137.708,
-     "end": 139.972,
-     "text": "reach... and big enough to handle most"
+     "start": 154.991,
+     "end": 156.759,
+     "text": "Same party. Same photos."
     },
     {
-     "start": 139.972,
-     "end": 142.117,
-     "text": "of the surprises life throws at you."
+     "start": 157.059,
+     "end": 160.134,
+     "text": "That's a one hundred sixty-eight dollar difference..."
     },
     {
-     "start": 142.297,
-     "end": 144.519,
-     "text": "Then you'd worry about the big mountain later."
+     "start": 160.134,
+     "end": 161.179,
+     "text": "from one decision."
+    },
+    {
+     "start": 161.479,
+     "end": 162.563,
+     "text": "Think about that."
     }
    ]
   },
@@ -541,49 +543,54 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 144.799,
-   "end": 157.802,
+   "start": 163.063,
+   "end": 179.456,
    "line_starts": [
-    144.799,
-    149.386,
-    151.989,
-    155.858
+    163.063,
+    166.746,
+    172.85,
+    175.343
    ],
    "subs": [
     {
-     "start": 144.799,
-     "end": 146.533,
-     "text": "A flat tire. A vet bill."
+     "start": 163.063,
+     "end": 164.996,
+     "text": "Don't want to make one yourself?"
     },
     {
-     "start": 146.533,
-     "end": 149.206,
-     "text": "A dentist visit. A plane ticket home."
+     "start": 164.996,
+     "end": 166.446,
+     "text": "There are other options."
     },
     {
-     "start": 149.386,
-     "end": 151.809,
-     "text": "Most of those fit under a thousand dollars."
+     "start": 166.746,
+     "end": 168.572,
+     "text": "A costume swap with friends."
     },
     {
-     "start": 151.989,
-     "end": 153.776,
-     "text": "That's why it's the first goal."
+     "start": 168.572,
+     "end": 171.507,
+     "text": "Everyone brings last year's costume and takes"
     },
     {
-     "start": 153.776,
-     "end": 154.871,
-     "text": "Not the last one..."
+     "start": 171.507,
+     "end": 172.55,
+     "text": "a different one."
     },
     {
-     "start": 154.871,
-     "end": 155.678,
-     "text": "the first one."
+     "start": 172.85,
+     "end": 175.043,
+     "text": "Free. And honestly... kind of fun."
     },
     {
-     "start": 155.858,
-     "end": 157.522,
-     "text": "Small goal. Big relief."
+     "start": 175.343,
+     "end": 177.408,
+     "text": "You walk in with one costume and"
+    },
+    {
+     "start": 177.408,
+     "end": 178.956,
+     "text": "walk out with a new one."
     }
    ]
   },
@@ -592,44 +599,59 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 157.802,
-   "end": 168.603,
+   "start": 179.456,
+   "end": 200.011,
    "line_starts": [
-    157.802,
-    161.408,
-    163.849,
-    166.625
+    179.456,
+    184.986,
+    188.229,
+    194.737
    ],
    "subs": [
     {
-     "start": 157.802,
-     "end": 160.086,
-     "text": "Move number one took you twelve minutes."
+     "start": 179.456,
+     "end": 181.52,
+     "text": "Or check a thrift store first."
     },
     {
-     "start": 160.086,
-     "end": 161.228,
-     "text": "On your lunch break."
+     "start": 181.52,
+     "end": 184.686,
+     "text": "Lots of costumes there were worn exactly once."
     },
     {
-     "start": 161.408,
-     "end": 163.669,
-     "text": "You opened a brand-new savings account."
+     "start": 184.986,
+     "end": 186.273,
+     "text": "And if you have kids,"
     },
     {
-     "start": 163.849,
-     "end": 165.27,
-     "text": "Not at your usual bank."
+     "start": 186.273,
+     "end": 187.929,
+     "text": "this one matters even more."
     },
     {
-     "start": 165.27,
-     "end": 166.445,
-     "text": "At a different one."
+     "start": 188.229,
+     "end": 191.019,
+     "text": "Kids outgrow costumes every single year."
     },
     {
-     "start": 166.625,
-     "end": 168.323,
-     "text": "One with no monthly fees."
+     "start": 191.019,
+     "end": 193.391,
+     "text": "A swap with other parents can save"
+    },
+    {
+     "start": 193.391,
+     "end": 194.437,
+     "text": "you real money."
+    },
+    {
+     "start": 194.737,
+     "end": 198.185,
+     "text": "Last year's dinosaur becomes this year's dinosaur..."
+    },
+    {
+     "start": 198.185,
+     "end": 199.511,
+     "text": "for a different kid."
     }
    ]
   },
@@ -638,43 +660,49 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 168.603,
-   "end": 178.417,
+   "start": 200.011,
+   "end": 214.424,
    "line_starts": [
-    168.603,
-    171.43,
-    175.927
+    200.011,
+    201.994,
+    206.615,
+    210.045
    ],
    "subs": [
     {
-     "start": 168.603,
-     "end": 169.786,
-     "text": "Why a different bank?"
+     "start": 200.011,
+     "end": 201.694,
+     "text": "Move number two. Candy."
     },
     {
-     "start": 169.786,
-     "end": 171.25,
-     "text": "Because you know yourself."
+     "start": 201.994,
+     "end": 204.994,
+     "text": "Ninety-six percent of people planning to celebrate"
     },
     {
-     "start": 171.43,
-     "end": 173.224,
-     "text": "If the savings sit right next to"
+     "start": 204.994,
+     "end": 206.315,
+     "text": "said they'd buy candy."
     },
     {
-     "start": 173.224,
-     "end": 175.747,
-     "text": "your checking account, one tap moves it back."
+     "start": 206.615,
+     "end": 208.211,
+     "text": "And this is where a lot of"
     },
     {
-     "start": 175.927,
-     "end": 177.381,
-     "text": "Late at night. On a sale."
+     "start": 208.211,
+     "end": 209.745,
+     "text": "money quietly disappears."
     },
     {
-     "start": 177.381,
-     "end": 178.137,
-     "text": "On a bad day."
+     "start": 210.045,
+     "end": 212.231,
+     "text": "Not because candy is expensive."
+    },
+    {
+     "start": 212.231,
+     "end": 213.924,
+     "text": "Because nobody plans it."
     }
    ]
   },
@@ -683,49 +711,49 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 178.417,
-   "end": 190.505,
+   "start": 214.424,
+   "end": 228.084,
    "line_starts": [
-    178.417,
-    182.614,
-    185.531,
-    188.228
+    214.424,
+    217.12,
+    220.169,
+    223.617
    ],
    "subs": [
     {
-     "start": 178.417,
-     "end": 180.001,
-     "text": "But if it's at another bank,"
+     "start": 214.424,
+     "end": 216.82,
+     "text": "Mia bought candy three times this month."
     },
     {
-     "start": 180.001,
-     "end": 181.359,
-     "text": "it takes a day or two to"
+     "start": 217.12,
+     "end": 218.619,
+     "text": "Once in early October..."
     },
     {
-     "start": 181.359,
-     "end": 182.434,
-     "text": "get the money back."
+     "start": 218.619,
+     "end": 219.869,
+     "text": "and then she ate it."
     },
     {
-     "start": 182.614,
-     "end": 183.633,
-     "text": "And those two days?"
+     "start": 220.169,
+     "end": 221.773,
+     "text": "Then again two weeks later."
     },
     {
-     "start": 183.633,
-     "end": 185.351,
-     "text": "They're your cooling-off period."
+     "start": 221.773,
+     "end": 223.317,
+     "text": "And then she ate that too."
     },
     {
-     "start": 185.531,
-     "end": 188.048,
-     "text": "Most impulse buys don't survive two days."
+     "start": 223.617,
+     "end": 225.27,
+     "text": "Then one more time today,"
     },
     {
-     "start": 188.228,
-     "end": 190.225,
-     "text": "Annoying? That's exactly the point."
+     "start": 225.27,
+     "end": 227.584,
+     "text": "at full price, at the corner store."
     }
    ]
   },
@@ -734,38 +762,39 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 190.505,
-   "end": 201.474,
+   "start": 228.084,
+   "end": 240.915,
    "line_starts": [
-    190.505,
-    195.159,
-    197.479
+    228.084,
+    229.654,
+    234.415,
+    238.397
    ],
    "subs": [
     {
-     "start": 190.505,
-     "end": 192.714,
-     "text": "You picked a high-yield savings account,"
+     "start": 228.084,
+     "end": 229.354,
+     "text": "You did it differently."
     },
     {
-     "start": 192.714,
-     "end": 194.979,
-     "text": "so the money earns a little interest too."
+     "start": 229.654,
+     "end": 231.276,
+     "text": "First, you made a guess."
     },
     {
-     "start": 195.159,
-     "end": 197.299,
-     "text": "Rates change, so it's not a fortune."
+     "start": 231.276,
+     "end": 234.115,
+     "text": "How many kids came last year? About sixty."
     },
     {
-     "start": 197.479,
-     "end": 199.22,
-     "text": "But it's a lot better than the"
+     "start": 234.415,
+     "end": 238.097,
+     "text": "Two pieces each. That's around one hundred twenty pieces."
     },
     {
-     "start": 199.22,
-     "end": 201.194,
-     "text": "almost-zero your old account paid."
+     "start": 238.397,
+     "end": 240.415,
+     "text": "Simple math. Two minutes. Done."
     }
    ]
   },
@@ -774,49 +803,59 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 201.474,
-   "end": 214.946,
+   "start": 240.915,
+   "end": 259.199,
    "line_starts": [
-    201.474,
-    204.392,
-    206.781,
-    211.688
+    240.915,
+    245.858,
+    249.696,
+    253.696
    ],
    "subs": [
     {
-     "start": 201.474,
-     "end": 204.212,
-     "text": "And you gave the account a name. Not 'Savings'."
+     "start": 240.915,
+     "end": 242.946,
+     "text": "Then you looked at the little price"
     },
     {
-     "start": 204.392,
-     "end": 206.601,
-     "text": "You called it... 'Car Breaks Down Fund'."
+     "start": 242.946,
+     "end": 243.933,
+     "text": "tag on the shelf."
     },
     {
-     "start": 206.781,
-     "end": 208.334,
-     "text": "Sounds silly? It's not."
+     "start": 243.933,
+     "end": 245.558,
+     "text": "The one with the unit price."
     },
     {
-     "start": 208.334,
-     "end": 210.157,
-     "text": "A name with a purpose is so"
+     "start": 245.858,
+     "end": 248.347,
+     "text": "Big bags are usually cheaper per piece"
     },
     {
-     "start": 210.157,
-     "end": 211.508,
-     "text": "much harder to raid."
+     "start": 248.347,
+     "end": 249.396,
+     "text": "than small ones."
     },
     {
-     "start": 211.688,
-     "end": 213.462,
-     "text": "Every time you open the app,"
+     "start": 249.696,
+     "end": 251.482,
+     "text": "But you only buy the big bag"
     },
     {
-     "start": 213.462,
-     "end": 214.666,
-     "text": "it reminds you why."
+     "start": 251.482,
+     "end": 253.396,
+     "text": "if you'll actually use it all."
+    },
+    {
+     "start": 253.696,
+     "end": 256.165,
+     "text": "Store brands and mixed packs are often"
+    },
+    {
+     "start": 256.165,
+     "end": 258.699,
+     "text": "cheaper too. Kids don't check the logo."
     }
    ]
   },
@@ -825,38 +864,49 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 214.946,
-   "end": 225.649,
+   "start": 259.199,
+   "end": 274.167,
    "line_starts": [
-    214.946,
-    216.998,
-    221.152
+    259.199,
+    261.789,
+    266.348,
+    270.018
    ],
    "subs": [
     {
-     "start": 214.946,
-     "end": 216.818,
-     "text": "Move number two is the big one."
+     "start": 259.199,
+     "end": 261.489,
+     "text": "And here's the rule that saved you the most."
     },
     {
-     "start": 216.998,
-     "end": 219.148,
-     "text": "You set up an automatic transfer."
+     "start": 261.789,
+     "end": 264.557,
+     "text": "You bought the candy on Halloween week."
     },
     {
-     "start": 219.148,
-     "end": 220.972,
-     "text": "Fifty dollars. Every payday."
+     "start": 264.557,
+     "end": 266.048,
+     "text": "Not in early October."
     },
     {
-     "start": 221.152,
-     "end": 223.074,
-     "text": "You get paid every two weeks..."
+     "start": 266.348,
+     "end": 268.404,
+     "text": "Candy you don't have in the house..."
     },
     {
-     "start": 223.074,
-     "end": 225.369,
-     "text": "so that's six paydays in ninety days."
+     "start": 268.404,
+     "end": 269.718,
+     "text": "is candy you don't eat."
+    },
+    {
+     "start": 270.018,
+     "end": 272.025,
+     "text": "Wait until the week of Halloween."
+    },
+    {
+     "start": 272.025,
+     "end": 273.667,
+     "text": "Your wallet will thank you."
     }
    ]
   },
@@ -865,49 +915,34 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 225.649,
-   "end": 238.562,
+   "start": 274.167,
+   "end": 284.723,
    "line_starts": [
-    225.649,
-    230.243,
-    233.844,
-    235.382
+    274.167,
+    277.777,
+    280.267,
+    282.318
    ],
    "subs": [
     {
-     "start": 225.649,
-     "end": 228.147,
-     "text": "Here's the secret. The transfer happens the"
+     "start": 274.167,
+     "end": 277.477,
+     "text": "Your candy budget? Twenty-four dollars. One trip."
     },
     {
-     "start": 228.147,
-     "end": 230.063,
-     "text": "same morning your paycheck lands."
+     "start": 277.777,
+     "end": 279.967,
+     "text": "Mia's? Forty-five. Three trips."
     },
     {
-     "start": 230.243,
-     "end": 231.954,
-     "text": "Before rent. Before groceries."
+     "start": 280.267,
+     "end": 282.018,
+     "text": "And she's still buying more tonight."
     },
     {
-     "start": 231.954,
-     "end": 233.664,
-     "text": "Before you even see the money."
-    },
-    {
-     "start": 233.844,
-     "end": 235.202,
-     "text": "You pay yourself first."
-    },
-    {
-     "start": 235.382,
-     "end": 236.917,
-     "text": "Whatever's left after that?"
-    },
-    {
-     "start": 236.917,
-     "end": 238.282,
-     "text": "That's what you live on."
+     "start": 282.318,
+     "end": 284.223,
+     "text": "Same kids. Same smiles."
     }
    ]
   },
@@ -916,44 +951,49 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 238.562,
-   "end": 250.444,
+   "start": 284.723,
+   "end": 300.742,
    "line_starts": [
-    238.562,
-    242.43,
-    245.036,
-    248.211
+    284.723,
+    287.157,
+    293.853,
+    297.209
    ],
    "subs": [
     {
-     "start": 238.562,
-     "end": 240.799,
-     "text": "And Jake? Jake saves whatever is left"
+     "start": 284.723,
+     "end": 286.857,
+     "text": "Move number three. Decorations."
     },
     {
-     "start": 240.799,
-     "end": 242.25,
-     "text": "at the end of the month."
+     "start": 287.157,
+     "end": 289.907,
+     "text": "Americans planned to spend about four point"
     },
     {
-     "start": 242.43,
-     "end": 244.856,
-     "text": "Which is... nothing. Every single month."
+     "start": 289.907,
+     "end": 293.553,
+     "text": "three billion dollars on Halloween decorations this year."
     },
     {
-     "start": 245.036,
-     "end": 247.168,
-     "text": "Because there's never anything left at the"
+     "start": 293.853,
+     "end": 295.248,
+     "text": "But here's the thing."
     },
     {
-     "start": 247.168,
-     "end": 248.031,
-     "text": "end of the month."
+     "start": 295.248,
+     "end": 296.909,
+     "text": "Decorations don't expire."
     },
     {
-     "start": 248.211,
-     "end": 250.164,
-     "text": "And he wonders why it never works."
+     "start": 297.209,
+     "end": 298.422,
+     "text": "You buy them once."
+    },
+    {
+     "start": 298.422,
+     "end": 300.242,
+     "text": "You can use them for years."
     }
    ]
   },
@@ -962,43 +1002,43 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 250.444,
-   "end": 260.583,
+   "start": 300.742,
+   "end": 313.598,
    "line_starts": [
-    250.444,
-    254.642,
-    257.433
+    300.742,
+    305.047,
+    309.031
    ],
    "subs": [
     {
-     "start": 250.444,
-     "end": 252.575,
-     "text": "The first transfer stings a little."
+     "start": 300.742,
+     "end": 302.486,
+     "text": "Last year, after Halloween,"
     },
     {
-     "start": 252.575,
-     "end": 254.462,
-     "text": "Fifty dollars feels like a lot."
+     "start": 302.486,
+     "end": 304.747,
+     "text": "you packed everything into one bin."
     },
     {
-     "start": 254.642,
-     "end": 255.834,
-     "text": "But by the third one?"
+     "start": 305.047,
+     "end": 306.833,
+     "text": "You drew a little pumpkin on the"
     },
     {
-     "start": 255.834,
-     "end": 257.253,
-     "text": "You don't even notice it."
+     "start": 306.833,
+     "end": 308.731,
+     "text": "lid. And you put it in the closet."
     },
     {
-     "start": 257.433,
-     "end": 259.572,
-     "text": "Your spending just quietly adjusts to the"
+     "start": 309.031,
+     "end": 310.945,
+     "text": "So this year, you didn't buy the"
     },
     {
-     "start": 259.572,
-     "end": 260.303,
-     "text": "money you see."
+     "start": 310.945,
+     "end": 313.098,
+     "text": "same skeleton... for the third time."
     }
    ]
   },
@@ -1007,39 +1047,34 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 260.583,
-   "end": 272.065,
+   "start": 313.598,
+   "end": 325.768,
    "line_starts": [
-    260.583,
-    262.924,
-    266.185,
-    269.177
+    313.598,
+    316.613,
+    320.227,
+    323.461
    ],
    "subs": [
     {
-     "start": 260.583,
-     "end": 262.744,
-     "text": "Six paydays. Fifty dollars each."
+     "start": 313.598,
+     "end": 316.313,
+     "text": "Mia? She couldn't find last year's decorations."
     },
     {
-     "start": 262.924,
-     "end": 264.465,
-     "text": "That's three hundred dollars."
+     "start": 316.613,
+     "end": 319.927,
+     "text": "They're somewhere. Behind the vacuum cleaner probably."
     },
     {
-     "start": 264.465,
-     "end": 266.005,
-     "text": "And you didn't lift a finger."
+     "start": 320.227,
+     "end": 323.161,
+     "text": "So she bought them all again. Ninety dollars."
     },
     {
-     "start": 266.185,
-     "end": 268.997,
-     "text": "That's thirty percent of your goal. On autopilot."
-    },
-    {
-     "start": 269.177,
-     "end": 271.785,
-     "text": "Every two weeks, without even thinking about it."
+     "start": 323.461,
+     "end": 325.268,
+     "text": "Sound familiar? Be honest."
     }
    ]
   },
@@ -1048,49 +1083,43 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 272.065,
-   "end": 285.719,
+   "start": 325.768,
+   "end": 339.79,
    "line_starts": [
-    272.065,
-    276.521,
-    279.04,
-    282.685
+    325.768,
+    328.069,
+    335.086
    ],
    "subs": [
     {
-     "start": 272.065,
-     "end": 274.455,
-     "text": "Move number three. One Sunday evening,"
+     "start": 325.768,
+     "end": 327.769,
+     "text": "You added a few cheap touches too."
     },
     {
-     "start": 274.455,
-     "end": 276.341,
-     "text": "you open your bank statements."
+     "start": 328.069,
+     "end": 330.457,
+     "text": "Paper bats cut from black paper."
     },
     {
-     "start": 276.521,
-     "end": 277.78,
-     "text": "Three months of them."
+     "start": 330.457,
+     "end": 333.218,
+     "text": "A few glass jars with candles inside."
     },
     {
-     "start": 277.78,
-     "end": 278.86,
-     "text": "With a cup of tea."
+     "start": 333.218,
+     "end": 334.786,
+     "text": "Leaves from the yard."
     },
     {
-     "start": 279.04,
-     "end": 281.161,
-     "text": "And you highlight every single thing that"
+     "start": 335.086,
+     "end": 337.621,
+     "text": "It looked cozy. It looked like Halloween."
     },
     {
-     "start": 281.161,
-     "end": 282.505,
-     "text": "charges you automatically."
-    },
-    {
-     "start": 282.685,
-     "end": 285.439,
-     "text": "Boring? Maybe. But this is where money hides."
+     "start": 337.621,
+     "end": 339.29,
+     "text": "And it cost almost nothing."
     }
    ]
   },
@@ -1099,33 +1128,54 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 285.719,
-   "end": 296.125,
+   "start": 339.79,
+   "end": 354.888,
    "line_starts": [
-    285.719,
-    288.458,
-    291.582
+    339.79,
+    341.915,
+    346.381,
+    351.953
    ],
    "subs": [
     {
-     "start": 285.719,
-     "end": 288.278,
-     "text": "A streaming service you haven't opened since summer."
+     "start": 339.79,
+     "end": 341.615,
+     "text": "Move number four. The pumpkin."
     },
     {
-     "start": 288.458,
-     "end": 291.402,
-     "text": "A fitness app from your January motivation phase."
+     "start": 341.915,
+     "end": 343.767,
+     "text": "Pumpkin patches are fun."
     },
     {
-     "start": 291.582,
-     "end": 294.195,
-     "text": "A cloud storage upgrade you don't even"
+     "start": 343.767,
+     "end": 346.081,
+     "text": "Hayrides, photos, apple cider."
     },
     {
-     "start": 294.195,
-     "end": 295.845,
-     "text": "need. Wait... seriously?"
+     "start": 346.381,
+     "end": 348.22,
+     "text": "But if you just need a pumpkin"
+    },
+    {
+     "start": 348.22,
+     "end": 350.488,
+     "text": "for the porch... the grocery store is"
+    },
+    {
+     "start": 350.488,
+     "end": 351.653,
+     "text": "often much cheaper."
+    },
+    {
+     "start": 351.953,
+     "end": 353.196,
+     "text": "Nothing wrong with that,"
+    },
+    {
+     "start": 353.196,
+     "end": 354.388,
+     "text": "if it's in your budget."
     }
    ]
   },
@@ -1134,49 +1184,38 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 296.125,
-   "end": 309.488,
+   "start": 354.888,
+   "end": 365.179,
    "line_starts": [
-    296.125,
-    298.91,
-    301.128,
-    304.662
+    354.888,
+    359.022,
+    362.479
    ],
    "subs": [
     {
-     "start": 296.125,
-     "end": 297.487,
-     "text": "Thirty dollars a month."
+     "start": 354.888,
+     "end": 356.276,
+     "text": "You paid six dollars."
     },
     {
-     "start": 297.487,
-     "end": 298.73,
-     "text": "Gone. Just like that."
+     "start": 356.276,
+     "end": 358.722,
+     "text": "You carved it with friends on Sunday."
     },
     {
-     "start": 298.91,
-     "end": 300.948,
-     "text": "You didn't miss a single one of them."
+     "start": 359.022,
+     "end": 360.826,
+     "text": "And you roasted the seeds in the"
     },
     {
-     "start": 301.128,
-     "end": 303.643,
-     "text": "Over three months, that's ninety dollars back"
+     "start": 360.826,
+     "end": 362.179,
+     "text": "oven with a little salt."
     },
     {
-     "start": 303.643,
-     "end": 304.482,
-     "text": "in your pocket."
-    },
-    {
-     "start": 304.662,
-     "end": 307.147,
-     "text": "Thirty dollars a month doesn't sound like"
-    },
-    {
-     "start": 307.147,
-     "end": 309.208,
-     "text": "much... until you see it in a jar."
+     "start": 362.479,
+     "end": 364.679,
+     "text": "A free snack. Seriously, try it."
     }
    ]
   },
@@ -1185,44 +1224,43 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 309.488,
-   "end": 322.148,
+   "start": 365.179,
+   "end": 377.645,
    "line_starts": [
-    309.488,
-    312.673,
-    316.636,
-    318.471
+    365.179,
+    371.6,
+    372.986
    ],
    "subs": [
     {
-     "start": 309.488,
-     "end": 312.493,
-     "text": "Jake has the same subscriptions. Actually more."
+     "start": 365.179,
+     "end": 367.405,
+     "text": "Mia went to a pumpkin patch with"
     },
     {
-     "start": 312.673,
-     "end": 314.106,
-     "text": "He knows he should check."
+     "start": 367.405,
+     "end": 368.935,
+     "text": "an entry fee, parking,"
     },
     {
-     "start": 314.106,
-     "end": 316.456,
-     "text": "He keeps saying he'll do it next weekend."
+     "start": 368.935,
+     "end": 371.3,
+     "text": "and a pumpkin priced by the pound."
     },
     {
-     "start": 316.636,
-     "end": 318.291,
-     "text": "Next weekend never comes."
+     "start": 371.6,
+     "end": 372.686,
+     "text": "Thirty dollars."
     },
     {
-     "start": 318.471,
-     "end": 320.714,
-     "text": "Meanwhile, the charges keep coming."
+     "start": 372.986,
+     "end": 374.571,
+     "text": "It was a nice afternoon."
     },
     {
-     "start": 320.714,
-     "end": 321.868,
-     "text": "Month after month."
+     "start": 374.571,
+     "end": 377.145,
+     "text": "But it wasn't the only way to have one."
     }
    ]
   },
@@ -1231,33 +1269,38 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 322.148,
-   "end": 330.101,
+   "start": 377.645,
+   "end": 387.148,
    "line_starts": [
-    322.148,
-    324.36,
-    327.66
+    377.645,
+    379.772,
+    383.439
    ],
    "subs": [
     {
-     "start": 322.148,
-     "end": 324.18,
-     "text": "Move number four was actually fun."
+     "start": 377.645,
+     "end": 379.472,
+     "text": "Move number five. The party."
     },
     {
-     "start": 324.36,
-     "end": 327.48,
-     "text": "You walked around your apartment and asked one question."
+     "start": 379.772,
+     "end": 382.017,
+     "text": "You didn't host everything yourself."
     },
     {
-     "start": 327.66,
-     "end": 329.136,
-     "text": "What here have I not used in"
+     "start": 382.017,
+     "end": 383.139,
+     "text": "You did a potluck."
     },
     {
-     "start": 329.136,
-     "end": 329.821,
-     "text": "a whole year?"
+     "start": 383.439,
+     "end": 384.635,
+     "text": "You made the chili."
+    },
+    {
+     "start": 384.635,
+     "end": 386.648,
+     "text": "Everyone else brought one thing."
     }
    ]
   },
@@ -1266,39 +1309,49 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 330.101,
-   "end": 341.617,
+   "start": 387.148,
+   "end": 401.277,
    "line_starts": [
-    330.101,
-    331.839,
-    333.421,
-    338.791
+    387.148,
+    390.36,
+    394.257,
+    397.726
    ],
    "subs": [
     {
-     "start": 330.101,
-     "end": 331.659,
-     "text": "An old phone in a drawer."
+     "start": 387.148,
+     "end": 388.865,
+     "text": "Ten people. Ten dishes."
     },
     {
-     "start": 331.839,
-     "end": 333.241,
-     "text": "A bike you rode twice."
+     "start": 388.865,
+     "end": 390.06,
+     "text": "One great table."
     },
     {
-     "start": 333.421,
-     "end": 335.705,
-     "text": "A gaming console collecting dust."
+     "start": 390.36,
+     "end": 391.662,
+     "text": "And the cost for you?"
     },
     {
-     "start": 335.705,
-     "end": 338.611,
-     "text": "And a jacket with the tags still on. Ouch."
+     "start": 391.662,
+     "end": 393.957,
+     "text": "The ingredients for one pot of chili."
     },
     {
-     "start": 338.791,
-     "end": 341.337,
-     "text": "Be honest... you've got a drawer like this too."
+     "start": 394.257,
+     "end": 397.426,
+     "text": "Nobody felt cheap. Everyone felt included."
+    },
+    {
+     "start": 397.726,
+     "end": 399.998,
+     "text": "And honestly? It was the best party"
+    },
+    {
+     "start": 399.998,
+     "end": 400.777,
+     "text": "of the year."
     }
    ]
   },
@@ -1307,44 +1360,39 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 341.617,
-   "end": 353.432,
+   "start": 401.277,
+   "end": 413.002,
    "line_starts": [
-    341.617,
-    345.453,
-    348.082,
-    350.591
+    401.277,
+    403.847,
+    405.935,
+    409.256
    ],
    "subs": [
     {
-     "start": 341.617,
-     "end": 343.445,
-     "text": "You took photos in good light."
+     "start": 401.277,
+     "end": 403.547,
+     "text": "Then you set one simple rule for the night."
     },
     {
-     "start": 343.445,
-     "end": 345.273,
-     "text": "You wrote honest descriptions."
+     "start": 403.847,
+     "end": 405.635,
+     "text": "You leave the credit card at home."
     },
     {
-     "start": 345.453,
-     "end": 347.902,
-     "text": "You priced them a little below everyone else."
+     "start": 405.935,
+     "end": 407.23,
+     "text": "You bring a little cash."
     },
     {
-     "start": 348.082,
-     "end": 350.411,
-     "text": "And you listed them all on a Saturday morning."
+     "start": 407.23,
+     "end": 408.956,
+     "text": "And when it's gone... it's gone."
     },
     {
-     "start": 350.591,
-     "end": 351.9,
-     "text": "Stuff you don't need..."
-    },
-    {
-     "start": 351.9,
-     "end": 353.152,
-     "text": "but someone else does."
+     "start": 409.256,
+     "end": 412.502,
+     "text": "No late-night pizza order you'll regret tomorrow."
     }
    ]
   },
@@ -1353,44 +1401,33 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 353.432,
-   "end": 364.823,
+   "start": 413.002,
+   "end": 422.106,
    "line_starts": [
-    353.432,
-    357.61,
-    359.626,
-    362.815
+    413.002,
+    414.573,
+    418.937
    ],
    "subs": [
     {
-     "start": 353.432,
-     "end": 355.403,
-     "text": "By Sunday night, three of them were"
+     "start": 413.002,
+     "end": 414.273,
+     "text": "Now let's add it up."
     },
     {
-     "start": 355.403,
-     "end": 357.43,
-     "text": "gone. The fourth sold that Thursday."
+     "start": 414.573,
+     "end": 416.783,
+     "text": "Costume: twelve dollars. Candy:"
     },
     {
-     "start": 357.61,
-     "end": 359.446,
-     "text": "Two hundred thirty-five dollars."
+     "start": 416.783,
+     "end": 418.637,
+     "text": "twenty-four. Pumpkin: six."
     },
     {
-     "start": 359.626,
-     "end": 360.916,
-     "text": "Money you already had..."
-    },
-    {
-     "start": 360.916,
-     "end": 362.635,
-     "text": "it was just sitting in a drawer."
-    },
-    {
-     "start": 362.815,
-     "end": 364.543,
-     "text": "Not bad for one weekend, right?"
+     "start": 418.937,
+     "end": 421.606,
+     "text": "Decorations: zero. You already had them."
     }
    ]
   },
@@ -1399,44 +1436,33 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 364.823,
-   "end": 376.534,
+   "start": 422.106,
+   "end": 432.677,
    "line_starts": [
-    364.823,
-    366.645,
-    370.077,
-    373.094
+    422.106,
+    424.65,
+    427.537
    ],
    "subs": [
     {
-     "start": 364.823,
-     "end": 366.465,
-     "text": "And here's a little rule you made."
+     "start": 422.106,
+     "end": 424.35,
+     "text": "Your Halloween: forty-two dollars."
     },
     {
-     "start": 366.645,
-     "end": 369.125,
-     "text": "Every dollar from selling stuff goes straight"
+     "start": 424.65,
+     "end": 427.237,
+     "text": "Mia's Halloween: four hundred and ten."
     },
     {
-     "start": 369.125,
-     "end": 369.897,
-     "text": "into the fund."
+     "start": 427.537,
+     "end": 429.013,
+     "text": "Same night. Same fun."
     },
     {
-     "start": 370.077,
-     "end": 371.968,
-     "text": "Not 'just this once' into a dinner"
-    },
-    {
-     "start": 371.968,
-     "end": 372.914,
-     "text": "out. Straight in."
-    },
-    {
-     "start": 373.094,
-     "end": 376.254,
-     "text": "Because money that feels like a bonus disappears fast."
+     "start": 429.013,
+     "end": 432.177,
+     "text": "Three hundred sixty-eight dollars difference."
     }
    ]
   },
@@ -1445,44 +1471,49 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 376.534,
-   "end": 386.438,
+   "start": 432.677,
+   "end": 447.452,
    "line_starts": [
-    376.534,
-    379.671,
-    380.703,
-    385.232
+    432.677,
+    436.071,
+    440.01,
+    444.099
    ],
    "subs": [
     {
-     "start": 376.534,
-     "end": 378.526,
-     "text": "Move number five is where most of"
+     "start": 432.677,
+     "end": 434.784,
+     "text": "And if Mia only pays the minimum"
     },
     {
-     "start": 378.526,
-     "end": 379.491,
-     "text": "the money hides."
+     "start": 434.784,
+     "end": 435.771,
+     "text": "on that card..."
     },
     {
-     "start": 379.671,
-     "end": 380.523,
-     "text": "Groceries."
+     "start": 436.071,
+     "end": 439.71,
+     "text": "that Halloween follows her around for months. With interest."
     },
     {
-     "start": 380.703,
-     "end": 382.696,
-     "text": "Not because you buy fancy food..."
+     "start": 440.01,
+     "end": 441.462,
+     "text": "Halloween is one night."
     },
     {
-     "start": 382.696,
-     "end": 385.052,
-     "text": "but because you shopped without a plan."
+     "start": 441.462,
+     "end": 443.799,
+     "text": "The bill shouldn't last until spring."
     },
     {
-     "start": 385.232,
-     "end": 386.158,
-     "text": "Let me show you."
+     "start": 444.099,
+     "end": 445.38,
+     "text": "Every month she waits,"
+    },
+    {
+     "start": 445.38,
+     "end": 446.952,
+     "text": "the interest keeps growing."
     }
    ]
   },
@@ -1491,38 +1522,33 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 386.438,
-   "end": 396.898,
+   "start": 447.452,
+   "end": 456.376,
    "line_starts": [
-    386.438,
-    389.587,
-    391.3
+    447.452,
+    449.786,
+    452.423
    ],
    "subs": [
     {
-     "start": 386.438,
-     "end": 389.407,
-     "text": "Before, you'd walk into the store hungry after work."
+     "start": 447.452,
+     "end": 449.486,
+     "text": "Okay. Now the move I promised you."
     },
     {
-     "start": 389.587,
-     "end": 391.12,
-     "text": "No list. Just vibes."
+     "start": 449.786,
+     "end": 452.123,
+     "text": "Tomorrow morning is November first."
     },
     {
-     "start": 391.3,
-     "end": 392.693,
-     "text": "Snacks, a fancy sauce,"
+     "start": 452.423,
+     "end": 454.706,
+     "text": "And that's when Halloween stores start to"
     },
     {
-     "start": 392.693,
-     "end": 394.212,
-     "text": "a second bag of chips..."
-    },
-    {
-     "start": 394.212,
-     "end": 396.618,
-     "text": "and half of it went bad in the fridge."
+     "start": 454.706,
+     "end": 455.876,
+     "text": "clear everything out."
     }
    ]
   },
@@ -1531,38 +1557,44 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 396.898,
-   "end": 405.152,
+   "start": 456.376,
+   "end": 473.083,
    "line_starts": [
-    396.898,
-    398.942,
-    400.936
+    456.376,
+    461.137,
+    464.157,
+    467.998
    ],
    "subs": [
     {
-     "start": 396.898,
-     "end": 398.762,
-     "text": "Now? Every Sunday, ten minutes."
+     "start": 456.376,
+     "end": 460.837,
+     "text": "Decorations, costumes, lights... often half off on November first."
     },
     {
-     "start": 398.942,
-     "end": 400.756,
-     "text": "You check what's already in the fridge."
+     "start": 461.137,
+     "end": 463.857,
+     "text": "And sometimes even cheaper a few days later."
     },
     {
-     "start": 400.936,
-     "end": 402.268,
-     "text": "You plan five dinners."
+     "start": 464.157,
+     "end": 465.6,
+     "text": "So you go with a list."
     },
     {
-     "start": 402.268,
-     "end": 403.297,
-     "text": "You write a list."
+     "start": 465.6,
+     "end": 467.698,
+     "text": "Not a cart full of random stuff."
     },
     {
-     "start": 403.297,
-     "end": 404.872,
-     "text": "And you never shop hungry."
+     "start": 467.998,
+     "end": 469.725,
+     "text": "Not because they're generous."
+    },
+    {
+     "start": 469.725,
+     "end": 472.583,
+     "text": "Because they need the shelf space for Christmas."
     }
    ]
   },
@@ -1571,44 +1603,43 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 405.152,
-   "end": 418.55,
+   "start": 473.083,
+   "end": 485.39,
    "line_starts": [
-    405.152,
-    408.692,
-    413.104,
-    416.285
+    473.083,
+    476.687,
+    481.807
    ],
    "subs": [
     {
-     "start": 405.152,
-     "end": 406.519,
-     "text": "You cook a little extra,"
+     "start": 473.083,
+     "end": 475.514,
+     "text": "You buy the one thing you'll definitely"
     },
     {
-     "start": 406.519,
-     "end": 408.512,
-     "text": "so dinner becomes tomorrow's lunch."
+     "start": 475.514,
+     "end": 476.387,
+     "text": "use next year."
     },
     {
-     "start": 408.692,
-     "end": 411.161,
-     "text": "You buy the store brand for basics."
+     "start": 476.687,
+     "end": 478.891,
+     "text": "Maybe a string of orange lights."
     },
     {
-     "start": 411.161,
-     "end": 412.924,
-     "text": "Rice, pasta, oats, beans."
+     "start": 478.891,
+     "end": 481.507,
+     "text": "Maybe a kid's costume one size bigger."
     },
     {
-     "start": 413.104,
-     "end": 416.105,
-     "text": "Same food. Just... without the expensive label."
+     "start": 481.807,
+     "end": 483.475,
+     "text": "And it goes straight into the bin"
     },
     {
-     "start": 416.285,
-     "end": 418.27,
-     "text": "And nothing goes in the trash anymore."
+     "start": 483.475,
+     "end": 484.89,
+     "text": "with the pumpkin on the lid."
     }
    ]
   },
@@ -1617,38 +1648,44 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 418.55,
-   "end": 428.777,
+   "start": 485.39,
+   "end": 497.91,
    "line_starts": [
-    418.55,
-    423.109,
-    426.038
+    485.39,
+    487.071,
+    491.013,
+    495.823
    ],
    "subs": [
     {
-     "start": 418.55,
-     "end": 420.894,
-     "text": "The result? Your grocery bill drops by"
+     "start": 485.39,
+     "end": 486.771,
+     "text": "And the leftover candy?"
     },
     {
-     "start": 420.894,
-     "end": 422.929,
-     "text": "about twenty-five dollars a week."
+     "start": 487.071,
+     "end": 489.662,
+     "text": "After Halloween, a lot of stores mark"
     },
     {
-     "start": 423.109,
-     "end": 424.484,
-     "text": "You're not eating worse."
+     "start": 489.662,
+     "end": 490.713,
+     "text": "candy down too."
     },
     {
-     "start": 424.484,
-     "end": 425.858,
-     "text": "You're just not wasting."
+     "start": 491.013,
+     "end": 493.297,
+     "text": "If you're going to buy chocolate anyway"
     },
     {
-     "start": 426.038,
-     "end": 428.497,
-     "text": "Twelve weeks... that's three hundred dollars."
+     "start": 493.297,
+     "end": 495.523,
+     "text": "in November... that's when you buy it."
+    },
+    {
+     "start": 495.823,
+     "end": 497.41,
+     "text": "Just don't buy it before."
     }
    ]
   },
@@ -1657,44 +1694,38 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 428.777,
-   "end": 443.21,
+   "start": 497.91,
+   "end": 509.251,
    "line_starts": [
-    428.777,
-    432.048,
-    435.946,
-    439.327
+    497.91,
+    499.44,
+    503.906
    ],
    "subs": [
     {
-     "start": 428.777,
-     "end": 431.868,
-     "text": "Meanwhile, Jake orders delivery four nights a week."
+     "start": 497.91,
+     "end": 499.14,
+     "text": "But here's the warning."
     },
     {
-     "start": 432.048,
-     "end": 434.29,
-     "text": "Every order comes with a delivery fee,"
+     "start": 499.44,
+     "end": 501.725,
+     "text": "A discount only saves money if you"
     },
     {
-     "start": 434.29,
-     "end": 435.766,
-     "text": "a service fee, and a tip."
+     "start": 501.725,
+     "end": 503.606,
+     "text": "were going to buy it anyway."
     },
     {
-     "start": 435.946,
-     "end": 439.147,
-     "text": "He's always surprised the burger cost twenty-eight dollars."
+     "start": 503.906,
+     "end": 506.666,
+     "text": "Fifty percent off something you don't need..."
     },
     {
-     "start": 439.327,
-     "end": 441.874,
-     "text": "That's over four hundred dollars a month."
-    },
-    {
-     "start": 441.874,
-     "end": 442.93,
-     "text": "Just on delivery."
+     "start": 506.666,
+     "end": 508.751,
+     "text": "is still a hundred percent wasted."
     }
    ]
   },
@@ -1703,49 +1734,44 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 443.21,
-   "end": 456.612,
+   "start": 509.251,
+   "end": 521.717,
    "line_starts": [
-    443.21,
-    445.926,
-    449.865,
-    453.473
+    509.251,
+    511.129,
+    515.843,
+    518.389
    ],
    "subs": [
     {
-     "start": 443.21,
-     "end": 445.746,
-     "text": "Move number six. The no-spend weekend."
+     "start": 509.251,
+     "end": 510.829,
+     "text": "And then you do one last thing."
     },
     {
-     "start": 445.926,
-     "end": 447.806,
-     "text": "Once a month, from Friday night to"
+     "start": 511.129,
+     "end": 513.14,
+     "text": "You open your banking app and create"
     },
     {
-     "start": 447.806,
-     "end": 449.685,
-     "text": "Sunday night... you spend nothing."
+     "start": 513.14,
+     "end": 515.543,
+     "text": "a little savings bucket called 'Halloween'."
     },
     {
-     "start": 449.865,
-     "end": 451.417,
-     "text": "No shopping. No takeout."
+     "start": 515.843,
+     "end": 518.089,
+     "text": "Ten dollars a month. Automatically."
     },
     {
-     "start": 451.417,
-     "end": 453.293,
-     "text": "No 'quick little' coffee run."
+     "start": 518.389,
+     "end": 520.374,
+     "text": "You named it, so you know exactly"
     },
     {
-     "start": 453.473,
-     "end": 454.479,
-     "text": "It's a little game."
-    },
-    {
-     "start": 454.479,
-     "end": 456.332,
-     "text": "And you're surprisingly good at it."
+     "start": 520.374,
+     "end": 521.217,
+     "text": "what it's for."
     }
    ]
   },
@@ -1754,38 +1780,38 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 456.612,
-   "end": 466.697,
+   "start": 521.717,
+   "end": 532.667,
    "line_starts": [
-    456.612,
-    458.366,
-    463.015
+    521.717,
+    525.783,
+    527.439
    ],
    "subs": [
     {
-     "start": 456.612,
-     "end": 458.186,
-     "text": "Sounds boring? It wasn't."
+     "start": 521.717,
+     "end": 524.208,
+     "text": "By next October, there's one hundred twenty"
     },
     {
-     "start": 458.366,
-     "end": 460.513,
-     "text": "You went hiking. You had friends over"
+     "start": 524.208,
+     "end": 525.483,
+     "text": "dollars sitting there."
     },
     {
-     "start": 460.513,
-     "end": 462.835,
-     "text": "for a movie night with homemade popcorn."
+     "start": 525.783,
+     "end": 527.139,
+     "text": "Cash. Already saved."
     },
     {
-     "start": 463.015,
-     "end": 464.974,
-     "text": "You finally read that book that's been"
+     "start": 527.439,
+     "end": 530.694,
+     "text": "So next Halloween costs you nothing extra."
     },
     {
-     "start": 464.974,
-     "end": 466.417,
-     "text": "on your shelf for two years."
+     "start": 530.694,
+     "end": 532.167,
+     "text": "No card. No stress."
     }
    ]
   },
@@ -1794,38 +1820,49 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 466.697,
-   "end": 478.005,
+   "start": 532.667,
+   "end": 547.045,
    "line_starts": [
-    466.697,
-    470.983,
-    474.423
+    532.667,
+    534.548,
+    538.209,
+    543.729
    ],
    "subs": [
     {
-     "start": 466.697,
-     "end": 468.782,
-     "text": "A normal weekend used to cost you"
+     "start": 532.667,
+     "end": 534.248,
+     "text": "It's called a sinking fund."
     },
     {
-     "start": 468.782,
-     "end": 470.803,
-     "text": "around twenty-five dollars more."
+     "start": 534.548,
+     "end": 536.337,
+     "text": "You save a little every month for"
     },
     {
-     "start": 470.983,
-     "end": 474.243,
-     "text": "Three no-spend weekends? Seventy-five dollars."
+     "start": 536.337,
+     "end": 537.909,
+     "text": "something you know is coming."
     },
     {
-     "start": 474.423,
-     "end": 476.643,
-     "text": "And honestly... some of the best weekends"
+     "start": 538.209,
+     "end": 541.524,
+     "text": "Halloween. Christmas. Birthdays. Car insurance."
     },
     {
-     "start": 476.643,
-     "end": 477.725,
-     "text": "you've had all year."
+     "start": 541.524,
+     "end": 543.429,
+     "text": "None of them are surprises."
+    },
+    {
+     "start": 543.729,
+     "end": 545.22,
+     "text": "You already know the dates."
+    },
+    {
+     "start": 545.22,
+     "end": 546.545,
+     "text": "They're on the calendar."
     }
    ]
   },
@@ -1834,34 +1871,33 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 478.005,
-   "end": 485.468,
+   "start": 547.045,
+   "end": 555.304,
    "line_starts": [
-    478.005,
-    479.117,
-    480.551,
-    483.336
+    547.045,
+    551.064,
+    553.925
    ],
    "subs": [
     {
-     "start": 478.005,
-     "end": 478.937,
-     "text": "Okay. Ready?"
+     "start": 547.045,
+     "end": 549.104,
+     "text": "And they only feel like surprises..."
     },
     {
-     "start": 479.117,
-     "end": 480.371,
-     "text": "Let's add it all up."
+     "start": 549.104,
+     "end": 550.764,
+     "text": "when you don't plan for them."
     },
     {
-     "start": 480.551,
-     "end": 483.156,
-     "text": "Fifty dollars every payday. Three hundred."
+     "start": 551.064,
+     "end": 553.625,
+     "text": "That's why Mia feels broke every November."
     },
     {
-     "start": 483.336,
-     "end": 485.188,
-     "text": "Groceries. Another three hundred."
+     "start": 553.925,
+     "end": 554.804,
+     "text": "And you don't."
     }
    ]
   },
@@ -1870,34 +1906,44 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 485.468,
-   "end": 494.265,
+   "start": 555.304,
+   "end": 565.14,
    "line_starts": [
-    485.468,
-    488.1,
-    490.53,
-    493.093
+    555.304,
+    556.976,
+    561.105,
+    562.636
    ],
    "subs": [
     {
-     "start": 485.468,
-     "end": 487.92,
-     "text": "Stuff you sold. Two hundred thirty-five."
+     "start": 555.304,
+     "end": 556.676,
+     "text": "So tonight, enjoy it."
     },
     {
-     "start": 488.1,
-     "end": 490.35,
-     "text": "Subscriptions you cancelled. Ninety."
+     "start": 556.976,
+     "end": 558.23,
+     "text": "Hand out the candy."
     },
     {
-     "start": 490.53,
-     "end": 492.913,
-     "text": "No-spend weekends. Seventy-five."
+     "start": 558.23,
+     "end": 559.353,
+     "text": "Eat a few pieces."
     },
     {
-     "start": 493.093,
-     "end": 493.985,
-     "text": "Wait for it..."
+     "start": 559.353,
+     "end": 560.805,
+     "text": "Laugh at the costumes."
+    },
+    {
+     "start": 561.105,
+     "end": 562.336,
+     "text": "You earned this night."
+    },
+    {
+     "start": 562.636,
+     "end": 564.64,
+     "text": "Tomorrow is for the smart moves."
     }
    ]
   },
@@ -1906,39 +1952,39 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 494.265,
-   "end": 503.417,
+   "start": 565.14,
+   "end": 576.379,
    "line_starts": [
-    494.265,
-    495.059,
-    497.123,
-    500.591
+    565.14,
+    567.469,
+    570.461,
+    573.464
    ],
    "subs": [
     {
-     "start": 494.265,
-     "end": 494.879,
-     "text": "Total?"
+     "start": 565.14,
+     "end": 567.169,
+     "text": "And tomorrow, three small moves."
     },
     {
-     "start": 495.059,
-     "end": 496.943,
-     "text": "Exactly one thousand dollars."
+     "start": 567.469,
+     "end": 570.161,
+     "text": "Pack the decorations in one labeled bin."
     },
     {
-     "start": 497.123,
-     "end": 499.444,
-     "text": "In ninety days. On the same paycheck"
+     "start": 570.461,
+     "end": 572.474,
+     "text": "Buy only what you'll use next year,"
     },
     {
-     "start": 499.444,
-     "end": 500.411,
-     "text": "you always had."
+     "start": 572.474,
+     "end": 573.164,
+     "text": "from a list."
     },
     {
-     "start": 500.591,
-     "end": 503.137,
-     "text": "Same job. Same city. Same paycheck."
+     "start": 573.464,
+     "end": 575.879,
+     "text": "And start that ten-dollar Halloween fund."
     }
    ]
   },
@@ -1947,360 +1993,38 @@
    "visual": "sketch",
    "params": {},
    "heading": "",
-   "start": 503.417,
-   "end": 511.098,
+   "start": 576.379,
+   "end": 589.264,
    "line_starts": [
-    503.417,
-    504.836,
-    506.737
+    576.379,
+    580.345,
+    584.288
    ],
    "subs": [
     {
-     "start": 503.417,
-     "end": 504.656,
-     "text": "You didn't get a raise."
-    },
-    {
-     "start": 504.836,
-     "end": 506.557,
-     "text": "You didn't stop seeing your friends."
-    },
-    {
-     "start": 506.737,
-     "end": 508.777,
-     "text": "You didn't eat rice and beans every"
-    },
-    {
-     "start": 508.777,
-     "end": 510.818,
-     "text": "day. You just... stopped the leaks."
-    }
-   ]
-  },
-  {
-   "id": "s44",
-   "visual": "sketch",
-   "params": {},
-   "heading": "",
-   "start": 511.098,
-   "end": 521.258,
-   "line_starts": [
-    511.098,
-    514.096,
-    515.611,
-    518.113
-   ],
-   "subs": [
-    {
-     "start": 511.098,
-     "end": 512.742,
-     "text": "And then, two weeks later..."
-    },
-    {
-     "start": 512.742,
-     "end": 513.916,
-     "text": "that grinding sound."
-    },
-    {
-     "start": 514.096,
-     "end": 515.431,
-     "text": "Six hundred dollars."
-    },
-    {
-     "start": 515.611,
-     "end": 517.069,
-     "text": "You pay it. You drive home."
-    },
-    {
-     "start": 517.069,
-     "end": 517.933,
-     "text": "You make dinner."
-    },
-    {
-     "start": 518.113,
-     "end": 520.978,
-     "text": "No credit card. No panic. No interest."
-    }
-   ]
-  },
-  {
-   "id": "s45",
-   "visual": "sketch",
-   "params": {},
-   "heading": "",
-   "start": 521.258,
-   "end": 531.116,
-   "line_starts": [
-    521.258,
-    523.247,
-    527.295
-   ],
-   "subs": [
-    {
-     "start": 521.258,
-     "end": 523.067,
-     "text": "And here's the most important part."
-    },
-    {
-     "start": 523.247,
-     "end": 525.703,
-     "text": "You don't stop. Your fifty dollars keeps"
-    },
-    {
-     "start": 525.703,
-     "end": 527.115,
-     "text": "going in, every payday."
-    },
-    {
-     "start": 527.295,
-     "end": 529.18,
-     "text": "Because now the goal is to refill"
-    },
-    {
-     "start": 529.18,
-     "end": 530.836,
-     "text": "the fund... and then grow it."
-    }
-   ]
-  },
-  {
-   "id": "s46",
-   "visual": "sketch",
-   "params": {},
-   "heading": "",
-   "start": 531.116,
-   "end": 538.233,
-   "line_starts": [
-    531.116,
-    534.009,
-    536.092
-   ],
-   "subs": [
-    {
-     "start": 531.116,
-     "end": 533.829,
-     "text": "Next stop? One full month of expenses."
-    },
-    {
-     "start": 534.009,
-     "end": 535.912,
-     "text": "Then three months. Then six."
-    },
-    {
-     "start": 536.092,
-     "end": 537.953,
-     "text": "Same moves. Just... more time."
-    }
-   ]
-  },
-  {
-   "id": "s47",
-   "visual": "sketch",
-   "params": {},
-   "heading": "",
-   "start": 538.233,
-   "end": 550.564,
-   "line_starts": [
-    538.233,
-    542.054,
-    543.799,
-    547.046
-   ],
-   "subs": [
-    {
-     "start": 538.233,
-     "end": 539.998,
-     "text": "And Jake? Three months from now,"
-    },
-    {
-     "start": 539.998,
-     "end": 541.874,
-     "text": "he's still paying for that repair."
-    },
-    {
-     "start": 542.054,
-     "end": 543.619,
-     "text": "Plus interest. Plus stress."
-    },
-    {
-     "start": 543.799,
-     "end": 546.085,
-     "text": "He tells himself he'll start saving after"
-    },
-    {
-     "start": 546.085,
-     "end": 546.866,
-     "text": "it's paid off."
-    },
-    {
-     "start": 547.046,
-     "end": 548.518,
-     "text": "And every month he waits,"
-    },
-    {
-     "start": 548.518,
-     "end": 550.284,
-     "text": "the next surprise gets closer."
-    }
-   ]
-  },
-  {
-   "id": "s48",
-   "visual": "sketch",
-   "params": {},
-   "heading": "",
-   "start": 550.564,
-   "end": 557.613,
-   "line_starts": [
-    550.564,
-    551.917,
-    554.16
-   ],
-   "subs": [
-    {
-     "start": 550.564,
-     "end": 551.737,
-     "text": "But you know the truth."
-    },
-    {
-     "start": 551.917,
-     "end": 553.98,
-     "text": "There's never a perfect moment to start."
-    },
-    {
-     "start": 554.16,
-     "end": 556.451,
-     "text": "There's only today. With fifty dollars."
-    },
-    {
-     "start": 556.451,
-     "end": 557.333,
-     "text": "Or even twenty."
-    }
-   ]
-  },
-  {
-   "id": "s49",
-   "visual": "sketch",
-   "params": {},
-   "heading": "",
-   "start": 557.613,
-   "end": 567.751,
-   "line_starts": [
-    557.613,
-    560.438,
-    563.512
-   ],
-   "subs": [
-    {
-     "start": 557.613,
-     "end": 559.024,
-     "text": "So here's your homework."
-    },
-    {
-     "start": 559.024,
-     "end": 560.258,
-     "text": "Tonight. Ten minutes."
-    },
-    {
-     "start": 560.438,
-     "end": 562.753,
-     "text": "Open a separate savings account and give"
-    },
-    {
-     "start": 562.753,
-     "end": 563.332,
-     "text": "it a name."
-    },
-    {
-     "start": 563.512,
-     "end": 565.938,
-     "text": "Set up one automatic transfer for your"
-    },
-    {
-     "start": 565.938,
-     "end": 567.471,
-     "text": "next payday. Any amount."
-    }
-   ]
-  },
-  {
-   "id": "s50",
-   "visual": "sketch",
-   "params": {},
-   "heading": "",
-   "start": 567.751,
-   "end": 578.254,
-   "line_starts": [
-    567.751,
-    570.419,
-    574.954
-   ],
-   "subs": [
-    {
-     "start": 567.751,
-     "end": 570.239,
-     "text": "Then do one more move this week. Just one."
-    },
-    {
-     "start": 570.419,
-     "end": 573.084,
-     "text": "Cancel a subscription. Or sell one thing."
-    },
-    {
-     "start": 573.084,
-     "end": 574.774,
-     "text": "Or write one grocery list."
-    },
-    {
-     "start": 574.954,
-     "end": 576.596,
-     "text": "Small moves. Ninety days."
-    },
-    {
-     "start": 576.596,
-     "end": 577.974,
-     "text": "One thousand dollars."
-    }
-   ]
-  },
-  {
-   "id": "s51",
-   "visual": "sketch",
-   "params": {},
-   "heading": "",
-   "start": 578.254,
-   "end": 589.775,
-   "line_starts": [
-    578.254,
-    581.935,
-    586.609
-   ],
-   "subs": [
-    {
-     "start": 578.254,
-     "end": 580.55,
+     "start": 576.379,
+     "end": 578.783,
      "text": "If this helped, subscribe for one simple"
     },
     {
-     "start": 580.55,
-     "end": 581.755,
+     "start": 578.783,
+     "end": 580.045,
      "text": "money move every day."
     },
     {
-     "start": 581.935,
-     "end": 583.559,
+     "start": 580.345,
+     "end": 582.027,
      "text": "And tell me in the comments..."
     },
     {
-     "start": 583.559,
-     "end": 586.429,
-     "text": "what's the surprise expense that hit you the hardest?"
+     "start": 582.027,
+     "end": 583.988,
+     "text": "what did you dress up as this year?"
     },
     {
-     "start": 586.609,
-     "end": 587.995,
-     "text": "I read every comment."
+     "start": 584.288,
+     "end": 587.264,
+     "text": "Bonus points if it cost less than twelve dollars."
     }
    ]
   }

@@ -55,13 +55,16 @@ def run_jobs():
             S = requests.get(f"{RAW}/{SHA}/{d}/script.json", timeout=60).json(); V = bool(S.get("vertical"))
             w, h = (576, 1024) if V else (1024, 576)
             items = [(f"{i:03d}", sc["img"]) for i, sc in enumerate(S["scenes"])]
-            if S.get("thumbnail", {}).get("img"): items.append(("thumb", S["thumbnail"]["img"]))
+            T = S.get("thumbnail", {})
+            if T.get("img"): items.append(("thumb", T["img"]))
+            for side, key in (("left", "thumb_l"), ("right", "thumb_r")):       # split thumbnail (owner's style 2026-10-30)
+                if isinstance(T.get(side), dict) and T[side].get("img"): items.append((key, T[side]["img"]))
             for k, p in items:
                 path = f"{d}/img/{k}.jpg"
                 if gh_exists(path): IMG_STATUS["skipped"] += 1; continue
                 hero = "{HERO}" in p and HERO_REF is not None
                 try:
-                    data = cf_image(prompt_for(p, hero), w if k != "thumb" else 1024, h if k != "thumb" else 576,
+                    data = cf_image(prompt_for(p, hero), {"thumb": 1024, "thumb_l": 640, "thumb_r": 640}.get(k, w), {"thumb": 576, "thumb_l": 720, "thumb_r": 720}.get(k, h),
                                     seed=abs(hash(d + k)) % 100000, ref=HERO_REF if hero else None)
                     gh_put(path, data); IMG_STATUS["done"] += 1
                 except Exception as ex:

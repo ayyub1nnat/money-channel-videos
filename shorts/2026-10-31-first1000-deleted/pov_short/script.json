@@ -1,0 +1,75 @@
+{
+ "style": "pov",
+ "vertical": true,
+ "voice": "am_michael",
+ "speed": 1.15,
+ "lead": 0.0,
+ "gap": 0.15,
+ "scene_gap": 0.15,
+ "tail": 0.6,
+ "title": "POV: A $600 Car Repair Hits… Jake Has $0, YOU Just Pay It 😳",
+ "scenes": [
+  {
+   "lines": [
+    "Six hundred dollar car repair. Jake has two hundred twelve."
+   ],
+   "img": "a young man in a blue shirt in a car repair garage staring at an invoice in shock, hands on his head, vertical composition",
+   "tag": "$600",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "So it goes on the credit card. Twenty-two percent."
+   ],
+   "img": "a young man in a blue shirt nervously handing a credit card to a mechanic, sweat on his forehead, vertical composition",
+   "tag": "22% APR",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "Almost three years to pay off. About eight hundred dollars."
+   ],
+   "img": "a young man in a blue shirt at a kitchen table at night with a very long credit card statement rolling onto the floor, vertical composition",
+   "tag": "~$800",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "You? Same repair. You just pay it. Calm."
+   ],
+   "img": "{HERO} paying at a garage counter with a relaxed smile, mechanic smiling back, vertical composition"
+  },
+  {
+   "lines": [
+    "Fifty dollars every payday. Sent before you even see it."
+   ],
+   "img": "{HERO} tapping his phone that sends coins flying into a piggy bank, vertical composition",
+   "tag": "$50 / PAYDAY",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Cancelled subscriptions. Sold four things. Fixed your grocery list."
+   ],
+   "img": "{HERO} at home happily holding a box of old items and a shopping list, vertical composition"
+  },
+  {
+   "lines": [
+    "Ninety days. Same paycheck. One thousand dollars."
+   ],
+   "img": "{HERO} jumping with joy holding his phone showing a goal reached, confetti, vertical composition",
+   "tag": "$1,000",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Full story on my channel. Because Jake's next six hundred dollar surprise is coming."
+   ],
+   "img": "{HERO} waving at the viewer in a cozy living room, friendly smile, vertical composition"
+  }
+ ],
+ "hook": [
+  "$600 CAR REPAIR",
+  "JAKE HAS $0"
+ ]
+}

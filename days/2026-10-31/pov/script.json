@@ -1,534 +1,471 @@
 {
- "title": "POV: You Save Your First $1,000 in 90 Days — Jake Earns $900 More and Has $0 When His Car Breaks",
+ "title": "POV: Mia Spends $410 on Halloween… You Spend $42 and Nobody Can Tell the Difference",
  "style": "pov",
  "voice": "am_michael",
- "speed": 1.05,
- "lead": 0.1,
- "gap": 0.18,
- "scene_gap": 0.28,
+ "speed": 0.95,
+ "lead": 0.2,
+ "gap": 0.3,
+ "scene_gap": 0.5,
  "tail": 1.5,
+ "music": false,
+ "sfx": false,
  "thumbnail": {
-  "img": "{HERO} standing calmly in the foreground in front of a car repair garage holding a phone with a confident smile, behind him a young man in a blue shirt in panic next to a broken car with smoke coming from the hood, strong contrast between calm and panic, composition with the hero on the left third",
-  "image": "thumb",
-  "text": [
-   "$1,000 SAVED",
-   "IN 90 DAYS"
-  ],
-  "color": "#5BE37D",
-  "pos": "left"
+  "layout": "split",
+  "left": {
+   "img": "a young woman with a ponytail in an expensive witch costume holding many shopping bags and a long receipt, stressed shocked face, dark gloomy room with a credit card on the table",
+   "label": "MIA: $410",
+   "color": "#E23B3B"
+  },
+  "right": {
+   "img": "{HERO} in a simple homemade scarecrow costume holding a bowl of candy on a cozy porch at night with glowing jack-o-lanterns, big happy smile",
+   "label": "YOU: $42",
+   "color": "#1B9E4B"
+  }
  },
  "scenes": [
   {
-   "chapter": "Two Surprises",
+   "chapter": "Two Halloweens",
    "lines": [
-    "It's a Tuesday morning. Your car makes a sound it has never made before.",
-    "A loud, ugly grinding sound.",
-    "Two hours later, the mechanic says it. Six hundred dollars.",
-    "And you... just nod. You don't even flinch."
+    "It's Halloween night. Your doorbell rings for the twentieth time.",
+    "You open the door, smile, and drop candy into a little pumpkin bucket.",
+    "You're wearing a costume you made from your own closet.",
+    "And this whole night cost you... forty-two dollars."
    ],
-   "img": "{HERO} standing calmly in a car repair garage next to a mechanic holding an invoice, a car with the hood open, bright workshop light",
-   "tag": "$600 REPAIR",
-   "tag_color": "#E23B3B"
-  },
-  {
-   "lines": [
-    "Because three months ago, you started a tiny plan.",
-    "And today, sitting in a separate account, there's exactly one thousand dollars.",
-    "Your first thousand. Your shield.",
-    "And that changes everything about this Tuesday."
-   ],
-   "img": "{HERO} looking at his phone with a calm smile, a glowing shield icon floating above the screen, sitting in a garage waiting area",
-   "tag": "$1,000 SAVED",
+   "img": "{HERO} at his front door at night in a simple homemade scarecrow costume with a straw hat, smiling and giving candy to small kids in costumes, jack-o-lanterns on the porch",
+   "tag": "$42 TOTAL",
    "tag_color": "#1B9E4B"
   },
   {
    "lines": [
-    "Now meet Jake. Same week. Same kind of car. Same sound.",
-    "Jake actually earns more than you. Nine hundred dollars more, every month.",
-    "But when the mechanic says six hundred dollars...",
-    "Jake's stomach drops."
+    "Across town, your friend Mia is getting ready for a party.",
+    "Her costume? One hundred eighty dollars. She'll wear it once.",
+    "Plus a second outfit for Saturday. Plus new decorations. Plus a pumpkin patch trip.",
+    "And she's excited. Really excited."
    ],
-   "img": "a young man in a blue shirt in a repair garage staring at an invoice in shock, hands on his head, his car with the hood open",
-   "tag": "$0 SAVED",
+   "img": "a young woman with a ponytail in front of a mirror in an expensive elaborate witch costume, shopping bags and receipts on the bed behind her",
+   "tag": "$180 COSTUME",
    "tag_color": "#E23B3B"
   },
   {
    "lines": [
-    "He checks his bank app. Two hundred and twelve dollars.",
-    "Rent is due in nine days.",
-    "So he does what most people do. He hands over the credit card... and hopes for the best."
+    "When she adds it all up next week, the number will hurt.",
+    "Four hundred and ten dollars. On one holiday.",
+    "And most of it? It's sitting on her credit card right now.",
+    "Let that sink in for a second."
    ],
-   "img": "a young man in a blue shirt handing a credit card to a mechanic with a nervous forced smile, sweat on his forehead"
-  },
-  {
-   "lines": [
-    "And here's the part nobody tells you.",
-    "At twenty-two percent interest, paying twenty-five dollars a month...",
-    "that six-hundred-dollar repair takes Jake almost three years to pay off.",
-    "And it costs him about eight hundred dollars."
-   ],
-   "img": "a young man in a blue shirt sitting at a kitchen table at night looking at a long credit card statement that rolls onto the floor, tired face",
-   "tag": "$600 → ~$800",
+   "img": "a young woman with a ponytail at a desk looking at a credit card statement with wide shocked eyes, a carved pumpkin next to her, dim evening light",
+   "tag": "$410",
    "tag_color": "#E23B3B"
   },
   {
    "lines": [
-    "Same repair. Same week.",
-    "For you, it's an annoying Tuesday.",
-    "For Jake, it's a two-hundred-dollar mistake that follows him for years.",
-    "And the only difference between them... is a plan."
+    "Here's the crazy part.",
+    "At the party, nobody can tell which costume cost one hundred eighty dollars... and which one cost twelve.",
+    "Everyone just has fun. Including you.",
+    "Nobody checks the price tag on your hat."
    ],
-   "img": "split scene: on the left {HERO} driving away from a garage relaxed, on the right a young man in a blue shirt stressed in a dark room with bills, strong contrast"
+   "img": "{HERO} in a homemade scarecrow costume laughing with friends at a cozy Halloween house party, orange lights and paper bats"
   },
   {
    "lines": [
-    "And Jake is not alone. Not even close.",
-    "In Bankrate's latest emergency savings survey, fewer than half of American adults said they could cover a thousand-dollar surprise from their savings.",
-    "Fewer than half!"
+    "And Mia isn't unusual.",
+    "The National Retail Federation expected Americans to spend a record thirteen and a half billion dollars on Halloween this year.",
+    "That's about one hundred fifteen dollars per person.",
+    "A new record. Again."
    ],
-   "img": "a crowd of worried people holding bills and phones in a city street, one calm man in a mustard sweater in the middle",
-   "tag": "UNDER 50%",
+   "img": "{HERO} looking up at a giant mountain of Halloween candy, costumes and pumpkins in a store, surprised face",
+   "tag": "$13.5 BILLION",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "And here's how it usually happens.",
+    "It's never one big purchase.",
+    "A ten-dollar decoration here. A fifteen-dollar candy run there.",
+    "Little 'it's just Halloween' moments... and they add up fast."
+   ],
+   "img": "{HERO} looking at a long trail of small receipts falling around him in a store, curious frown",
+   "tag": "IT ADDS UP",
    "tag_color": "#E88A1A"
   },
   {
    "lines": [
     "So stay with me.",
-    "Because in the next few minutes, I'll show you exactly how you got to one thousand dollars in ninety days.",
-    "Not with a raise. Not with a side business. With six small moves.",
-    "Stay till the end, because the math surprised even me."
+    "I'll show you exactly how you enjoyed the same Halloween for forty-two dollars...",
+    "and the one thing you'll do tomorrow morning that makes next year even cheaper.",
+    "No guilt. No boring rules. Just smarter moves."
    ],
-   "img": "{HERO} sitting at a desk with a notebook showing a simple plan with six checkboxes, warm lamp light, focused smile",
-   "tag": "6 MOVES / 90 DAYS",
+   "img": "{HERO} sitting at a kitchen table with a notebook and a small pumpkin, writing a plan, warm lamp light, focused smile",
+   "tag": "STAY TILL THE END",
    "tag_color": "#2C7BE5"
   },
   {
-   "chapter": "Why $1,000 First",
+   "chapter": "Move 1: The Closet Costume",
    "lines": [
-    "Let's rewind. Ninety days earlier.",
-    "You earn thirty-two hundred dollars a month after taxes.",
-    "Rent, car, phone, food... it all goes out. Every month.",
-    "And at the end of the month, there's... nothing left. Sound familiar?"
+    "Let's start with the biggest one. The costume.",
+    "Costumes are where Americans spend the most on Halloween.",
+    "About four point four billion dollars this year.",
+    "And most of them get worn one single night."
    ],
-   "img": "{HERO} on a couch at the end of the month looking at an almost empty wallet, a calendar on the wall showing the 30th, slightly worried",
-   "tag": "$3,200 / MONTH",
-   "tag_color": "#2C7BE5"
-  },
-  {
-   "lines": [
-    "You'd read about emergency funds before. Three to six months of expenses.",
-    "And honestly? That number made you want to give up.",
-    "Ten thousand dollars? Fifteen? On your paycheck?",
-    "So you just... never started."
-   ],
-   "img": "{HERO} staring at a giant mountain made of stacked dollar bills, looking tiny and overwhelmed"
-  },
-  {
-   "lines": [
-    "So you made one decision that changed everything.",
-    "Forget the mountain. Just get to one thousand.",
-    "One thousand dollars is small enough to reach... and big enough to handle most of the surprises life throws at you.",
-    "Then you'd worry about the big mountain later."
-   ],
-   "img": "{HERO} climbing a small friendly hill with a little flag at the top that has a dollar sign on it, determined smile, sunny sky",
-   "tag": "GOAL: $1,000",
-   "tag_color": "#1B9E4B"
-  },
-  {
-   "lines": [
-    "A flat tire. A vet bill. A dentist visit. A plane ticket home.",
-    "Most of those fit under a thousand dollars.",
-    "That's why it's the first goal. Not the last one... the first one.",
-    "Small goal. Big relief."
-   ],
-   "img": "{HERO} surrounded by floating icons of a flat tire, a dog, a tooth and a plane ticket, all bouncing off a glowing shield around him"
-  },
-  {
-   "chapter": "Move 1: A Separate Account",
-   "lines": [
-    "Move number one took you twelve minutes. On your lunch break.",
-    "You opened a brand-new savings account.",
-    "Not at your usual bank. At a different one.",
-    "One with no monthly fees."
-   ],
-   "img": "{HERO} on a park bench during lunch break opening a new account on his phone, sandwich next to him",
-   "tag": "MOVE 1",
-   "tag_color": "#2C7BE5"
-  },
-  {
-   "lines": [
-    "Why a different bank? Because you know yourself.",
-    "If the savings sit right next to your checking account, one tap moves it back.",
-    "Late at night. On a sale. On a bad day."
-   ],
-   "img": "{HERO} at night looking at his phone with a tempting sale banner, a little devil cartoon on his shoulder whispering"
-  },
-  {
-   "lines": [
-    "But if it's at another bank, it takes a day or two to get the money back.",
-    "And those two days? They're your cooling-off period.",
-    "Most impulse buys don't survive two days.",
-    "Annoying? That's exactly the point."
-   ],
-   "img": "{HERO} smiling and shaking his head at a shopping cart icon fading away on his phone screen, coffee in hand"
-  },
-  {
-   "lines": [
-    "You picked a high-yield savings account, so the money earns a little interest too.",
-    "Rates change, so it's not a fortune.",
-    "But it's a lot better than the almost-zero your old account paid."
-   ],
-   "img": "{HERO} looking at a small glowing plant growing out of a pile of coins on a table, curious smile"
-  },
-  {
-   "lines": [
-    "And you gave the account a name. Not 'Savings'.",
-    "You called it... 'Car Breaks Down Fund'.",
-    "Sounds silly? It's not. A name with a purpose is so much harder to raid.",
-    "Every time you open the app, it reminds you why."
-   ],
-   "img": "{HERO} typing a name into a banking app on his phone with a playful grin, cozy apartment background",
-   "tag": "NAME IT",
-   "tag_color": "#E88A1A"
-  },
-  {
-   "chapter": "Move 2: Pay Yourself First",
-   "lines": [
-    "Move number two is the big one.",
-    "You set up an automatic transfer. Fifty dollars. Every payday.",
-    "You get paid every two weeks... so that's six paydays in ninety days."
-   ],
-   "img": "{HERO} tapping a button on his phone that sends coins flying into a piggy bank, a calendar showing paydays circled",
-   "tag": "$50 / PAYDAY",
-   "tag_color": "#1B9E4B"
-  },
-  {
-   "lines": [
-    "Here's the secret. The transfer happens the same morning your paycheck lands.",
-    "Before rent. Before groceries. Before you even see the money.",
-    "You pay yourself first.",
-    "Whatever's left after that? That's what you live on."
-   ],
-   "img": "{HERO} waking up in the morning, phone on the nightstand showing two notifications, one paycheck and one transfer to savings, peaceful face"
-  },
-  {
-   "lines": [
-    "And Jake? Jake saves whatever is left at the end of the month.",
-    "Which is... nothing. Every single month.",
-    "Because there's never anything left at the end of the month.",
-    "And he wonders why it never works."
-   ],
-   "img": "a young man in a blue shirt turning his empty pockets inside out with a shrug, a calendar showing the end of the month behind him"
-  },
-  {
-   "lines": [
-    "The first transfer stings a little. Fifty dollars feels like a lot.",
-    "But by the third one? You don't even notice it.",
-    "Your spending just quietly adjusts to the money you see."
-   ],
-   "img": "{HERO} at a grocery store checkout looking relaxed, paying with a card, smiling at the cashier"
-  },
-  {
-   "lines": [
-    "Six paydays. Fifty dollars each.",
-    "That's three hundred dollars. And you didn't lift a finger.",
-    "That's thirty percent of your goal. On autopilot.",
-    "Every two weeks, without even thinking about it."
-   ],
-   "img": "{HERO} looking at a progress bar on a big screen filling to thirty percent, giving a thumbs up",
-   "tag": "$300",
-   "tag_color": "#1B9E4B"
-  },
-  {
-   "chapter": "Move 3: The Subscription Purge",
-   "lines": [
-    "Move number three. One Sunday evening, you open your bank statements.",
-    "Three months of them. With a cup of tea.",
-    "And you highlight every single thing that charges you automatically.",
-    "Boring? Maybe. But this is where money hides."
-   ],
-   "img": "{HERO} at a kitchen table on a Sunday evening with printed bank statements and a yellow highlighter, a cup of tea, focused",
-   "tag": "MOVE 3",
-   "tag_color": "#2C7BE5"
-  },
-  {
-   "lines": [
-    "A streaming service you haven't opened since summer.",
-    "A fitness app from your January motivation phase.",
-    "A cloud storage upgrade you don't even need. Wait... seriously?"
-   ],
-   "img": "{HERO} looking at his phone with raised eyebrows and a shocked laugh, icons of a TV, a dumbbell and a cloud floating above"
-  },
-  {
-   "lines": [
-    "Thirty dollars a month. Gone. Just like that.",
-    "You didn't miss a single one of them.",
-    "Over three months, that's ninety dollars back in your pocket.",
-    "Thirty dollars a month doesn't sound like much... until you see it in a jar."
-   ],
-   "img": "{HERO} happily tapping cancel buttons on his phone, little icons popping like bubbles",
-   "tag": "$30 / MONTH",
-   "tag_color": "#1B9E4B"
-  },
-  {
-   "lines": [
-    "Jake has the same subscriptions. Actually more.",
-    "He knows he should check. He keeps saying he'll do it next weekend.",
-    "Next weekend never comes.",
-    "Meanwhile, the charges keep coming. Month after month."
-   ],
-   "img": "a young man in a blue shirt lying on a couch watching TV with a bowl of chips, relaxed lazy face, cozy living room"
-  },
-  {
-   "chapter": "Move 4: Sell 4 Things",
-   "lines": [
-    "Move number four was actually fun.",
-    "You walked around your apartment and asked one question.",
-    "What here have I not used in a whole year?"
-   ],
-   "img": "{HERO} walking through his apartment with a box, looking at shelves and a closet, curious expression",
-   "tag": "MOVE 4",
-   "tag_color": "#2C7BE5"
-  },
-  {
-   "lines": [
-    "An old phone in a drawer.",
-    "A bike you rode twice.",
-    "A gaming console collecting dust. And a jacket with the tags still on. Ouch.",
-    "Be honest... you've got a drawer like this too."
-   ],
-   "img": "{HERO} sitting on the floor with an old phone, a bike, a game console and a jacket with price tags around him, slightly embarrassed smile"
-  },
-  {
-   "lines": [
-    "You took photos in good light. You wrote honest descriptions.",
-    "You priced them a little below everyone else.",
-    "And you listed them all on a Saturday morning.",
-    "Stuff you don't need... but someone else does."
-   ],
-   "img": "{HERO} taking a photo of a bike with his phone in a bright room near a window, focused"
-  },
-  {
-   "lines": [
-    "By Sunday night, three of them were gone. The fourth sold that Thursday.",
-    "Two hundred thirty-five dollars.",
-    "Money you already had... it was just sitting in a drawer.",
-    "Not bad for one weekend, right?"
-   ],
-   "img": "{HERO} at his front door handing a bike to a happy buyer, cash in hand, sunny day",
-   "tag": "+$235",
-   "tag_color": "#1B9E4B"
-  },
-  {
-   "lines": [
-    "And here's a little rule you made.",
-    "Every dollar from selling stuff goes straight into the fund.",
-    "Not 'just this once' into a dinner out. Straight in.",
-    "Because money that feels like a bonus disappears fast."
-   ],
-   "img": "{HERO} transferring money on his phone right after selling, a glowing arrow pointing into a piggy bank"
-  },
-  {
-   "chapter": "Move 5: The Grocery Fix",
-   "lines": [
-    "Move number five is where most of the money hides.",
-    "Groceries.",
-    "Not because you buy fancy food... but because you shopped without a plan.",
-    "Let me show you."
-   ],
-   "img": "{HERO} in a supermarket aisle with a half full cart of random items, puzzled face, bright store lights",
-   "tag": "MOVE 5",
-   "tag_color": "#2C7BE5"
-  },
-  {
-   "lines": [
-    "Before, you'd walk into the store hungry after work.",
-    "No list. Just vibes.",
-    "Snacks, a fancy sauce, a second bag of chips... and half of it went bad in the fridge."
-   ],
-   "img": "{HERO} opening a fridge full of wilted vegetables and forgotten containers, disappointed face"
-  },
-  {
-   "lines": [
-    "Now? Every Sunday, ten minutes.",
-    "You check what's already in the fridge.",
-    "You plan five dinners. You write a list. And you never shop hungry."
-   ],
-   "img": "{HERO} at a kitchen counter writing a shopping list, the fridge door open, calm and organized",
-   "tag": "10 MIN / SUNDAY",
-   "tag_color": "#2C7BE5"
-  },
-  {
-   "lines": [
-    "You cook a little extra, so dinner becomes tomorrow's lunch.",
-    "You buy the store brand for basics. Rice, pasta, oats, beans.",
-    "Same food. Just... without the expensive label.",
-    "And nothing goes in the trash anymore."
-   ],
-   "img": "{HERO} packing leftover dinner into lunch containers in a tidy kitchen, satisfied smile"
-  },
-  {
-   "lines": [
-    "The result? Your grocery bill drops by about twenty-five dollars a week.",
-    "You're not eating worse. You're just not wasting.",
-    "Twelve weeks... that's three hundred dollars."
-   ],
-   "img": "{HERO} at a checkout looking at a shorter receipt with a surprised happy face",
-   "tag": "$25 / WEEK",
-   "tag_color": "#1B9E4B"
-  },
-  {
-   "lines": [
-    "Meanwhile, Jake orders delivery four nights a week.",
-    "Every order comes with a delivery fee, a service fee, and a tip.",
-    "He's always surprised the burger cost twenty-eight dollars.",
-    "That's over four hundred dollars a month. Just on delivery."
-   ],
-   "img": "a young man in a blue shirt opening his door to a delivery bag, looking at his phone receipt with confusion, messy apartment",
-   "tag": "$28 BURGER",
+   "img": "{HERO} in a costume store aisle looking at expensive costume packages on the wall with raised eyebrows",
+   "tag": "$4.4 BILLION",
    "tag_color": "#E23B3B"
   },
   {
-   "chapter": "Move 6: No-Spend Weekends",
    "lines": [
-    "Move number six. The no-spend weekend.",
-    "Once a month, from Friday night to Sunday night... you spend nothing.",
-    "No shopping. No takeout. No 'quick little' coffee run.",
-    "It's a little game. And you're surprisingly good at it."
+    "But before you bought anything, you did one simple thing.",
+    "You opened your closet. And you asked: what can I already be?",
+    "An old flannel shirt, jeans and a straw hat? That's a scarecrow.",
+    "You didn't need a fancy costume. You needed an idea."
    ],
-   "img": "{HERO} on a Friday night closing a laptop and putting his wallet in a drawer, playful determined face",
-   "tag": "MOVE 6",
-   "tag_color": "#2C7BE5"
+   "img": "{HERO} standing in front of an open closet holding up an old flannel shirt and a straw hat, thinking with a little smile"
   },
   {
    "lines": [
-    "Sounds boring? It wasn't.",
-    "You went hiking. You had friends over for a movie night with homemade popcorn.",
-    "You finally read that book that's been on your shelf for two years."
+    "A white shirt and a little face paint? That's a ghost or a zombie.",
+    "A black sweater and cat ears? Done. Seriously.",
+    "The best costumes are often the simple ones people recognize in one second.",
+    "No sewing. No stress."
    ],
-   "img": "{HERO} hiking on a forest trail with a backpack on a sunny weekend, big smile"
+   "img": "{HERO} at a bathroom mirror putting a little face paint on his cheek, playful grin"
   },
   {
    "lines": [
-    "A normal weekend used to cost you around twenty-five dollars more.",
-    "Three no-spend weekends? Seventy-five dollars.",
-    "And honestly... some of the best weekends you've had all year."
+    "You spent twelve dollars. One prop. The straw hat.",
+    "Mia spent one hundred eighty. Same party. Same photos.",
+    "That's a one hundred sixty-eight dollar difference... from one decision.",
+    "Think about that."
    ],
-   "img": "{HERO} and two friends laughing on a couch with a bowl of popcorn, cozy living room",
-   "tag": "+$75",
-   "tag_color": "#1B9E4B"
-  },
-  {
-   "chapter": "Day 90: The Math",
-   "lines": [
-    "Okay. Ready?",
-    "Let's add it all up.",
-    "Fifty dollars every payday. Three hundred.",
-    "Groceries. Another three hundred."
-   ],
-   "img": "{HERO} at a whiteboard writing big numbers with a marker, focused smile",
-   "tag": "$300 + $300",
-   "tag_color": "#2C7BE5"
-  },
-  {
-   "lines": [
-    "Stuff you sold. Two hundred thirty-five.",
-    "Subscriptions you cancelled. Ninety.",
-    "No-spend weekends. Seventy-five.",
-    "Wait for it..."
-   ],
-   "img": "{HERO} at a whiteboard adding more numbers, pointing with the marker, excited",
-   "tag": "$235 + $90 + $75",
-   "tag_color": "#2C7BE5"
-  },
-  {
-   "lines": [
-    "Total?",
-    "Exactly one thousand dollars.",
-    "In ninety days. On the same paycheck you always had.",
-    "Same job. Same city. Same paycheck."
-   ],
-   "img": "{HERO} jumping with joy in his living room, phone in hand showing a goal reached, confetti in the air",
-   "tag": "$1,000",
+   "img": "split scene: on the left {HERO} proudly wearing a simple scarecrow costume, on the right a young woman with a ponytail in an expensive witch costume holding a long receipt",
+   "tag": "$12 vs $180",
    "tag_color": "#1B9E4B"
   },
   {
    "lines": [
-    "You didn't get a raise.",
-    "You didn't stop seeing your friends.",
-    "You didn't eat rice and beans every day. You just... stopped the leaks."
+    "Don't want to make one yourself? There are other options.",
+    "A costume swap with friends. Everyone brings last year's costume and takes a different one.",
+    "Free. And honestly... kind of fun.",
+    "You walk in with one costume and walk out with a new one."
    ],
-   "img": "{HERO} plugging small leaks in a water pipe that has coins dripping out, satisfied face"
-  },
-  {
-   "chapter": "What Comes Next",
-   "lines": [
-    "And then, two weeks later... that grinding sound.",
-    "Six hundred dollars.",
-    "You pay it. You drive home. You make dinner.",
-    "No credit card. No panic. No interest."
-   ],
-   "img": "{HERO} paying at a garage counter with a calm smile, the mechanic smiling back",
-   "tag": "$600 PAID",
-   "tag_color": "#1B9E4B"
+   "img": "{HERO} and three friends laughing around a table covered with costumes and masks, trading them, cozy living room"
   },
   {
    "lines": [
-    "And here's the most important part.",
-    "You don't stop. Your fifty dollars keeps going in, every payday.",
-    "Because now the goal is to refill the fund... and then grow it."
+    "Or check a thrift store first. Lots of costumes there were worn exactly once.",
+    "And if you have kids, this one matters even more.",
+    "Kids outgrow costumes every single year. A swap with other parents can save you real money.",
+    "Last year's dinosaur becomes this year's dinosaur... for a different kid."
    ],
-   "img": "{HERO} looking at a piggy bank being refilled with coins, determined smile, morning light"
+   "img": "{HERO} in a thrift store holding up a used costume on a hanger, pleased surprised face, racks of clothes behind him"
   },
   {
+   "chapter": "Move 2: Smart Candy",
    "lines": [
-    "Next stop? One full month of expenses.",
-    "Then three months. Then six.",
-    "Same moves. Just... more time."
+    "Move number two. Candy.",
+    "Ninety-six percent of people planning to celebrate said they'd buy candy.",
+    "And this is where a lot of money quietly disappears.",
+    "Not because candy is expensive. Because nobody plans it."
    ],
-   "img": "{HERO} climbing a series of steps with flags labeled with small icons of a calendar, each step higher, sunrise sky"
-  },
-  {
-   "lines": [
-    "And Jake? Three months from now, he's still paying for that repair.",
-    "Plus interest. Plus stress.",
-    "He tells himself he'll start saving after it's paid off.",
-    "And every month he waits, the next surprise gets closer."
-   ],
-   "img": "a young man in a blue shirt sitting alone on a bench at night looking at a credit card statement, tired and worried"
-  },
-  {
-   "lines": [
-    "But you know the truth.",
-    "There's never a perfect moment to start.",
-    "There's only today. With fifty dollars. Or even twenty."
-   ],
-   "img": "{HERO} sitting by a window at sunrise with a cup of coffee, looking thoughtful and calm"
-  },
-  {
-   "lines": [
-    "So here's your homework. Tonight. Ten minutes.",
-    "Open a separate savings account and give it a name.",
-    "Set up one automatic transfer for your next payday. Any amount."
-   ],
-   "img": "{HERO} at a desk at night with a laptop, setting up an automatic transfer, warm lamp light",
-   "tag": "TONIGHT: 10 MIN",
+   "img": "{HERO} in a supermarket candy aisle full of colorful bags, holding a shopping list, calm smile",
+   "tag": "MOVE 2: CANDY",
    "tag_color": "#2C7BE5"
   },
   {
    "lines": [
-    "Then do one more move this week. Just one.",
-    "Cancel a subscription. Or sell one thing. Or write one grocery list.",
-    "Small moves. Ninety days. One thousand dollars."
+    "Mia bought candy three times this month.",
+    "Once in early October... and then she ate it.",
+    "Then again two weeks later. And then she ate that too.",
+    "Then one more time today, at full price, at the corner store."
    ],
-   "img": "{HERO} holding a small notebook with a checklist and a pen, confident smile, cozy room"
+   "img": "a young woman with a ponytail on a couch at night eating from a big bag of Halloween candy, guilty face, empty wrappers around her"
+  },
+  {
+   "lines": [
+    "You did it differently.",
+    "First, you made a guess. How many kids came last year? About sixty.",
+    "Two pieces each. That's around one hundred twenty pieces.",
+    "Simple math. Two minutes. Done."
+   ],
+   "img": "{HERO} sitting on porch steps with a notepad doing simple math, a pumpkin next to him, afternoon light",
+   "tag": "~120 PIECES",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "Then you looked at the little price tag on the shelf. The one with the unit price.",
+    "Big bags are usually cheaper per piece than small ones.",
+    "But you only buy the big bag if you'll actually use it all.",
+    "Store brands and mixed packs are often cheaper too. Kids don't check the logo."
+   ],
+   "img": "{HERO} looking closely at a price tag on a store shelf with a magnifying glass, candy bags on the shelf, curious face"
+  },
+  {
+   "lines": [
+    "And here's the rule that saved you the most.",
+    "You bought the candy on Halloween week. Not in early October.",
+    "Candy you don't have in the house... is candy you don't eat.",
+    "Wait until the week of Halloween. Your wallet will thank you."
+   ],
+   "img": "{HERO} putting one bag of candy into a high kitchen cabinet and closing it, wink"
+  },
+  {
+   "lines": [
+    "Your candy budget? Twenty-four dollars. One trip.",
+    "Mia's? Forty-five. Three trips.",
+    "And she's still buying more tonight.",
+    "Same kids. Same smiles."
+   ],
+   "img": "{HERO} at a checkout with a few bags of candy and a short receipt, relaxed smile",
+   "tag": "$24 CANDY",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "chapter": "Move 3: Decorations",
+   "lines": [
+    "Move number three. Decorations.",
+    "Americans planned to spend about four point three billion dollars on Halloween decorations this year.",
+    "But here's the thing. Decorations don't expire.",
+    "You buy them once. You can use them for years."
+   ],
+   "img": "{HERO} in a garage opening a plastic storage bin labeled with a drawing of a pumpkin, full of Halloween decorations",
+   "tag": "$4.3 BILLION",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "Last year, after Halloween, you packed everything into one bin.",
+    "You drew a little pumpkin on the lid. And you put it in the closet.",
+    "So this year, you didn't buy the same skeleton... for the third time."
+   ],
+   "img": "{HERO} carrying a storage bin to a closet with a satisfied smile, a skeleton decoration sticking out"
+  },
+  {
+   "lines": [
+    "Mia? She couldn't find last year's decorations.",
+    "They're somewhere. Behind the vacuum cleaner probably.",
+    "So she bought them all again. Ninety dollars.",
+    "Sound familiar? Be honest."
+   ],
+   "img": "a young woman with a ponytail searching through a messy closet with things falling out, frustrated face, Halloween decorations in a store bag beside her",
+   "tag": "$90 AGAIN",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "You added a few cheap touches too.",
+    "Paper bats cut from black paper. A few glass jars with candles inside. Leaves from the yard.",
+    "It looked cozy. It looked like Halloween. And it cost almost nothing."
+   ],
+   "img": "{HERO} at a table cutting black paper bats with scissors, glass jars and autumn leaves around him, cozy evening"
+  },
+  {
+   "chapter": "Move 4: The Pumpkin",
+   "lines": [
+    "Move number four. The pumpkin.",
+    "Pumpkin patches are fun. Hayrides, photos, apple cider.",
+    "But if you just need a pumpkin for the porch... the grocery store is often much cheaper.",
+    "Nothing wrong with that, if it's in your budget."
+   ],
+   "img": "{HERO} carrying a big orange pumpkin out of a grocery store, sunny autumn day, cheerful",
+   "tag": "MOVE 4: PUMPKIN",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "You paid six dollars. You carved it with friends on Sunday.",
+    "And you roasted the seeds in the oven with a little salt.",
+    "A free snack. Seriously, try it."
+   ],
+   "img": "{HERO} carving a pumpkin at a kitchen table with a big smile, a tray of roasted pumpkin seeds next to him",
+   "tag": "$6 PUMPKIN",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Mia went to a pumpkin patch with an entry fee, parking, and a pumpkin priced by the pound.",
+    "Thirty dollars.",
+    "It was a nice afternoon. But it wasn't the only way to have one."
+   ],
+   "img": "a young woman with a ponytail at a pumpkin patch paying at a booth, holding a pumpkin and a cup of cider, slightly worried smile",
+   "tag": "$30",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "chapter": "Move 5: The Party",
+   "lines": [
+    "Move number five. The party.",
+    "You didn't host everything yourself. You did a potluck.",
+    "You made the chili. Everyone else brought one thing."
+   ],
+   "img": "{HERO} stirring a big pot of chili in a kitchen decorated for Halloween, friends arriving with dishes in the background",
+   "tag": "MOVE 5: POTLUCK",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "Ten people. Ten dishes. One great table.",
+    "And the cost for you? The ingredients for one pot of chili.",
+    "Nobody felt cheap. Everyone felt included.",
+    "And honestly? It was the best party of the year."
+   ],
+   "img": "{HERO} and friends around a table full of homemade dishes, Halloween decorations, everyone laughing"
+  },
+  {
+   "lines": [
+    "Then you set one simple rule for the night.",
+    "You leave the credit card at home.",
+    "You bring a little cash. And when it's gone... it's gone.",
+    "No late-night pizza order you'll regret tomorrow."
+   ],
+   "img": "{HERO} placing a credit card into a drawer and taking a few cash bills, smiling, Halloween decorations in the hallway",
+   "tag": "CASH ONLY",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "chapter": "The Math",
+   "lines": [
+    "Now let's add it up.",
+    "Costume: twelve dollars. Candy: twenty-four. Pumpkin: six.",
+    "Decorations: zero. You already had them."
+   ],
+   "img": "{HERO} at a whiteboard writing numbers with a marker, a pumpkin on the table, focused smile",
+   "tag": "$12 + $24 + $6",
+   "tag_color": "#2C7BE5"
+  },
+  {
+   "lines": [
+    "Your Halloween: forty-two dollars.",
+    "Mia's Halloween: four hundred and ten.",
+    "Same night. Same fun. Three hundred sixty-eight dollars difference."
+   ],
+   "img": "split scene: on the left {HERO} happy on his porch with a candy bowl, on the right a young woman with a ponytail stressed with shopping bags and a credit card",
+   "tag": "$42 vs $410",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "And if Mia only pays the minimum on that card...",
+    "that Halloween follows her around for months. With interest.",
+    "Halloween is one night. The bill shouldn't last until spring.",
+    "Every month she waits, the interest keeps growing."
+   ],
+   "img": "a young woman with a ponytail in a winter coat in December looking at a credit card bill, a forgotten Halloween costume hanging in the background, sad face"
+  },
+  {
+   "chapter": "Move 6: November 1st",
+   "lines": [
+    "Okay. Now the move I promised you.",
+    "Tomorrow morning is November first.",
+    "And that's when Halloween stores start to clear everything out."
+   ],
+   "img": "{HERO} waking up in the morning, looking at a calendar showing November first circled in orange, determined smile",
+   "tag": "NOVEMBER 1",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "Decorations, costumes, lights... often half off on November first.",
+    "And sometimes even cheaper a few days later.",
+    "So you go with a list. Not a cart full of random stuff.",
+    "Not because they're generous. Because they need the shelf space for Christmas."
+   ],
+   "img": "{HERO} walking into a store with clearance signs covered in Halloween decorations, holding a short list, morning light",
+   "tag": "OFTEN 50% OFF",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "You buy the one thing you'll definitely use next year.",
+    "Maybe a string of orange lights. Maybe a kid's costume one size bigger.",
+    "And it goes straight into the bin with the pumpkin on the lid."
+   ],
+   "img": "{HERO} holding a string of orange lights with a big discount sticker, smiling, store aisle"
+  },
+  {
+   "lines": [
+    "And the leftover candy?",
+    "After Halloween, a lot of stores mark candy down too.",
+    "If you're going to buy chocolate anyway in November... that's when you buy it.",
+    "Just don't buy it before."
+   ],
+   "img": "{HERO} looking at a shelf of discounted candy with a red sale sign, raised eyebrows, amused"
+  },
+  {
+   "lines": [
+    "But here's the warning.",
+    "A discount only saves money if you were going to buy it anyway.",
+    "Fifty percent off something you don't need... is still a hundred percent wasted."
+   ],
+   "img": "{HERO} putting back a big inflatable Halloween decoration on a store shelf, shaking his head with a smile",
+   "tag": "CAREFUL",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "chapter": "Next Year's Halloween",
+   "lines": [
+    "And then you do one last thing.",
+    "You open your banking app and create a little savings bucket called 'Halloween'.",
+    "Ten dollars a month. Automatically.",
+    "You named it, so you know exactly what it's for."
+   ],
+   "img": "{HERO} at home tapping on his phone, a small piggy bank shaped like a pumpkin next to him, cozy evening",
+   "tag": "$10 / MONTH",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "By next October, there's one hundred twenty dollars sitting there.",
+    "Cash. Already saved.",
+    "So next Halloween costs you nothing extra. No card. No stress."
+   ],
+   "img": "{HERO} next October holding a phone showing a full savings goal, a pumpkin and autumn leaves around him, happy",
+   "tag": "$120 READY",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "It's called a sinking fund.",
+    "You save a little every month for something you know is coming.",
+    "Halloween. Christmas. Birthdays. Car insurance. None of them are surprises.",
+    "You already know the dates. They're on the calendar."
+   ],
+   "img": "{HERO} looking at a calendar on the wall with small icons of a pumpkin, a Christmas tree, a cake and a car, calm smile"
+  },
+  {
+   "lines": [
+    "And they only feel like surprises... when you don't plan for them.",
+    "That's why Mia feels broke every November.",
+    "And you don't."
+   ],
+   "img": "a young woman with a ponytail sitting on her bed surrounded by bills in November, rainy window, worried face"
+  },
+  {
+   "lines": [
+    "So tonight, enjoy it.",
+    "Hand out the candy. Eat a few pieces. Laugh at the costumes.",
+    "You earned this night.",
+    "Tomorrow is for the smart moves."
+   ],
+   "img": "{HERO} on his porch at night with a candy bowl, laughing with neighbors in costumes, glowing jack-o-lanterns"
+  },
+  {
+   "lines": [
+    "And tomorrow, three small moves.",
+    "Pack the decorations in one labeled bin.",
+    "Buy only what you'll use next year, from a list.",
+    "And start that ten-dollar Halloween fund."
+   ],
+   "img": "{HERO} the next morning packing decorations into a storage bin, a short checklist taped to the lid, sunny room",
+   "tag": "3 MOVES",
+   "tag_color": "#2C7BE5"
   },
   {
    "lines": [
     "If this helped, subscribe for one simple money move every day.",
-    "And tell me in the comments... what's the surprise expense that hit you the hardest?",
-    "I read every comment."
+    "And tell me in the comments... what did you dress up as this year?",
+    "Bonus points if it cost less than twelve dollars."
    ],
-   "img": "{HERO} waving warmly at the viewer in a cozy living room, friendly smile",
+   "img": "{HERO} in his scarecrow costume waving warmly at the viewer, cozy living room with Halloween decorations",
    "tag": "SUBSCRIBE",
    "tag_color": "#2C7BE5"
   }

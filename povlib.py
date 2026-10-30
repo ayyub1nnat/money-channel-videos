@@ -2,7 +2,7 @@
 (odd shots are a punch-in on part of the same illustration), so the picture changes every few seconds."""
 import random
 def shots(s, vertical):
-    SHOT = 3.2 if vertical else 4.6
+    SHOT = 4.0 if vertical else 6.0   # calmer cuts (owner 2026-10-30)
     d = s["end"] - s["start"]; n = max(1, round(d / SHOT))
     return [s["start"] + d * j / n for j in range(n)]          # shot start times
 def shot_params(i, j):
