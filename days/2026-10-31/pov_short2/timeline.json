@@ -1,0 +1,175 @@
+{
+ "title": "POV: Mia Spends $180 on a Costume She Wears Once\u2026 You Spend $12 \ud83c\udf83",
+ "duration": 30.577,
+ "scenes": [
+  {
+   "id": "s0",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 0.0,
+   "end": 3.866,
+   "line_starts": [
+    0.0
+   ],
+   "subs": [
+    {
+     "start": 0.0,
+     "end": 3.716,
+     "text": "Mia's Halloween costume. One hundred eighty dollars. Worn once."
+    }
+   ]
+  },
+  {
+   "id": "s1",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 3.866,
+   "end": 8.046,
+   "line_starts": [
+    3.866
+   ],
+   "subs": [
+    {
+     "start": 3.866,
+     "end": 5.692,
+     "text": "Plus decorations. Plus candy."
+    },
+    {
+     "start": 5.692,
+     "end": 7.896,
+     "text": "Plus a second outfit for the party."
+    }
+   ]
+  },
+  {
+   "id": "s2",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 8.046,
+   "end": 12.437,
+   "line_starts": [
+    8.046
+   ],
+   "subs": [
+    {
+     "start": 8.046,
+     "end": 10.256,
+     "text": "This year's average Halloween budget?"
+    },
+    {
+     "start": 10.256,
+     "end": 12.287,
+     "text": "About one hundred fifteen dollars."
+    }
+   ]
+  },
+  {
+   "id": "s3",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 12.437,
+   "end": 16.258,
+   "line_starts": [
+    12.437
+   ],
+   "subs": [
+    {
+     "start": 12.437,
+     "end": 14.45,
+     "text": "You? Costume from your own closet."
+    },
+    {
+     "start": 14.45,
+     "end": 16.108,
+     "text": "Twelve dollars for one prop."
+    }
+   ]
+  },
+  {
+   "id": "s4",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 16.258,
+   "end": 18.842,
+   "line_starts": [
+    16.258
+   ],
+   "subs": [
+    {
+     "start": 16.258,
+     "end": 18.692,
+     "text": "Candy? One big bag on the list. That's it."
+    }
+   ]
+  },
+  {
+   "id": "s5",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 18.842,
+   "end": 21.46,
+   "line_starts": [
+    18.842
+   ],
+   "subs": [
+    {
+     "start": 18.842,
+     "end": 21.31,
+     "text": "Then November first, you go back to the store."
+    }
+   ]
+  },
+  {
+   "id": "s6",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 21.46,
+   "end": 24.497,
+   "line_starts": [
+    21.46
+   ],
+   "subs": [
+    {
+     "start": 21.46,
+     "end": 24.347,
+     "text": "Next year's decorations. Often half off or more."
+    }
+   ]
+  },
+  {
+   "id": "s7",
+   "visual": "sketch",
+   "params": {},
+   "heading": "",
+   "start": 24.497,
+   "end": 30.577,
+   "line_starts": [
+    24.497
+   ],
+   "subs": [
+    {
+     "start": 24.497,
+     "end": 26.825,
+     "text": "Follow for one simple money move every"
+    },
+    {
+     "start": 26.825,
+     "end": 28.234,
+     "text": "day. Because next year,"
+    },
+    {
+     "start": 28.234,
+     "end": 29.827,
+     "text": "Mia pays full price again."
+    }
+   ]
+  }
+ ]
+}
