@@ -58,7 +58,9 @@ def run_jobs():
             T = S.get("thumbnail", {})
             if T.get("img"): items.append(("thumb", T["img"]))
             for side, key in (("left", "thumb_l"), ("right", "thumb_r")):       # split thumbnail (owner's style 2026-10-30)
-                if isinstance(T.get(side), dict) and T[side].get("img"): items.append((key, T[side]["img"]))
+                if isinstance(T.get(side), dict) and T[side].get("img"):
+                    items.append((key, T[side]["img"] + ", close-up from the chest up, the face in the middle of the image, "
+                                  "the top fifth of the image is plain background with nothing important (space for a label)"))
             for k, p in items:
                 path = f"{d}/img/{k}.jpg"
                 if gh_exists(path): IMG_STATUS["skipped"] += 1; continue

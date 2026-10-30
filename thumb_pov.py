@@ -18,7 +18,7 @@ def F(sz): return ImageFont.truetype(FONT, sz)
 def cover(p, w, h):
     im = Image.open(p).convert("RGB"); s = max(w / im.width, h / im.height)
     im = im.resize((math.ceil(im.width * s), math.ceil(im.height * s)), Image.LANCZOS)
-    x, y = (im.width - w) // 2, (im.height - h) // 2
+    x, y = (im.width - w) // 2, max(0, int((im.height - h) * 0.35))
     return im.crop((x, y, x + w, y + h))
 def label(d, cx, y, text, color, maxw, sz=66):
     f = F(sz)
