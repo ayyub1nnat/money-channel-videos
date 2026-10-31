@@ -120,14 +120,17 @@
       "used": true,
       "date": "2026-10-31",
       "format": "pov-v2",
-      "status": "built",
+      "status": "scheduled",
       "published_title": "POV: Mia Spends $410 on Halloween… You Spend $42 and Nobody Can Tell the Difference",
-      "publish": "2026-10-31 Short 21:00 / video 23:00 Baku",
+      "publish": "2026-10-31 21:00 Short / 23:00 video (Baku)",
       "deleted_ids": [
         "VsOHdgLVy00",
         "hI37FKl8lnM",
         "3kQdHVmA3Uk"
-      ]
+      ],
+      "video_id": "0HTCONLLnCc",
+      "short_id": "oB_ddmZrCno",
+      "localized": true
     },
     {
       "title": "How to Save Your First $1,000",
