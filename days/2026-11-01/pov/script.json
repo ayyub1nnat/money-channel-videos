@@ -1,0 +1,485 @@
+{
+  "title": "POV: You Stop Spending for 30 Days… and Find $420 You Didn't Know YOU Had",
+  "style": "pov",
+  "voice": "am_michael",
+  "speed": 0.95,
+  "lead": 0.2,
+  "gap": 0.3,
+  "scene_gap": 0.5,
+  "tail": 1.5,
+  "music": false,
+  "sfx": false,
+  "thumbnail": {
+    "layout": "split",
+    "left": {
+      "img": "a young woman with a ponytail surrounded by a mountain of delivery boxes and shopping bags holding a long receipt, stressed shocked face, dark gloomy room",
+      "label": "MIA: -$1,000",
+      "color": "#E23B3B"
+    },
+    "right": {
+      "img": "{HERO} holding a glass jar full of money in a bright sunny kitchen, big happy smile",
+      "label": "YOU: +$420",
+      "color": "#1B9E4B"
+    }
+  },
+  "scenes": [
+    {
+      "chapter": "Day One",
+      "lines": [
+        "It's November first. You wake up, make coffee at home... and open a little notebook.",
+        "On the first page you write three words. No-Spend November.",
+        "Thirty days. No extras. Only the things you really need.",
+        "And by December first... you'll have an extra four hundred and twenty dollars in the bank."
+      ],
+      "img": "{HERO} sitting at a sunny kitchen table in the morning with a mug of coffee, writing in a small notebook, calm determined smile, autumn leaves outside the window",
+      "tag": "$420 SAVED",
+      "tag_color": "#1B9E4B"
+    },
+    {
+      "lines": [
+        "Your friend Mia is having a very different morning.",
+        "Three packages are waiting at her door. She doesn't even remember ordering two of them.",
+        "A phone case. A candle. Something called a 'mini waffle maker.'",
+        "And Black Friday hasn't even started yet."
+      ],
+      "img": "a young woman with a ponytail standing at her apartment door surrounded by delivery boxes, holding a small waffle maker, confused face"
+    },
+    {
+      "lines": [
+        "Here's the thing. Mia isn't bad with money. She's normal.",
+        "In a 2022 Slickdeals survey, Americans said they spent about three hundred fourteen dollars a month on impulse buys.",
+        "That's three thousand seven hundred sixty-eight dollars a year.",
+        "On things nobody planned to buy."
+      ],
+      "img": "{HERO} looking at a tall pile of random shopping bags and boxes in a store aisle, raised eyebrows, surprised face",
+      "tag": "$314 / MONTH",
+      "tag_color": "#E23B3B"
+    },
+    {
+      "lines": [
+        "And it never feels like a lot.",
+        "Every single purchase feels small.",
+        "It's the total that hurts."
+      ],
+      "img": "a young woman with a ponytail on a couch tapping buy on her phone with a pile of small receipts on the table, smiling, evening light"
+    },
+    {
+      "lines": [
+        "So why a no-spend month?",
+        "Because it's not about suffering for thirty days.",
+        "It's a reset. You find out what you really need... and what was just habit.",
+        "And you're not alone. A Credit Karma survey found forty-two percent of Americans were doing or considering a no-buy challenge."
+      ],
+      "img": "{HERO} on a park bench with a notebook, thinking, golden autumn trees around him",
+      "tag": "42%",
+      "tag_color": "#2C7BE5"
+    },
+    {
+      "lines": [
+        "But most people fail by day five.",
+        "They start with no plan. Just willpower.",
+        "And willpower loses to a flash sale every time.",
+        "So you're going to do it differently. Step by step."
+      ],
+      "img": "{HERO} smiling confidently at the viewer holding up his notebook with a checklist, cozy living room"
+    },
+    {
+      "chapter": "Step 1: Write Your Rules",
+      "lines": [
+        "Step one. Write your rules before you start.",
+        "On the left side of the page you write: what's allowed.",
+        "Rent. Bills. Groceries from a list. Gas. Medicine. Gifts you already planned.",
+        "That's not spending. That's living."
+      ],
+      "img": "{HERO} at a desk writing a list in a notebook divided into two columns, a lamp and a plant, focused face",
+      "tag": "STEP 1",
+      "tag_color": "#2C7BE5"
+    },
+    {
+      "lines": [
+        "On the right side: what's paused.",
+        "Takeout. Coffee shops. New clothes. Online shopping. Gadgets. Home decor.",
+        "Not forever. Just for thirty days.",
+        "Clear rules mean no arguing with yourself at the checkout."
+      ],
+      "img": "{HERO} crossing out items on a list with a red pen, coffee cup and shopping bag icons drawn in the notebook, determined smile"
+    },
+    {
+      "lines": [
+        "And one more rule. A big one.",
+        "If something breaks and you truly need it... you replace it.",
+        "A no-spend month isn't about being stubborn.",
+        "It's about being honest."
+      ],
+      "img": "{HERO} holding a broken umbrella in the rain, shrugging with a calm smile, city street"
+    },
+    {
+      "lines": [
+        "Then you set the goal.",
+        "Where does the saved money go?",
+        "For you, it's your emergency fund. It's at six hundred dollars, and you want it at one thousand.",
+        "Now this month has a reason."
+      ],
+      "img": "{HERO} looking at a big glass jar labeled with a star, half full of coins and bills, hopeful face",
+      "tag": "GOAL: $1,000",
+      "tag_color": "#1B9E4B"
+    },
+    {
+      "chapter": "Step 2: The Spending Audit",
+      "lines": [
+        "Step two. The spending audit.",
+        "You open your banking app and look at last October. Every line.",
+        "You grab a highlighter and mark anything that wasn't a need.",
+        "It takes twenty minutes. And it's a little painful."
+      ],
+      "img": "{HERO} at a laptop with a printed bank statement and a yellow highlighter, slightly wincing face",
+      "tag": "STEP 2",
+      "tag_color": "#2C7BE5"
+    },
+    {
+      "lines": [
+        "Coffee shops: sixty-two dollars.",
+        "Delivery apps: one hundred eighteen.",
+        "Online orders you forgot about: ninety-four.",
+        "Random stuff at the store: seventy-one."
+      ],
+      "img": "{HERO} reading a long receipt that unrolls to the floor, eyes wide, sitting on the sofa",
+      "tag": "$345",
+      "tag_color": "#E23B3B"
+    },
+    {
+      "lines": [
+        "Three hundred forty-five dollars. In one month.",
+        "And you couldn't name half of it.",
+        "That's the moment it clicks.",
+        "This money isn't gone because you're poor. It's gone because it's easy."
+      ],
+      "img": "{HERO} leaning back in a chair, hand on forehead, looking at the laptop with a surprised half smile"
+    },
+    {
+      "chapter": "Step 3: Close the Doors",
+      "lines": [
+        "Step three. Close the doors.",
+        "Spending is easy because stores make it easy. So you make it harder.",
+        "First, you unsubscribe from every store email.",
+        "Thirty-one of them. It feels amazing."
+      ],
+      "img": "{HERO} on his phone at the sofa, deleting many emails, relieved happy face, a cat beside him",
+      "tag": "STEP 3",
+      "tag_color": "#2C7BE5"
+    },
+    {
+      "lines": [
+        "Next, you delete your saved card from shopping sites and apps.",
+        "Now every purchase means getting up, finding your wallet, typing sixteen digits.",
+        "And a minute is often enough to change your mind."
+      ],
+      "img": "{HERO} removing a credit card from a phone screen, the wallet left far away on a shelf, playful smile"
+    },
+    {
+      "lines": [
+        "Then you turn off notifications from shopping apps.",
+        "And you move them off your home screen. Into a folder. On the last page.",
+        "Out of sight... really is out of mind.",
+        "Mia? She has eleven shopping apps on her first screen."
+      ],
+      "img": "{HERO} holding his phone showing a clean home screen, calm face, sitting by a window with rain outside",
+      "tag": "11 APPS",
+      "tag_color": "#E88A1A"
+    },
+    {
+      "chapter": "Step 4: The Wish List",
+      "lines": [
+        "Step four. The wish list.",
+        "You will still want things. That's normal. You're human.",
+        "So when you see something you want, you don't buy it. You write it down.",
+        "Name. Price. Date."
+      ],
+      "img": "{HERO} writing an item into a notebook page titled with a heart drawing, standing in a store aisle, a nice jacket on a hanger next to him",
+      "tag": "STEP 4",
+      "tag_color": "#2C7BE5"
+    },
+    {
+      "lines": [
+        "Day three: a wool jacket. Eighty-nine dollars.",
+        "Day eight: wireless earbuds. Fifty-nine.",
+        "Day twelve: a board game everybody's talking about. Forty-five.",
+        "Your list gets longer. And something strange happens."
+      ],
+      "img": "{HERO} on the sofa reading a growing list in his notebook, thoughtful face, warm lamp light"
+    },
+    {
+      "lines": [
+        "By the end of the month, you read the list again.",
+        "And most of the things... you don't even want anymore.",
+        "The jacket? You already have two.",
+        "The wanting faded. The money stayed."
+      ],
+      "img": "{HERO} laughing as he crosses items off his wish list, cozy living room in the evening"
+    },
+    {
+      "chapter": "Step 5: The Food Plan",
+      "lines": [
+        "Step five. Food. Because this is where most no-spend months die.",
+        "It's seven p.m. You're tired. And the delivery app is right there.",
+        "So on Sunday, you plan five dinners.",
+        "One grocery trip. One list. Nothing else goes in the cart."
+      ],
+      "img": "{HERO} in a grocery store with a short paper list and a small basket of vegetables, rice and chicken, calm smile",
+      "tag": "STEP 5",
+      "tag_color": "#2C7BE5"
+    },
+    {
+      "lines": [
+        "You cook double on Sunday and Wednesday.",
+        "Chili. Pasta bake. A big pot of soup.",
+        "Leftovers go in the freezer, labeled.",
+        "So 'nothing to eat' is never true again."
+      ],
+      "img": "{HERO} in a warm kitchen cooking a large pot of chili, food containers lined up on the counter, happy face"
+    },
+    {
+      "lines": [
+        "And for the hard nights, you make a 'lazy list' on the fridge.",
+        "Eggs on toast. Quesadillas. Frozen dumplings.",
+        "Ten minutes, about two dollars a plate.",
+        "Cheaper than delivery fees alone."
+      ],
+      "img": "{HERO} making a quick quesadilla in a pan late at night, relaxed smile, a note stuck on the fridge behind him",
+      "tag": "~$2 / PLATE",
+      "tag_color": "#1B9E4B"
+    },
+    {
+      "lines": [
+        "Meanwhile, Mia orders dinner four times a week.",
+        "Twenty-eight dollars a time, after fees and tip.",
+        "That's over four hundred dollars a month.",
+        "For food that arrives cold."
+      ],
+      "img": "a young woman with a ponytail opening a delivery bag at her door at night, tired face, a pile of takeout containers on her kitchen counter",
+      "tag": "$448 / MONTH",
+      "tag_color": "#E23B3B"
+    },
+    {
+      "lines": [
+        "Coffee? You buy a bag of good beans for twelve dollars.",
+        "It makes about thirty cups.",
+        "Forty cents a cup... instead of five dollars.",
+        "And honestly? It tastes like a small win every morning."
+      ],
+      "img": "{HERO} pouring coffee into a travel mug at home in the morning, steam rising, content smile",
+      "tag": "40¢ A CUP",
+      "tag_color": "#1B9E4B"
+    },
+    {
+      "chapter": "Step 6: Free Fun",
+      "lines": [
+        "Step six. Free fun. Because a no-spend month can't feel like a punishment.",
+        "So you make a list of free things to do.",
+        "Long walks. The library. A free museum day. A movie night at home.",
+        "Board games you already own. All free."
+      ],
+      "img": "{HERO} walking in a park with colorful autumn trees, hands in pockets, peaceful happy face",
+      "tag": "STEP 6",
+      "tag_color": "#2C7BE5"
+    },
+    {
+      "lines": [
+        "The library becomes your favorite place.",
+        "Books, movies, even audiobooks on your phone. All free.",
+        "You read more in November than all summer.",
+        "It doesn't feel like losing. It feels like finding."
+      ],
+      "img": "{HERO} in a cozy library holding a stack of books, smiling, warm wooden shelves"
+    },
+    {
+      "lines": [
+        "Friends invite you to a forty-dollar brunch.",
+        "You don't say no. You say, 'Come to mine instead. I'll make pancakes.'",
+        "Six people. Eight dollars of ingredients.",
+        "Best brunch of the year."
+      ],
+      "img": "{HERO} serving a stack of pancakes to laughing friends around a small kitchen table, sunny morning",
+      "tag": "$8 BRUNCH",
+      "tag_color": "#1B9E4B"
+    },
+    {
+      "chapter": "Step 7: Pay Yourself Daily",
+      "lines": [
+        "Step seven. And this is the secret one.",
+        "Every day you don't spend on extras... you move the money you would have spent.",
+        "Just ten or fifteen dollars. Straight into savings.",
+        "Right away. Before it can disappear."
+      ],
+      "img": "{HERO} on his phone transferring money in a banking app, the jar with a star on the shelf behind him, proud smile",
+      "tag": "STEP 7",
+      "tag_color": "#2C7BE5"
+    },
+    {
+      "lines": [
+        "You also mark a big X on a paper calendar.",
+        "One X for every no-spend day.",
+        "By week two, the row of X's is so pretty... you don't want to break it.",
+        "That's the trick. You're not fighting temptation. You're protecting a streak."
+      ],
+      "img": "{HERO} drawing a big X on a paper wall calendar, many days already crossed, satisfied grin"
+    },
+    {
+      "lines": [
+        "Week two is the hardest.",
+        "The excitement is gone. Payday arrives. Your brain says, 'You deserve a treat.'",
+        "And you do deserve a treat.",
+        "So you take a long bath, call your mom, and watch a movie you already have."
+      ],
+      "img": "{HERO} on a sofa wrapped in a blanket watching a movie with homemade popcorn, a cup of tea, relaxed face"
+    },
+    {
+      "lines": [
+        "And if you slip? One coffee, one impulse snack?",
+        "You don't quit. You write it down and keep going.",
+        "A no-spend month with three slips still saves hundreds.",
+        "Quitting saves nothing."
+      ],
+      "img": "{HERO} holding a takeaway coffee cup with a guilty but kind smile, then writing in his notebook, street cafe"
+    },
+    {
+      "chapter": "Black Friday",
+      "lines": [
+        "Then... the last week of November.",
+        "Black Friday.",
+        "Every app, every TV ad, every email screams 'Last chance!'",
+        "This year, Black Friday is November twenty-seventh."
+      ],
+      "img": "{HERO} standing calmly in front of a busy store window full of huge sale signs and crowds rushing inside",
+      "tag": "NOV 27",
+      "tag_color": "#E88A1A"
+    },
+    {
+      "lines": [
+        "But you planned for this on day one.",
+        "Black Friday is your one exception. With one rule.",
+        "You can buy only what was already on your list. Before the sale started.",
+        "You need new winter boots. So you check the price now... and again on Friday."
+      ],
+      "img": "{HERO} comparing prices of winter boots on his laptop with a notebook list next to him, focused face"
+    },
+    {
+      "lines": [
+        "The boots drop from one hundred twenty dollars to eighty-four.",
+        "You buy them. Done. You close the laptop.",
+        "No 'while I'm here.' No 'free shipping over fifty.'",
+        "Thirty-six dollars saved. On purpose."
+      ],
+      "img": "{HERO} opening a box with new winter boots, happy satisfied smile, cozy apartment",
+      "tag": "$36 SAVED",
+      "tag_color": "#1B9E4B"
+    },
+    {
+      "lines": [
+        "Mia has a Black Friday too.",
+        "She doesn't have a list. She has a feeling.",
+        "A TV she didn't plan for. Three sweaters. A smart speaker 'because it was forty percent off.'",
+        "Six hundred dollars. On a credit card."
+      ],
+      "img": "a young woman with a ponytail carrying a big TV box and many shopping bags out of a crowded store, excited but stressed face",
+      "tag": "$600",
+      "tag_color": "#E23B3B"
+    },
+    {
+      "lines": [
+        "And here's why that matters.",
+        "If she pays it off slowly, at a credit card rate over twenty percent...",
+        "those 'deals' get more expensive every month.",
+        "A discount on a credit card isn't always a discount."
+      ],
+      "img": "a young woman with a ponytail sitting at home looking at a credit card bill with a worried face, unopened boxes behind her",
+      "tag": "20%+ APR",
+      "tag_color": "#E23B3B"
+    },
+    {
+      "chapter": "The Math",
+      "lines": [
+        "December first. You open your notebook. And you do the math.",
+        "Last October, your extras cost three hundred forty-five dollars.",
+        "This November, you spent fifty-one. A few slips, plus the boots on your list.",
+        "And the daily transfers? They add up."
+      ],
+      "img": "{HERO} at the kitchen table with his notebook and calculator in the morning, a calendar full of X's on the wall",
+      "tag": "THE MATH",
+      "tag_color": "#2C7BE5"
+    },
+    {
+      "lines": [
+        "Four hundred and twenty dollars. Moved into your emergency fund.",
+        "Your six hundred dollars is now one thousand and twenty.",
+        "Goal reached. One month early.",
+        "Not because you earned more. Because you paused."
+      ],
+      "img": "{HERO} holding the star jar now full of money, cheering with joy in his apartment",
+      "tag": "$1,020",
+      "tag_color": "#1B9E4B"
+    },
+    {
+      "lines": [
+        "Mia's November? Over one thousand dollars on extras.",
+        "Most of it on her card.",
+        "And she feels like the month just... disappeared.",
+        "Same paycheck as you. Completely different December."
+      ],
+      "img": "a young woman with a ponytail sitting on her bed surrounded by unopened boxes and shopping bags, looking at her phone with a sad face"
+    },
+    {
+      "chapter": "December 1st",
+      "lines": [
+        "But the best part isn't the money.",
+        "It's what you learned.",
+        "You found out you don't miss delivery. You love the library. And coffee at home tastes better.",
+        "These new habits don't end on December first."
+      ],
+      "img": "{HERO} walking out of a library with a book under his arm on a crisp sunny day, relaxed smile",
+      "tag": "NEW HABITS",
+      "tag_color": "#1B9E4B"
+    },
+    {
+      "lines": [
+        "So you keep three of them.",
+        "The wish list. The Sunday food plan. And no saved cards.",
+        "Even half of those savings is over two thousand dollars a year.",
+        "That's the real win of No-Spend November."
+      ],
+      "img": "{HERO} pinning three notes to a corkboard in his kitchen, happy confident face",
+      "tag": "$2,000+ / YEAR",
+      "tag_color": "#1B9E4B"
+    },
+    {
+      "lines": [
+        "Want to try it? Start today. It's November first.",
+        "Write your rules. Do the audit. Close the doors. Start the wish list.",
+        "Plan your food. Make a free fun list. Move the money every day.",
+        "Seven steps. Thirty days."
+      ],
+      "img": "{HERO} smiling at the viewer and holding his notebook open toward the camera, morning light in the kitchen",
+      "tag": "7 STEPS",
+      "tag_color": "#2C7BE5"
+    },
+    {
+      "lines": [
+        "And remember, these numbers are an example. Your month will look different.",
+        "Maybe you save one hundred dollars. Maybe six hundred.",
+        "Every dollar you keep is a dollar that works for you.",
+        "Not for a flash sale."
+      ],
+      "img": "{HERO} dropping a few dollar bills into his savings jar, calm warm smile, cozy shelf"
+    },
+    {
+      "lines": [
+        "If this helped, subscribe for one simple money move every day.",
+        "And tell me in the comments... are you doing No-Spend November with me?",
+        "Write 'I'm in,' and I'll check on you on day fifteen."
+      ],
+      "img": "{HERO} waving warmly at the viewer in a cozy living room with autumn decorations",
+      "tag": "SUBSCRIBE",
+      "tag_color": "#2C7BE5"
+    }
+  ]
+}

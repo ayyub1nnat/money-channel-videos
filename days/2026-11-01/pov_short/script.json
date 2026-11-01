@@ -1,0 +1,67 @@
+{
+ "style": "pov",
+ "vertical": true,
+ "voice": "am_michael",
+ "speed": 0.95,
+ "lead": 0.1,
+ "gap": 0.3,
+ "scene_gap": 0.35,
+ "tail": 0.8,
+ "music": false,
+ "sfx": false,
+ "title": "POV: You Stop Buying Extras for 30 Days… and Find $420 YOU Didn't Know You Had 💸",
+ "scenes": [
+  {
+   "lines": [
+    "Today is November first. And for thirty days... you're not buying anything extra."
+   ],
+   "img": "{HERO} writing No-Spend in a small notebook at a sunny kitchen table with a coffee mug, determined smile, vertical composition"
+  },
+  {
+   "lines": [
+    "Americans said they spend about three hundred fourteen dollars a month on impulse buys."
+   ],
+   "img": "a young woman with a ponytail holding many delivery boxes at her door, surprised face, vertical composition",
+   "tag": "$314 / MONTH",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "So first, you write your rules. Rent, bills, groceries? Allowed. Takeout and online shopping? Paused."
+   ],
+   "img": "{HERO} writing a two-column list in his notebook at a desk, focused face, vertical composition"
+  },
+  {
+   "lines": [
+    "You delete your saved cards. And unsubscribe from every store email."
+   ],
+   "img": "{HERO} on the sofa deleting emails on his phone, relieved smile, vertical composition"
+  },
+  {
+   "lines": [
+    "Something you want? You don't buy it. You write it on a wish list... and wait."
+   ],
+   "img": "{HERO} in a store aisle writing in his notebook next to a nice jacket on a hanger, calm smile, vertical composition"
+  },
+  {
+   "lines": [
+    "Every day you don't spend, you move ten or fifteen dollars straight into savings."
+   ],
+   "img": "{HERO} putting money into a big glass savings jar with a star, proud smile, vertical composition"
+  },
+  {
+   "lines": [
+    "Black Friday? You buy only what was on your list before the sale. Nothing else."
+   ],
+   "img": "{HERO} calmly walking past a crowded store with huge sale signs, holding one shoebox, vertical composition"
+  },
+  {
+   "lines": [
+    "December first, you have four hundred twenty dollars more. The full seven-step plan is on my channel."
+   ],
+   "img": "{HERO} holding a jar full of money and giving a thumbs up to the viewer in a bright kitchen, vertical composition",
+   "tag": "+$420",
+   "tag_color": "#1B9E4B"
+  }
+ ]
+}

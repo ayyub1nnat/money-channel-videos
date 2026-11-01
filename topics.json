@@ -159,7 +159,9 @@
     },
     {
       "title": "The No-Spend Challenge: How It Works",
-      "used": false
+      "used": true,
+      "date": "2026-11-01",
+      "status": "scripted"
     },
     {
       "title": "How to Stop Impulse Buying for Good",
