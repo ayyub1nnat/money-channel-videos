@@ -1,0 +1,73 @@
+{
+ "style": "pov",
+ "vertical": true,
+ "voice": "am_michael",
+ "speed": 0.95,
+ "lead": 0.1,
+ "gap": 0.3,
+ "scene_gap": 0.35,
+ "tail": 0.8,
+ "music": false,
+ "sfx": false,
+ "title": "POV: Black Friday Is 25 Days Away… and YOU Already Have $300 Ready 🛍️",
+ "scenes": [
+  {
+   "lines": [
+    "Black Friday is twenty five days away. And this year... you're not getting played."
+   ],
+   "img": "{HERO} standing in front of a wall calendar with the 27th of November circled in red, confident smile, cozy apartment, vertical composition",
+   "tag": "25 DAYS",
+   "tag_color": "#E88A1A"
+  },
+  {
+   "lines": [
+    "In twenty twenty four, Americans spent about ten point eight billion dollars online on Black Friday alone."
+   ],
+   "img": "a young woman with a ponytail sitting on a sofa surrounded by delivery boxes, laptop full of shopping carts, excited but overwhelmed, vertical composition",
+   "tag": "$10.8 BILLION",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "But here's the thing. One consumer study found ninety eight percent of those deals were the same price or cheaper at other times."
+   ],
+   "img": "{HERO} holding a magnifying glass to a big sale price tag in a store, raised eyebrow, vertical composition",
+   "tag": "98%",
+   "tag_color": "#E23B3B"
+  },
+  {
+   "lines": [
+    "So tonight, you write down the three things you actually need. Only three."
+   ],
+   "img": "{HERO} writing a short list of three items in a notebook at a kitchen table in the evening, lamp light, vertical composition"
+  },
+  {
+   "lines": [
+    "Then you check their prices today... and you screenshot them."
+   ],
+   "img": "{HERO} sitting on a couch taking a screenshot of a product page on his phone, focused smile, vertical composition"
+  },
+  {
+   "lines": [
+    "Every day until then, you put twelve dollars aside. Just twelve."
+   ],
+   "img": "{HERO} dropping bills into a glass jar on a shelf, proud smile, vertical composition",
+   "tag": "$12 / DAY",
+   "tag_color": "#1B9E4B"
+  },
+  {
+   "lines": [
+    "Black Friday morning. Is it on your list? Is it really cheaper? No? You close the app."
+   ],
+   "img": "{HERO} calmly closing a laptop with a relaxed smile at a desk, in the background a woman with a ponytail frantically clicking on her phone, vertical composition"
+  },
+  {
+   "lines": [
+    "You walk away with three hundred dollars, zero debt, and no regrets. The full No-Spend November plan is on my channel."
+   ],
+   "img": "{HERO} walking out of a busy shopping mall with just one small bag, smiling, sunny day, vertical composition",
+   "tag": "$300 READY",
+   "tag_color": "#1B9E4B"
+  }
+ ]
+}
